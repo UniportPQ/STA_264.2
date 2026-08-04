@@ -1,0 +1,606 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Statistics for Biological Sciences",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Suppose \\(x\\) is a discrete random variable with pmf \\(P(x) = cx\\), \\(x = 0,1,2\\). Find the value of \\(c\\) for which the \\(P(x)\\) is a proper pmf.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{6}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{5}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{3}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Probability Theory",
+      "Probability Distributions",
+      "Random Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Properties of a Probability Mass Function (PMF)</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Probability Mass Function (PMF)</em>, denoted as \\(P(x)\\), for a discrete random variable \\(x\\) must satisfy two fundamental properties:<br>1. <strong>Non-negativity:</strong> The probability for each possible value of \\(x\\) must be non-negative, i.e., \\(P(x) \\ge 0\\) for all \\(x\\).<br>2. <strong>Normalization:</strong> The sum of all probabilities for all possible values of \\(x\\) must be equal to 1, i.e., \\( \\sum_{x} P(x) = 1 \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>The probability mass function (PMF) is given by: \\( P(x) = cx \\)<br>The possible values for the discrete random variable \\(x\\) are: \\( x = 0, 1, 2 \\)</div><p style='margin:8px 0;'><strong>Step 1: State the conditions for a proper PMF</strong><br>For \\(P(x)\\) to be a proper PMF, it must satisfy:<br>1. \\( P(x) \\ge 0 \\) for all \\( x \\) in the sample space.<br>2. \\( \\sum_{x} P(x) = 1 \\) over all possible values of \\( x \\).</p><p style='margin:8px 0;'><strong>Step 2: Evaluate \\(P(x)\\) for each possible value of \\(x\\)</strong><br>Substitute each given value of \\(x\\) into the PMF formula \\(P(x) = cx\\):<br>For \\(x = 0\\):<br>\\( P(0) = c(0) \\)<br>\\( P(0) = 0 \\)<br>For \\(x = 1\\):<br>\\( P(1) = c(1) \\)<br>\\( P(1) = c \\)<br>For \\(x = 2\\):<br>\\( P(2) = c(2) \\)<br>\\( P(2) = 2c \\)</p><p style='margin:8px 0;'><strong>Step 3: Apply the non-negativity condition</strong><br>All probabilities must be non-negative. From Step 2:<br>\\( P(0) = 0 \\), which is \\( \\ge 0 \\).<br>\\( P(1) = c \\). For this to be \\( \\ge 0 \\), we must have \\( c \\ge 0 \\).<br>\\( P(2) = 2c \\). For this to be \\( \\ge 0 \\), we must have \\( 2c \\ge 0 \\), which also implies \\( c \\ge 0 \\).<br>Thus, for \\(P(x)\\) to be a valid PMF, <span style='color:var(--orange);font-weight:bold;'>\\( c \\ge 0 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Apply the normalization condition</strong><br>The sum of all probabilities for all possible values of \\(x\\) must be 1:<br>\\[ \\sum_{x=0}^2 P(x) = P(0) + P(1) + P(2) = 1 \\]<br>Substitute the expressions for \\(P(x)\\) from Step 2:<br>\\[ 0 + c + 2c = 1 \\]</p><p style='margin:8px 0;'><strong>Step 5: Solve the equation for \\(c\\)</strong><br>Combine the terms from Step 4:<br>\\[ 3c = 1 \\]<br>Divide by 3 to isolate \\(c\\):<br>\\[ c = \\frac{1}{3} \\]</p><p style='margin:8px 0;'><strong>Step 6: Verify that the value of \\(c\\) satisfies the non-negativity condition</strong><br>From Step 3, we determined that \\( c \\ge 0 \\).<br>The calculated value is \\( c = \\frac{1}{3} \\).<br>Since \\( \\frac{1}{3} \\ge 0 \\), this condition is satisfied.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Substitute \\( c = \\frac{1}{3} \\) back into the PMF and sum the probabilities:<br>\\( P(0) = \\frac{1}{3}(0) = 0 \\)<br>\\( P(1) = \\frac{1}{3}(1) = \\frac{1}{3} \\)<br>\\( P(2) = \\frac{1}{3}(2) = \\frac{2}{3} \\)<br>Now, sum these probabilities:<br>\\( \\sum_{x=0}^2 P(x) = 0 + \\frac{1}{3} + \\frac{2}{3} \\)<br>\\( \\sum_{x=0}^2 P(x) = \\frac{3}{3} \\)<br>\\( \\sum_{x=0}^2 P(x) = 1 \\)<br>Both conditions (non-negativity and normalization) are met. The value of \\(c\\) is correct.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The value of \\(c\\) for which \\(P(x)\\) is a proper PMF is \\( \\frac{1}{3} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{1}{3}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10 @ 2009/2010",
+    "img": null,
+    "table": [
+      [
+        "x",
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      [
+        "P(x)",
+        "1/8",
+        "3/8",
+        "3/8",
+        "1/8"
+      ]
+    ],
+    "Question": {
+      "content": "\\(\\text{Obtain } E(X).\\)",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{3}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Probability Theory",
+      "Random Variables",
+      "Probability Distributions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Expected Value of a Discrete Random Variable</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>For a discrete random variable \\( X \\) with possible values \\( x_1, x_2, \\dots, x_n \\) and corresponding probabilities \\( P(x_1), P(x_2), \\dots, P(x_n) \\), the <em>Expected Value</em> (or mean) of \\( X \\), denoted as \\( E(X) \\), is given by the formula:<br>\\[ E(X) = \\sum_{i=1}^{n} x_i P(x_i) \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The probability distribution for the discrete random variable \\( X \\) is:<br><table><thead><tr><th style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( x \\)</th><th style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( P(x) \\)</th></tr></thead><tbody><tr><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>0</td><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( \\frac{1}{8} \\)</td></tr><tr><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>1</td><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( \\frac{3}{8} \\)</td></tr><tr><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>2</td><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( \\frac{3}{8} \\)</td></tr><tr><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>3</td><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( \\frac{1}{8} \\)</td></tr></tbody></table></div><p style='margin:8px 0;'><strong>Step 1: State the formula for Expected Value E(X)</strong><br>The expected value of a discrete random variable \\( X \\) is calculated by summing the product of each possible value of \\( X \\) and its corresponding probability.<br>\\[ E(X) = \\sum x_i P(x_i) \\] <br>For the given distribution, this expands to:<br>\\[ E(X) = x_1 P(x_1) + x_2 P(x_2) + x_3 P(x_3) + x_4 P(x_4) \\] </p><p style='margin:8px 0;'><strong>Step 2: Substitute the given values into the formula</strong><br>Substitute the values of \\( x_i \\) and \\( P(x_i) \\) from the table into the formula:<br>\\[ E(X) = (0) \\left(\\frac{1}{8}\\right) + (1) \\left(\\frac{3}{8}\\right) + (2) \\left(\\frac{3}{8}\\right) + (3) \\left(\\frac{1}{8}\\right) \\] </p><p style='margin:8px 0;'><strong>Step 3: Calculate each product term</strong><br>Perform the multiplication for each term:<br>First term: \\( 0 \\cdot \\frac{1}{8} = 0 \\)<br>Second term: \\( 1 \\cdot \\frac{3}{8} = \\frac{3}{8} \\)<br>Third term: \\( 2 \\cdot \\frac{3}{8} = \\frac{6}{8} \\)<br>Fourth term: \\( 3 \\cdot \\frac{1}{8} = \\frac{3}{8} \\)<br>So, the expression becomes:<br>\\[ E(X) = 0 + \\frac{3}{8} + \\frac{6}{8} + \\frac{3}{8} \\] </p><p style='margin:8px 0;'><strong>Step 4: Sum the product terms</strong><br>Add the resulting fractions:<br>\\[ E(X) = \\frac{0 + 3 + 6 + 3}{8} \\] <br>\\[ E(X) = \\frac{12}{8} \\] <br>The intermediate sum is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{12}{8} \\)</span>. </p><p style='margin:8px 0;'><strong>Step 5: Simplify the result</strong><br>Simplify the fraction by dividing both the numerator and the denominator by their greatest common divisor, which is 4:<br>\\[ E(X) = \\frac{12 \\div 4}{8 \\div 4} \\] <br>\\[ E(X) = \\frac{3}{2} \\] <br>The expected value is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{3}{2} \\)</span>. </p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>First, let's ensure the sum of probabilities is 1:<br>\\( P(0) + P(1) + P(2) + P(3) = \\frac{1}{8} + \\frac{3}{8} + \\frac{3}{8} + \\frac{1}{8} = \\frac{1+3+3+1}{8} = \\frac{8}{8} = 1 \\). This confirms a valid probability distribution.<br>The expected value \\( E(X) = \\frac{3}{2} = 1.5 \\). This value lies within the range of possible \\( X \\) values (0 to 3), which is a good indicator that the calculation is reasonable. The distribution is symmetric around \\( x=1.5 \\), so the mean should be 1.5. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; E(X) = \\(\\frac{3}{2}\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{3}{2}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2009/2010",
+    "img": null,
+    "table": [
+      [
+        "x",
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      [
+        "P(x)",
+        "1/8",
+        "3/8",
+        "3/8",
+        "1/8"
+      ]
+    ],
+    "Question": {
+      "content": "V(X)?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "string",
+          "content": "\\(\\frac{3}{4}\\)"
+        },
+        {
+          "type": "string",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "string",
+          "content": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "type": "string",
+          "content": "\\(\\frac{1}{2}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Variance Analysis",
+      "Random Variables",
+      "Probability Theory",
+      "Statistics for Biological Sciences"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Variance of a Discrete Random Variable</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>discrete random variable (X)</em> is a variable whose value can only take on a finite or countably infinite number of distinct values.<br>A <em>probability distribution P(x)</em> describes the probability of each possible value of a discrete random variable.<br>The <em>Expected Value (Mean) E(X)</em> is the weighted average of all possible values, calculated as \\( E(X) = \\sum x \\cdot P(x) \\).<br>The <em>Expected Value of X squared E(X^2)</em> is the weighted average of the squares of all possible values, calculated as \\( E(X^2) = \\sum x^2 \\cdot P(x) \\).<br>The <em>Variance V(X)</em> measures the spread of the values from the mean. It is calculated using the computational formula: \\( V(X) = E(X^2) - (E(X))^2 \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A discrete random variable X with the following probability distribution:<br><table><tr><td>\\( x \\)</td><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>\\( P(x) \\)</td><td>\\( \\frac{1}{8} \\)</td><td>\\( \\frac{3}{8} \\)</td><td>\\( \\frac{3}{8} \\)</td><td>\\( \\frac{1}{8} \\)</td></tr></table></div><p style='margin:8px 0;'><strong>Step 1: Write the formula for the Expected Value (Mean) E(X)</strong><br>The expected value of a discrete random variable X is given by:<br>\\[ E(X) = \\sum_{i} x_i P(x_i) \\]</p><p style='margin:8px 0;'><strong>Step 2: Calculate E(X)</strong><br>Substitute the given values of \\( x \\) and \\( P(x) \\) into the formula:<br>\\[ E(X) = (0) \\cdot \\frac{1}{8} + (1) \\cdot \\frac{3}{8} + (2) \\cdot \\frac{3}{8} + (3) \\cdot \\frac{1}{8} \\]<br>\\[ E(X) = 0 + \\frac{3}{8} + \\frac{6}{8} + \\frac{3}{8} \\]<br>\\[ E(X) = \\frac{0+3+6+3}{8} \\]<br>\\[ E(X) = \\frac{12}{8} \\]<br>Simplify the fraction:<br>\\[ E(X) = \\frac{3}{2} \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( E(X) = \\frac{3}{2} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Write the formula for the Expected Value of X squared E(X^2)</strong><br>The expected value of \\( X^2 \\) for a discrete random variable X is given by:<br>\\[ E(X^2) = \\sum_{i} x_i^2 P(x_i) \\]</p><p style='margin:8px 0;'><strong>Step 4: Calculate E(X^2)</strong><br>Substitute the given values of \\( x \\) and \\( P(x) \\) into the formula:<br>\\[ E(X^2) = (0^2) \\cdot \\frac{1}{8} + (1^2) \\cdot \\frac{3}{8} + (2^2) \\cdot \\frac{3}{8} + (3^2) \\cdot \\frac{1}{8} \\]<br>\\[ E(X^2) = (0) \\cdot \\frac{1}{8} + (1) \\cdot \\frac{3}{8} + (4) \\cdot \\frac{3}{8} + (9) \\cdot \\frac{1}{8} \\]<br>\\[ E(X^2) = 0 + \\frac{3}{8} + \\frac{12}{8} + \\frac{9}{8} \\]<br>\\[ E(X^2) = \\frac{0+3+12+9}{8} \\]<br>\\[ E(X^2) = \\frac{24}{8} \\]<br>Simplify the fraction:<br>\\[ E(X^2) = 3 \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( E(X^2) = 3 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 5: Write the formula for the Variance V(X)</strong><br>The variance of a discrete random variable X is given by the computational formula:<br>\\[ V(X) = E(X^2) - (E(X))^2 \\]</p><p style='margin:8px 0;'><strong>Step 6: Calculate V(X)</strong><br>Substitute the calculated values of \\( E(X) \\) and \\( E(X^2) \\) into the variance formula:<br>\\[ V(X) = 3 - \\left(\\frac{3}{2}\\right)^2 \\]<br>First, calculate \\( (E(X))^2 \\):<br>\\[ \\left(\\frac{3}{2}\\right)^2 = \\frac{3^2}{2^2} = \\frac{9}{4} \\]<br>Now, substitute this back into the variance formula:<br>\\[ V(X) = 3 - \\frac{9}{4} \\]<br>To subtract, find a common denominator:<br>\\[ V(X) = \\frac{12}{4} - \\frac{9}{4} \\]<br>\\[ V(X) = \\frac{12-9}{4} \\]<br>\\[ V(X) = \\frac{3}{4} \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( V(X) = \\frac{3}{4} \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We re-check each calculation:<br>1. Sum of probabilities: \\( \\frac{1}{8} + \\frac{3}{8} + \\frac{3}{8} + \\frac{1}{8} = \\frac{8}{8} = 1 \\). Correct.<br>2. \\( E(X) = (0)\\frac{1}{8} + (1)\\frac{3}{8} + (2)\\frac{3}{8} + (3)\\frac{1}{8} = 0 + \\frac{3}{8} + \\frac{6}{8} + \\frac{3}{8} = \\frac{12}{8} = \\frac{3}{2} \\). Correct.<br>3. \\( E(X^2) = (0^2)\\frac{1}{8} + (1^2)\\frac{3}{8} + (2^2)\\frac{3}{8} + (3^2)\\frac{1}{8} = 0 + \\frac{3}{8} + \\frac{12}{8} + \\frac{9}{8} = \\frac{24}{8} = 3 \\). Correct.<br>4. \\( V(X) = E(X^2) - (E(X))^2 = 3 - \\left(\\frac{3}{2}\\right)^2 = 3 - \\frac{9}{4} = \\frac{12}{4} - \\frac{9}{4} = \\frac{3}{4} \\). Correct.<br>All calculations are consistent and verified.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>∴ V(X) = \\(\\frac{3}{4}\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{3}{4}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "One of the following is not a degree of correlation:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "zero correlation"
+        },
+        {
+          "type": "String",
+          "content": "perfect correlation"
+        },
+        {
+          "type": "String",
+          "content": "negative correlation"
+        },
+        {
+          "type": "String",
+          "content": "positive correlation"
+        },
+        {
+          "type": "String",
+          "content": "covariance correlation"
+        }
+      ]
+    },
+    "topic": [
+      "Correlation and Regression Analysis",
+      "Statistics for Biological Sciences"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Understanding Degrees of Correlation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Correlation:</strong> A statistical measure that expresses the extent to which two variables are linearly related (i.e., they change together at a constant rate). It indicates the strength and direction of the linear relationship.<br><strong>Correlation Coefficient (\\( r \\)):</strong> A numerical value that quantifies the strength and direction of a linear relationship between two variables. It ranges from -1 to +1.<br><strong>Degrees of Correlation:</strong> These describe the specific characteristics of the linear relationship based on the correlation coefficient's value.<br><strong>Covariance:</strong> A measure of how much two random variables change together. A positive covariance indicates that the variables tend to move in the same direction, while a negative covariance indicates that they tend to move in opposite directions. Unlike correlation, covariance is not standardized and its magnitude depends on the units of the variables.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A list of terms related to statistical relationships between variables.<br><strong>Task:</strong> Identify which term is NOT a 'degree of correlation'.</div><p style='margin:8px 0;'><strong>Step 1: Define 'Degree of Correlation'</strong><br>Degrees of correlation refer to the qualitative descriptions of the strength and direction of the linear relationship between two variables, typically quantified by the correlation coefficient (\\( r \\)). The correlation coefficient ranges from -1 to +1.</p><p style='margin:8px 0;'><strong>Step 2: Evaluate standard degrees of correlation</strong><br>Let's examine the first four options in the context of the correlation coefficient \\( r \\):<br><ul><li><strong>Zero correlation:</strong> Occurs when \\( r = 0 \\), indicating no linear relationship between the variables.</li><li><strong>Perfect correlation:</strong> Occurs when \\( r = +1 \\) (perfect positive correlation) or \\( r = -1 \\) (perfect negative correlation), indicating a perfectly linear relationship.</li><li><strong>Negative correlation:</strong> Occurs when \\( -1 < r < 0 \\), indicating that as one variable increases, the other tends to decrease.</li><li><strong>Positive correlation:</strong> Occurs when \\( 0 < r < +1 \\), indicating that as one variable increases, the other also tends to increase.</li></ul>These terms clearly describe different degrees or types of linear relationships.</p><p style='margin:8px 0;'><strong>Step 3: Define Covariance</strong><br>Covariance is a measure of how two variables vary together. It indicates the direction of the linear relationship (positive or negative) but not its strength in a standardized way. The formula for population covariance between two variables \\( X \\) and \\( Y \\) is:<br>\\[ \\text{Cov}(X, Y) = E[(X - E[X])(Y - E[Y])] \\]<br>Unlike the correlation coefficient, covariance is not bounded between -1 and +1, and its value depends on the units of the variables. Therefore, its magnitude alone does not directly tell us the strength of the relationship in a standardized way.</p><p style='margin:8px 0;'><strong>Step 4: Distinguish Covariance from Degrees of Correlation</strong><br>While covariance helps determine the direction of a relationship (positive or negative), it does not quantify the 'degree' or strength of the relationship in a standardized, unit-independent manner like the correlation coefficient does. For instance, a covariance of 100 could represent a strong relationship if the variables have small ranges, or a weak relationship if they have large ranges. To standardize covariance and get a 'degree' of correlation, it is divided by the product of the standard deviations of the two variables, which then yields the correlation coefficient \\( r \\).<br>\\[ r = \\frac{\\text{Cov}(X, Y)}{\\sigma_X \\sigma_Y} \\]<br>Therefore, covariance is a component used to calculate correlation, but it is not a 'degree' of correlation itself.</p><p style='margin:8px 0;'><strong>Step 5: Identify the term that is not a degree of correlation</strong><br>Based on the definitions and comparisons, 'zero correlation', 'perfect correlation', 'negative correlation', and 'positive correlation' are all established terms used to describe the <span style='color:var(--orange);font-weight:bold;'>degrees or types of linear relationships</span> between variables.<br>'Covariance correlation' is not a standard term for a degree of correlation. Covariance is a statistical measure, and while it's related to correlation, it doesn't represent a 'degree' in the same way the other options do. The term itself is also somewhat redundant; one would typically refer to 'covariance' or 'correlation coefficient', not 'covariance correlation'.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The terms 'zero correlation', 'perfect correlation', 'negative correlation', and 'positive correlation' are standard classifications used to describe the strength and direction of a linear relationship, which are the 'degrees' of correlation. Covariance, on the other hand, is a raw measure of how two variables vary together, but its magnitude is not standardized and thus does not directly represent a 'degree' of correlation. It is an intermediate step in calculating the correlation coefficient. Therefore, 'covariance correlation' is the term that does not fit the description of a degree of correlation.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Covariance correlation</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "covariance correlation"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given that \\(y = 0.02 - 0.70x\\), what is \\(y\\) known as?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "dependent variable"
+        },
+        {
+          "type": "String",
+          "content": "equal variable"
+        },
+        {
+          "type": "String",
+          "content": "independent variable"
+        },
+        {
+          "type": "String",
+          "content": "unknown variable"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Correlation and Regression Analysis",
+      "Dependent Variable"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Variables in Regression Analysis</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In mathematics and statistics, a <em>variable</em> is a symbol (like \\(x\\) or \\(y\\)) that represents a quantity that may change.<br>An <em>independent variable</em> (often denoted as \\(x\\)) is the variable whose value does not depend on any other variable in the relationship being studied; it is often manipulated or chosen by the researcher.<br>A <em>dependent variable</em> (often denoted as \\(y\\)) is the variable whose value depends on the value of another variable. It is the outcome or response that is being measured or predicted.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Equation: \\(y = 0.02 - 0.70x\\)<br>Identify: What \\(y\\) is known as.</div><p style='margin:8px 0;'><strong>Step 1: Understand the structure of the given equation</strong><br>The equation \\(y = 0.02 - 0.70x\\) is a linear equation. It expresses a relationship where the value of \\(y\\) is determined by the value of \\(x\\).<br>This equation can be compared to the general form of a linear regression equation: \\(y = a + bx\\), where \\(a\\) is the y-intercept and \\(b\\) is the slope.</p><p style='margin:8px 0;'><strong>Step 2: Define the independent variable (\\(x\\))</strong><br>In a relationship like \\(y = a + bx\\), the variable \\(x\\) is considered the independent variable.<br>Its value is typically manipulated, chosen, or observed to change independently, and it is presumed to cause or influence changes in the dependent variable.<br>For example, if we were studying the effect of hours studied (\\(x\\)) on exam scores (\\(y\\)), hours studied would be the independent variable.</p><p style='margin:8px 0;'><strong>Step 3: Define the dependent variable (\\(y\\))</strong><br>The variable \\(y\\) is the dependent variable.<br>Its value <em>depends</em> on the value of the independent variable \\(x\\). It is the outcome, response, or effect that is being measured or predicted.<br>In the exam score example, the exam score (\\(y\\)) depends on the hours studied (\\(x\\)).</p><p style='margin:8px 0;'><strong>Step 4: Apply the definitions to the given equation</strong><br>In the equation \\(y = 0.02 - 0.70x\\):<br>The value of \\(y\\) is calculated directly from the value of \\(x\\).<br>This means that \\(y\\)'s value is contingent upon, or determined by, the value of \\(x\\).<br>Therefore, \\(y\\) is the <span style='color:var(--orange);font-weight:bold;'>dependent variable</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, consider what happens to \\(y\\) when \\(x\\) changes:<br>If \\(x = 0\\), then \\(y = 0.02 - 0.70(0) = 0.02\\).<br>If \\(x = 1\\), then \\(y = 0.02 - 0.70(1) = 0.02 - 0.70 = -0.68\\).<br>Since the value of \\(y\\) clearly changes in response to changes in \\(x\\), \\(y\\) is indeed dependent on \\(x\\). This confirms its role as the dependent variable.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\(y\\) is known as the dependent variable.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "dependent variable"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of the following is used to complete the variance of two independent samples?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "F-test"
+        },
+        {
+          "type": "String",
+          "content": "t-test"
+        },
+        {
+          "type": "String",
+          "content": "Z-test"
+        },
+        {
+          "type": "String",
+          "content": "Q-test"
+        },
+        {
+          "type": "String",
+          "content": "S-test"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Hypothesis Testing",
+      "Parametric Statistical Tests",
+      "Variance Analysis"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Comparing Variances of Two Independent Samples</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Variance:</strong> A statistical measure that quantifies the spread or dispersion of a set of data points around their mean.<br><strong>Independent Samples:</strong> Two samples are independent if the selection of individuals for one sample does not affect the selection of individuals for the other sample.<br><strong>Hypothesis Testing for Variances:</strong> A statistical procedure used to determine if there is a significant difference between the variances of two populations based on sample data.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks to identify the statistical test used to compare the variances of two independent samples.<br>Options provided: F-test, t-test, Z-test, Q-test, S-test.</div><p style='margin:8px 0;'><strong>Step 1: Understand the objective of the question</strong><br>The core of the question is to find a statistical test that specifically compares the 'variance' of 'two independent samples'. This indicates we are looking for a test of variability, not central tendency (means).</p><p style='margin:8px 0;'><strong>Step 2: Review the purpose of the common statistical tests listed</strong><br>Let's examine the primary uses of the given options:<br><ul><li><strong>F-test:</strong> This test is primarily used to compare the variances of two populations. It is based on the ratio of the two sample variances and follows an F-distribution. The null hypothesis typically states that the two population variances are equal (\\( \\sigma_1^2 = \\sigma_2^2 \\)).</li><li><strong>t-test:</strong> This test is used to compare the means of two groups (either independent or dependent samples) when the population standard deviation is unknown and the sample size is relatively small. It focuses on differences in means, not variances.</li><li><strong>Z-test:</strong> Similar to the t-test, the Z-test is used to compare the means of two groups. It is typically applied when the population standard deviation is known or when the sample size is large (usually \\( n \\ge 30 \\)). It also focuses on differences in means.</li><li><strong>Q-test (Dixon's Q-test):</strong> This is a statistical test used to identify and reject outliers in a data set. It is not designed for comparing variances between two samples.</li><li><strong>S-test:</strong> This is not a standard, widely recognized general statistical test for comparing the variances of two independent samples in the context of common parametric tests. (There might be specialized tests or components of tests referred to as 'S-test' in specific domains, but not for this general purpose).</li></ul></p><p style='margin:8px 0;'><strong>Step 3: Match the objective to the appropriate test</strong><br>Based on the review in Step 2, the <span style='color:var(--orange);font-weight:bold;'>F-test</span> is the only test among the options specifically designed for comparing the variances of two independent populations. It calculates the ratio of the two sample variances to determine if there is a statistically significant difference between them.</p><p style='margin:8px 0;'><strong>Step 4: Conclude the correct test</strong><br>Therefore, the F-test is the appropriate statistical test for comparing the variances of two independent samples.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The F-test is the standard statistical procedure for testing the equality of variances from two normally distributed populations. Its test statistic is the ratio of the sample variances, and it is widely used in ANOVA (Analysis of Variance) as well as for preliminary checks before performing t-tests (to determine if a pooled variance estimate is appropriate). The other tests listed serve different statistical purposes. Thus, the F-test is indeed the correct choice.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The F-test is used to compare the variance of two independent samples.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "F-test"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "In a certain college, 25% of the boys and 40% of the girls study mathematics. The girls constitute 60% of the student's population. If a student studies mathematics, what is the probability that the student is a girl?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.375"
+        },
+        {
+          "type": "String",
+          "content": "0.25"
+        },
+        {
+          "type": "String",
+          "content": "0.65"
+        },
+        {
+          "type": "String",
+          "content": "0.2857"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability and Bayes' Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Conditional Probability:</strong> The probability of an event A occurring, given that event B has already occurred, denoted as \\( P(A|B) \\). The formula is \\( P(A|B) = \\frac{P(A \\cap B)}{P(B)} \\).<br><strong>Law of Total Probability:</strong> If \\( B_1, B_2, \\dots, B_n \\) are mutually exclusive and exhaustive events, then the probability of an event A is given by \\( P(A) = \\sum_{i=1}^{n} P(A|B_i)P(B_i) \\).<br><strong>Bayes' Theorem:</strong> A formula that describes how to update the probabilities of hypotheses when given evidence. For two events A and B, \\( P(A|B) = \\frac{P(B|A)P(A)}{P(B)} \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Percentage of boys studying mathematics: \\( P(M|B) = 25\\\\% = 0.25 \\)<br>Percentage of girls studying mathematics: \\( P(M|G) = 40\\\\% = 0.40 \\)<br>Girls constitute 60% of the student population: \\( P(G) = 60\\\\% = 0.60 \\)<br><strong>Find:</strong> The probability that a student is a girl, given that the student studies mathematics, i.e., \\( P(G|M) \\).</div><p style='margin:8px 0;'><strong>Step 1: Define Events and Initial Probabilities</strong><br>Let M be the event that a student studies mathematics.<br>Let G be the event that a student is a girl.<br>Let B be the event that a student is a boy.<br><br>From the given information:<br>\\( P(M|B) = 0.25 \\)<br>\\( P(M|G) = 0.40 \\)<br>\\( P(G) = 0.60 \\)</p><p style='margin:8px 0;'><strong>Step 2: Calculate the Probability of a Student Being a Boy</strong><br>Since students are either boys or girls, the probability of a student being a boy is the complement of being a girl.<br>Formula: \\( P(B) = 1 - P(G) \\)<br>Substitute values: \\( P(B) = 1 - 0.60 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(B) = 0.40 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the Joint Probability of a Student Being a Girl and Studying Mathematics</strong><br>This is the probability that a student is a girl AND studies mathematics.<br>Formula: \\( P(M \\cap G) = P(M|G) \\times P(G) \\)<br>Substitute values: \\( P(M \\cap G) = 0.40 \\times 0.60 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(M \\cap G) = 0.24 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Calculate the Joint Probability of a Student Being a Boy and Studying Mathematics</strong><br>This is the probability that a student is a boy AND studies mathematics.<br>Formula: \\( P(M \\cap B) = P(M|B) \\times P(B) \\)<br>Substitute values: \\( P(M \\cap B) = 0.25 \\times 0.40 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(M \\cap B) = 0.10 \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Calculate the Total Probability of a Student Studying Mathematics</strong><br>Using the Law of Total Probability, the total probability of a student studying mathematics is the sum of the joint probabilities of boys studying math and girls studying math.<br>Formula: \\( P(M) = P(M \\cap G) + P(M \\cap B) \\)<br>Substitute values: \\( P(M) = 0.24 + 0.10 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(M) = 0.34 \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Apply the Conditional Probability Formula</strong><br>We need to find the probability that the student is a girl, given that the student studies mathematics, \\( P(G|M) \\).<br>Formula: \\( P(G|M) = \\frac{P(M \\cap G)}{P(M)} \\)<br>Substitute values: \\( P(G|M) = \\frac{0.24}{0.34} \\)</p><p style='margin:8px 0;'><strong>Step 7: Simplify and Calculate the Final Probability</strong><br>Simplify the fraction:<br>\\[ P(G|M) = \\frac{24}{34} = \\frac{12}{17} \\]<br>Convert to decimal:<br>\\[ P(G|M) \\approx 0.70588235... \\]<br>Rounding to four decimal places, we get <span style='color:var(--orange);font-weight:bold;'>\\( P(G|M) \\approx 0.7059 \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We calculated \\( P(G|M) = \\frac{P(M \\cap G)}{P(M)} = \\frac{0.24}{0.34} \\approx 0.7059 \\).<br>Let's check if this probability is consistent with the given information.<br>If \\( P(G|M) \\approx 0.7059 \\), then \\( P(G|M) \\times P(M) \\) should equal \\( P(M \\cap G) \\).<br>\\( 0.7059 \\times 0.34 \\approx 0.240006 \\). This is very close to \\( 0.24 \\), confirming our calculation.<br><br>Note: The calculated value of approximately 0.7059 does not exactly match any of the provided options. However, option (c) 0.65 is the closest value among the choices. Based on the exact calculation, the answer is 12/17.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that the student is a girl, given that the student studies mathematics, is approximately 0.7059.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.65"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "In a certain college, the geographical distribution of male students is as follows: 50% from East, 30% from West, 20% from North. The following proportion of male students wear ties: 80% of the Easterners, 60% of Westerners and 40% of Northerners. What is the probability that a student who wears ties comes from North?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.12"
+        },
+        {
+          "type": "String",
+          "content": "0.4"
+        },
+        {
+          "type": "String",
+          "content": "0.2"
+        },
+        {
+          "type": "String",
+          "content": "0.3"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability",
+      "Bayes' Theorem"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability and Bayes' Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Conditional Probability</em> is the probability of an event occurring given that another event has already occurred. It is denoted as \\\\( P(A|B) \\\\), the probability of event A given event B.<br><em>Bayes' Theorem</em> is a formula that describes how to update the probabilities of hypotheses when given evidence. It is expressed as:<br>\\[ P(A|B) = \\\\frac{P(B|A) \\\\cdot P(A)}{P(B)} \\]<br>Where \\\\( P(B) \\\\) can be calculated using the Law of Total Probability:<br>\\[ P(B) = \\\\sum_{i} P(B|A_i) \\\\cdot P(A_i) \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Let E be the event that a student is from East.<br>Let W be the event that a student is from West.<br>Let N be the event that a student is from North.<br>Let T be the event that a student wears a tie.<br><br>Prior probabilities of geographical distribution:<br>\\\\( P(E) = 50\\\\% = 0.50 \\\\)<br>\\\\( P(W) = 30\\\\% = 0.30 \\\\)<br>\\\\( P(N) = 20\\\\% = 0.20 \\\\)<br><br>Conditional probabilities of wearing ties:<br>\\\\( P(T|E) = 80\\\\% = 0.80 \\\\)<br>\\\\( P(T|W) = 60\\\\% = 0.60 \\\\)<br>\\\\( P(T|N) = 40\\\\% = 0.40 \\\\)<br><br>We need to find the probability that a student who wears ties comes from North, i.e., \\\\( P(N|T) \\\\).</div><p style='margin:8px 0;'><strong>Step 1: Verify the sum of prior probabilities</strong><br>Before proceeding, ensure that the given prior probabilities for the regions sum to 1.<br>\\\\( P(E) + P(W) + P(N) = 0.50 + 0.30 + 0.20 \\\\)<br>\\\\( = 1.00 \\\\)<br>This confirms that the distribution covers all possibilities.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the total probability of a student wearing a tie, \\\\( P(T) \\\\)</strong><br>We use the Law of Total Probability. The event T (wearing a tie) can occur if the student is from East, West, or North.<br>Formula:<br>\\[ P(T) = P(T|E)P(E) + P(T|W)P(W) + P(T|N)P(N) \\]<br>Substitute the given values:<br>\\[ P(T) = (0.80)(0.50) + (0.60)(0.30) + (0.40)(0.20) \\]<br>Perform the multiplications:<br>\\[ P(T) = 0.40 + 0.18 + 0.08 \\]<br>Sum the results:<br>\\[ P(T) = <span style='color:var(--orange);font-weight:bold;'>0.66</span> \\]</p><p style='margin:8px 0;'><strong>Step 3: Apply Bayes' Theorem to find \\\\( P(N|T) \\\\)</strong><br>We want to find the probability that a student comes from the North given that they wear a tie, \\\\( P(N|T) \\\\).<br>Bayes' Theorem formula:<br>\\[ P(N|T) = \\\\frac{P(T|N) \\\\cdot P(N)}{P(T)} \\]<br>Substitute the values from the Given section and Step 2:<br>\\[ P(N|T) = \\\\frac{(0.40) \\\\cdot (0.20)}{0.66} \\]<br>Perform the multiplication in the numerator:<br>\\[ P(N|T) = \\\\frac{0.08}{0.66} \\]<br>Perform the division:<br>\\[ P(N|T) \\\\approx 0.121212... \\]</p><p style='margin:8px 0;'><strong>Step 4: Round the result to the appropriate precision</strong><br>The options provided are given to two decimal places. Rounding \\\\( 0.121212... \\\\) to two decimal places:<br>\\[ P(N|T) \\\\approx <span style='color:var(--orange);font-weight:bold;'>0.12</span> \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can calculate the conditional probabilities for all regions given that a student wears a tie and check if they sum to 1.<br>\\\\( P(E|T) = \\\\frac{P(T|E)P(E)}{P(T)} = \\\\frac{0.40}{0.66} \\\\approx 0.60606 \\\\)<br>\\\\( P(W|T) = \\\\frac{P(T|W)P(W)}{P(T)} = \\\\frac{0.18}{0.66} \\\\approx 0.27273 \\\\)<br>\\\\( P(N|T) = \\\\frac{P(T|N)P(N)}{P(T)} = \\\\frac{0.08}{0.66} \\\\approx 0.12121 \\\\)<br>Sum of conditional probabilities:<br>\\\\( P(E|T) + P(W|T) + P(N|T) \\\\approx 0.60606 + 0.27273 + 0.12121 = 1.00000 \\\\)<br>The sum is approximately 1, confirming our calculation for \\\\( P(T) \\\\) and the individual conditional probabilities are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that a student who wears ties comes from North is 0.12.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.12"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Correlation coefficient ranges from?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "1 to 2"
+        },
+        {
+          "type": "String",
+          "content": "-1 to 1"
+        },
+        {
+          "type": "String",
+          "content": "10 to 100"
+        },
+        {
+          "type": "String",
+          "content": "-2 to 4"
+        },
+        {
+          "type": "String",
+          "content": "0 to 1"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Correlation and Regression Analysis",
+      "Descriptive Statistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Understanding the Correlation Coefficient Range</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>correlation coefficient</em>, often denoted by \\( r \\) (specifically the Pearson product-moment correlation coefficient), is a statistical measure that quantifies the strength and direction of a linear relationship between two quantitative variables.<br>It is a dimensionless quantity that provides insight into how closely two variables move together.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks for the range of the correlation coefficient.</div><p style='margin:8px 0;'><strong>Step 1: Define the Correlation Coefficient (r)</strong><br>The Pearson product-moment correlation coefficient \\( r \\) is calculated using the formula:<br>\\[ r = \\frac{n(\\sum xy) - (\\sum x)(\\sum y)}{\\sqrt{[n\\sum x^2 - (\\sum x)^2][n\\sum y^2 - (\\sum y)^2]}} \\]<br>This formula measures the covariance of two variables divided by the product of their standard deviations. Its design ensures that its value is always bounded.</p><p style='margin:8px 0;'><strong>Step 2: State the Mathematical Range of r</strong><br>Due to its mathematical definition, the correlation coefficient \\( r \\) always falls within a specific range. It can never be less than -1 or greater than 1.<br>Therefore, the range of the correlation coefficient is <span style='color:var(--orange);font-weight:bold;'>\\( -1 \\le r \\le 1 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Interpret the Range Boundaries</strong><br>The values of \\( r \\) provide specific insights into the relationship between variables:<br><ul><li>If \\( r = 1 \\): This indicates a perfect positive linear relationship. As one variable increases, the other variable increases proportionally.</li><li>If \\( r = -1 \\): This indicates a perfect negative linear relationship. As one variable increases, the other variable decreases proportionally.</li><li>If \\( r = 0 \\): This indicates no linear relationship between the variables. It's important to note that a correlation coefficient of 0 does not mean there is no relationship at all, only no <em>linear</em> relationship. Other types of relationships (e.g., non-linear) might still exist.</li><li>Values between 0 and 1 (e.g., \\( r = 0.7 \\)): Indicate a strong positive linear relationship.</li><li>Values between -1 and 0 (e.g., \\( r = -0.6 \\)): Indicate a moderate negative linear relationship.</li></ul></p><p style='margin:8px 0;'><strong>Step 4: Conclude the Range for the Question</strong><br>Based on the mathematical definition and interpretation, the correlation coefficient \\( r \\) always ranges from -1 to 1, inclusive.<br>This means the smallest possible value is -1, and the largest possible value is 1.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The range of the correlation coefficient \\( r \\) is a fundamental property derived from its mathematical formula. It is normalized such that its value always lies between -1 and 1, inclusive. This normalization allows for easy interpretation of the strength and direction of linear relationships across different datasets, regardless of the units or scale of the variables. Any value outside this range would indicate an error in calculation or a misunderstanding of the statistic. The options provided confirm that we are looking for this standard range.<br>The option \"-1 to 1\" perfectly matches this established statistical principle. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correlation coefficient ranges from -1 to 1.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-1 to 1"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Roll a pair of fair dice once. What is the size of the sample space N(S)?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "N(S) = 36"
+        },
+        {
+          "type": "String",
+          "content": "N(S) = 12"
+        },
+        {
+          "type": "String",
+          "content": "N(S) = 18"
+        },
+        {
+          "type": "String",
+          "content": "N(S) = 24"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Probability Theory",
+      "Sample Space"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Sample Space for Rolling Two Dice</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>sample space</em> (denoted as \\( S \\)) is the set of all possible outcomes of a random experiment.<br>The <em>size of the sample space</em>, \\( N(S) \\), is the total number of distinct outcomes in \\( S \\).<br>For independent events, the total number of outcomes is the product of the number of outcomes for each individual event (Multiplication Principle).<br>A <em>fair die</em> is a die where each face (1, 2, 3, 4, 5, 6) has an equal probability of landing face up.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Experiment: Rolling a pair of fair dice once.<br>Find: The size of the sample space, \\( N(S) \\).</div><p style='margin:8px 0;'><strong>Step 1: Determine the number of outcomes for a single die</strong><br>A standard fair die has 6 faces, numbered 1 through 6.<br>The possible outcomes for one die are: \\( \\{1, 2, 3, 4, 5, 6\\} \\).<br>The number of outcomes for a single die is <span style='color:var(--orange);font-weight:bold;'>\\( N_1 = 6 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 2: Apply the Multiplication Principle for two independent events</strong><br>When rolling a pair of dice, the outcome of the first die does not affect the outcome of the second die. These are independent events.<br>For two independent events, the total number of outcomes is the product of the number of outcomes for each event.<br>Formula: \\( N(S) = N_1 \\times N_2 \\)<br>Where \\( N_1 \\) is the number of outcomes for the first die, and \\( N_2 \\) is the number of outcomes for the second die.</p><p style='margin:8px 0;'><strong>Step 3: Calculate the total size of the sample space</strong><br>Since both dice are fair and standard, the number of outcomes for the second die is also 6.<br>\\( N_1 = 6 \\)<br>\\( N_2 = 6 \\)<br>Substitute the values into the formula:<br>\\[ N(S) = 6 \\times 6 \\]<br>Simplify the expression:<br>\\[ N(S) = \\text{<span style='color:var(--orange);font-weight:bold;'>36</span>} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We can list some possible outcomes as ordered pairs (Die 1, Die 2):<br>(1,1), (1,2), (1,3), (1,4), (1,5), (1,6)<br>(2,1), (2,2), (2,3), (2,4), (2,5), (2,6)<br>...<br>(6,1), (6,2), (6,3), (6,4), (6,5), (6,6)<br>There are 6 rows and 6 columns in this conceptual table of outcomes, resulting in \\( 6 \\times 6 = 36 \\) unique pairs. This confirms the calculation.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The size of the sample space \\( N(S) \\) is 36.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N(S) = 36"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The condition that leads to the rejection or acceptance of \\(H_0\\) is called:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "string",
+          "content": "confidence interval"
+        },
+        {
+          "type": "string",
+          "content": "critical region"
+        },
+        {
+          "type": "string",
+          "content": "real value"
+        },
+        {
+          "type": "string",
+          "content": "decision rule"
+        },
+        {
+          "type": "string",
+          "content": "bounding value"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Hypothesis Testing",
+      "Decision Rule"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Hypothesis Testing: The Decision Rule</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><ul><li><strong>Hypothesis Testing:</strong> A statistical method used to make decisions about a population parameter based on sample data.</li><li><strong>Null Hypothesis (\\(H_0\\)):</strong> A statement of no effect or no difference, which is assumed to be true until evidence suggests otherwise.</li><li><strong>Alternative Hypothesis (\\(H_1\\) or \\(H_a\\)):</strong> A statement that contradicts the null hypothesis, representing what the researcher is trying to prove.</li><li><strong>Decision Rule:</strong> A predefined condition or set of conditions that determines whether the null hypothesis (\\(H_0\\)) should be rejected or not rejected (accepted). This rule is established <em>before</em> data collection and analysis.</li><li><strong>Critical Region (or Rejection Region):</strong> The set of values for the test statistic that leads to the rejection of the null hypothesis. It is defined by the significance level (\\(\\alpha\\)).</li><li><strong>Confidence Interval:</strong> A range of values, derived from sample data, that is likely to contain the true value of an unknown population parameter.</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks for the term that describes the condition leading to the rejection or acceptance of the null hypothesis (\\(H_0\\)).</div><p style='margin:8px 0;'><strong>Step 1: Understand the Goal of Hypothesis Testing</strong><br>Hypothesis testing is a formal procedure to evaluate two mutually exclusive statements about a population using sample data: the null hypothesis (\\(H_0\\)) and the alternative hypothesis (\\(H_1\\)). The ultimate goal is to make a decision: either reject \\(H_0\\) or fail to reject \\(H_0\\).</p><p style='margin:8px 0;'><strong>Step 2: Identify What Determines the Decision</strong><br>To make a decision in hypothesis testing, we compare our observed sample data (often summarized by a test statistic or p-value) against a predetermined standard or criterion. This criterion is what the question is asking for.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate Option A: Confidence Interval</strong><br>A confidence interval provides a range of plausible values for a population parameter. While it can be used to perform a hypothesis test (e.g., if the hypothesized parameter value falls outside the confidence interval, \\(H_0\\) is rejected), it is not itself the <em>condition</em> or <em>rule</em> for making the decision. It is a tool or an outcome, not the decision-making criterion.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate Option B: Critical Region</strong><br>The critical region (or rejection region) is a specific range of values for the test statistic that would lead to the rejection of the null hypothesis. It is an integral part of the decision rule, as the decision rule often states: \"Reject \\(H_0\\) if the test statistic falls within the critical region.\" However, the critical region itself is the <em>area</em> or <em>range</em>, not the overarching <em>condition</em> or <em>rule</em> that dictates the acceptance or rejection. The decision rule <em>uses</em> the critical region.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate Option C: Real Value</strong><br>\"Real value\" is a general mathematical term and does not have a specific meaning in the context of hypothesis testing that describes the condition for rejecting or accepting \\(H_0\\). This option is irrelevant to the question.</p><p style='margin:8px 0;'><strong>Step 6: Evaluate Option D: Decision Rule</strong><br>The <strong>decision rule</strong> is the explicit statement that specifies the conditions under which the null hypothesis (\\(H_0\\)) is rejected or not rejected. It typically involves comparing a test statistic to a critical value or a p-value to a significance level. For example, a decision rule might be: \"Reject \\(H_0\\) if the p-value \\( \\le \\alpha \\)\" or \"Reject \\(H_0\\) if the test statistic \\( |Z| \\ge Z_{\\alpha/2} \\)\". This term precisely describes the condition that leads to the rejection or acceptance of \\(H_0\\).</p><p style='margin:8px 0;'><strong>Step 7: Evaluate Option E: Bounding Value</strong><br>\"Bounding value\" is not a standard or recognized term in hypothesis testing for the condition that leads to rejection or acceptance of \\(H_0\\). While critical values could be seen as \"bounding values\" for the critical region, the term itself is not the formal name for the decision condition.</p><p style='margin:8px 0;'><strong>Step 8: Conclude the Correct Term</strong><br>Based on the definitions and evaluation of all options, the term that encompasses the condition for rejecting or accepting \\(H_0\\) is the <span style='color:var(--orange);font-weight:bold;'>decision rule</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The decision rule is the formal statement that outlines the criteria for making a choice between the null and alternative hypotheses. It explicitly states when to reject \\(H_0\\) and when not to reject \\(H_0\\). For instance, \"Reject \\(H_0\\) if the calculated test statistic falls into the critical region\" is a decision rule. This rule is the condition that dictates the outcome of the hypothesis test. Therefore, \"decision rule\" is the most accurate term.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The condition that leads to the rejection or acceptance of \\(H_0\\) is called the decision rule.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "decision rule"
+    }
+  }
+]
