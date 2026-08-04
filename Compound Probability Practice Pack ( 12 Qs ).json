@@ -1,0 +1,601 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Compound Probability",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2009/2010",
+    "topic": [
+      "Probability Theory",
+      "Independent Events",
+      "Compound Probability"
+    ],
+    "Question": {
+      "content": "The probability that a man will live 10 more years is \\(\\frac{1}{12}\\) and the probability that his wife will live 10 years is \\(\\frac{1}{8}\\). Find the probability that at least one will be alive in 10 years time.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{12}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{22}\\)"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Compound Probability: At Least One Event</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>For two independent events, A and B, the probability that <em>at least one</em> of them occurs can be calculated using two common methods:<br>1. The Addition Rule for independent events: \\( P(A \\text{ or } B) = P(A) + P(B) - P(A) \\times P(B) \\).<br>2. The Complement Rule: \\( P(A \\text{ or } B) = 1 - P(A' \\text{ and } B') \\), where \\( A' \\) and \\( B' \\) are the complements of A and B, respectively. For independent events, \\( P(A' \\text{ and } B') = P(A') \\times P(B') \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Probability that a man will live 10 more years: \\( P(M) = \\frac{1}{12} \\)<br>Probability that his wife will live 10 more years: \\( P(W) = \\frac{1}{8} \\)<br>The events are independent.</div><p style='margin:8px 0;'><strong>Step 1: Define the complement probabilities</strong><br>First, we find the probability that the man will NOT live 10 more years, which is the complement of \\( P(M) \\).<br>Formula: \\( P(M') = 1 - P(M) \\)<br>Substitution: \\( P(M') = 1 - \\frac{1}{12} \\)<br>Simplification: \\( P(M') = \\frac{12}{12} - \\frac{1}{12} = \\frac{11}{12} \\)<br><br>Next, we find the probability that the wife will NOT live 10 more years, which is the complement of \\( P(W) \\).<br>Formula: \\( P(W') = 1 - P(W) \\)<br>Substitution: \\( P(W') = 1 - \\frac{1}{8} \\)<br>Simplification: \\( P(W') = \\frac{8}{8} - \\frac{1}{8} = \\frac{7}{8} \\)<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( P(M') = \\frac{11}{12} \\)</span> and <span style='color:var(--orange);font-weight:bold;'>\\( P(W') = \\frac{7}{8} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the probability that NEITHER will be alive</strong><br>Since the events are independent, the probability that neither the man nor the wife will be alive in 10 years is the product of their individual complement probabilities.<br>Formula: \\( P(M' \\text{ and } W') = P(M') \\times P(W') \\)<br>Substitution: \\( P(M' \\text{ and } W') = \\frac{11}{12} \\times \\frac{7}{8} \\)<br>Simplification: \\( P(M' \\text{ and } W') = \\frac{11 \\times 7}{12 \\times 8} = \\frac{77}{96} \\)<br>Thus, the probability that neither will be alive is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{77}{96} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Calculate the probability that AT LEAST ONE will be alive</strong><br>The probability that at least one person will be alive in 10 years is the complement of the probability that neither person will be alive.<br>Formula: \\( P(\\text{at least one}) = 1 - P(M' \\text{ and } W') \\)<br>Substitution: \\( P(\\text{at least one}) = 1 - \\frac{77}{96} \\)<br>Simplification: \\( P(\\text{at least one}) = \\frac{96}{96} - \\frac{77}{96} = \\frac{19}{96} \\)<br>Therefore, the probability that at least one will be alive is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{19}{96} \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We can verify this result using the Addition Rule for independent events:<br>Formula: \\( P(M \\text{ or } W) = P(M) + P(W) - P(M) \\times P(W) \\)<br>Substitution: \\( P(M \\text{ or } W) = \\frac{1}{12} + \\frac{1}{8} - \\left(\\frac{1}{12} \\times \\frac{1}{8}\\right) \\)<br>Calculate the product term first:<br>\\( \\frac{1}{12} \\times \\frac{1}{8} = \\frac{1}{96} \\)<br>Now, find a common denominator for \\( \\frac{1}{12} \\), \\( \\frac{1}{8} \\), and \\( \\frac{1}{96} \\). The least common multiple of 12, 8, and 96 is 96.<br>Convert fractions:<br>\\( \\frac{1}{12} = \\frac{1 \\times 8}{12 \\times 8} = \\frac{8}{96} \\)<br>\\( \\frac{1}{8} = \\frac{1 \\times 12}{8 \\times 12} = \\frac{12}{96} \\)<br>Substitute and simplify:<br>\\( P(M \\text{ or } W) = \\frac{8}{96} + \\frac{12}{96} - \\frac{1}{96} \\)<br>\\( P(M \\text{ or } W) = \\frac{8 + 12 - 1}{96} = \\frac{19}{96} \\)<br>Both methods yield the same result, confirming the answer. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that at least one will be alive in 10 years is \\(\\frac{19}{96}\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{19}{96}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The probability that a man will live 10 more years is \\(\\frac{1}{12}\\) and the probability that his wife will live 10 years is \\(\\frac{1}{8}\\). Find the probability that neither will be alive in 10 years time.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{22}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Independent Events",
+      "Compound Probability"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Compound Probability of Independent Events</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Probability:</strong> A measure of the likelihood of an event occurring, expressed as a number between 0 and 1.<br><strong>Complementary Events:</strong> Two events are complementary if one event occurs if and only if the other does not. The sum of their probabilities is 1. If \\( P(A) \\) is the probability of event A, then \\( P(A') \\) (or \\( P(\\text{not } A) \\)) is the probability of the complement, and \\( P(A') = 1 - P(A) \\).<br><strong>Independent Events:</strong> Two events are independent if the occurrence of one does not affect the probability of the other occurring. If A and B are independent events, the probability that both A and B occur is given by the product of their individual probabilities: \\( P(A \\text{ and } B) = P(A) \\times P(B) \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Probability that a man will live 10 more years: \\( P(M) = \\frac{1}{12} \\)<br>Probability that his wife will live 10 more years: \\( P(W) = \\frac{1}{8} \\)<br>We need to find the probability that neither will be alive in 10 years time.</div><p style='margin:8px 0;'><strong>Step 1: Define the events and their complements</strong><br>Let M be the event that the man lives 10 more years.<br>Let W be the event that the wife lives 10 more years.<br>Given: \\( P(M) = \\frac{1}{12} \\)<br>Given: \\( P(W) = \\frac{1}{8} \\)<br>We are looking for the probability that neither will be alive, which means the man does *not* live 10 more years AND the wife does *not* live 10 more years. Let M' be the event that the man does not live 10 more years, and W' be the event that the wife does not live 10 more years.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the probability that the man will not live 10 more years</strong><br>The probability that the man will not live 10 more years is the complement of him living 10 more years.<br>Formula for complementary events: \\( P(A') = 1 - P(A) \\)<br>Substitute the given probability for the man: \\( P(M') = 1 - P(M) \\)<br>\\( P(M') = 1 - \\frac{1}{12} \\)<br>To subtract, find a common denominator:<br>\\( P(M') = \\frac{12}{12} - \\frac{1}{12} \\)<br>Simplify:<br>\\( P(M') = \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\frac{11}{12} \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the probability that the wife will not live 10 more years</strong><br>Similarly, the probability that the wife will not live 10 more years is the complement of her living 10 more years.<br>Formula for complementary events: \\( P(A') = 1 - P(A) \\)<br>Substitute the given probability for the wife: \\( P(W') = 1 - P(W) \\)<br>\\( P(W') = 1 - \\frac{1}{8} \\)<br>To subtract, find a common denominator:<br>\\( P(W') = \\frac{8}{8} - \\frac{1}{8} \\)<br>Simplify:<br>\\( P(W') = \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\frac{7}{8} \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Determine the relationship between the events</strong><br>The event of the man living or not living for 10 years is independent of the event of the wife living or not living for 10 years. Therefore, we can multiply their probabilities to find the probability that both complementary events occur.</p><p style='margin:8px 0;'><strong>Step 5: Calculate the probability that neither will be alive in 10 years</strong><br>We need to find \\( P(M' \\text{ and } W') \\). Since M' and W' are independent events:<br>Formula for independent events: \\( P(A \\text{ and } B) = P(A) \\times P(B) \\)<br>Substitute the probabilities of the complementary events: \\( P(M' \\text{ and } W') = P(M') \\times P(W') \\)<br>\\( P(M' \\text{ and } W') = \\frac{11}{12} \\times \\frac{7}{8} \\)<br>Multiply the numerators and the denominators:<br>\\( P(M' \\text{ and } W') = \\frac{11 \\times 7}{12 \\times 8} \\)<br>Simplify:<br>\\( P(M' \\text{ and } W') = \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\frac{77}{96} \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's re-check the calculations.<br>Probability man does not live: \\( 1 - \\frac{1}{12} = \\frac{12-1}{12} = \\frac{11}{12} \\). Correct.<br>Probability wife does not live: \\( 1 - \\frac{1}{8} = \\frac{8-1}{8} = \\frac{7}{8} \\). Correct.<br>Probability neither lives: \\( \\frac{11}{12} \\times \\frac{7}{8} = \\frac{11 \\times 7}{12 \\times 8} = \\frac{77}{96} \\). Correct.<br>The result is a valid probability between 0 and 1.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that neither will be alive in 10 years time is \\( \\frac{77}{96} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{77}{96}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The probability that a man will live 10 more years is \\(\\frac{1}{12}\\) and the probability that his wife will live 10 years is \\(\\frac{1}{8}\\). Find the probability that only the wife will be alive in 10 years.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{12}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{12}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{22}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Independent Events",
+      "Compound Probability"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Compound Probability of Independent Events</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Probability:</strong> A numerical measure of the likelihood of an event occurring.<br><strong>Independent Events:</strong> Two events are independent if the occurrence of one does not affect the probability of the other.<br><strong>Complementary Events:</strong> If A is an event, then 'not A' (denoted A') is its complementary event. The sum of their probabilities is 1: \\( P(A) + P(A') = 1 \\).<br><strong>Compound Probability (Independent Events):</strong> The probability that two independent events A and B both occur is \\( P(A \\text{ and } B) = P(A) \\times P(B) \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Probability that a man will live 10 more years: \\( P(M) = \\frac{1}{12} \\)<br>Probability that his wife will live 10 more years: \\( P(W) = \\frac{1}{8} \\)</div><p style='margin:8px 0;'><strong>Step 1: Define the events and their given probabilities</strong><br>Let M be the event that the man lives 10 more years.<br>Let W be the event that the wife lives 10 more years.<br>Given:<br>\\[ P(M) = \\frac{1}{12} \\]<br>\\[ P(W) = \\frac{1}{8} \\]</p><p style='margin:8px 0;'><strong>Step 2: Determine the probability that the man does not live 10 more years</strong><br>The event 'man does not live 10 more years' is the complementary event to M, denoted as M'.<br>The formula for complementary probability is:<br>\\[ P(M') = 1 - P(M) \\]<br>Substitute the given value of \\( P(M) \\):<br>\\[ P(M') = 1 - \\frac{1}{12} \\]<br>Simplify the expression:<br>\\[ P(M') = \\frac{12}{12} - \\frac{1}{12} \\]<br>\\[ P(M') = \\frac{11}{12} \\]<br>The probability that the man will not be alive in 10 years is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{11}{12} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Identify the desired compound event</strong><br>We need to find the probability that 'only the wife will be alive in 10 years'.<br>This means two conditions must be met simultaneously:<br>1. The wife lives 10 more years (Event W occurs).<br>2. The man does not live 10 more years (Event M' occurs).<br>Since the life expectancies of the man and wife are independent events, we are looking for \\( P(W \\text{ and } M') \\).</p><p style='margin:8px 0;'><strong>Step 4: Apply the formula for the probability of independent events</strong><br>For two independent events A and B, the probability that both occur is given by:<br>\\[ P(A \\text{ and } B) = P(A) \\times P(B) \\]<br>In our case, A is event W and B is event M'. So the formula becomes:<br>\\[ P(W \\text{ and } M') = P(W) \\times P(M') \\]</p><p style='margin:8px 0;'><strong>Step 5: Substitute values and calculate the final probability</strong><br>Substitute the probabilities found in Step 1 and Step 2 into the formula from Step 4:<br>\\[ P(\\text{only wife alive}) = \\frac{1}{8} \\times \\frac{11}{12} \\]<br>Perform the multiplication:<br>\\[ P(\\text{only wife alive}) = \\frac{1 \\times 11}{8 \\times 12} \\]<br>\\[ P(\\text{only wife alive}) = \\frac{11}{96} \\]<br>The probability that only the wife will be alive in 10 years is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{11}{96} \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The probability of the wife living is \\( \\frac{1}{8} \\).<br>The probability of the man not living is \\( \\frac{11}{12} \\).<br>Since these are independent events, we multiply them to find the probability of both occurring.<br>\\( \\frac{1}{8} \\times \\frac{11}{12} = \\frac{11}{96} \\).<br>The result \\( \\frac{11}{96} \\) is a valid probability (between 0 and 1). The calculation is consistent with the rules of probability for independent and complementary events.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that only the wife will be alive in 10 years is \\( \\frac{11}{96} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{11}{96}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A fair dice is rolled once, given that the 2 numbers that appear are not the same. What is the sum of 12?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.75"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{10}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "1"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability",
+      "Random Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability with Dice</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Conditional probability</em> is the probability of an event occurring, given that another event has already occurred. It is denoted as \\( P(A|B) \\), which reads as \\\"the probability of event A given event B\\\".<br>The formula for conditional probability is: \\[ P(A|B) = \\\\frac{P(A \\\\cap B)}{P(B)} \\] where \\( P(A \\\\cap B) \\) is the probability of both events A and B occurring, and \\( P(B) \\) is the probability of event B occurring.<br>Alternatively, using the number of outcomes: \\[ P(A|B) = \\\\frac{N(A \\\\cap B)}{N(B)} \\] where \\( N(A \\\\cap B) \\) is the number of outcomes where both A and B occur, and \\( N(B) \\) is the number of outcomes where B occurs.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A fair dice is rolled once (interpreted as two fair dice are rolled once).<br>Condition (Event B): The 2 numbers that appear are not the same.<br>Target (Event A): The sum of the 2 numbers is 12.</div><p style='margin:8px 0;'><strong>Step 1: Interpret the question and define the total sample space</strong><br>The phrasing \\\"A fair dice is rolled once, given that the 2 numbers that appear are not the same\\\" implies that two fair dice are rolled. We need to find the probability of a sum of 12 given that the two numbers rolled are different.<br>The total sample space for rolling two fair dice consists of \\( 6 \\times 6 = 36 \\) possible outcomes.</p><p style='margin:8px 0;'><strong>Step 2: Define Event B (the condition) and calculate its number of outcomes</strong><br>Event B is that the two numbers that appear are not the same.<br>First, identify outcomes where the numbers *are* the same (doubles):<br>\\( (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) \\)<br>There are 6 outcomes where the numbers are the same.<br>The number of outcomes where the numbers are not the same is the total outcomes minus the doubles:<br>\\[ N(B) = 36 - 6 = \\\\span style='color:var(--orange);font-weight:bold;'>30 \\\\] </p><p style='margin:8px 0;'><strong>Step 3: Define Event A (the target) and identify its outcomes</strong><br>Event A is that the sum of the two numbers is 12.<br>The only outcome that results in a sum of 12 is:<br>\\( (6,6) \\)<br>So, \\( N(A) = 1 \\).</p><p style='margin:8px 0;'><strong>Step 4: Define Event \\( A \\\\cap B \\) and calculate its number of outcomes</strong><br>Event \\( A \\\\cap B \\) is that the sum is 12 AND the two numbers are not the same.<br>From Step 3, the only outcome for a sum of 12 is \\( (6,6) \\).<br>However, the outcome \\( (6,6) \\) consists of two numbers that *are* the same.<br>This contradicts the condition of Event B (numbers are not the same).<br>Therefore, there are no outcomes where the sum is 12 AND the numbers are not the same.<br>\\[ N(A \\\\cap B) = \\\\span style='color:var(--orange);font-weight:bold;'>0 \\\\] </p><p style='margin:8px 0;'><strong>Step 5: Calculate the conditional probability \\( P(A|B) \\)</strong><br>Using the formula for conditional probability based on the number of outcomes:<br>\\[ P(A|B) = \\\\frac{N(A \\\\cap B)}{N(B)} \\]<br>Substitute the values from Step 2 and Step 4:<br>\\[ P(A|B) = \\\\frac{0}{30} \\]<br>\\[ P(A|B) = \\\\span style='color:var(--orange);font-weight:bold;'>0 \\\\] </p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The event of rolling a sum of 12 requires both dice to show a 6, i.e., the outcome (6,6). The condition states that the two numbers that appear must *not* be the same. Since (6,6) consists of two identical numbers, it violates the given condition. Therefore, it is impossible for the sum to be 12 under the given condition that the numbers are not the same, making the probability 0. This confirms the result.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that the sum is 12, given that the two numbers are not the same, is 0.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A class has 12 boys and 4 girls. If 3 students are selected at random from the class without replacement, what is the probability that they are all boys?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{11}{28}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{22}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability",
+      "Sampling and Estimation"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Probability of Dependent Events</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Probability</em> is the measure of the likelihood that an event will occur. It is calculated as the ratio of favorable outcomes to the total number of possible outcomes.<br><em>Dependent events</em> are events where the outcome of one event affects the probability of the subsequent events. When sampling <em>without replacement</em>, each selection changes the total number of items and the number of specific items remaining.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Total number of boys = 12<br>Total number of girls = 4<br>Total number of students in the class = \\( 12 + 4 = 16 \\)<br>Number of students to be selected = 3<br>Selection method: Without replacement<br>Desired outcome: All 3 selected students are boys</div><p style='margin:8px 0;'><strong>Step 1: Determine the probability of the first student selected being a boy</strong><br>The total number of students is 16, and there are 12 boys.<br>Formula: \\( P(\\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}} \\)<br>\\[ P(\\text{1st boy}) = \\frac{\\text{Number of boys}}{\\text{Total students}} \\]<br>\\[ P(\\text{1st boy}) = \\frac{12}{16} \\]<br>Simplify the fraction:<br>\\[ P(\\text{1st boy}) = \\frac{3}{4} \\]<br>So, the probability of the first student being a boy is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{3}{4} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 2: Determine the probability of the second student selected being a boy</strong><br>Since the first student selected was a boy and selection is without replacement, the total number of students decreases by 1, and the number of boys also decreases by 1.<br>Remaining students = \\( 16 - 1 = 15 \\)<br>Remaining boys = \\( 12 - 1 = 11 \\)<br>\\[ P(\\text{2nd boy | 1st boy}) = \\frac{\\text{Remaining boys}}{\\text{Remaining students}} \\]<br>\\[ P(\\text{2nd boy | 1st boy}) = \\frac{11}{15} \\]<br>So, the probability of the second student being a boy, given the first was a boy, is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{11}{15} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Determine the probability of the third student selected being a boy</strong><br>Following the same logic, after two boys have been selected without replacement, the total number of students and boys decreases further.<br>Remaining students = \\( 15 - 1 = 14 \\)<br>Remaining boys = \\( 11 - 1 = 10 \\)<br>\\[ P(\\text{3rd boy | 1st and 2nd boy}) = \\frac{\\text{Remaining boys}}{\\text{Remaining students}} \\]<br>\\[ P(\\text{3rd boy | 1st and 2nd boy}) = \\frac{10}{14} \\]<br>Simplify the fraction:<br>\\[ P(\\text{3rd boy | 1st and 2nd boy}) = \\frac{5}{7} \\]<br>So, the probability of the third student being a boy, given the first two were boys, is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{5}{7} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Calculate the compound probability</strong><br>To find the probability that all three selected students are boys, we multiply the probabilities of each dependent event.<br>Formula: \\( P(A \\text{ and } B \\text{ and } C) = P(A) \\times P(B|A) \\times P(C|A \\text{ and } B) \\)<br>\\[ P(\\text{3 boys}) = P(\\text{1st boy}) \\times P(\\text{2nd boy | 1st boy}) \\times P(\\text{3rd boy | 1st and 2nd boy}) \\]<br>Substitute the probabilities from the previous steps:<br>\\[ P(\\text{3 boys}) = \\frac{12}{16} \\times \\frac{11}{15} \\times \\frac{10}{14} \\]<br>Simplify the fractions before multiplying:<br>\\[ P(\\text{3 boys}) = \\frac{3}{4} \\times \\frac{11}{15} \\times \\frac{5}{7} \\]<br>Multiply the numerators and denominators:<br>\\[ P(\\text{3 boys}) = \\frac{3 \\times 11 \\times 5}{4 \\times 15 \\times 7} \\]<br>\\[ P(\\text{3 boys}) = \\frac{165}{420} \\]<br>Simplify the final fraction by dividing both numerator and denominator by their greatest common divisor. Both are divisible by 15 (165 = 15 * 11, 420 = 15 * 28):<br>\\[ P(\\text{3 boys}) = \\frac{11}{28} \\]<br>The probability that all three students selected are boys is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{11}{28} \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification (Using Combinations)</strong><br>Total ways to choose 3 students from 16: \\( \\binom{16}{3} = \\frac{16!}{3!(16-3)!} = \\frac{16 \\times 15 \\times 14}{3 \\times 2 \\times 1} = 8 \\times 5 \\times 14 = 560 \\)<br>Ways to choose 3 boys from 12 boys: \\( \\binom{12}{3} = \\frac{12!}{3!(12-3)!} = \\frac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1} = 2 \\times 11 \\times 10 = 220 \\)<br>Probability = \\( \\frac{\\text{Favorable outcomes}}{\\text{Total outcomes}} = \\frac{220}{560} \\)<br>Simplify the fraction: \\( \\frac{220}{560} = \\frac{22}{56} = \\frac{11}{28} \\)<br>The result matches the sequential probability calculation. &#10003; Confirmed!\n</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that all three students selected are boys is \\( \\frac{11}{28} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{11}{28}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A class has 12 boys and 4 girls. If 3 students are selected at random from the class without replacement, what is the probability that they are all girls?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{200}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability",
+      "Sampling and Estimation"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Probability of Dependent Events</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Probability:</strong> The measure of the likelihood that an event will occur, calculated as the ratio of favorable outcomes to the total number of possible outcomes.<br><strong>Dependent Events:</strong> Events where the outcome of one event affects the probability of subsequent events. Sampling without replacement is a classic example of dependent events.<br><strong>Compound Probability:</strong> The probability of two or more events occurring in sequence. For dependent events A and B, it is \\( P(A \\text{ and } B) = P(A) \\times P(B|A) \\), where \\( P(B|A) \\) is the probability of B occurring given that A has already occurred.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Number of boys in the class = 12<br>Number of girls in the class = 4<br>Total number of students in the class = \\( 12 + 4 = 16 \\)<br>Number of students to be selected = 3<br>Selection method: Without replacement (dependent events)<br>Goal: Find the probability that all 3 selected students are girls.</div><p style='margin:8px 0;'><strong>Step 1: Determine the total number of students and the number of girls.</strong><br>The total number of students in the class is the sum of boys and girls.<br>Total students = Number of boys + Number of girls<br>Total students = \\( 12 + 4 \\)<br>Total students = <span style='color:var(--orange);font-weight:bold;'>16</span><br>Number of girls = <span style='color:var(--orange);font-weight:bold;'>4</span></p><p style='margin:8px 0;'><strong>Step 2: Calculate the probability of selecting the first student as a girl.</strong><br>The probability of selecting a girl on the first draw is the number of girls divided by the total number of students.<br>Formula: \\( P(\\text{1st girl}) = \\frac{\\text{Number of girls}}{\\text{Total number of students}} \\)<br>Substitute values: \\( P(\\text{1st girl}) = \\frac{4}{16} \\)<br>Simplify: \\( P(\\text{1st girl}) = \\frac{1}{4} \\)</p><p style='margin:8px 0;'><strong>Step 3: Calculate the probability of selecting the second student as a girl.</strong><br>Since the first student selected was a girl and the selection is without replacement, both the total number of students and the number of girls available for the second selection decrease by one.<br>Remaining girls = \\( 4 - 1 = 3 \\)<br>Remaining total students = \\( 16 - 1 = 15 \\)<br>Formula: \\( P(\\text{2nd girl | 1st girl}) = \\frac{\\text{Remaining girls}}{\\text{Remaining total students}} \\)<br>Substitute values: \\( P(\\text{2nd girl | 1st girl}) = \\frac{3}{15} \\)<br>Simplify: \\( P(\\text{2nd girl | 1st girl}) = \\frac{1}{5} \\)</p><p style='margin:8px 0;'><strong>Step 4: Calculate the probability of selecting the third student as a girl.</strong><br>After two girls have been selected without replacement, the number of girls and the total number of students available for the third selection decrease by two from the original counts.<br>Remaining girls = \\( 4 - 2 = 2 \\)<br>Remaining total students = \\( 16 - 2 = 14 \\)<br>Formula: \\( P(\\text{3rd girl | 1st & 2nd girls}) = \\frac{\\text{Remaining girls}}{\\text{Remaining total students}} \\)<br>Substitute values: \\( P(\\text{3rd girl | 1st & 2nd girls}) = \\frac{2}{14} \\)<br>Simplify: \\( P(\\text{3rd girl | 1st & 2nd girls}) = \\frac{1}{7} \\)</p><p style='margin:8px 0;'><strong>Step 5: Calculate the compound probability that all three selected students are girls.</strong><br>To find the probability that all three events occur, we multiply the probabilities of each sequential event.<br>Formula: \\( P(\\text{all 3 girls}) = P(\\text{1st girl}) \\times P(\\text{2nd girl | 1st girl}) \\times P(\\text{3rd girl | 1st & 2nd girls}) \\)<br>Substitute values: \\( P(\\text{all 3 girls}) = \\frac{4}{16} \\times \\frac{3}{15} \\times \\frac{2}{14} \\)<br>Simplify the fractions before multiplying:<br>\\( P(\\text{all 3 girls}) = \\frac{1}{4} \\times \\frac{1}{5} \\times \\frac{1}{7} \\)<br>Multiply the simplified fractions:<br>\\( P(\\text{all 3 girls}) = \\frac{1 \\times 1 \\times 1}{4 \\times 5 \\times 7} \\)<br>\\( P(\\text{all 3 girls}) = \\frac{1}{140} \\)<br>The probability that all three selected students are girls is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{1}{140} \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We can also solve this using combinations.<br>Total number of ways to select 3 students from 16: \\( \\binom{16}{3} = \\frac{16!}{3!(16-3)!} = \\frac{16 \\times 15 \\times 14}{3 \\times 2 \\times 1} = 8 \\times 5 \\times 14 = 560 \\)<br>Number of ways to select 3 girls from 4 girls: \\( \\binom{4}{3} = \\frac{4!}{3!(4-3)!} = \\frac{4 \\times 3 \\times 2}{3 \\times 2 \\times 1} = 4 \\)<br>Probability = \\( \\frac{\\text{Favorable outcomes}}{\\text{Total possible outcomes}} = \\frac{4}{560} \\)<br>Simplify: \\( \\frac{4}{560} = \\frac{1}{140} \\)<br>This matches the result from the sequential probability calculation. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that all three selected students are girls is \\( \\frac{1}{140} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{1}{140}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "In a certain college, 25% of the boys and 40% of the girls study mathematics. The girls constitute 60% of the student's population. What is the probability that a student studies mathematics?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.16"
+        },
+        {
+          "type": "String",
+          "content": "0.16"
+        },
+        {
+          "type": "String",
+          "content": "0.35"
+        },
+        {
+          "type": "String",
+          "content": "0.16"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Compound Probability",
+      "Dependent Events"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Total Probability Rule in Student Demographics</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Law of Total Probability</em> states that if \\( B_1, B_2, \\dots, B_n \\) are a partition of the sample space (meaning they are mutually exclusive events and their union is the entire sample space), then the probability of an event A can be calculated as:<br>\\[ P(A) = \\sum_{i=1}^{n} P(A|B_i)P(B_i) \\]<br>In this problem, the student population is partitioned into 'Boys' and 'Girls'. We want to find the probability that a randomly selected student studies mathematics, which is event A.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br><ul><li>Probability of a boy studying mathematics: \\( P(\\text{Math}|\\text{Boy}) = 25\\% = 0.25 \\)</li><li>Probability of a girl studying mathematics: \\( P(\\text{Math}|\\text{Girl}) = 40\\% = 0.40 \\)</li><li>Probability of a student being a girl: \\( P(\\text{Girl}) = 60\\% = 0.60 \\)</li></ul></div><p style='margin:8px 0;'><strong>Step 1: Identify the given probabilities</strong><br>We are given the following conditional probabilities and marginal probability:<br>\\[ P(\\text{Math}|\\text{Boy}) = 0.25 \\]<br>\\[ P(\\text{Math}|\\text{Girl}) = 0.40 \\]<br>\\[ P(\\text{Girl}) = 0.60 \\]</p><p style='margin:8px 0;'><strong>Step 2: Calculate the probability of a student being a boy</strong><br>Since the student population consists only of boys and girls, the probability of a student being a boy is the complement of the probability of a student being a girl.<br>Formula: \\( P(\\text{Boy}) = 1 - P(\\text{Girl}) \\)<br>Substitute values: \\( P(\\text{Boy}) = 1 - 0.60 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(\\text{Boy}) = 0.40 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: State the Law of Total Probability for this scenario</strong><br>The probability that a student studies mathematics, \\( P(\\text{Math}) \\), can be found by summing the probabilities of a student being a boy and studying mathematics, and a student being a girl and studying mathematics.<br>Formula: \\( P(\\text{Math}) = P(\\text{Math}|\\text{Boy})P(\\text{Boy}) + P(\\text{Math}|\\text{Girl})P(\\text{Girl}) \\)</p><p style='margin:8px 0;'><strong>Step 4: Calculate the probability of a student being a boy AND studying mathematics</strong><br>Formula: \\( P(\\text{Math} \\cap \\text{Boy}) = P(\\text{Math}|\\text{Boy}) \\times P(\\text{Boy}) \\)<br>Substitute values: \\( P(\\text{Math} \\cap \\text{Boy}) = 0.25 \\times 0.40 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(\\text{Math} \\cap \\text{Boy}) = 0.10 \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Calculate the probability of a student being a girl AND studying mathematics</strong><br>Formula: \\( P(\\text{Math} \\cap \\text{Girl}) = P(\\text{Math}|\\text{Girl}) \\times P(\\text{Girl}) \\)<br>Substitute values: \\( P(\\text{Math} \\cap \\text{Girl}) = 0.40 \\times 0.60 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(\\text{Math} \\cap \\text{Girl}) = 0.24 \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Sum the probabilities to find the total probability</strong><br>Formula: \\( P(\\text{Math}) = P(\\text{Math} \\cap \\text{Boy}) + P(\\text{Math} \\cap \\text{Girl}) \\)<br>Substitute values: \\( P(\\text{Math}) = 0.10 + 0.24 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(\\text{Math}) = 0.34 \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's consider a college with 1000 students.<br>Number of girls = \\( 0.60 \\times 1000 = 600 \\)<br>Number of boys = \\( 0.40 \\times 1000 = 400 \\)<br>Number of girls studying mathematics = \\( 0.40 \\times 600 = 240 \\)<br>Number of boys studying mathematics = \\( 0.25 \\times 400 = 100 \\)<br>Total number of students studying mathematics = \\( 240 + 100 = 340 \\)<br>Probability of a student studying mathematics = \\( \\frac{340}{1000} = 0.34 \\)<br>The result is consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that a student studies mathematics is 0.34.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.34"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "In a certain college, 25% of the boys and 40% of the girls study mathematics. The girls constitute 60% of the student's population. If a student studies mathematics, what is the probability that the student is a girl?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.375"
+        },
+        {
+          "type": "String",
+          "content": "0.25"
+        },
+        {
+          "type": "String",
+          "content": "0.65"
+        },
+        {
+          "type": "String",
+          "content": "0.2857"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability and Bayes' Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Conditional Probability:</strong> The probability of an event A occurring, given that event B has already occurred, denoted as \\( P(A|B) \\). The formula is \\( P(A|B) = \\frac{P(A \\cap B)}{P(B)} \\).<br><strong>Law of Total Probability:</strong> If \\( B_1, B_2, \\dots, B_n \\) are mutually exclusive and exhaustive events, then the probability of an event A is given by \\( P(A) = \\sum_{i=1}^{n} P(A|B_i)P(B_i) \\).<br><strong>Bayes' Theorem:</strong> A formula that describes how to update the probabilities of hypotheses when given evidence. For two events A and B, \\( P(A|B) = \\frac{P(B|A)P(A)}{P(B)} \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Percentage of boys studying mathematics: \\( P(M|B) = 25\\\\% = 0.25 \\)<br>Percentage of girls studying mathematics: \\( P(M|G) = 40\\\\% = 0.40 \\)<br>Girls constitute 60% of the student population: \\( P(G) = 60\\\\% = 0.60 \\)<br><strong>Find:</strong> The probability that a student is a girl, given that the student studies mathematics, i.e., \\( P(G|M) \\).</div><p style='margin:8px 0;'><strong>Step 1: Define Events and Initial Probabilities</strong><br>Let M be the event that a student studies mathematics.<br>Let G be the event that a student is a girl.<br>Let B be the event that a student is a boy.<br><br>From the given information:<br>\\( P(M|B) = 0.25 \\)<br>\\( P(M|G) = 0.40 \\)<br>\\( P(G) = 0.60 \\)</p><p style='margin:8px 0;'><strong>Step 2: Calculate the Probability of a Student Being a Boy</strong><br>Since students are either boys or girls, the probability of a student being a boy is the complement of being a girl.<br>Formula: \\( P(B) = 1 - P(G) \\)<br>Substitute values: \\( P(B) = 1 - 0.60 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(B) = 0.40 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the Joint Probability of a Student Being a Girl and Studying Mathematics</strong><br>This is the probability that a student is a girl AND studies mathematics.<br>Formula: \\( P(M \\cap G) = P(M|G) \\times P(G) \\)<br>Substitute values: \\( P(M \\cap G) = 0.40 \\times 0.60 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(M \\cap G) = 0.24 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Calculate the Joint Probability of a Student Being a Boy and Studying Mathematics</strong><br>This is the probability that a student is a boy AND studies mathematics.<br>Formula: \\( P(M \\cap B) = P(M|B) \\times P(B) \\)<br>Substitute values: \\( P(M \\cap B) = 0.25 \\times 0.40 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(M \\cap B) = 0.10 \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Calculate the Total Probability of a Student Studying Mathematics</strong><br>Using the Law of Total Probability, the total probability of a student studying mathematics is the sum of the joint probabilities of boys studying math and girls studying math.<br>Formula: \\( P(M) = P(M \\cap G) + P(M \\cap B) \\)<br>Substitute values: \\( P(M) = 0.24 + 0.10 \\)<br>Simplify: <span style='color:var(--orange);font-weight:bold;'>\\( P(M) = 0.34 \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Apply the Conditional Probability Formula</strong><br>We need to find the probability that the student is a girl, given that the student studies mathematics, \\( P(G|M) \\).<br>Formula: \\( P(G|M) = \\frac{P(M \\cap G)}{P(M)} \\)<br>Substitute values: \\( P(G|M) = \\frac{0.24}{0.34} \\)</p><p style='margin:8px 0;'><strong>Step 7: Simplify and Calculate the Final Probability</strong><br>Simplify the fraction:<br>\\[ P(G|M) = \\frac{24}{34} = \\frac{12}{17} \\]<br>Convert to decimal:<br>\\[ P(G|M) \\approx 0.70588235... \\]<br>Rounding to four decimal places, we get <span style='color:var(--orange);font-weight:bold;'>\\( P(G|M) \\approx 0.7059 \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We calculated \\( P(G|M) = \\frac{P(M \\cap G)}{P(M)} = \\frac{0.24}{0.34} \\approx 0.7059 \\).<br>Let's check if this probability is consistent with the given information.<br>If \\( P(G|M) \\approx 0.7059 \\), then \\( P(G|M) \\times P(M) \\) should equal \\( P(M \\cap G) \\).<br>\\( 0.7059 \\times 0.34 \\approx 0.240006 \\). This is very close to \\( 0.24 \\), confirming our calculation.<br><br>Note: The calculated value of approximately 0.7059 does not exactly match any of the provided options. However, option (c) 0.65 is the closest value among the choices. Based on the exact calculation, the answer is 12/17.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that the student is a girl, given that the student studies mathematics, is approximately 0.7059.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.65"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "In a certain college, the geographical distribution of male students is as follows: 50% from East, 30% from West, 20% from North. The following proportion of male students wear ties: 80% of the Easterners, 60% of Westerners and 40% of Northerners. What is the probability that a student who wears ties comes from East?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.5"
+        },
+        {
+          "type": "String",
+          "content": "0.8"
+        },
+        {
+          "type": "String",
+          "content": "0.66"
+        },
+        {
+          "type": "String",
+          "content": "0.6"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability",
+      "Bayes' Theorem"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability and Bayes' Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Probability:</strong> A numerical measure of the likelihood of an event occurring, ranging from 0 (impossible) to 1 (certain).<br><strong>Conditional Probability:</strong> The probability of an event A occurring given that another event B has already occurred, denoted as \\( P(A|B) \\).<br><strong>Law of Total Probability:</strong> If \\( B_1, B_2, \\dots, B_n \\) are mutually exclusive and exhaustive events, then the probability of an event A is given by:<br>\\[ P(A) = \\sum_{i=1}^{n} P(A|B_i)P(B_i) \\]<br><strong>Bayes' Theorem:</strong> Used to calculate the posterior probability of an event (hypothesis) given some evidence. For two events A and B, it states:<br>\\[ P(A|B) = \\frac{P(B|A) \\cdot P(A)}{P(B)} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Let E be the event that a student is from the East.<br>Let W be the event that a student is from the West.<br>Let N be the event that a student is from the North.<br>Let T be the event that a student wears ties.<br><br>Geographical distribution (prior probabilities):<br>\\( P(E) = 50\\% = 0.50 \\)<br>\\( P(W) = 30\\% = 0.30 \\)<br>\\( P(N) = 20\\% = 0.20 \\)<br><br>Proportion of students wearing ties from each region (conditional probabilities):<br>\\( P(T|E) = 80\\% = 0.80 \\)<br>\\( P(T|W) = 60\\% = 0.60 \\)<br>\\( P(T|N) = 40\\% = 0.40 \\)<br><br>We need to find the probability that a student who wears ties comes from the East, i.e., \\( P(E|T) \\).</div><p style='margin:8px 0;'><strong>Step 1: Identify the required probability and relevant theorem</strong><br>We need to find \\( P(E|T) \\), which is a conditional probability where the condition (wearing ties) is observed, and we want to find the probability of a specific prior event (coming from the East). This is a classic application of Bayes' Theorem.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the overall probability of a student wearing ties, \\( P(T) \\)</strong><br>We use the Law of Total Probability to find \\( P(T) \\).<br>Formula:<br>\\[ P(T) = P(T|E)P(E) + P(T|W)P(W) + P(T|N)P(N) \\]<br>Substitute the given values:<br>\\[ P(T) = (0.80)(0.50) + (0.60)(0.30) + (0.40)(0.20) \\]<br>Perform the multiplications:<br>\\[ P(T) = 0.40 + 0.18 + 0.08 \\]<br>Sum the results:<br>\\[ P(T) = \\text{<span style='color:var(--orange);font-weight:bold;'>0.66</span>} \\] </p><p style='margin:8px 0;'><strong>Step 3: Apply Bayes' Theorem to find \\( P(E|T) \\)</strong><br>Now we use Bayes' Theorem with the calculated \\( P(T) \\).<br>Formula:<br>\\[ P(E|T) = \\frac{P(T|E) \\cdot P(E)}{P(T)} \\]<br>Substitute the known values and the calculated \\( P(T) \\):<br>\\[ P(E|T) = \\frac{(0.80) \\cdot (0.50)}{0.66} \\]<br>Perform the multiplication in the numerator:<br>\\[ P(E|T) = \\frac{0.40}{0.66} \\]<br>Perform the division:<br>\\[ P(E|T) \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>0.606060\\dots</span>} \\] </p><p style='margin:8px 0;'><strong>Step 4: Round the result to match the given options</strong><br>Rounding \\( 0.606060\\dots \\) to one decimal place, or to match the closest option, gives 0.6.<br>\\[ P(E|T) \\approx 0.6 \\]<br>This matches option '0.6'.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can calculate the conditional probabilities for West and North as well, and check if they sum to 1.<br><br>For West:<br>\\[ P(W|T) = \\frac{P(T|W) \\cdot P(W)}{P(T)} = \\frac{(0.60)(0.30)}{0.66} = \\frac{0.18}{0.66} \\approx 0.2727 \\]<br><br>For North:<br>\\[ P(N|T) = \\frac{P(T|N) \\cdot P(N)}{P(T)} = \\frac{(0.40)(0.20)}{0.66} = \\frac{0.08}{0.66} \\approx 0.1212 \\]<br><br>Sum of posterior probabilities:<br>\\[ P(E|T) + P(W|T) + P(N|T) \\approx 0.6060 + 0.2727 + 0.1212 = 0.9999 \\approx 1 \\]<br>The sum is approximately 1, confirming our calculations are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that a student who wears ties comes from East is 0.6.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.6"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "In a certain college, the geographical distribution of male students is as follows: 50% from East, 30% from West, 20% from North. The following proportion of male students wear ties: 80% of the Easterners, 60% of Westerners and 40% of Northerners. What is the probability that a student who wears ties comes from West?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.55"
+        },
+        {
+          "type": "String",
+          "content": "0.6"
+        },
+        {
+          "type": "String",
+          "content": "0.66"
+        },
+        {
+          "type": "String",
+          "content": "0.27"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability",
+      "Bayes' Theorem"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability and Bayes' Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Probability:</strong> A measure of the likelihood of an event occurring.<br><strong>Conditional Probability:</strong> The probability of an event occurring given that another event has already occurred. It is denoted as \\( P(A|B) \\), the probability of A given B.<br><strong>Law of Total Probability:</strong> If \\( B_1, B_2, \\dots, B_n \\) are a partition of the sample space, then for any event A, \\( P(A) = \\sum_{i=1}^{n} P(A|B_i)P(B_i) \\).<br><strong>Bayes' Theorem:</strong> A formula used to calculate conditional probability. It states that for two events A and B, \\[ P(A|B) = \\frac{P(B|A)P(A)}{P(B)} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Distribution of male students:<br>Probability from East, \\( P(E) = 50\\% = 0.50 \\)<br>Probability from West, \\( P(W) = 30\\% = 0.30 \\)<br>Probability from North, \\( P(N) = 20\\% = 0.20 \\)<br><br>Proportion of male students who wear ties:<br>Probability of wearing a tie given from East, \\( P(T|E) = 80\\% = 0.80 \\)<br>Probability of wearing a tie given from West, \\( P(T|W) = 60\\% = 0.60 \\)<br>Probability of wearing a tie given from North, \\( P(T|N) = 40\\% = 0.40 \\)<br><br><strong>Find:</strong> The probability that a student who wears ties comes from West, i.e., \\( P(W|T) \\).</div><p style='margin:8px 0;'><strong>Step 1: Define the events and probabilities</strong><br>Let E be the event that a student is from East.<br>Let W be the event that a student is from West.<br>Let N be the event that a student is from North.<br>Let T be the event that a student wears a tie.<br><br>From the problem statement, we have:<br>\\( P(E) = 0.50 \\)<br>\\( P(W) = 0.30 \\)<br>\\( P(N) = 0.20 \\)<br>\\( P(T|E) = 0.80 \\)<br>\\( P(T|W) = 0.60 \\)<br>\\( P(T|N) = 0.40 \\)</p><p style='margin:8px 0;'><strong>Step 2: Calculate the total probability of a student wearing a tie, \\( P(T) \\)</strong><br>We use the Law of Total Probability:<br>\\[ P(T) = P(T|E)P(E) + P(T|W)P(W) + P(T|N)P(N) \\]<br>Substitute the given values:<br>\\[ P(T) = (0.80)(0.50) + (0.60)(0.30) + (0.40)(0.20) \\]<br>Perform the multiplications:<br>\\[ P(T) = 0.40 + 0.18 + 0.08 \\]<br>Sum the probabilities:<br>\\[ P(T) = <span style='color:var(--orange);font-weight:bold;'>0.66</span> \\]</p><p style='margin:8px 0;'><strong>Step 3: State Bayes' Theorem for \\( P(W|T) \\)</strong><br>We want to find the probability that a student comes from West given that they wear a tie, \\( P(W|T) \\).<br>Using Bayes' Theorem:<br>\\[ P(W|T) = \\frac{P(T|W)P(W)}{P(T)} \\]</p><p style='margin:8px 0;'><strong>Step 4: Substitute values into Bayes' Theorem and calculate</strong><br>Substitute the values from Step 1 and Step 2 into the formula:<br>\\[ P(W|T) = \\frac{(0.60)(0.30)}{0.66} \\]<br>Perform the multiplication in the numerator:<br>\\[ P(W|T) = \\frac{0.18}{0.66} \\]<br>Perform the division:<br>\\[ P(W|T) \\approx 0.272727... \\]<br>Rounding to two decimal places, as per the options provided:<br>\\[ P(W|T) \\approx <span style='color:var(--orange);font-weight:bold;'>0.27</span> \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can calculate the conditional probabilities for all regions and check if they sum to 1.<br>\\( P(E|T) = \\frac{P(T|E)P(E)}{P(T)} = \\frac{(0.80)(0.50)}{0.66} = \\frac{0.40}{0.66} \\approx 0.6061 \\)<br>\\( P(W|T) = \\frac{0.18}{0.66} \\approx 0.2727 \\)<br>\\( P(N|T) = \\frac{P(T|N)P(N)}{P(T)} = \\frac{(0.40)(0.20)}{0.66} = \\frac{0.08}{0.66} \\approx 0.1212 \\)<br>Sum of conditional probabilities: \\( P(E|T) + P(W|T) + P(N|T) \\approx 0.6061 + 0.2727 + 0.1212 = 1.0000 \\).<br>This confirms our calculation for \\( P(W|T) \\) is consistent with the overall probability distribution.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that a student who wears ties comes from West is 0.27.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.27"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "In a certain college, the geographical distribution of male students is as follows: 50% from East, 30% from West, 20% from North. The following proportion of male students wear ties: 80% of the Easterners, 60% of Westerners and 40% of Northerners. What is the probability that a student who wears ties comes from North?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.12"
+        },
+        {
+          "type": "String",
+          "content": "0.4"
+        },
+        {
+          "type": "String",
+          "content": "0.2"
+        },
+        {
+          "type": "String",
+          "content": "0.3"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability",
+      "Bayes' Theorem"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability and Bayes' Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Conditional Probability</em> is the probability of an event occurring given that another event has already occurred. It is denoted as \\\\( P(A|B) \\\\), the probability of event A given event B.<br><em>Bayes' Theorem</em> is a formula that describes how to update the probabilities of hypotheses when given evidence. It is expressed as:<br>\\[ P(A|B) = \\\\frac{P(B|A) \\\\cdot P(A)}{P(B)} \\]<br>Where \\\\( P(B) \\\\) can be calculated using the Law of Total Probability:<br>\\[ P(B) = \\\\sum_{i} P(B|A_i) \\\\cdot P(A_i) \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Let E be the event that a student is from East.<br>Let W be the event that a student is from West.<br>Let N be the event that a student is from North.<br>Let T be the event that a student wears a tie.<br><br>Prior probabilities of geographical distribution:<br>\\\\( P(E) = 50\\\\% = 0.50 \\\\)<br>\\\\( P(W) = 30\\\\% = 0.30 \\\\)<br>\\\\( P(N) = 20\\\\% = 0.20 \\\\)<br><br>Conditional probabilities of wearing ties:<br>\\\\( P(T|E) = 80\\\\% = 0.80 \\\\)<br>\\\\( P(T|W) = 60\\\\% = 0.60 \\\\)<br>\\\\( P(T|N) = 40\\\\% = 0.40 \\\\)<br><br>We need to find the probability that a student who wears ties comes from North, i.e., \\\\( P(N|T) \\\\).</div><p style='margin:8px 0;'><strong>Step 1: Verify the sum of prior probabilities</strong><br>Before proceeding, ensure that the given prior probabilities for the regions sum to 1.<br>\\\\( P(E) + P(W) + P(N) = 0.50 + 0.30 + 0.20 \\\\)<br>\\\\( = 1.00 \\\\)<br>This confirms that the distribution covers all possibilities.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the total probability of a student wearing a tie, \\\\( P(T) \\\\)</strong><br>We use the Law of Total Probability. The event T (wearing a tie) can occur if the student is from East, West, or North.<br>Formula:<br>\\[ P(T) = P(T|E)P(E) + P(T|W)P(W) + P(T|N)P(N) \\]<br>Substitute the given values:<br>\\[ P(T) = (0.80)(0.50) + (0.60)(0.30) + (0.40)(0.20) \\]<br>Perform the multiplications:<br>\\[ P(T) = 0.40 + 0.18 + 0.08 \\]<br>Sum the results:<br>\\[ P(T) = <span style='color:var(--orange);font-weight:bold;'>0.66</span> \\]</p><p style='margin:8px 0;'><strong>Step 3: Apply Bayes' Theorem to find \\\\( P(N|T) \\\\)</strong><br>We want to find the probability that a student comes from the North given that they wear a tie, \\\\( P(N|T) \\\\).<br>Bayes' Theorem formula:<br>\\[ P(N|T) = \\\\frac{P(T|N) \\\\cdot P(N)}{P(T)} \\]<br>Substitute the values from the Given section and Step 2:<br>\\[ P(N|T) = \\\\frac{(0.40) \\\\cdot (0.20)}{0.66} \\]<br>Perform the multiplication in the numerator:<br>\\[ P(N|T) = \\\\frac{0.08}{0.66} \\]<br>Perform the division:<br>\\[ P(N|T) \\\\approx 0.121212... \\]</p><p style='margin:8px 0;'><strong>Step 4: Round the result to the appropriate precision</strong><br>The options provided are given to two decimal places. Rounding \\\\( 0.121212... \\\\) to two decimal places:<br>\\[ P(N|T) \\\\approx <span style='color:var(--orange);font-weight:bold;'>0.12</span> \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can calculate the conditional probabilities for all regions given that a student wears a tie and check if they sum to 1.<br>\\\\( P(E|T) = \\\\frac{P(T|E)P(E)}{P(T)} = \\\\frac{0.40}{0.66} \\\\approx 0.60606 \\\\)<br>\\\\( P(W|T) = \\\\frac{P(T|W)P(W)}{P(T)} = \\\\frac{0.18}{0.66} \\\\approx 0.27273 \\\\)<br>\\\\( P(N|T) = \\\\frac{P(T|N)P(N)}{P(T)} = \\\\frac{0.08}{0.66} \\\\approx 0.12121 \\\\)<br>Sum of conditional probabilities:<br>\\\\( P(E|T) + P(W|T) + P(N|T) \\\\approx 0.60606 + 0.27273 + 0.12121 = 1.00000 \\\\)<br>The sum is approximately 1, confirming our calculation for \\\\( P(T) \\\\) and the individual conditional probabilities are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that a student who wears ties comes from North is 0.12.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.12"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these statements is false?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "If A and B are independent events, they are mutually exclusive"
+        },
+        {
+          "type": "String",
+          "content": "Pair wise independence does not imply mutually independence"
+        },
+        {
+          "type": "String",
+          "content": "\\(P(A \\cap B) = P(A)P(B)\\), provided \\(P(B) > 0\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Independent Events",
+      "Dependent Events",
+      "Compound Probability",
+      "Mutually Exclusive Events"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Probability Event Relationships</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>• <strong>Independent Events:</strong> Two events A and B are independent if the occurrence of one does not affect the probability of the other. Mathematically, \\( P(A \\cap B) = P(A)P(B) \\).<br>• <strong>Mutually Exclusive Events:</strong> Two events A and B are mutually exclusive (or disjoint) if they cannot occur at the same time. This means their intersection is an empty set, so \\( P(A \\cap B) = 0 \\).<br>• <strong>Addition Rule of Probability:</strong> For any two events A and B, \\( P(A \\cup B) = P(A) + P(B) - P(A \\cap B) \\). If A and B are mutually exclusive, this simplifies to \\( P(A \\cup B) = P(A) + P(B) \\).<br>• <strong>Pairwise Independence vs. Mutual Independence:</strong> For a collection of more than two events, pairwise independence (where every pair of events is independent) does not necessarily imply mutual independence (where the probability of the intersection of any subcollection of events is the product of their individual probabilities).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Four statements regarding probability events. We need to identify the false statement.</div><p style='margin:8px 0;'><strong>Step 1: Evaluate Statement 1</strong><br>The statement is: \"If A and B are independent events, they are mutually exclusive.\"<br>Let's consider the definitions:<br>If A and B are independent, then \\( P(A \\cap B) = P(A)P(B) \\).<br>If A and B are mutually exclusive, then \\( P(A \\cap B) = 0 \\).<br>For these two conditions to hold simultaneously, we must have \\( P(A)P(B) = 0 \\). This implies that either \\( P(A) = 0 \\) or \\( P(B) = 0 \\).<br>However, if A and B are two non-trivial events (i.e., \\( P(A) > 0 \\) and \\( P(B) > 0 \\)), then \\( P(A)P(B) > 0 \\). In this common case, \\( P(A \\cap B) \\neq 0 \\), which means they cannot be mutually exclusive.<br>For example, consider rolling a fair die. Let A be the event of rolling an even number (\\({2, 4, 6}\\)), so \\( P(A) = 3/6 = 1/2 \\). Let B be the event of rolling a number greater than 3 (\\({4, 5, 6}\\)), so \\( P(B) = 3/6 = 1/2 \\).<br>The intersection \\( A \\cap B \\) is rolling an even number greater than 3 (\\({4, 6}\\)), so \\( P(A \\cap B) = 2/6 = 1/3 \\).<br>Are A and B independent? \\( P(A)P(B) = (1/2)(1/2) = 1/4 \\). Since \\( P(A \\cap B) = 1/3 \\neq 1/4 \\), these events are actually NOT independent. (My example choice was poor for independence, but it illustrates they are not mutually exclusive).<br>Let's use a better example for independence: Consider two coin tosses. Let A be 'first toss is Heads' (\\(P(A)=0.5\\)). Let B be 'second toss is Heads' (\\(P(B)=0.5\\)). These are independent events. The intersection \\(A \\cap B\\) is 'both tosses are Heads' (\\(P(A \\cap B)=0.25\\)).<br>For these events, \\(P(A \\cap B) = 0.25\\) and \\(P(A)P(B) = 0.5 \\times 0.5 = 0.25\\). So, they are independent.<br>Are they mutually exclusive? No, because \\(P(A \\cap B) = 0.25 \\neq 0\\).<br>Therefore, the statement <span style='color:var(--orange);font-weight:bold;'>\"If A and B are independent events, they are mutually exclusive\" is false</span> (unless one of the events has probability zero, which is a trivial case).<br></p><p style='margin:8px 0;'><strong>Step 2: Evaluate Statement 2</strong><br>The statement is: \"Pair wise independence does not imply mutually independence.\"<br>This is a well-known property in probability theory. For three or more events, it is possible for every pair of events to be independent, but for the entire set of events not to be mutually independent. A classic example involves three events related to coin tosses where pairwise independence holds but mutual independence does not.<br>Therefore, this statement is <span style='color:var(--orange);font-weight:bold;'>true</span>.<br></p><p style='margin:8px 0;'><strong>Step 3: Evaluate Statement 3</strong><br>The statement is: \"\\(P(A \\cap B) = P(A)P(B)\\), provided \\(P(B) > 0\\).\"<br>This is the fundamental definition of independent events. The condition \\( P(B) > 0 \\) is often included when defining independence through conditional probability, i.e., \\( P(A|B) = P(A) \\). If \\( P(B) > 0 \\), then \\( P(A|B) = \\frac{P(A \\cap B)}{P(B)} \\). Substituting \\( P(A|B) = P(A) \\) gives \\( P(A) = \\frac{P(A \\cap B)}{P(B)} \\), which rearranges to \\( P(A \\cap B) = P(A)P(B) \\). Even without conditional probability, \\( P(A \\cap B) = P(A)P(B) \\) is the direct definition of independence. The 'provided \\( P(B) > 0 \\)' clause does not make the statement false.<br>Therefore, this statement is <span style='color:var(--orange);font-weight:bold;'>true</span>.<br></p><p style='margin:8px 0;'><strong>Step 4: Evaluate Statement 4</strong><br>The statement is: \"\\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\).\"<br>This is the Addition Rule of Probability, a fundamental axiom derived from set theory for calculating the probability of the union of two events. It accounts for the overlap \\( P(A \\cap B) \\) to avoid double-counting.<br>Therefore, this statement is <span style='color:var(--orange);font-weight:bold;'>true</span>.<br></p><p style='margin:8px 0;'><strong>Step 5: Identify the false statement</strong><br>Based on the analysis of all four statements:<br>Statement 1: False<br>Statement 2: True<br>Statement 3: True<br>Statement 4: True<br>The only false statement is the first one.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's re-verify the relationship between independent and mutually exclusive events.<br>If A and B are independent, \\( P(A \\cap B) = P(A)P(B) \\).<br>If A and B are mutually exclusive, \\( P(A \\cap B) = 0 \\).<br>For both to be true simultaneously, \\( P(A)P(B) = 0 \\). This means either \\( P(A) = 0 \\) or \\( P(B) = 0 \\).<br>Consider a scenario where \\( P(A) \\neq 0 \\) and \\( P(B) \\neq 0 \\). In this case, \\( P(A)P(B) \\neq 0 \\).<br>Therefore, if A and B are independent and have non-zero probabilities, they cannot be mutually exclusive. The statement \"If A and B are independent events, they are mutually exclusive\" is generally false. For example, if you flip two coins, the event 'first coin is heads' and 'second coin is heads' are independent, but they are not mutually exclusive (you can get HH).</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The false statement is: If A and B are independent events, they are mutually exclusive</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "If A and B are independent events, they are mutually exclusive"
+    }
+  }
+]
