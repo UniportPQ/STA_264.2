@@ -1,0 +1,226 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Bayes' Theorem",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 29 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "In a certain college, the geographical distribution of male students is as follows: 50% from East, 30% from West, 20% from North. The following proportion of male students wear ties: 80% of the Easterners, 60% of Westerners and 40% of Northerners. What is the probability that a student who wears ties comes from East?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.5"
+        },
+        {
+          "type": "String",
+          "content": "0.8"
+        },
+        {
+          "type": "String",
+          "content": "0.66"
+        },
+        {
+          "type": "String",
+          "content": "0.6"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability",
+      "Bayes' Theorem"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability and Bayes' Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Probability:</strong> A numerical measure of the likelihood of an event occurring, ranging from 0 (impossible) to 1 (certain).<br><strong>Conditional Probability:</strong> The probability of an event A occurring given that another event B has already occurred, denoted as \\( P(A|B) \\).<br><strong>Law of Total Probability:</strong> If \\( B_1, B_2, \\dots, B_n \\) are mutually exclusive and exhaustive events, then the probability of an event A is given by:<br>\\[ P(A) = \\sum_{i=1}^{n} P(A|B_i)P(B_i) \\]<br><strong>Bayes' Theorem:</strong> Used to calculate the posterior probability of an event (hypothesis) given some evidence. For two events A and B, it states:<br>\\[ P(A|B) = \\frac{P(B|A) \\cdot P(A)}{P(B)} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Let E be the event that a student is from the East.<br>Let W be the event that a student is from the West.<br>Let N be the event that a student is from the North.<br>Let T be the event that a student wears ties.<br><br>Geographical distribution (prior probabilities):<br>\\( P(E) = 50\\% = 0.50 \\)<br>\\( P(W) = 30\\% = 0.30 \\)<br>\\( P(N) = 20\\% = 0.20 \\)<br><br>Proportion of students wearing ties from each region (conditional probabilities):<br>\\( P(T|E) = 80\\% = 0.80 \\)<br>\\( P(T|W) = 60\\% = 0.60 \\)<br>\\( P(T|N) = 40\\% = 0.40 \\)<br><br>We need to find the probability that a student who wears ties comes from the East, i.e., \\( P(E|T) \\).</div><p style='margin:8px 0;'><strong>Step 1: Identify the required probability and relevant theorem</strong><br>We need to find \\( P(E|T) \\), which is a conditional probability where the condition (wearing ties) is observed, and we want to find the probability of a specific prior event (coming from the East). This is a classic application of Bayes' Theorem.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the overall probability of a student wearing ties, \\( P(T) \\)</strong><br>We use the Law of Total Probability to find \\( P(T) \\).<br>Formula:<br>\\[ P(T) = P(T|E)P(E) + P(T|W)P(W) + P(T|N)P(N) \\]<br>Substitute the given values:<br>\\[ P(T) = (0.80)(0.50) + (0.60)(0.30) + (0.40)(0.20) \\]<br>Perform the multiplications:<br>\\[ P(T) = 0.40 + 0.18 + 0.08 \\]<br>Sum the results:<br>\\[ P(T) = \\text{<span style='color:var(--orange);font-weight:bold;'>0.66</span>} \\] </p><p style='margin:8px 0;'><strong>Step 3: Apply Bayes' Theorem to find \\( P(E|T) \\)</strong><br>Now we use Bayes' Theorem with the calculated \\( P(T) \\).<br>Formula:<br>\\[ P(E|T) = \\frac{P(T|E) \\cdot P(E)}{P(T)} \\]<br>Substitute the known values and the calculated \\( P(T) \\):<br>\\[ P(E|T) = \\frac{(0.80) \\cdot (0.50)}{0.66} \\]<br>Perform the multiplication in the numerator:<br>\\[ P(E|T) = \\frac{0.40}{0.66} \\]<br>Perform the division:<br>\\[ P(E|T) \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>0.606060\\dots</span>} \\] </p><p style='margin:8px 0;'><strong>Step 4: Round the result to match the given options</strong><br>Rounding \\( 0.606060\\dots \\) to one decimal place, or to match the closest option, gives 0.6.<br>\\[ P(E|T) \\approx 0.6 \\]<br>This matches option '0.6'.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can calculate the conditional probabilities for West and North as well, and check if they sum to 1.<br><br>For West:<br>\\[ P(W|T) = \\frac{P(T|W) \\cdot P(W)}{P(T)} = \\frac{(0.60)(0.30)}{0.66} = \\frac{0.18}{0.66} \\approx 0.2727 \\]<br><br>For North:<br>\\[ P(N|T) = \\frac{P(T|N) \\cdot P(N)}{P(T)} = \\frac{(0.40)(0.20)}{0.66} = \\frac{0.08}{0.66} \\approx 0.1212 \\]<br><br>Sum of posterior probabilities:<br>\\[ P(E|T) + P(W|T) + P(N|T) \\approx 0.6060 + 0.2727 + 0.1212 = 0.9999 \\approx 1 \\]<br>The sum is approximately 1, confirming our calculations are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that a student who wears ties comes from East is 0.6.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.6"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "In a certain college, the geographical distribution of male students is as follows: 50% from East, 30% from West, 20% from North. The following proportion of male students wear ties: 80% of the Easterners, 60% of Westerners and 40% of Northerners. What is the probability that a student who wears ties comes from West?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.55"
+        },
+        {
+          "type": "String",
+          "content": "0.6"
+        },
+        {
+          "type": "String",
+          "content": "0.66"
+        },
+        {
+          "type": "String",
+          "content": "0.27"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability",
+      "Bayes' Theorem"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability and Bayes' Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Probability:</strong> A measure of the likelihood of an event occurring.<br><strong>Conditional Probability:</strong> The probability of an event occurring given that another event has already occurred. It is denoted as \\( P(A|B) \\), the probability of A given B.<br><strong>Law of Total Probability:</strong> If \\( B_1, B_2, \\dots, B_n \\) are a partition of the sample space, then for any event A, \\( P(A) = \\sum_{i=1}^{n} P(A|B_i)P(B_i) \\).<br><strong>Bayes' Theorem:</strong> A formula used to calculate conditional probability. It states that for two events A and B, \\[ P(A|B) = \\frac{P(B|A)P(A)}{P(B)} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Distribution of male students:<br>Probability from East, \\( P(E) = 50\\% = 0.50 \\)<br>Probability from West, \\( P(W) = 30\\% = 0.30 \\)<br>Probability from North, \\( P(N) = 20\\% = 0.20 \\)<br><br>Proportion of male students who wear ties:<br>Probability of wearing a tie given from East, \\( P(T|E) = 80\\% = 0.80 \\)<br>Probability of wearing a tie given from West, \\( P(T|W) = 60\\% = 0.60 \\)<br>Probability of wearing a tie given from North, \\( P(T|N) = 40\\% = 0.40 \\)<br><br><strong>Find:</strong> The probability that a student who wears ties comes from West, i.e., \\( P(W|T) \\).</div><p style='margin:8px 0;'><strong>Step 1: Define the events and probabilities</strong><br>Let E be the event that a student is from East.<br>Let W be the event that a student is from West.<br>Let N be the event that a student is from North.<br>Let T be the event that a student wears a tie.<br><br>From the problem statement, we have:<br>\\( P(E) = 0.50 \\)<br>\\( P(W) = 0.30 \\)<br>\\( P(N) = 0.20 \\)<br>\\( P(T|E) = 0.80 \\)<br>\\( P(T|W) = 0.60 \\)<br>\\( P(T|N) = 0.40 \\)</p><p style='margin:8px 0;'><strong>Step 2: Calculate the total probability of a student wearing a tie, \\( P(T) \\)</strong><br>We use the Law of Total Probability:<br>\\[ P(T) = P(T|E)P(E) + P(T|W)P(W) + P(T|N)P(N) \\]<br>Substitute the given values:<br>\\[ P(T) = (0.80)(0.50) + (0.60)(0.30) + (0.40)(0.20) \\]<br>Perform the multiplications:<br>\\[ P(T) = 0.40 + 0.18 + 0.08 \\]<br>Sum the probabilities:<br>\\[ P(T) = <span style='color:var(--orange);font-weight:bold;'>0.66</span> \\]</p><p style='margin:8px 0;'><strong>Step 3: State Bayes' Theorem for \\( P(W|T) \\)</strong><br>We want to find the probability that a student comes from West given that they wear a tie, \\( P(W|T) \\).<br>Using Bayes' Theorem:<br>\\[ P(W|T) = \\frac{P(T|W)P(W)}{P(T)} \\]</p><p style='margin:8px 0;'><strong>Step 4: Substitute values into Bayes' Theorem and calculate</strong><br>Substitute the values from Step 1 and Step 2 into the formula:<br>\\[ P(W|T) = \\frac{(0.60)(0.30)}{0.66} \\]<br>Perform the multiplication in the numerator:<br>\\[ P(W|T) = \\frac{0.18}{0.66} \\]<br>Perform the division:<br>\\[ P(W|T) \\approx 0.272727... \\]<br>Rounding to two decimal places, as per the options provided:<br>\\[ P(W|T) \\approx <span style='color:var(--orange);font-weight:bold;'>0.27</span> \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can calculate the conditional probabilities for all regions and check if they sum to 1.<br>\\( P(E|T) = \\frac{P(T|E)P(E)}{P(T)} = \\frac{(0.80)(0.50)}{0.66} = \\frac{0.40}{0.66} \\approx 0.6061 \\)<br>\\( P(W|T) = \\frac{0.18}{0.66} \\approx 0.2727 \\)<br>\\( P(N|T) = \\frac{P(T|N)P(N)}{P(T)} = \\frac{(0.40)(0.20)}{0.66} = \\frac{0.08}{0.66} \\approx 0.1212 \\)<br>Sum of conditional probabilities: \\( P(E|T) + P(W|T) + P(N|T) \\approx 0.6061 + 0.2727 + 0.1212 = 1.0000 \\).<br>This confirms our calculation for \\( P(W|T) \\) is consistent with the overall probability distribution.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that a student who wears ties comes from West is 0.27.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.27"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "In a certain college, the geographical distribution of male students is as follows: 50% from East, 30% from West, 20% from North. The following proportion of male students wear ties: 80% of the Easterners, 60% of Westerners and 40% of Northerners. What is the probability that a student who wears ties comes from North?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.12"
+        },
+        {
+          "type": "String",
+          "content": "0.4"
+        },
+        {
+          "type": "String",
+          "content": "0.2"
+        },
+        {
+          "type": "String",
+          "content": "0.3"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability",
+      "Bayes' Theorem"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability and Bayes' Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Conditional Probability</em> is the probability of an event occurring given that another event has already occurred. It is denoted as \\\\( P(A|B) \\\\), the probability of event A given event B.<br><em>Bayes' Theorem</em> is a formula that describes how to update the probabilities of hypotheses when given evidence. It is expressed as:<br>\\[ P(A|B) = \\\\frac{P(B|A) \\\\cdot P(A)}{P(B)} \\]<br>Where \\\\( P(B) \\\\) can be calculated using the Law of Total Probability:<br>\\[ P(B) = \\\\sum_{i} P(B|A_i) \\\\cdot P(A_i) \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Let E be the event that a student is from East.<br>Let W be the event that a student is from West.<br>Let N be the event that a student is from North.<br>Let T be the event that a student wears a tie.<br><br>Prior probabilities of geographical distribution:<br>\\\\( P(E) = 50\\\\% = 0.50 \\\\)<br>\\\\( P(W) = 30\\\\% = 0.30 \\\\)<br>\\\\( P(N) = 20\\\\% = 0.20 \\\\)<br><br>Conditional probabilities of wearing ties:<br>\\\\( P(T|E) = 80\\\\% = 0.80 \\\\)<br>\\\\( P(T|W) = 60\\\\% = 0.60 \\\\)<br>\\\\( P(T|N) = 40\\\\% = 0.40 \\\\)<br><br>We need to find the probability that a student who wears ties comes from North, i.e., \\\\( P(N|T) \\\\).</div><p style='margin:8px 0;'><strong>Step 1: Verify the sum of prior probabilities</strong><br>Before proceeding, ensure that the given prior probabilities for the regions sum to 1.<br>\\\\( P(E) + P(W) + P(N) = 0.50 + 0.30 + 0.20 \\\\)<br>\\\\( = 1.00 \\\\)<br>This confirms that the distribution covers all possibilities.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the total probability of a student wearing a tie, \\\\( P(T) \\\\)</strong><br>We use the Law of Total Probability. The event T (wearing a tie) can occur if the student is from East, West, or North.<br>Formula:<br>\\[ P(T) = P(T|E)P(E) + P(T|W)P(W) + P(T|N)P(N) \\]<br>Substitute the given values:<br>\\[ P(T) = (0.80)(0.50) + (0.60)(0.30) + (0.40)(0.20) \\]<br>Perform the multiplications:<br>\\[ P(T) = 0.40 + 0.18 + 0.08 \\]<br>Sum the results:<br>\\[ P(T) = <span style='color:var(--orange);font-weight:bold;'>0.66</span> \\]</p><p style='margin:8px 0;'><strong>Step 3: Apply Bayes' Theorem to find \\\\( P(N|T) \\\\)</strong><br>We want to find the probability that a student comes from the North given that they wear a tie, \\\\( P(N|T) \\\\).<br>Bayes' Theorem formula:<br>\\[ P(N|T) = \\\\frac{P(T|N) \\\\cdot P(N)}{P(T)} \\]<br>Substitute the values from the Given section and Step 2:<br>\\[ P(N|T) = \\\\frac{(0.40) \\\\cdot (0.20)}{0.66} \\]<br>Perform the multiplication in the numerator:<br>\\[ P(N|T) = \\\\frac{0.08}{0.66} \\]<br>Perform the division:<br>\\[ P(N|T) \\\\approx 0.121212... \\]</p><p style='margin:8px 0;'><strong>Step 4: Round the result to the appropriate precision</strong><br>The options provided are given to two decimal places. Rounding \\\\( 0.121212... \\\\) to two decimal places:<br>\\[ P(N|T) \\\\approx <span style='color:var(--orange);font-weight:bold;'>0.12</span> \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can calculate the conditional probabilities for all regions given that a student wears a tie and check if they sum to 1.<br>\\\\( P(E|T) = \\\\frac{P(T|E)P(E)}{P(T)} = \\\\frac{0.40}{0.66} \\\\approx 0.60606 \\\\)<br>\\\\( P(W|T) = \\\\frac{P(T|W)P(W)}{P(T)} = \\\\frac{0.18}{0.66} \\\\approx 0.27273 \\\\)<br>\\\\( P(N|T) = \\\\frac{P(T|N)P(N)}{P(T)} = \\\\frac{0.08}{0.66} \\\\approx 0.12121 \\\\)<br>Sum of conditional probabilities:<br>\\\\( P(E|T) + P(W|T) + P(N|T) \\\\approx 0.60606 + 0.27273 + 0.12121 = 1.00000 \\\\)<br>The sum is approximately 1, confirming our calculation for \\\\( P(T) \\\\) and the individual conditional probabilities are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that a student who wears ties comes from North is 0.12.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.12"
+    }
+  }
+]
