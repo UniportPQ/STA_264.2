@@ -1,0 +1,200 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Categorical Data Analysis in Biology",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 7a @ 2023/2024",
+    "img": null,
+    "table": [
+      [
+        "Malaria status",
+        "Residence (In campus)",
+        "Residence (Off-campus)",
+        "Row total"
+      ],
+      [
+        "Yes",
+        "213 (163.45)",
+        "150 ( ___ )",
+        "---"
+      ],
+      [
+        "No",
+        "190 ( ___ )",
+        "----- (292.45)",
+        "532"
+      ],
+      [
+        "Column total",
+        "403",
+        "492",
+        "895"
+      ]
+    ],
+    "Question": {
+      "content": "Complete the chi-square table below by providing the missing observed frequencies (\\(O_{ij}\\)), expected frequencies (\\(E_{ij}\\)) in brackets, and row totals. The table shows the number of students who may or may not have suffered from malaria and their residence in the last semester.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Chi-square Test",
+      "Categorical Data Analysis in Biology",
+      "Hypothesis Testing in Life Sciences",
+      "Statistical Calculations"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Table Completion</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>chi-square table</em> summarizes observed and expected frequencies for categorical data.<br>The <em>observed frequency</em> (\\(O_{ij}\\)) is the actual count in a cell.<br>The <em>expected frequency</em> (\\(E_{ij}\\)) is the count that would be expected if there were no association between the row and column variables.<br>The formula for expected frequency is: \\[ E_{ij} = \\frac{(\\text{Row i Total}) \\times (\\text{Column j Total})}{(\\text{Grand Total})} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>A partially completed chi-square table with observed frequencies (\\(O_{ij}\\)), expected frequencies (\\(E_{ij}\\)) in brackets, row totals, column totals, and the grand total.<br>The goal is to find the missing values.</div><p style='margin:8px 0;'><strong>Step 1: Identify the missing values in the table</strong><br>From the given table, the missing values are:<br>1. Row total for 'Malaria Yes'<br>2. Expected frequency for 'Malaria Yes, Off-campus' (\\(E_{12}\\))<br>3. Expected frequency for 'Malaria No, On-campus' (\\(E_{21}\\))<br>4. Observed frequency for 'Malaria No, Off-campus' (\\(O_{22}\\))</p><p style='margin:8px 0;'><strong>Step 2: Calculate the missing Row Total for 'Malaria Yes'</strong><br>The grand total is the sum of all row totals.<br>Formula: Grand Total = Row 1 Total + Row 2 Total<br>Given: Grand Total = 895, Row 2 Total (Malaria No) = 532<br>Substitution: \\( 895 = \\text{Row 1 Total} + 532 \\)<br>Simplification: \\( \\text{Row 1 Total} = 895 - 532 \\)<br><span style='color:var(--orange);font-weight:bold;'>Row 1 Total (Malaria Yes) = 363</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the missing Observed Frequency for 'Malaria No, Off-campus' (\\(O_{22}\\))</strong><br>The column total is the sum of observed frequencies in that column.<br>Formula: Column j Total = \\(O_{1j} + O_{2j}\\)<br>Given: Column total 'Off-campus' = 492, \\(O_{12}\\) (Malaria Yes, Off-campus) = 150<br>Substitution: \\( 492 = 150 + O_{22} \\)<br>Simplification: \\( O_{22} = 492 - 150 \\)<br><span style='color:var(--orange);font-weight:bold;'>\\(O_{22}\\) (Malaria No, Off-campus) = 342</span><br>Alternatively, using the row total for 'No':<br>Formula: Row 2 Total = \\(O_{21} + O_{22}\\)<br>Given: Row 2 Total (Malaria No) = 532, \\(O_{21}\\) (Malaria No, On-campus) = 190<br>Substitution: \\( 532 = 190 + O_{22} \\)<br>Simplification: \\( O_{22} = 532 - 190 \\)<br><span style='color:var(--orange);font-weight:bold;'>\\(O_{22}\\) (Malaria No, Off-campus) = 342</span> (Consistent result)</p><p style='margin:8px 0;'><strong>Step 4: Calculate the missing Expected Frequency for 'Malaria Yes, Off-campus' (\\(E_{12}\\))</strong><br>Formula: \\( E_{12} = \\frac{(\\text{Row 1 Total}) \\times (\\text{Column 2 Total})}{(\\text{Grand Total})} \\)<br>Given: Row 1 Total = 363 (calculated), Column 2 Total (Off-campus) = 492, Grand Total = 895<br>Substitution: \\( E_{12} = \\frac{363 \\times 492}{895} \\)<br>Simplification: \\( E_{12} = \\frac{178696}{895} \\)<br>Calculation: \\( E_{12} \\approx 199.660335... \\)<br><span style='color:var(--orange);font-weight:bold;'>\\(E_{12}\\) (Malaria Yes, Off-campus) \\approx 199.66</span> (rounded to two decimal places)</p><p style='margin:8px 0;'><strong>Step 5: Calculate the missing Expected Frequency for 'Malaria No, On-campus' (\\(E_{21}\\))</strong><br>Formula: \\( E_{21} = \\frac{(\\text{Row 2 Total}) \\times (\\text{Column 1 Total})}{(\\text{Grand Total})} \\)<br>Given: Row 2 Total (Malaria No) = 532, Column 1 Total (On-campus) = 403, Grand Total = 895<br>Substitution: \\( E_{21} = \\frac{532 \\times 403}{895} \\)<br>Simplification: \\( E_{21} = \\frac{214496}{895} \\)<br>Calculation: \\( E_{21} \\approx 239.660335... \\)<br><span style='color:var(--orange);font-weight:bold;'>\\(E_{21}\\) (Malaria No, On-campus) \\approx 239.66</span> (rounded to two decimal places)</p><p style='margin:8px 0;'><strong>Step 6: Present the completed table</strong><br>| Malaria status | Residence (In campus) | Residence (Off-campus) | Row total |<br>| :------------- | :-------------------- | :--------------------- | :-------- |<br>| Yes            | 213 (163.45)          | 150 ( <span style='color:var(--orange);font-weight:bold;'>199.66</span> )     | <span style='color:var(--orange);font-weight:bold;'>363</span>   |<br>| No             | 190 ( <span style='color:var(--orange);font-weight:bold;'>239.66</span> )    | <span style='color:var(--orange);font-weight:bold;'>342</span> (292.45)       | 532       |<br>| Column total   | 403                   | 492                    | 895       |</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Check if all totals sum correctly:<br>Row Totals: \\( 363 + 532 = 895 \\) &#10003;<br>Column Totals: \\( 403 + 492 = 895 \\) &#10003;<br>Check if observed frequencies sum to row/column totals:<br>Row 1: \\( 213 + 150 = 363 \\) &#10003;<br>Row 2: \\( 190 + 342 = 532 \\) &#10003;<br>Col 1: \\( 213 + 190 = 403 \\) &#10003;<br>Col 2: \\( 150 + 342 = 492 \\) &#10003;<br>All calculations are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The completed values are: Row 1 Total: 363, Observed (Malaria No, Off-campus): 342, Expected (Malaria Yes, Off-campus): 199.66, Expected (Malaria No, On-campus): 239.66</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Row 1 total: 363<br>Observed (Malaria No, Off-campus): 342<br>Expected (Malaria Yes, Off-campus): 199.66<br>Expected (Malaria No, On-campus): 239.66"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7b @ 2023/2024",
+    "img": null,
+    "table": [
+      [
+        "Malaria status",
+        "Residence (In campus)",
+        "Residence (Off-campus)",
+        "Row total"
+      ],
+      [
+        "Yes",
+        "213 (163.45)",
+        "150 (199.55)",
+        "363"
+      ],
+      [
+        "No",
+        "190 (239.55)",
+        "342 (292.45)",
+        "532"
+      ],
+      [
+        "Column total",
+        "403",
+        "492",
+        "895"
+      ]
+    ],
+    "Question": {
+      "content": "Calculate the chi-square test statistic using the completed table. Show your work.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Chi-square Test",
+      "Test Statistics",
+      "Statistical Calculations",
+      "Categorical Data Analysis in Biology",
+      "Hypothesis Testing in Life Sciences"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Test Statistic Calculation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-square (\\(\\chi^2\\)) test statistic</em> is used to determine if there is a significant association between two categorical variables. It compares the observed frequencies (O) in each category with the expected frequencies (E) if there were no association between the variables.<br>The formula for the Chi-square test statistic is:<br>\\[ \\chi^2 = \\sum \\frac{(O - E)^2}{E} \\]<br>where the summation is carried out over all cells in the contingency table.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>The contingency table provides the observed (O) and expected (E) frequencies for each cell:<br><ul><li>Malaria Yes, In campus: O = 213, E = 163.45</li><li>Malaria Yes, Off-campus: O = 150, E = 199.55</li><li>Malaria No, In campus: O = 190, E = 239.55</li><li>Malaria No, Off-campus: O = 342, E = 292.45</li></ul></div><p style='margin:8px 0;'><strong>Step 1: State the Chi-square formula</strong><br>The formula to calculate the Chi-square test statistic is:<br>\\[ \\chi^2 = \\sum \\frac{(O - E)^2}{E} \\]</p><p style='margin:8px 0;'><strong>Step 2: Calculate the term for 'Malaria Yes, In campus'</strong><br>Observed count (O) = 213<br>Expected count (E) = 163.45<br>Substitute the values into the formula for this cell:<br>\\[ \\frac{(O - E)^2}{E} = \\frac{(213 - 163.45)^2}{163.45} \\]<br>\\[ = \\frac{(49.55)^2}{163.45} \\]<br>\\[ = \\frac{2455.2025}{163.45} \\]<br>\\[ \\approx \\text{15.0211} \\]<br>The contribution from this cell is <span style='color:var(--orange);font-weight:bold;'>15.0211</span>.</p><p style='margin:8px 0;'><strong>Step 3: Calculate the term for 'Malaria Yes, Off-campus'</strong><br>Observed count (O) = 150<br>Expected count (E) = 199.55<br>Substitute the values into the formula for this cell:<br>\\[ \\frac{(O - E)^2}{E} = \\frac{(150 - 199.55)^2}{199.55} \\]<br>\\[ = \\frac{(-49.55)^2}{199.55} \\]<br>\\[ = \\frac{2455.2025}{199.55} \\]<br>\\[ \\approx \\text{12.3032} \\]<br>The contribution from this cell is <span style='color:var(--orange);font-weight:bold;'>12.3032</span>.</p><p style='margin:8px 0;'><strong>Step 4: Calculate the term for 'Malaria No, In campus'</strong><br>Observed count (O) = 190<br>Expected count (E) = 239.55<br>Substitute the values into the formula for this cell:<br>\\[ \\frac{(O - E)^2}{E} = \\frac{(190 - 239.55)^2}{239.55} \\]<br>\\[ = \\frac{(-49.55)^2}{239.55} \\]<br>\\[ = \\frac{2455.2025}{239.55} \\]<br>\\[ \\approx \\text{10.2492} \\]<br>The contribution from this cell is <span style='color:var(--orange);font-weight:bold;'>10.2492</span>.</p><p style='margin:8px 0;'><strong>Step 5: Calculate the term for 'Malaria No, Off-campus'</strong><br>Observed count (O) = 342<br>Expected count (E) = 292.45<br>Substitute the values into the formula for this cell:<br>\\[ \\frac{(O - E)^2}{E} = \\frac{(342 - 292.45)^2}{292.45} \\]<br>\\[ = \\frac{(49.55)^2}{292.45} \\]<br>\\[ = \\frac{2455.2025}{292.45} \\]<br>\\[ \\approx \\text{8.4098} \\]<br>The contribution from this cell is <span style='color:var(--orange);font-weight:bold;'>8.4098</span>.</p><p style='margin:8px 0;'><strong>Step 6: Sum all the calculated terms</strong><br>Add the contributions from all four cells to find the total Chi-square test statistic:<br>\\[ \\chi^2 = 15.0211 + 12.3032 + 10.2492 + 8.4098 \\]<br>\\[ \\chi^2 \\approx \\text{45.9833} \\]<br>Rounding to two decimal places, the Chi-square test statistic is <span style='color:var(--orange);font-weight:bold;'>45.98</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We re-sum the individual contributions to ensure accuracy:<br>\\( 15.0211 + 12.3032 + 10.2492 + 8.4098 = 45.9833 \\).<br>The sum is consistent, and rounding to two decimal places gives 45.98. &#10003;</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The calculated chi-square test statistic is approximately 45.98.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The calculated chi-square test statistic is approximately 45.98."
+    }
+  }
+]
