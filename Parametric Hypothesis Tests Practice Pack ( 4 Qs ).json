@@ -1,0 +1,252 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Parametric Hypothesis Tests",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The following are assumptions of ANOVA except:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "string",
+          "content": "observations are dependent"
+        },
+        {
+          "type": "string",
+          "content": "Observations are independent"
+        },
+        {
+          "type": "string",
+          "content": "Observations are randomly selected"
+        },
+        {
+          "type": "string",
+          "content": "Homogeneity of variance"
+        }
+      ]
+    },
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Hypothesis Testing Principles",
+      "Parametric Hypothesis Tests",
+      "Experimental Design",
+      "Analysis of Variance (ANOVA)"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Assumptions of Analysis of Variance (ANOVA)</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Analysis of Variance (ANOVA)</em> is a statistical test used to compare the means of three or more groups to determine if there is a statistically significant difference between them. It partitions the total variability in a dataset into different sources of variation. For ANOVA results to be valid and reliable, certain assumptions about the data must be met.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>The question asks to identify which statement is <em>not</em> an assumption of ANOVA from the following options:<br>1. Observations are dependent<br>2. Observations are independent<br>3. Observations are randomly selected<br>4. Homogeneity of variance</div><p style='margin:8px 0;'><strong>Step 1: Understand the purpose of ANOVA</strong><br>ANOVA is a parametric statistical test. This means it makes certain assumptions about the distribution of the data. Its primary use is to test for differences between the means of multiple groups.</p><p style='margin:8px 0;'><strong>Step 2: List the core assumptions of ANOVA</strong><br>The three main assumptions for a valid ANOVA test are:<br>1.  <span style='color:var(--orange);font-weight:bold;'>Independence of observations:</span> Each observation (data point) must be independent of every other observation. This means that the value of one observation does not influence or is not influenced by the value of another observation.<br>2.  <span style='color:var(--orange);font-weight:bold;'>Normality:</span> The residuals (the differences between observed values and group means) should be approximately normally distributed. Alternatively, the populations from which the samples are drawn should be normally distributed.<br>3.  <span style='color:var(--orange);font-weight:bold;'>Homogeneity of variance (Homoscedasticity):</span> The variance of the dependent variable should be approximately equal across all groups being compared.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate each option against the core assumptions</strong><br>Let's examine each given option:<br><br>1.  <strong>\"observations are dependent\"</strong>: This directly contradicts the core assumption of <span style='color:var(--orange);font-weight:bold;'>independence of observations</span>. If observations are dependent, ANOVA results may be invalid.<br>2.  <strong>\"Observations are independent\"</strong>: This is a fundamental assumption of ANOVA, as stated in Step 2.<br>3.  <strong>\"Observations are randomly selected\"</strong>: While not always listed as a core statistical assumption for the mathematical validity of ANOVA itself (like normality or homoscedasticity), random sampling is a crucial aspect of good experimental design. It helps ensure the independence of observations and allows for the generalization of results from the sample to the larger population. Therefore, it is generally considered a practical assumption for a well-conducted ANOVA study.<br>4.  <strong>\"Homogeneity of variance\"</strong>: This is explicitly one of the three core assumptions of ANOVA, as stated in Step 2.</p><p style='margin:8px 0;'><strong>Step 4: Identify the statement that is NOT an assumption</strong><br>Based on the evaluation in Step 3, the statement \"observations are dependent\" is the opposite of a core ANOVA assumption. Therefore, it is the one that is <em>not</em> an assumption of ANOVA.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>ANOVA requires that the observations are independent. If observations are dependent, it violates a fundamental requirement for the statistical test to be valid. The other options (independence, random selection, and homogeneity of variance) are either direct assumptions or crucial practical considerations for a proper ANOVA. Thus, \"observations are dependent\" is indeed the exception.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The statement that is NOT an assumption of ANOVA is \"observations are dependent\".</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "observations are dependent"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "ANOVA (one-way) usually deals with 3 types of variations this includes all except:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Total variance"
+        },
+        {
+          "type": "String",
+          "content": "Between group variance"
+        },
+        {
+          "type": "String",
+          "content": "Within group variance"
+        },
+        {
+          "type": "String",
+          "content": "Roundabout variance"
+        }
+      ]
+    },
+    "topic": [
+      "Analysis of Variance (ANOVA)",
+      "Parametric Hypothesis Tests",
+      "Hypothesis Testing Principles",
+      "Experimental Design"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Analysis of Variance (ANOVA)</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Analysis of Variance (ANOVA)</em> is a statistical test used to compare the means of three or more groups to determine if there is a statistically significant difference between them.<br>One-way ANOVA specifically compares means across a single independent variable (factor) with multiple levels.<br>It partitions the total variability in a dataset into different components to assess the sources of variation.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Question: Identify the type of variation NOT dealt with by one-way ANOVA.<br>Options:<br>1. Total variance<br>2. Between group variance<br>3. Within group variance<br>4. Roundabout variance</div><p style='margin:8px 0;'><strong>Step 1: Understand the purpose of One-Way ANOVA</strong><br>One-Way ANOVA is used to test for differences between the means of three or more independent groups. It does this by analyzing the variance in the data.</p><p style='margin:8px 0;'><strong>Step 2: Identify the primary types of variation in ANOVA</strong><br>ANOVA decomposes the total variation observed in the data into two main components: variation between groups and variation within groups. These are formally known as:<br>1. <strong>Total Sum of Squares (SST):</strong> Represents the total variation of individual data points from the overall mean of all data.<br>2. <strong>Between-Group Sum of Squares (SSB or SS_between):</strong> Represents the variation among the means of the different groups. It measures how much the group means deviate from the overall mean.<br>3. <strong>Within-Group Sum of Squares (SSW or SS_within):</strong> Represents the variation of individual data points within each group from their respective group means. It measures the random error or unexplained variation within each group.</p><p style='margin:8px 0;'><strong>Step 3: Relate Sum of Squares to Variance</strong><br>While ANOVA directly calculates Sum of Squares, these are then used to compute Mean Squares (which are essentially variances) by dividing by their respective degrees of freedom.<br>Thus, ANOVA fundamentally deals with <span style='color:var(--orange);font-weight:bold;'>Total variance</span>, <span style='color:var(--orange);font-weight:bold;'>Between group variance</span>, and <span style='color:var(--orange);font-weight:bold;'>Within group variance</span>.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate the given options</strong><br>The options provided are:<br>a. Total variance<br>b. Between group variance<br>c. Within group variance<br>d. Roundabout variance<br>Based on Step 3, options (a), (b), and (c) are all legitimate types of variation that ANOVA analyzes.</p><p style='margin:8px 0;'><strong>Step 5: Identify the exception</strong><br>The term \"Roundabout variance\" is not a recognized statistical term in the context of ANOVA or any other standard statistical analysis. It does not correspond to any component of variability that ANOVA partitions or measures.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>ANOVA's core principle is to compare the ratio of between-group variance to within-group variance (F-statistic). The total variance is the sum of these two components. Therefore, \"Total variance,\" \"Between group variance,\" and \"Within group variance\" are integral to ANOVA. \"Roundabout variance\" is a distractor term not associated with this statistical method.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The type of variation not dealt with by one-way ANOVA is Roundabout variance.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Roundabout variance"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given the equation TSS (Total sum of squares) = \\( SS_A + SS_E \\), \\( SS_A \\) represents:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "incorporated variance"
+        },
+        {
+          "type": "String",
+          "content": "Explained variance"
+        },
+        {
+          "type": "String",
+          "content": "Unexplained variance"
+        },
+        {
+          "type": "String",
+          "content": "Total normality"
+        }
+      ]
+    },
+    "topic": [
+      "Analysis of Variance (ANOVA)",
+      "Experimental Design",
+      "Hypothesis Testing Principles",
+      "Parametric Hypothesis Tests"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Analysis of Variance (ANOVA) Sum of Squares</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Analysis of Variance (ANOVA)</em> is a statistical method used to test for differences between two or more group means. It works by partitioning the total observed variability in a dataset into different components attributable to various sources.<br><br>The <em>Total Sum of Squares (TSS)</em> measures the total variation of individual data points from the grand mean of all observations.<br>The <em>Sum of Squares for Factor A (\\( SS_A \\))</em>, often called Sum of Squares Between Groups or Sum of Squares Treatment, quantifies the variation between the means of different groups (defined by Factor A) and the grand mean. This component represents the variation that is explained by the experimental treatments or factors.<br>The <em>Sum of Squares for Error (\\( SS_E \\))</em>, also known as Sum of Squares Within Groups or Sum of Squares Residual, measures the variation of individual data points within each group from their respective group means. This variation is considered random, unexplained, or due to individual differences.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Equation: TSS = \\( SS_A + SS_E \\)<br>TSS: Total Sum of Squares<br>\\( SS_A \\): Sum of Squares for Factor A (or Treatment)<br>\\( SS_E \\): Sum of Squares for Error (or Residual)<br>The question asks what \\( SS_A \\) represents in this context.</div><p style='margin:8px 0;'><strong>Step 1: Understand the principle of variance partitioning in ANOVA</strong><br>ANOVA's fundamental concept is to decompose the total variability in a dataset into different sources. This allows us to determine how much of the total variation is due to the experimental factor (the treatment effect) and how much is due to random, unexplained factors (error).</p><p style='margin:8px 0;'><strong>Step 2: Define Total Sum of Squares (TSS)</strong><br>The Total Sum of Squares (TSS) represents the overall variability of all individual observations around the grand mean of the entire dataset. It is the total amount of variation present in the dependent variable.<br>The formula for TSS is:<br>\\[ TSS = \\sum_{i=1}^{N} (Y_i - \\bar{Y}_{grand})^2 \\]<br>where \\( Y_i \\) is each individual observation and \\( \\bar{Y}_{grand} \\) is the grand mean of all observations.</p><p style='margin:8px 0;'><strong>Step 3: Define Sum of Squares for Error (\\( SS_E \\))</strong><br>The Sum of Squares for Error (\\( SS_E \\)), also known as the residual sum of squares or within-group sum of squares, quantifies the variation within each group. This variation is not accounted for by the factor (treatment) and is typically attributed to random error, measurement error, or individual differences among subjects within the same group.<br>The formula for \\( SS_E \\) is:<br>\\[ SS_E = \\sum_{j=1}^{k} \\sum_{i=1}^{n_j} (Y_{ij} - \\bar{Y}_j)^2 \\]<br>where \\( Y_{ij} \\) is the \\( i \\)-th observation in the \\( j \\)-th group, \\( \\bar{Y}_j \\) is the mean of the \\( j \\)-th group, and \\( k \\) is the number of groups.</p><p style='margin:8px 0;'><strong>Step 4: Deduce the meaning of \\( SS_A \\) from the given equation</strong><br>The given fundamental equation in ANOVA is:<br>\\[ TSS = SS_A + SS_E \\]<br>We have established that TSS represents the <span style='color:var(--orange);font-weight:bold;'>total variation</span> in the data, and \\( SS_E \\) represents the <span style='color:var(--orange);font-weight:bold;'>unexplained variation</span> (due to random error or within-group differences).<br>By rearranging the equation, we can see what \\( SS_A \\) must represent:<br>\\[ SS_A = TSS - SS_E \\]<br>This means \\( SS_A \\) is the portion of the total variation that remains after accounting for the unexplained variation. Therefore, \\( SS_A \\) must represent the variation that is <span style='color:var(--orange);font-weight:bold;'>explained by the factor or treatment</span> (Factor A).</p><p style='margin:8px 0;'><strong>Step 5: Conclude what \\( SS_A \\) specifically measures</strong><br>The Sum of Squares for Factor A (\\( SS_A \\)) specifically measures the variability between the means of the different groups and the grand mean. This variation is directly influenced by the different levels of the independent variable (Factor A) and is therefore considered the <span style='color:var(--orange);font-weight:bold;'>explained variance</span>, as it is attributed to the effect of the factor being studied.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>In ANOVA, the total variability (TSS) is conceptually divided into two parts: the variability caused by the experimental treatment or factor (explained variance, \\( SS_A \\)) and the variability due to random chance or other unmeasured factors (unexplained variance, \\( SS_E \\)). The equation \\( TSS = SS_A + SS_E \\) precisely reflects this decomposition. Thus, \\( SS_A \\) must represent the portion of the total variance that is accounted for or 'explained' by the independent variable. This confirms that \\( SS_A \\) represents 'Explained variance'.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\( SS_A \\) represents Explained variance.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Explained variance"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 37 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "What test statistics will you use to analyze the difference between two samples mean (where n is Large samples)?",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Hypothesis Testing Principles",
+      "Parametric Hypothesis Tests",
+      "Sampling and Estimation",
+      "Two-sample Z-test"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Two-Sample Z-Test for Means</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>test statistic</em> is a value calculated from sample data during a hypothesis test. It describes how far your sample result is from the null hypothesis.<br>The <em>Two-sample Z-test</em> is a parametric hypothesis test used to determine if there is a significant difference between the means of two independent populations when the sample sizes are large (typically \\( n > 30 \\)).<br>The <em>Central Limit Theorem (CLT)</em> states that the sampling distribution of the sample mean (or difference between means) approaches a normal distribution as the sample size grows, regardless of the population's distribution.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Analyze the difference between two sample means.<br>Condition: Large samples (n is large).</div><p style='margin:8px 0;'><strong>Step 1: Identify the objective and conditions</strong><br>The objective is to analyze the difference between two sample means. This implies we are comparing two groups or populations.<br>The critical condition given is that the samples are <span style='color:var(--orange);font-weight:bold;'>large</span>. In statistics, 'large' typically refers to a sample size \\( n > 30 \\).</p><p style='margin:8px 0;'><strong>Step 2: Recall appropriate test statistics for comparing means</strong><br>When comparing two means, the primary parametric tests are the Z-test and the t-test.<br><ul><li>The <strong>t-test</strong> is generally used when sample sizes are small (often \\( n \\le 30 \\)) or when the population standard deviation is unknown and the sample standard deviation is used as an estimate, particularly with smaller samples where the sample standard deviation might not be a very good estimate of the population standard deviation.</li><li>The <strong>Z-test</strong> is used when population standard deviations are known, or, crucially, when sample sizes are large.</li></ul></p><p style='margin:8px 0;'><strong>Step 3: Apply the Central Limit Theorem for large samples</strong><br>For large samples, the Central Limit Theorem (CLT) comes into play. The CLT states that the sampling distribution of the sample mean (or the difference between two sample means) will be approximately normally distributed, even if the original population distributions are not normal.<br>Furthermore, for large samples, the sample standard deviation (\\( s \\)) becomes a very good estimate of the population standard deviation (\\( \\sigma \\)). This allows us to use the Z-distribution even if the population standard deviations are unknown, by substituting sample standard deviations for population standard deviations in the Z-test formula.</p><p style='margin:8px 0;'><strong>Step 4: Determine the appropriate test statistic</strong><br>Given that we are analyzing the difference between two sample means and the samples are large, the conditions align perfectly with the application of the Two-sample Z-test.<br>The formula for the Z-statistic for the difference between two sample means is:<br>\\[ Z = \\frac{(\\bar{x}_1 - \\bar{x}_2) - (\\mu_1 - \\mu_2)}{\\sqrt{\\frac{\\sigma_1^2}{n_1} + \\frac{\\sigma_2^2}{n_2}}} \\]<br>Where:<br>\\( \\bar{x}_1, \\bar{x}_2 \\) are the sample means.<br>\\( \\mu_1, \\mu_2 \\) are the population means (often assumed to be equal under the null hypothesis, so \\( \\mu_1 - \\mu_2 = 0 \\)).<br>\\( \\sigma_1^2, \\sigma_2^2 \\) are the population variances.<br>\\( n_1, n_2 \\) are the sample sizes.<br><br>For large samples where population standard deviations are unknown, \\( \\sigma_1 \\) and \\( \\sigma_2 \\) are replaced by their sample estimates \\( s_1 \\) and \\( s_2 \\):<br>\\[ Z = \\frac{(\\bar{x}_1 - \\bar{x}_2) - (\\mu_1 - \\mu_2)}{\\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The question specifically asks for the test statistic for the difference between two sample means when sample sizes are large. The Two-sample Z-test is precisely designed for this scenario, leveraging the Central Limit Theorem to ensure the sampling distribution of the difference in means is approximately normal, even if population standard deviations are unknown and estimated by sample standard deviations. This makes it the most robust and appropriate choice under the given conditions.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The test statistic to use is the Two-sample Z-test.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Two-sample Z-test"
+    }
+  }
+]
