@@ -1,0 +1,169 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Chi-squared Statistics",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2009/2010",
+    "img": null,
+    "table": [
+      [
+        "Age",
+        "Dead",
+        "Recovered",
+        "Total"
+      ],
+      [
+        "Young",
+        "4",
+        "25",
+        "29"
+      ],
+      [
+        "Old",
+        "23",
+        "44",
+        "67"
+      ],
+      [
+        "Total",
+        "27",
+        "69",
+        "96"
+      ]
+    ],
+    "Question": {
+      "content": "The value of \\(x^2\\) calculated is?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "3.22"
+        },
+        {
+          "type": "String",
+          "content": "3.27"
+        },
+        {
+          "type": "String",
+          "content": "4.22"
+        },
+        {
+          "type": "String",
+          "content": "5.72"
+        },
+        {
+          "type": "String",
+          "content": "5.37"
+        }
+      ]
+    },
+    "topic": [
+      "Categorical Data Analysis",
+      "Hypothesis Testing",
+      "Chi-squared Statistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-squared Test for Independence</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-squared (\\(\\chi^2\\)) test for independence</em> is used to determine if there is a statistically significant association between two categorical variables. The question asks for the value of \\(x^2\\), which in this context refers to the calculated chi-squared statistic, \\(\\chi^2_{\\text{calculated}}\\).<br><br>The formula for the chi-squared statistic is:<br>\\[ \\chi^2 = \\sum \\frac{(O - E)^2}{E} \\]<br>where:<br>\\( O \\) = Observed frequency (actual count in each cell)<br>\\( E \\) = Expected frequency (frequency expected if the variables were independent)</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Contingency table showing observed frequencies:<br>| Age   | Dead | Recovered | Total |<br>| :---- | :--- | :-------- | :---- |<br>| Young | 4    | 25        | 29    |<br>| Old   | 23   | 44        | 67    |<br>| Total | 27   | 69        | 96    |<br>Grand Total = 96</div><p style='margin:8px 0;'><strong>Step 1: State the formula for Expected Frequencies (E)</strong><br>The expected frequency for each cell is calculated using the formula:<br>\\[ E = \\frac{\\text{(Row Total)} \\times \\text{(Column Total)}}{\\text{Grand Total}} \\]</p><p style='margin:8px 0;'><strong>Step 2: Calculate Expected Frequencies (E) for each cell</strong><br>We will calculate E for each of the four cells:<br><strong>For Young and Dead:</strong><br>\\( E_{\\text{Young, Dead}} = \\frac{\\text{(Row Total for Young)} \\times \\text{(Column Total for Dead)}}{\\text{Grand Total}} \\)<br>\\( E_{\\text{Young, Dead}} = \\frac{29 \\times 27}{96} \\)<br>\\( E_{\\text{Young, Dead}} = \\frac{783}{96} \\)<br>\\( E_{\\text{Young, Dead}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>8.15625</span><br><br><strong>For Young and Recovered:</strong><br>\\( E_{\\text{Young, Recovered}} = \\frac{\\text{(Row Total for Young)} \\times \\text{(Column Total for Recovered)}}{\\text{Grand Total}} \\)<br>\\( E_{\\text{Young, Recovered}} = \\frac{29 \\times 69}{96} \\)<br>\\( E_{\\text{Young, Recovered}} = \\frac{2001}{96} \\)<br>\\( E_{\\text{Young, Recovered}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>20.84375</span><br><br><strong>For Old and Dead:</strong><br>\\( E_{\\text{Old, Dead}} = \\frac{\\text{(Row Total for Old)} \\times \\text{(Column Total for Dead)}}{\\text{Grand Total}} \\)<br>\\( E_{\\text{Old, Dead}} = \\frac{67 \\times 27}{96} \\)<br>\\( E_{\\text{Old, Dead}} = \\frac{1809}{96} \\)<br>\\( E_{\\text{Old, Dead}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>18.84375</span><br><br><strong>For Old and Recovered:</strong><br>\\( E_{\\text{Old, Recovered}} = \\frac{\\text{(Row Total for Old)} \\times \\text{(Column Total for Recovered)}}{\\text{Grand Total}} \\)<br>\\( E_{\\text{Old, Recovered}} = \\frac{67 \\times 69}{96} \\)<br>\\( E_{\\text{Old, Recovered}} = \\frac{4623}{96} \\)<br>\\( E_{\\text{Old, Recovered}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>48.15625</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the Chi-squared contribution \\(\\frac{(O - E)^2}{E}\\) for each cell</strong><br><strong>For Young and Dead:</strong><br>\\( O = 4 \\)<br>\\( E \\approx 8.15625 \\)<br>\\( (O - E) = 4 - 8.15625 = -4.15625 \\)<br>\\( (O - E)^2 = (-4.15625)^2 \\approx 17.2740625 \\)<br>\\( \\text{Contribution}_{\\text{YD}} = \\frac{17.2740625}{8.15625} \\)<br>\\( \\text{Contribution}_{\\text{YD}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>2.11790</span><br><br><strong>For Young and Recovered:</strong><br>\\( O = 25 \\)<br>\\( E \\approx 20.84375 \\)<br>\\( (O - E) = 25 - 20.84375 = 4.15625 \\)<br>\\( (O - E)^2 = (4.15625)^2 \\approx 17.2740625 \\)<br>\\( \\text{Contribution}_{\\text{YR}} = \\frac{17.2740625}{20.84375} \\)<br>\\( \\text{Contribution}_{\\text{YR}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>0.82873</span><br><br><strong>For Old and Dead:</strong><br>\\( O = 23 \\)<br>\\( E \\approx 18.84375 \\)<br>\\( (O - E) = 23 - 18.84375 = 4.15625 \\)<br>\\( (O - E)^2 = (4.15625)^2 \\approx 17.2740625 \\)<br>\\( \\text{Contribution}_{\\text{OD}} = \\frac{17.2740625}{18.84375} \\)<br>\\( \\text{Contribution}_{\\text{OD}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>0.91670</span><br><br><strong>For Old and Recovered:</strong><br>\\( O = 44 \\)<br>\\( E \\approx 48.15625 \\)<br>\\( (O - E) = 44 - 48.15625 = -4.15625 \\)<br>\\( (O - E)^2 = (-4.15625)^2 \\approx 17.2740625 \\)<br>\\( \\text{Contribution}_{\\text{OR}} = \\frac{17.2740625}{48.15625} \\)<br>\\( \\text{Contribution}_{\\text{OR}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>0.35871</span></p><p style='margin:8px 0;'><strong>Step 4: Sum the contributions to find the total Chi-squared statistic (\\(\\chi^2\\))</strong><br>\\[ \\chi^2 = \\text{Contribution}_{\\text{YD}} + \\text{Contribution}_{\\text{YR}} + \\text{Contribution}_{\\text{OD}} + \\text{Contribution}_{\\text{OR}} \\]<br>\\( \\chi^2 \\approx 2.11790 + 0.82873 + 0.91670 + 0.35871 \\)<br>\\( \\chi^2 \\approx \\) <span style='color:var(--orange);font-weight:bold;'>4.22204</span><br>Rounding to two decimal places, we get <span style='color:var(--orange);font-weight:bold;'>4.22</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The sum of the expected frequencies equals the grand total (96): \\( 8.15625 + 20.84375 + 18.84375 + 48.15625 = 96 \\). This confirms the expected frequencies were calculated correctly. The individual contributions to the chi-squared statistic are all positive, as expected. The final sum of \\( \\approx 4.22 \\) is a reasonable value for a chi-squared statistic in a 2x2 contingency table.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The calculated value of \\(\\chi^2\\) (or \\(x^2\\) as per the question) is 4.22</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4.22"
+    }
+  }
+]
