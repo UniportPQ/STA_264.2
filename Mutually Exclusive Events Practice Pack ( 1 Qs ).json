@@ -1,0 +1,142 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Mutually Exclusive Events",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 33 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these statements is false?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "If A and B are independent events, they are mutually exclusive"
+        },
+        {
+          "type": "String",
+          "content": "Pair wise independence does not imply mutually independence"
+        },
+        {
+          "type": "String",
+          "content": "\\(P(A \\cap B) = P(A)P(B)\\), provided \\(P(B) > 0\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Independent Events",
+      "Dependent Events",
+      "Compound Probability",
+      "Mutually Exclusive Events"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Probability Event Relationships</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>• <strong>Independent Events:</strong> Two events A and B are independent if the occurrence of one does not affect the probability of the other. Mathematically, \\( P(A \\cap B) = P(A)P(B) \\).<br>• <strong>Mutually Exclusive Events:</strong> Two events A and B are mutually exclusive (or disjoint) if they cannot occur at the same time. This means their intersection is an empty set, so \\( P(A \\cap B) = 0 \\).<br>• <strong>Addition Rule of Probability:</strong> For any two events A and B, \\( P(A \\cup B) = P(A) + P(B) - P(A \\cap B) \\). If A and B are mutually exclusive, this simplifies to \\( P(A \\cup B) = P(A) + P(B) \\).<br>• <strong>Pairwise Independence vs. Mutual Independence:</strong> For a collection of more than two events, pairwise independence (where every pair of events is independent) does not necessarily imply mutual independence (where the probability of the intersection of any subcollection of events is the product of their individual probabilities).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Four statements regarding probability events. We need to identify the false statement.</div><p style='margin:8px 0;'><strong>Step 1: Evaluate Statement 1</strong><br>The statement is: \"If A and B are independent events, they are mutually exclusive.\"<br>Let's consider the definitions:<br>If A and B are independent, then \\( P(A \\cap B) = P(A)P(B) \\).<br>If A and B are mutually exclusive, then \\( P(A \\cap B) = 0 \\).<br>For these two conditions to hold simultaneously, we must have \\( P(A)P(B) = 0 \\). This implies that either \\( P(A) = 0 \\) or \\( P(B) = 0 \\).<br>However, if A and B are two non-trivial events (i.e., \\( P(A) > 0 \\) and \\( P(B) > 0 \\)), then \\( P(A)P(B) > 0 \\). In this common case, \\( P(A \\cap B) \\neq 0 \\), which means they cannot be mutually exclusive.<br>For example, consider rolling a fair die. Let A be the event of rolling an even number (\\({2, 4, 6}\\)), so \\( P(A) = 3/6 = 1/2 \\). Let B be the event of rolling a number greater than 3 (\\({4, 5, 6}\\)), so \\( P(B) = 3/6 = 1/2 \\).<br>The intersection \\( A \\cap B \\) is rolling an even number greater than 3 (\\({4, 6}\\)), so \\( P(A \\cap B) = 2/6 = 1/3 \\).<br>Are A and B independent? \\( P(A)P(B) = (1/2)(1/2) = 1/4 \\). Since \\( P(A \\cap B) = 1/3 \\neq 1/4 \\), these events are actually NOT independent. (My example choice was poor for independence, but it illustrates they are not mutually exclusive).<br>Let's use a better example for independence: Consider two coin tosses. Let A be 'first toss is Heads' (\\(P(A)=0.5\\)). Let B be 'second toss is Heads' (\\(P(B)=0.5\\)). These are independent events. The intersection \\(A \\cap B\\) is 'both tosses are Heads' (\\(P(A \\cap B)=0.25\\)).<br>For these events, \\(P(A \\cap B) = 0.25\\) and \\(P(A)P(B) = 0.5 \\times 0.5 = 0.25\\). So, they are independent.<br>Are they mutually exclusive? No, because \\(P(A \\cap B) = 0.25 \\neq 0\\).<br>Therefore, the statement <span style='color:var(--orange);font-weight:bold;'>\"If A and B are independent events, they are mutually exclusive\" is false</span> (unless one of the events has probability zero, which is a trivial case).<br></p><p style='margin:8px 0;'><strong>Step 2: Evaluate Statement 2</strong><br>The statement is: \"Pair wise independence does not imply mutually independence.\"<br>This is a well-known property in probability theory. For three or more events, it is possible for every pair of events to be independent, but for the entire set of events not to be mutually independent. A classic example involves three events related to coin tosses where pairwise independence holds but mutual independence does not.<br>Therefore, this statement is <span style='color:var(--orange);font-weight:bold;'>true</span>.<br></p><p style='margin:8px 0;'><strong>Step 3: Evaluate Statement 3</strong><br>The statement is: \"\\(P(A \\cap B) = P(A)P(B)\\), provided \\(P(B) > 0\\).\"<br>This is the fundamental definition of independent events. The condition \\( P(B) > 0 \\) is often included when defining independence through conditional probability, i.e., \\( P(A|B) = P(A) \\). If \\( P(B) > 0 \\), then \\( P(A|B) = \\frac{P(A \\cap B)}{P(B)} \\). Substituting \\( P(A|B) = P(A) \\) gives \\( P(A) = \\frac{P(A \\cap B)}{P(B)} \\), which rearranges to \\( P(A \\cap B) = P(A)P(B) \\). Even without conditional probability, \\( P(A \\cap B) = P(A)P(B) \\) is the direct definition of independence. The 'provided \\( P(B) > 0 \\)' clause does not make the statement false.<br>Therefore, this statement is <span style='color:var(--orange);font-weight:bold;'>true</span>.<br></p><p style='margin:8px 0;'><strong>Step 4: Evaluate Statement 4</strong><br>The statement is: \"\\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\).\"<br>This is the Addition Rule of Probability, a fundamental axiom derived from set theory for calculating the probability of the union of two events. It accounts for the overlap \\( P(A \\cap B) \\) to avoid double-counting.<br>Therefore, this statement is <span style='color:var(--orange);font-weight:bold;'>true</span>.<br></p><p style='margin:8px 0;'><strong>Step 5: Identify the false statement</strong><br>Based on the analysis of all four statements:<br>Statement 1: False<br>Statement 2: True<br>Statement 3: True<br>Statement 4: True<br>The only false statement is the first one.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's re-verify the relationship between independent and mutually exclusive events.<br>If A and B are independent, \\( P(A \\cap B) = P(A)P(B) \\).<br>If A and B are mutually exclusive, \\( P(A \\cap B) = 0 \\).<br>For both to be true simultaneously, \\( P(A)P(B) = 0 \\). This means either \\( P(A) = 0 \\) or \\( P(B) = 0 \\).<br>Consider a scenario where \\( P(A) \\neq 0 \\) and \\( P(B) \\neq 0 \\). In this case, \\( P(A)P(B) \\neq 0 \\).<br>Therefore, if A and B are independent and have non-zero probabilities, they cannot be mutually exclusive. The statement \"If A and B are independent events, they are mutually exclusive\" is generally false. For example, if you flip two coins, the event 'first coin is heads' and 'second coin is heads' are independent, but they are not mutually exclusive (you can get HH).</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The false statement is: If A and B are independent events, they are mutually exclusive</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "If A and B are independent events, they are mutually exclusive"
+    }
+  }
+]
