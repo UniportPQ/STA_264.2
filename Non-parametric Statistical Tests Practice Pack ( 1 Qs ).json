@@ -1,0 +1,140 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Non-parametric Statistical Tests",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 25 @ 2010/2011",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these is the correct formula for the chi-square test statistic?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - E_{ij})^2}{E_{ij}}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(E_{ij} - O_{ij})^2}{E_{ij}}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - O_{ij})^2}{E_{ij}}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\chi^2 = \\sum_{i=1}^{r} \\frac{(O_i - E_i)^2}{E_i^2}\\\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Hypothesis Testing",
+      "Non-parametric Statistical Tests",
+      "Categorical Data Analysis"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-Square Test Statistic</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>chi-square test statistic</em> (\\( \\chi^2 \\)) is a non-parametric statistic used to test hypotheses about the distribution of categorical variables. It quantifies the discrepancy between observed frequencies and frequencies that would be expected under a null hypothesis. It is commonly used for goodness-of-fit tests and tests of independence.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>The question asks for the correct formula for the chi-square test statistic.<br>Symbols used in the formulas:<br>\\( O_{ij} \\): Observed frequency in cell (i, j)<br>\\( E_{ij} \\): Expected frequency in cell (i, j)<br>\\( r \\): Number of rows<br>\\( c \\): Number of columns<br>\\( \\sum \\): Summation symbol</div><p style='margin:8px 0;'><strong>Step 1: Understand the purpose of the Chi-Square test statistic</strong><br>The chi-square test statistic measures how much the observed counts in various categories deviate from the counts that would be expected if the null hypothesis were true. A larger value of \\( \\chi^2 \\) indicates a greater discrepancy between observed and expected frequencies, suggesting evidence against the null hypothesis.</p><p style='margin:8px 0;'><strong>Step 2: Identify the core components of the chi-square formula</strong><br>The formula is based on the difference between observed (\\( O \\)) and expected (\\( E \\)) frequencies. This difference is squared to ensure positive values and to penalize larger deviations more heavily. The squared difference is then divided by the expected frequency (\\( E \\)) to normalize the contribution of each cell, making it a relative measure of deviation. Finally, these values are summed across all categories or cells.</p><p style='margin:8px 0;'><strong>Step 3: State the general form of the chi-square test statistic formula</strong><br>The general form for the chi-square test statistic, particularly for tests of independence or goodness-of-fit in a contingency table, is:<br>\\[ \\chi^2 = \\sum \\frac{(O - E)^2}{E} \\]<br>where the summation is performed over all relevant cells or categories.</p><p style='margin:8px 0;'><strong>Step 4: Apply to a contingency table with specific notation</strong><br>When dealing with a contingency table with \\( r \\) rows and \\( c \\) columns, the summation needs to cover all cells (i, j). Thus, the formula includes a double summation:<br>\\[ \\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - E_{ij})^2}{E_{ij}} \\]<br>This formula calculates the sum of the squared differences between observed and expected frequencies, divided by the expected frequencies, for every cell in the table.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate the given options against the correct formula</strong><br>Let's examine each option:<br>• &nbsp;Option A: \\( \\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - E_{ij})^2}{E_{ij}} \\)<br>This matches the standard and correct formula for the chi-square test statistic.<br><br>• &nbsp;Option B: \\( \\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(E_{ij} - O_{ij})^2}{E_{ij}} \\)<br>While \\( (E_{ij} - O_{ij})^2 \\) is mathematically equivalent to \\( (O_{ij} - E_{ij})^2 \\) due to squaring, the conventional and most commonly cited form places \\( O_{ij} \\) first. However, it would yield the same numerical result.<br><br>• &nbsp;Option C: \\( \\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - O_{ij})^2}{E_{ij}} \\)<br>This simplifies to \\( \\sum \\frac{(0)^2}{E_{ij}} = 0 \\), which is incorrect as it implies no deviation always.<br><br>• &nbsp;Option D: \\( \\chi^2 = \\sum_{i=1}^{r} \\frac{(O_i - E_i)^2}{E_i^2} \\)<br>This formula uses a single summation, which might be applicable for a goodness-of-fit test with a single row of categories, but the denominator is \\( E_i^2 \\) instead of \\( E_i \\), which is incorrect for the chi-square statistic.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The widely accepted and standard formula for the chi-square test statistic is given by option A. The numerator \\( (O_{ij} - E_{ij})^2 \\) ensures that positive and negative deviations contribute equally and are squared to prevent cancellation. The denominator \\( E_{ij} \\) normalizes the squared difference, giving less weight to deviations in categories with very large expected frequencies and more weight to deviations in categories with small expected frequencies. This makes the statistic interpretable across different sample sizes and distributions. Option A correctly represents this statistical measure.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correct formula is given by option A.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A"
+    }
+  }
+]
