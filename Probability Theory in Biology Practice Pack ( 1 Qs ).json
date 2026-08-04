@@ -1,0 +1,140 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Probability Theory in Biology",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2023/2024",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "One of these is not a discrete distribution:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Poisson distribution"
+        },
+        {
+          "type": "String",
+          "content": "Normal distribution"
+        },
+        {
+          "type": "String",
+          "content": "Bernoulli distribution"
+        },
+        {
+          "type": "String",
+          "content": "Binomial distribution"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory in Biology",
+      "Probability Distributions",
+      "Discrete and Continuous Distributions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Discrete and Continuous Probability Distributions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>random variable</em> is a variable whose value is a numerical outcome of a random phenomenon.<br><br>A <em>discrete random variable</em> can take on a finite or countably infinite number of distinct values. Its probability distribution is called a <em>discrete probability distribution</em>.<br><br>A <em>continuous random variable</em> can take on any value within a given range. Its probability distribution is called a <em>continuous probability distribution</em>.<br><br>The <strong>Poisson distribution</strong> models the number of events occurring in a fixed interval of time or space, given a constant average rate.<br>The <strong>Normal distribution</strong> (or Gaussian distribution) is a symmetric, bell-shaped distribution that describes many natural phenomena, where values cluster around the mean.<br>The <strong>Bernoulli distribution</strong> models a single trial with two possible outcomes (success/failure), each with a fixed probability.<br>The <strong>Binomial distribution</strong> models the number of successes in a fixed number of independent Bernoulli trials.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A list of probability distributions:<br>1. Poisson distribution<br>2. Normal distribution<br>3. Bernoulli distribution<br>4. Binomial distribution<br><br><strong>Task:</strong> Identify which one is NOT a discrete distribution.</div><p style='margin:8px 0;'><strong>Step 1: Define Discrete Probability Distributions</strong><br>A discrete probability distribution describes the probability of occurrence of each value of a discrete random variable. A discrete random variable can only take on a finite or countably infinite number of distinct values, often integers. Examples include counts of events or outcomes of coin flips.</p><p style='margin:8px 0;'><strong>Step 2: Define Continuous Probability Distributions</strong><br>A continuous probability distribution describes the probabilities of a continuous random variable. A continuous random variable can take any value within a specified range. These distributions are characterized by probability density functions (PDFs), and probabilities are calculated over intervals, not for single points. Examples include measurements of height, weight, or time.</p><p style='margin:8px 0;'><strong>Step 3a: Analyze Poisson Distribution</strong><br>The Poisson distribution models the number of events occurring in a fixed interval of time or space. The number of events must be a whole number (0, 1, 2, 3, ...). Since the outcomes are countable and distinct integers, the Poisson distribution is a <span style='color:var(--orange);font-weight:bold;'>discrete probability distribution</span>.</p><p style='margin:8px 0;'><strong>Step 3b: Analyze Normal Distribution</strong><br>The Normal distribution, also known as the Gaussian distribution, is used for continuous random variables. Its values can take any real number within a range (theoretically from \\( -\\\\infty \\) to \\( +\\\\infty \\)). It is characterized by its mean (\\( \\\\mu \\)) and standard deviation (\\( \\\\sigma \\)). Since it deals with values that can be measured on a continuous scale, the Normal distribution is a <span style='color:var(--orange);font-weight:bold;'>continuous probability distribution</span>.</p><p style='margin:8px 0;'><strong>Step 3c: Analyze Bernoulli Distribution</strong><br>The Bernoulli distribution describes a single experiment with only two possible outcomes: success (usually coded as 1) or failure (usually coded as 0). These outcomes are distinct and countable. Therefore, the Bernoulli distribution is a <span style='color:var(--orange);font-weight:bold;'>discrete probability distribution</span>.</p><p style='margin:8px 0;'><strong>Step 3d: Analyze Binomial Distribution</strong><br>The Binomial distribution models the number of successes in a fixed number of independent Bernoulli trials. The number of successes can only be whole numbers (0, 1, 2, ..., n, where n is the number of trials). Since the outcomes are countable and distinct integers, the Binomial distribution is a <span style='color:var(--orange);font-weight:bold;'>discrete probability distribution</span>.</p><p style='margin:8px 0;'><strong>Step 4: Identify the distribution that is not discrete</strong><br>Based on the analysis:<br>- Poisson distribution: Discrete<br>- Normal distribution: Continuous<br>- Bernoulli distribution: Discrete<br>- Binomial distribution: Discrete<br><br>The distribution that is not discrete is the <span style='color:var(--orange);font-weight:bold;'>Normal distribution</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Discrete distributions deal with countable outcomes (e.g., number of heads in coin flips, number of defects). Poisson, Bernoulli, and Binomial distributions all fit this description, as their random variables take on integer values.<br>Continuous distributions deal with measurable outcomes that can take any value within a range (e.g., height, weight, temperature). The Normal distribution is the quintessential example of a continuous distribution, defined over the entire real number line. Thus, the Normal distribution is indeed the one that is not discrete. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Normal distribution is not a discrete distribution.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Normal distribution"
+    }
+  }
+]
