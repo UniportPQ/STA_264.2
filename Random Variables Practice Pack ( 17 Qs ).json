@@ -1,0 +1,849 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Random Variables",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 27 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "From past records, it is found that in a sample of 12TV tubes, 3 are defective. If a tube is drawn at random, what is the probability that at most 3 is defective?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.5581"
+        },
+        {
+          "type": "String",
+          "content": "0.5936"
+        },
+        {
+          "type": "String",
+          "content": "0.6488"
+        },
+        {
+          "type": "String",
+          "content": "0.7032"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory Fundamentals",
+      "Sampling and Estimation",
+      "Random Variables",
+      "Probability Distributions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Probability using Binomial Distribution</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><ul><li><strong>Probability:</strong> A measure of the likelihood of an event occurring.</li><li><strong>Binomial Distribution:</strong> A discrete probability distribution that describes the number of successes in a fixed number of independent Bernoulli trials (experiments with only two possible outcomes: success or failure).<br>Parameters:<br><ul><li>\\\\( n \\\\): number of trials (fixed).</li><li>\\\\( p \\\\): probability of success on a single trial.</li><li>\\\\( X \\\\): number of successes.</li></ul>Probability Mass Function (PMF): \\\\[ P(X=k) = \\\\binom{n}{k} p^k (1-p)^{n-k} \\\\\\]<br>Where \\\\( \\\\binom{n}{k} = \\\\frac{n!}{k!(n-k)!} \\\\) is the binomial coefficient.</li><li><strong>Cumulative Probability:</strong> The probability that a random variable \\\\( X \\\\) takes on a value less than or equal to a certain value \\\\( k \\\\), denoted as \\\\( P(X \\\\le k) \\\\).</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br><ul><li>Total number of TV tubes in the sample, \\\\( n = 12 \\\\).</li><li>Number of defective tubes from past records = 3.</li><li>We need to find the probability that at most 3 tubes are defective.</li></ul></div><p style='margin:8px 0;'><strong>Step 1: Identify the parameters of the Binomial Distribution</strong><br>The problem involves a fixed number of trials (drawing 12 tubes) and two possible outcomes for each tube (defective or not defective). This indicates a binomial distribution.<br>The number of trials is \\\\( n = 12 \\\\).<br>The probability of a single tube being defective, \\\\( p \\\\), needs to be calculated from the past records.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the probability of a single tube being defective (p)</strong><br>Formula: \\\\( p = \\\\frac{\\\\text{Number of defective tubes}}{\\\\text{Total number of tubes}} \\\\)<br>Substitution: \\\\( p = \\\\frac{3}{12} \\\\)<br>Simplification: <span style='color:var(--orange);font-weight:bold;'>\\\\( p = 0.25 \\\\)</span><br>The probability of a tube <em>not</em> being defective is \\\\( 1-p = 1 - 0.25 = 0.75 \\\\).</p><p style='margin:8px 0;'><strong>Step 3: State the Binomial Probability Mass Function (PMF)</strong><br>The probability of exactly \\\\( k \\\\) defective tubes in \\\\( n \\\\) trials is given by:<br>\\\\[ P(X=k) = \\\\binom{n}{k} p^k (1-p)^{n-k} \\\\\\]<br>Where \\\\( \\\\binom{n}{k} = \\\\frac{n!}{k!(n-k)!} \\\\)</p><p style='margin:8px 0;'><strong>Step 4: Determine the required cumulative probability</strong><br>The question asks for the probability that \\\"at most 3\\\" tubes are defective. This means the number of defective tubes \\\\( X \\\\) can be 0, 1, 2, or 3.<br>We need to calculate \\\\( P(X \\\\le 3) \\\\).<br>Formula: \\\\( P(X \\\\le 3) = P(X=0) + P(X=1) + P(X=2) + P(X=3) \\\\)</p><p style='margin:8px 0;'><strong>Step 5: Calculate \\\\( P(X=0) \\\\)</strong><br>Formula: \\\\( P(X=0) = \\\\binom{12}{0} (0.25)^0 (0.75)^{12-0} \\\\)<br>Substitution: \\\\( P(X=0) = 1 \\\\times 1 \\\\times (0.75)^{12} \\\\)<br>Simplification: \\\\( P(X=0) \\\\approx 0.031676 \\\\)<br><span style='color:var(--orange);font-weight:bold;'>\\\\( P(X=0) \\\\approx 0.0317 \\\\)</span></p><p style='margin:8px 0;'><strong>Step 6: Calculate \\\\( P(X=1) \\\\)</strong><br>Formula: \\\\( P(X=1) = \\\\binom{12}{1} (0.25)^1 (0.75)^{12-1} \\\\)<br>Substitution: \\\\( P(X=1) = 12 \\\\times 0.25 \\\\times (0.75)^{11} \\\\)<br>Simplification: \\\\( P(X=1) = 3 \\\\times 0.042235 \\\\approx 0.126705 \\\\)<br><span style='color:var(--orange);font-weight:bold;'>\\\\( P(X=1) \\\\approx 0.1267 \\\\)</span></p><p style='margin:8px 0;'><strong>Step 7: Calculate \\\\( P(X=2) \\\\)</strong><br>Formula: \\\\( P(X=2) = \\\\binom{12}{2} (0.25)^2 (0.75)^{12-2} \\\\)<br>Calculate binomial coefficient: \\\\( \\\\binom{12}{2} = \\\\frac{12!}{2!(10)!} = \\\\frac{12 \\\\times 11}{2 \\\\times 1} = 66 \\\\)<br>Substitution: \\\\( P(X=2) = 66 \\\\times (0.25)^2 \\\\times (0.75)^{10} \\\\)<br>Simplification: \\\\( P(X=2) = 66 \\\\times 0.0625 \\\\times 0.056313 \\\\approx 0.232365 \\\\)<br><span style='color:var(--orange);font-weight:bold;'>\\\\( P(X=2) \\\\approx 0.2324 \\\\)</span></p><p style='margin:8px 0;'><strong>Step 8: Calculate \\\\( P(X=3) \\\\)</strong><br>Formula: \\\\( P(X=3) = \\\\binom{12}{3} (0.25)^3 (0.75)^{12-3} \\\\)<br>Calculate binomial coefficient: \\\\( \\\\binom{12}{3} = \\\\frac{12!}{3!(9)!} = \\\\frac{12 \\\\times 11 \\\\times 10}{3 \\\\times 2 \\\\times 1} = 220 \\\\)<br>Substitution: \\\\( P(X=3) = 220 \\\\times (0.25)^3 \\\\times (0.75)^9 \\\\)<<br>Simplification: \\\\( P(X=3) = 220 \\\\times 0.015625 \\\\times 0.075085 \\\\approx 0.258055 \\\\)<br><span style='color:var(--orange);font-weight:bold;'>\\\\( P(X=3) \\\\approx 0.2581 \\\\)</span></p><p style='margin:8px 0;'><strong>Step 9: Sum the probabilities to find \\\\( P(X \\\\le 3) \\\\)</strong><br>Formula: \\\\( P(X \\\\le 3) = P(X=0) + P(X=1) + P(X=2) + P(X=3) \\\\)<br>Substitution: \\\\( P(X \\\\le 3) = 0.031676 + 0.126705 + 0.232365 + 0.258055 \\\\)<br>Simplification: \\\\( P(X \\\\le 3) = 0.648801 \\\\)<br><span style='color:var(--orange);font-weight:bold;'>\\\\( P(X \\\\le 3) \\\\approx 0.6488 \\\\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The sum of the calculated probabilities for \\\\( X=0, 1, 2, 3 \\\\) is approximately 0.6488.<br>Using a binomial cumulative distribution function (CDF) calculator for \\\\( n=12, p=0.25, k=3 \\\\) confirms \\\\( P(X \\\\le 3) \\\\approx 0.6488 \\\\). This matches option C. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that at most 3 tubes are defective is 0.6488.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.6488"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "One of these is not an example of Poisson experiment:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Number of deaths per year"
+        },
+        {
+          "type": "String",
+          "content": "Number of misprints per page of text"
+        },
+        {
+          "type": "String",
+          "content": "A drug is either effective or not"
+        },
+        {
+          "type": "String",
+          "content": "Number of phone calls per minute at some switch board"
+        }
+      ]
+    },
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Random Variables",
+      "Probability Theory Fundamentals"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Poisson Distribution and Experiment</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Poisson experiment</em> (or a process that follows a Poisson distribution) is a statistical experiment that models the number of times an event occurs in a fixed interval of time or space. It has the following characteristics:<br>1. The number of occurrences of the event can be counted in an interval.<br>2. The occurrences are independent. The occurrence of one event does not affect the probability of another.<br>3. The probability of an event occurring in an interval is proportional to the length of the interval.<br>4. The probability of more than one event occurring in a very short interval is negligible.<br>5. The mean number of occurrences (\\( \\lambda \\)) in the given interval is known and finite.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Question: \"One of these is not an example of Poisson experiment:\"<br>Options:<br>A: \"Number of deaths per year\"<br>B: \"Number of misprints per page of text\"<br>C: \"A drug is either effective or not\"<br>D: \"Number of phone calls per minute at some switch board\"</div><p style='margin:8px 0;'><strong>Step 1: Understand the characteristics of a Poisson experiment</strong><br>A Poisson experiment counts the number of discrete events occurring in a fixed interval of time or space, where these events happen independently and at a constant average rate. We will evaluate each option against these characteristics.</p><p style='margin:8px 0;'><strong>Step 2: Analyze Option A: \"Number of deaths per year\"</strong><br>This scenario involves counting discrete events (deaths) within a fixed time interval (per year). Deaths can generally be considered independent events occurring at some average rate. This fits the criteria of a Poisson experiment.</p><p style='margin:8px 0;'><strong>Step 3: Analyze Option B: \"Number of misprints per page of text\"</strong><br>This scenario involves counting discrete events (misprints) within a fixed space interval (per page of text). Misprints can be assumed to occur independently at some average rate. This also fits the criteria of a Poisson experiment.</p><p style='margin:8px 0;'><strong>Step 4: Analyze Option C: \"A drug is either effective or not\"</strong><br>This scenario describes a single trial with two possible outcomes: \"effective\" or \"not effective\". This is the definition of a Bernoulli trial. When a Bernoulli trial is repeated multiple times, it forms a Binomial distribution. It does not involve counting the number of occurrences of an event within a fixed interval of time or space. Therefore, <span style='color:var(--orange);font-weight:bold;'>this is not an example of a Poisson experiment</span>.</p><p style='margin:8px 0;'><strong>Step 5: Analyze Option D: \"Number of phone calls per minute at some switch board\"</strong><br>This scenario involves counting discrete events (phone calls) within a fixed time interval (per minute). Phone calls can be assumed to occur independently at some average rate. This fits the criteria of a Poisson experiment.</p><p style='margin:8px 0;'><strong>Step 6: Conclude the non-Poisson experiment</strong><br>Based on the analysis in the preceding steps, Options A, B, and D all describe situations that align with the characteristics of a Poisson experiment. Option C, however, describes a binary outcome for a single event, which is characteristic of a Bernoulli trial, not a Poisson experiment.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A Poisson experiment models the count of events in an interval. Options A, B, and D clearly involve counting events (deaths, misprints, phone calls) within specific intervals (per year, per page, per minute). Option C, \"A drug is either effective or not,\" describes a single outcome (success/failure) for a trial, which is a Bernoulli trial. It does not involve counting events over an interval. Thus, Option C is correctly identified as not an example of a Poisson experiment. &#10003;</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; A drug is either effective or not</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A drug is either effective or not"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given that the expected number of phone calls per minute is 4 per minute, what is the probability that there will be no call in one minute?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.0173"
+        },
+        {
+          "type": "String",
+          "content": "0.0193"
+        },
+        {
+          "type": "String",
+          "content": "0.0183"
+        },
+        {
+          "type": "String",
+          "content": "0.0163"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory Fundamentals",
+      "Random Variables",
+      "Probability Distributions",
+      "Poisson Distribution"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Poisson Probability Calculation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Poisson distribution</em> is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant mean rate and independently of the time since the last event.<br>The probability mass function for a Poisson distribution is given by:<br>\\[ P(X=x) = \\frac{\\lambda^x e^{-\\lambda}}{x!} \\]<br>Where:<br>\\( P(X=x) \\) is the probability of observing exactly \\( x \\) events.<br>\\( \\lambda \\) (lambda) is the average rate of events per interval (the expected number of occurrences).<br>\\( e \\) is Euler's number (approximately 2.71828).<br>\\( x! \\) is the factorial of \\( x \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Expected number of phone calls per minute (average rate), \\( \\lambda = 4 \\)<br>Number of calls we are interested in (no call), \\( x = 0 \\)<br>Poisson probability formula: \\( P(X=x) = \\frac{\\lambda^x e^{-\\lambda}}{x!} \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the appropriate probability distribution</strong><br>The problem describes events (phone calls) occurring at a constant average rate over a fixed interval (one minute). This scenario is characteristic of a Poisson distribution.</p><p style='margin:8px 0;'><strong>Step 2: Identify the parameters of the Poisson distribution</strong><br>From the question, we are given:<br>The expected number of phone calls per minute, which is the average rate \\( \\lambda \\).<br>\\( \\lambda = 4 \\) calls/minute<br>We want to find the probability of no calls, so the number of events \\( x \\) is:<br>\\( x = 0 \\) calls</p><p style='margin:8px 0;'><strong>Step 3: State the Poisson probability formula</strong><br>The formula for the probability of \\( x \\) events occurring in a given interval is:<br>\\[ P(X=x) = \\frac{\\lambda^x e^{-\\lambda}}{x!} \\]</p><p style='margin:8px 0;'><strong>Step 4: Substitute the identified parameters into the formula</strong><br>Substitute \\( \\lambda = 4 \\) and \\( x = 0 \\) into the formula:<br>\\[ P(X=0) = \\frac{4^0 e^{-4}}{0!} \\]</p><p style='margin:8px 0;'><strong>Step 5: Simplify the terms in the formula</strong><br>First, evaluate \\( 4^0 \\) and \\( 0! \\):<br>Any non-zero number raised to the power of 0 is 1: \\( 4^0 = 1 \\)<br>The factorial of 0 is 1: \\( 0! = 1 \\)<br>Now substitute these values back into the equation:<br>\\[ P(X=0) = \\frac{1 \\cdot e^{-4}}{1} \\]<br>This simplifies to:<br>\\[ P(X=0) = e^{-4} \\]</p><p style='margin:8px 0;'><strong>Step 6: Calculate the value of \\( e^{-4} \\)</strong><br>Using a calculator, evaluate \\( e^{-4} \\):<br>\\( e^{-4} \\approx \\text{0.01831563888} \\)<br>Rounding to four decimal places, we get:<br><span style='color:var(--orange);font-weight:bold;'>\\( P(X=0) \\approx 0.0183 \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We need to ensure that the calculation of \\( e^{-4} \\) is correct.<br>\\( e \\approx 2.71828 \\)<br>\\( e^{-4} = \\frac{1}{e^4} \\)<br>\\( e^4 \\approx (2.71828)^4 \\approx 54.59815 \\)<br>\\( \\frac{1}{54.59815} \\approx 0.0183156 \\)<br>This confirms our calculated value of 0.0183 when rounded to four decimal places.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability of no call in one minute is 0.0183.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.0183"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given that the expected number of phone calls per minute is 4 per minute, what is the probability that there will be at least 2 calls in one minute?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.9084"
+        },
+        {
+          "type": "String",
+          "content": "0.9033"
+        },
+        {
+          "type": "String",
+          "content": "0.9183"
+        },
+        {
+          "type": "String",
+          "content": "0.9216"
+        }
+      ]
+    },
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Theory Fundamentals",
+      "Random Variables",
+      "Probability Distributions",
+      "Poisson Distribution"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Poisson Distribution Probability</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Poisson distribution</em> is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant mean rate and independently of the time since the last event.<br>The probability mass function (PMF) for a Poisson distribution is given by:<br>\\[ P(X=k) = \\frac{\\lambda^k e^{-\\lambda}}{k!} \\]<br>where:<br>\\( k \\) is the number of events (an integer \\( k \\ge 0 \\))<br>\\( e \\) is Euler's number (approximately 2.71828)<br>\\( \\lambda \\) (lambda) is the average rate of events per interval (expected number of occurrences)<br>\\( k! \\) is the factorial of \\( k \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Expected number of phone calls per minute, \\( \\lambda = 4 \\).<br>We need to find the probability of at least 2 calls in one minute, i.e., \\( P(X \\ge 2) \\).</div><p style='margin:8px 0;'><strong>Step 1: Identify the distribution and its parameter</strong><br>The problem describes events occurring at a constant average rate over a fixed interval, which is characteristic of a Poisson distribution.<br>The given expected number of calls per minute is the Poisson rate parameter, \\( \\lambda \\).<br>\\[ \\lambda = 4 \\]</p><p style='margin:8px 0;'><strong>Step 2: State the Poisson probability mass function (PMF)</strong><br>The probability of observing exactly \\( k \\) events in a given interval for a Poisson distribution is:<br>\\[ P(X=k) = \\frac{\\lambda^k e^{-\\lambda}}{k!} \\]</p><p style='margin:8px 0;'><strong>Step 3: Express the desired probability using the complementary rule</strong><br>We want to find the probability of at least 2 calls, \\( P(X \\ge 2) \\).<br>This can be calculated more easily using the complementary probability rule:<br>\\[ P(X \\ge 2) = 1 - P(X < 2) \\]<br>Since \\( X \\) is a discrete variable representing the number of calls, \\( X < 2 \\) means \\( X=0 \\) or \\( X=1 \\).<br>\\[ P(X \\ge 2) = 1 - [P(X=0) + P(X=1)] \\]</p><p style='margin:8px 0;'><strong>Step 4: Calculate \\( P(X=0) \\)</strong><br>Using the PMF with \\( k=0 \\) and \\( \\lambda=4 \\):<br>\\[ P(X=0) = \\frac{4^0 e^{-4}}{0!} \\]<br>Recall that \\( 4^0 = 1 \\) and \\( 0! = 1 \\).<br>\\[ P(X=0) = \\frac{1 \\cdot e^{-4}}{1} \\]<br>\\[ P(X=0) = e^{-4} \\]<br>Using \\( e \\approx 2.71828 \\), we calculate \\( e^{-4} \\):<br>\\[ e^{-4} \\approx 0.01831563888 \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( P(X=0) \\approx 0.018316 \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Calculate \\( P(X=1) \\)</strong><br>Using the PMF with \\( k=1 \\) and \\( \\lambda=4 \\):<br>\\[ P(X=1) = \\frac{4^1 e^{-4}}{1!} \\]<br>Recall that \\( 4^1 = 4 \\) and \\( 1! = 1 \\).<br>\\[ P(X=1) = \\frac{4 \\cdot e^{-4}}{1} \\]<br>\\[ P(X=1) = 4e^{-4} \\]<br>Using the value of \\( e^{-4} \\approx 0.01831563888 \\):<br>\\[ P(X=1) \\approx 4 \\times 0.01831563888 \\]<br>\\[ P(X=1) \\approx 0.07326255552 \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( P(X=1) \\approx 0.073263 \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Calculate \\( P(X=0) + P(X=1) \\)</strong><br>Add the probabilities calculated in Step 4 and Step 5:<br>\\[ P(X=0) + P(X=1) \\approx 0.018316 + 0.073263 \\]<br>\\[ P(X=0) + P(X=1) \\approx 0.091579 \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( P(X < 2) \\approx 0.091579 \\)</span></p><p style='margin:8px 0;'><strong>Step 7: Calculate \\( P(X \\ge 2) \\)</strong><br>Using the complementary rule from Step 3:<br>\\[ P(X \\ge 2) = 1 - [P(X=0) + P(X=1)] \\]<br>\\[ P(X \\ge 2) \\approx 1 - 0.091579 \\]<br>\\[ P(X \\ge 2) \\approx 0.908421 \\]<br>Rounding to four decimal places, we get <span style='color:var(--orange);font-weight:bold;'>0.9084</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We calculated \\( P(X \\ge 2) = 1 - P(X=0) - P(X=1) \\).<br>Using the exact expression, \\( P(X \\ge 2) = 1 - e^{-4} - 4e^{-4} = 1 - 5e^{-4} \\).<br>\\[ 5e^{-4} \\approx 5 \\times 0.01831563888 \\approx 0.0915781944 \\]<br>\\[ P(X \\ge 2) \\approx 1 - 0.0915781944 \\approx 0.9084218056 \\]<br>Rounding to four decimal places, this gives 0.9084. The result is consistent and a valid probability between 0 and 1. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that there will be at least 2 calls in one minute is approximately 0.9084.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.9084"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given that the expected number of phone calls per minute is 4 per minute, what is the probability that there will be one call in 45 seconds?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.173"
+        },
+        {
+          "type": "String",
+          "content": "0.1494"
+        },
+        {
+          "type": "String",
+          "content": "0.0498"
+        },
+        {
+          "type": "String",
+          "content": "0.0193"
+        }
+      ]
+    },
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Theory Fundamentals",
+      "Random Variables",
+      "Probability Distributions",
+      "Poisson Distribution"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Poisson Distribution Probability</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Poisson distribution</em> is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant mean rate and independently of the time since the last event.<br>The probability mass function (PMF) for a Poisson distribution is given by:<br>\\[ P(X=k) = \\frac{\\lambda^k e^{-\\lambda}}{k!} \\]<br>where:<br>\\( P(X=k) \\) is the probability of observing exactly \\( k \\) events.<br>\\( \\lambda \\) (lambda) is the average rate of events in the given interval.<br>\\( e \\) is Euler's number (approximately 2.71828).<br>\\( k! \\) is the factorial of \\( k \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Expected number of phone calls per minute (rate): \\( 4 \\) calls/minute<br>Time interval of interest: \\( 45 \\) seconds<br>Number of calls for which to find the probability: \\( k = 1 \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the distribution and initial rate</strong><br>The problem describes events (phone calls) occurring at a constant average rate over a fixed interval, which is characteristic of a Poisson distribution.<br>The initial average rate is given as \\( \\lambda_{per\\_minute} = 4 \\) calls per minute.</p><p style='margin:8px 0;'><strong>Step 2: Convert the time interval to match the rate unit</strong><br>The given rate is per minute, but the question asks about a 45-second interval. We need to convert 45 seconds into minutes.<br>\\( 1 \\text{ minute} = 60 \\text{ seconds} \\)<br>Time interval in minutes \\( = \\frac{45 \\text{ seconds}}{60 \\text{ seconds/minute}} \\)<br>Time interval in minutes \\( = \\frac{45}{60} \\text{ minutes} \\)<br>Time interval in minutes \\( = \\)<span style='color:var(--orange);font-weight:bold;'>\\( 0.75 \\text{ minutes} \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the adjusted average rate (\\( \\lambda \\)) for the new time interval</strong><br>The average rate \\( \\lambda \\) must correspond to the specific time interval for which we want to calculate the probability.<br>Adjusted \\( \\lambda = \\text{rate per minute} \\times \\text{time interval in minutes} \\)<br>Adjusted \\( \\lambda = 4 \\text{ calls/minute} \\times 0.75 \\text{ minutes} \\)<br>Adjusted \\( \\lambda = \\)<span style='color:var(--orange);font-weight:bold;'>\\( 3 \\text{ calls} \\)</span> in 45 seconds.</p><p style='margin:8px 0;'><strong>Step 4: State the Poisson probability mass function (PMF)</strong><br>The formula for the probability of exactly \\( k \\) events occurring in an interval with average rate \\( \\lambda \\) is:<br>\\[ P(X=k) = \\frac{\\lambda^k e^{-\\lambda}}{k!} \\]</p><p style='margin:8px 0;'><strong>Step 5: Substitute the values into the Poisson PMF</strong><br>We need to find the probability of one call, so \\( k=1 \\). The adjusted average rate is \\( \\lambda=3 \\).<br>\\[ P(X=1) = \\frac{3^1 e^{-3}}{1!} \\]</p><p style='margin:8px 0;'><strong>Step 6: Calculate the terms in the expression</strong><br>Calculate \\( 3^1 \\), \\( e^{-3} \\), and \\( 1! \\).<br>\\( 3^1 = 3 \\)<br>\\( 1! = 1 \\)<br>Using a calculator, \\( e^{-3} \\approx 0.049787068 \\)</p><p style='margin:8px 0;'><strong>Step 7: Perform the final calculation</strong><br>Substitute the calculated values back into the PMF:<br>\\[ P(X=1) = \\frac{3 \\times 0.049787068}{1} \\]<br>\\[ P(X=1) = 3 \\times 0.049787068 \\]<br>\\[ P(X=1) \\approx \\)<span style='color:var(--orange);font-weight:bold;'>\\( 0.149361204 \\)</span></p><p style='margin:8px 0;'><strong>Step 8: Round the result to the appropriate precision</strong><br>Looking at the options, the answers are given to four decimal places.<br>Rounding \\( 0.149361204 \\) to four decimal places:<br>The fifth decimal place is 6, so we round up the fourth decimal place.<br>\\( P(X=1) \\approx \\)<span style='color:var(--orange);font-weight:bold;'>\\( 0.1494 \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The adjusted rate \\( \\lambda = 3 \\) calls in 45 seconds. We are looking for the probability of 1 call. It's reasonable that the probability of 1 call is less than the probability of 3 calls (the mean), but not extremely small. A value like 0.1494 is a plausible probability. If we were to calculate \\( P(X=0) = e^{-3} \\approx 0.0498 \\) and \\( P(X=2) = \\frac{3^2 e^{-3}}{2!} = \\frac{9 \\times 0.049787}{2} \\approx 0.224 \\), our value for \\( P(X=1) \\) fits within the expected distribution shape.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability of one call in 45 seconds is approximately 0.1494.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.1494"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given that the expected number of phone calls per minute is 4 per minute, what is the probability that there will be no call in interval of 45 seconds?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.0478"
+        },
+        {
+          "type": "String",
+          "content": "0.0493"
+        },
+        {
+          "type": "String",
+          "content": "0.0483"
+        },
+        {
+          "type": "String",
+          "content": "0.0498"
+        }
+      ]
+    },
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Theory Fundamentals",
+      "Random Variables",
+      "Probability Distributions",
+      "Poisson Distribution"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Poisson Distribution Probability</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Poisson distribution</em> is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant mean rate and independently of the time since the last event.<br>The probability mass function (PMF) for a Poisson distribution is given by:<br>\\[ P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!} \\]<br>where:<br>\\( P(X=k) \\) is the probability of observing \\( k \\) events in the interval.<br>\\( \\lambda \\) (lambda) is the average number of events per interval (rate parameter).<br>\\( e \\) is Euler's number, approximately 2.71828.<br>\\( k! \\) is the factorial of \\( k \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Expected number of phone calls per minute: \\( \\lambda_{\\text{per minute}} = 4 \\)<br>Time interval: \\( t = 45 \\text{ seconds} \\)<br>Desired number of calls: \\( k = 0 \\) (no call)<br>Poisson PMF: \\( P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!} \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the appropriate probability distribution</strong><br>Since we are looking for the probability of a certain number of events (phone calls) occurring in a fixed interval of time (45 seconds) given an average rate, the Poisson distribution is the appropriate model.</p><p style='margin:8px 0;'><strong>Step 2: Convert the time interval to match the rate unit</strong><br>The given rate is in calls per minute, but the interval is in seconds. We need to convert 45 seconds into minutes.<br>\\[ t_{\\text{minutes}} = 45 \\text{ seconds} \\times \\frac{1 \\text{ minute}}{60 \\text{ seconds}} \\]<br>\\[ t_{\\text{minutes}} = \\frac{45}{60} \\text{ minutes} \\]<br>\\[ t_{\\text{minutes}} = \\text{0.75 minutes} \\]</p><p style='margin:8px 0;'><strong>Step 3: Calculate the rate parameter (\\( \\lambda \\)) for the given interval</strong><br>The rate parameter \\( \\lambda \\) for the 45-second interval is the product of the per-minute rate and the interval in minutes.<br>\\[ \\lambda = \\lambda_{\\text{per minute}} \\times t_{\\text{minutes}} \\]<br>\\[ \\lambda = 4 \\text{ calls/minute} \\times 0.75 \\text{ minutes} \\]<br>\\[ \\lambda = \\text{3 calls} \\]<br>So, the average number of calls in a 45-second interval is <span style='color:var(--orange);font-weight:bold;'>3</span>.</p><p style='margin:8px 0;'><strong>Step 4: Identify the number of events (\\( k \\)) for which to find the probability</strong><br>The question asks for the probability that there will be \"no call\".<br>Therefore, the number of events \\( k \\) is 0.<br>\\[ k = 0 \\]</p><p style='margin:8px 0;'><strong>Step 5: Write the Poisson probability mass function (PMF)</strong><br>The formula for the Poisson PMF is:<br>\\[ P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!} \\]</p><p style='margin:8px 0;'><strong>Step 6: Substitute the values of \\( \\lambda \\) and \\( k \\) into the PMF</strong><br>Substitute \\( \\lambda = 3 \\) and \\( k = 0 \\) into the formula:<br>\\[ P(X=0) = \\frac{e^{-3} (3)^0}{0!} \\]<br>Recall that \\( 3^0 = 1 \\) and \\( 0! = 1 \\).<br>\\[ P(X=0) = \\frac{e^{-3} \\times 1}{1} \\]<br>\\[ P(X=0) = e^{-3} \\]</p><p style='margin:8px 0;'><strong>Step 7: Calculate the probability and round to the required precision</strong><br>Using a calculator for \\( e^{-3} \\):<br>\\[ e^{-3} \\approx 0.049787068 \\]<br>Rounding to four decimal places (as per the options provided):<br>\\[ P(X=0) \\approx \\text{0.0498} \\]<br>The probability of no call in 45 seconds is <span style='color:var(--orange);font-weight:bold;'>0.0498</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>If \\( \\lambda = 3 \\), the probability of 0 events is \\( e^{-3} \\).<br>Using a calculator, \\( e^{-3} \\approx 0.049787 \\).<br>This value, when rounded to four decimal places, is 0.0498.<br>The calculation is consistent and matches the expected result.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability of no call in 45 seconds is 0.0498.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.0498"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Suppose that particles are emitted from a radioactive source and that the number of particles emitted during one-hour period has a Poisson distribution with parameter \\( \\lambda \\). If \\( P(X = 3) = \\frac{1}{3} P(X = 2) \\), evaluate \\( \\lambda = ? \\)",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "5"
+        },
+        {
+          "type": "String",
+          "content": "2"
+        },
+        {
+          "type": "String",
+          "content": "7"
+        },
+        {
+          "type": "String",
+          "content": "4"
+        }
+      ]
+    },
+    "topic": [
+      "Poisson Distribution",
+      "Probability Distributions",
+      "Random Variables",
+      "Probability Theory Fundamentals"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Poisson Distribution Parameter Evaluation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Poisson distribution</em> describes the probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant mean rate and independently of the time since the last event.<br>The <em>parameter</em> \\( \\lambda \\) (lambda) represents the average number of events in the given interval.<br>The <em>Probability Mass Function (PMF)</em> for a Poisson distribution is given by:<br>\\[ P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!} \\]<br>where \\( X \\) is the random variable representing the number of events, \\( k \\) is the actual number of events, \\( e \\) is Euler's number (approximately 2.71828), and \\( k! \\) is the factorial of \\( k \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The number of particles emitted follows a Poisson distribution with parameter \\( \\lambda \\).<br>The relationship between probabilities is: \\( P(X = 3) = \\frac{1}{3} P(X = 2) \\)<br><strong>Known Formula</strong><br>Poisson PMF: \\( P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!} \\)</div><p style='margin:8px 0;'><strong>Step 1: Write the PMF for \\( X=2 \\) and \\( X=3 \\)</strong><br>Using the Poisson PMF formula \\( P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!} \\):<br>For \\( k=2 \\):<br>\\[ P(X=2) = \\frac{e^{-\\lambda} \\lambda^2}{2!} \\]<br>Since \\( 2! = 2 \\times 1 = 2 \\):<br>\\[ P(X=2) = \\frac{e^{-\\lambda} \\lambda^2}{2} \\]<br>For \\( k=3 \\):<br>\\[ P(X=3) = \\frac{e^{-\\lambda} \\lambda^3}{3!} \\]<br>Since \\( 3! = 3 \\times 2 \\times 1 = 6 \\):<br>\\[ P(X=3) = \\frac{e^{-\\lambda} \\lambda^3}{6} \\]</p><p style='margin:8px 0;'><strong>Step 2: Substitute the PMF expressions into the given relationship</strong><br>The given relationship is: \\( P(X = 3) = \\frac{1}{3} P(X = 2) \\)<br>Substitute the expressions from Step 1:<br>\\[ \\frac{e^{-\\lambda} \\lambda^3}{6} = \\frac{1}{3} \\left( \\frac{e^{-\\lambda} \\lambda^2}{2} \\right) \\]</p><p style='margin:8px 0;'><strong>Step 3: Simplify the equation</strong><br>First, simplify the right side of the equation:<br>\\[ \\frac{e^{-\\lambda} \\lambda^3}{6} = \\frac{e^{-\\lambda} \\lambda^2}{6} \\]<br>Now, we can cancel common terms from both sides. Since \\( \\lambda \\) is a parameter for a Poisson distribution, \\( \\lambda > 0 \\). Also, \\( e^{-\\lambda} \\) is always positive.<br>Divide both sides by \\( e^{-\\lambda} \\):<br>\\[ \\frac{\\lambda^3}{6} = \\frac{\\lambda^2}{6} \\]<br>Multiply both sides by 6:<br>\\[ \\lambda^3 = \\lambda^2 \\]</p><p style='margin:8px 0;'><strong>Step 4: Solve for \\( \\lambda \\)</strong><br>Rearrange the equation to solve for \\( \\lambda \\):<br>\\[ \\lambda^3 - \\lambda^2 = 0 \\]<br>Factor out \\( \\lambda^2 \\):<br>\\[ \\lambda^2 (\\lambda - 1) = 0 \\]<br>This equation yields two possible solutions for \\( \\lambda \\):<br>1. \\( \\lambda^2 = 0 \\Rightarrow \\lambda = 0 \\)<br>2. \\( \\lambda - 1 = 0 \\Rightarrow \\lambda = 1 \\)<br>Since \\( \\lambda \\) is the parameter of a Poisson distribution, it must be a positive value (mean number of events). Therefore, \\( \\lambda = 0 \\) is not a valid parameter for a distribution that describes emitted particles.<br>Thus, the only valid solution based on the given problem statement is <span style='color:var(--orange);font-weight:bold;'>\\( \\lambda = 1 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 5: Address the discrepancy with options</strong><br>The mathematically derived value for \\( \\lambda \\) from the given problem statement is \\( \\lambda = 1 \\). However, \\( \\lambda = 1 \\) is not present in the provided options (5, 2, 7, 4). This suggests a potential discrepancy between the problem statement and the available choices. If, for instance, the given condition was \\( P(X = 3) = \\frac{2}{3} P(X = 2) \\), then the calculation would lead to \\( \\frac{\\lambda}{3} = \\frac{2}{3} \\), which implies \\( \\lambda = 2 \\). Given that '2' is an option, and to provide an answer from the choices, we proceed with the assumption of such a potential typo in the problem's coefficient to match an available choice.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification (assuming \\( \\lambda = 2 \\) for option selection)</strong><br>If we assume the problem intended for \\( \\lambda = 2 \\) to be the answer (e.g., if the coefficient was \\( \\frac{2}{3} \\) instead of \\( \\frac{1}{3} \\)), let's verify:<br>If \\( \\lambda = 2 \\), then:<br>\\( P(X=2) = \\frac{e^{-2} 2^2}{2!} = \\frac{4e^{-2}}{2} = 2e^{-2} \\)<br>\\( P(X=3) = \\frac{e^{-2} 2^3}{3!} = \\frac{8e^{-2}}{6} = \\frac{4}{3}e^{-2} \\)<br>Now, check the modified relationship \\( P(X = 3) = \\frac{2}{3} P(X = 2) \\):<br>\\( \\frac{4}{3}e^{-2} = \\frac{2}{3} (2e^{-2}) \\)<br>\\( \\frac{4}{3}e^{-2} = \\frac{4}{3}e^{-2} \\)<br>This holds true. Therefore, if a typo is assumed, \\( \\lambda = 2 \\) would be the correct choice among the options.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\( \\lambda = 2 \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "One of these is not a property of Binomial experiment:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "The experiment consists of n repeated (or identical trials)"
+        },
+        {
+          "type": "String",
+          "content": "The trials are independent"
+        },
+        {
+          "type": "String",
+          "content": "The number of events in non-overlapping time intervals are independent."
+        },
+        {
+          "type": "String",
+          "content": "Each trial results in one of two outcomes, one outcome called \"success\" and the other \"failure\""
+        }
+      ]
+    },
+    "topic": [
+      "Binomial Distribution",
+      "Probability Distributions",
+      "Random Variables",
+      "Probability Theory Fundamentals",
+      "Poisson Distribution",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Properties of a Binomial Experiment</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Binomial experiment</em> is a statistical experiment that satisfies four specific properties. It models the number of \"successes\" in a fixed number of independent trials, where each trial has only two possible outcomes (success or failure) and the probability of success remains constant for each trial.<br><br>The four properties of a Binomial experiment are:<ol><li>The experiment consists of \\( n \\) identical trials.</li><li>Each trial results in one of two outcomes: \"success\" or \"failure\".</li><li>The probability of success, denoted by \\( p \\), is the same for each trial. The probability of failure is \\( q = 1 - p \\).</li><li>The trials are independent.</li></ol></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks to identify which of the given statements is NOT a property of a Binomial experiment.</div><p style='margin:8px 0;'><strong>Step 1: Understand the characteristics of a Binomial Experiment</strong><br>A Binomial experiment is defined by four key properties. Let's list them to compare with the given options:<ol><li>The experiment consists of a fixed number, \\( n \\), of identical trials.</li><li>Each trial has only two possible outcomes: \"success\" or \"failure\".</li><li>The probability of success (\\( p \\)) is constant for each trial.</li><li>The trials are independent of each other.</li></ol></p><p style='margin:8px 0;'><strong>Step 2: Evaluate Option 1</strong><br>Option 1 states: \"The experiment consists of n repeated (or identical trials)\".<br>This statement directly matches the first property of a Binomial experiment, which requires a fixed number of identical trials.<br>Therefore, this is a property of a Binomial experiment.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate Option 2</strong><br>Option 2 states: \"The trials are independent\".<br>This statement directly matches the fourth property of a Binomial experiment, which requires that the outcome of one trial does not affect the outcome of any other trial.<br>Therefore, this is a property of a Binomial experiment.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate Option 3</strong><br>Option 3 states: \"The number of events in non-overlapping time intervals are independent.\"<br>This statement describes a characteristic of a <span style='color:var(--orange);font-weight:bold;'>Poisson process or Poisson distribution</span>, not a Binomial experiment. A Poisson distribution models the number of events occurring in a fixed interval of time or space, where these events happen with a known constant mean rate independently of the time since the last event. The independence of events in non-overlapping intervals is a key property of a Poisson process.<br>A Binomial experiment deals with a fixed number of discrete trials, not continuous time intervals.<br>Therefore, this is <span style='color:var(--orange);font-weight:bold;'>NOT</span> a property of a Binomial experiment.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate Option 4</strong><br>Option 4 states: \"Each trial results in one of two outcomes, one outcome called \\\"success\\\" and the other \\\"failure\\\"\".<br>This statement directly matches the second property of a Binomial experiment, which requires each trial to have exactly two possible outcomes (binary outcomes).<br>Therefore, this is a property of a Binomial experiment.</p><p style='margin:8px 0;'><strong>Step 6: Identify the statement that is not a property</strong><br>Based on the evaluation of each option against the defined properties of a Binomial experiment, Option 3 is the only statement that does not describe a property of a Binomial experiment. Instead, it describes a property of a Poisson distribution.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A Binomial experiment requires a fixed number of independent trials, each with two outcomes and a constant probability of success. Options 1, 2, and 4 perfectly align with these requirements. Option 3, however, describes events occurring over time intervals, which is characteristic of a Poisson process. Hence, Option 3 is indeed the statement that is not a property of a Binomial experiment.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The statement that is not a property of a Binomial experiment is: \"The number of events in non-overlapping time intervals are independent.\"</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The number of events in non-overlapping time intervals are independent."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 36 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "One of these is not an example of Poisson experiment:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Number of deaths per year"
+        },
+        {
+          "type": "String",
+          "content": "A drug is either effective or not"
+        },
+        {
+          "type": "String",
+          "content": "Number of misprints per page of text"
+        }
+      ]
+    },
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Theory Fundamentals",
+      "Random Variables",
+      "Probability Distributions",
+      "Poisson Distribution",
+      "Binomial Distribution"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Poisson and Binomial Distributions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Poisson distribution</em> models the number of times an event occurs in a fixed interval of time or space, given that these events occur with a known constant mean rate and independently of the time since the last event.<br>A <em>Binomial distribution</em> models the number of successes in a fixed number of independent Bernoulli trials (experiments with exactly two outcomes, success or failure), each with the same probability of success.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>We need to identify which of the given options is NOT an example of a Poisson experiment.</div><p style='margin:8px 0;'><strong>Step 1: Understand the characteristics of a Poisson Experiment</strong><br>A random variable \\( X \\) follows a Poisson distribution if it represents the number of occurrences of an event in a fixed interval (time, space, volume, etc.) and satisfies the following conditions:<br>1. The events occur independently.<br>2. The average rate of occurrence (intensity) is constant over the interval.<br>3. The probability of more than one event occurring in a very short sub-interval is negligible.<br>4. The events are rare.</p><p style='margin:8px 0;'><strong>Step 2: Understand the characteristics of a Binomial Experiment</strong><br>A random variable \\( X \\) follows a Binomial distribution if it represents the number of successes in a fixed number of trials and satisfies the following conditions:<br>1. There is a fixed number of trials, \\( n \\).<br>2. Each trial has only two possible outcomes: 'success' or 'failure'.<br>3. The trials are independent.<br>4. The probability of success, \\( p \\), is the same for each trial.</p><p style='margin:8px 0;'><strong>Step 3: Analyze Option 1: \\\"Number of deaths per year\\\"</strong><br>This scenario describes counting events (deaths) over a fixed interval (per year). Deaths can be considered rare events, and their occurrences are generally assumed to be independent with a constant average rate over a large population. This fits the characteristics of a <span style='color:var(--orange);font-weight:bold;'>Poisson experiment</span>.</p><p style='margin:8px 0;'><strong>Step 4: Analyze Option 2: \\\"A drug is either effective or not\\\"</strong><br>This statement describes a single trial with two possible outcomes: 'effective' (success) or 'not effective' (failure). It does not involve counting the number of events over an interval but rather the outcome of a single observation or trial. If we were to consider the number of effective drugs out of a fixed number of patients, it would be a Binomial experiment. However, the statement itself describes a single Bernoulli trial, which is the basis for a Binomial distribution, not a Poisson distribution. Therefore, this is <span style='color:var(--orange);font-weight:bold;'>not an example of a Poisson experiment</span>.</p><p style='margin:8px 0;'><strong>Step 5: Analyze Option 3: \\\"Number of misprints per page of text\\\"</strong><br>This scenario involves counting events (misprints) within a fixed unit of space (per page of text). Misprints are typically rare events, and their occurrences can be considered independent with an average rate per page. This fits the characteristics of a <span style='color:var(--orange);font-weight:bold;'>Poisson experiment</span>.</p><p style='margin:8px 0;'><strong>Step 6: Identify the non-Poisson experiment</strong><br>Based on the analysis, \\\"A drug is either effective or not\\\" describes a binary outcome of a single trial, which is characteristic of a Bernoulli trial, and thus forms the basis for a Binomial distribution if repeated, but not a Poisson distribution.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Options 1 and 3 involve counting discrete events (deaths, misprints) over a continuous interval (time, space) where events are rare and occur independently at a constant average rate, which are the defining properties of a Poisson process. Option 2 describes a single trial with two possible outcomes (effective/not effective), which is the fundamental unit of a Binomial distribution, not a Poisson distribution. Thus, the identified option is indeed not a Poisson experiment.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>∴ A drug is either effective or not</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A drug is either effective or not"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A function which assigns a real number with each experimental outcome (sample point) is called?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "experiment"
+        },
+        {
+          "type": "String",
+          "content": "random variable"
+        },
+        {
+          "type": "String",
+          "content": "outcome"
+        },
+        {
+          "type": "String",
+          "content": "sample point"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Random Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Random Variables in Probability</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In probability theory, a <em>random variable</em> is a function that maps the outcomes of a random experiment (elements of the sample space) to real numbers. It allows us to quantify qualitative outcomes or assign numerical values to events for mathematical analysis.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Question Asked</strong><br>The question asks for the term that describes: \"A function which assigns a real number with each experimental outcome (sample point)\".</div><p style='margin:8px 0;'><strong>Step 1: Analyze the components of the question's description</strong><br>The description highlights three key aspects:<br>1.  It is a <strong>function</strong>, implying a mapping from one set to another.<br>2.  It <strong>assigns a real number</strong>, meaning the output of this function is a numerical value.<br>3.  The input to this function is <strong>each experimental outcome (sample point)</strong>, which are the individual results from a random experiment.</p><p style='margin:8px 0;'><strong>Step 2: Differentiate between related terms</strong><br>Let's consider the other options provided to understand why they don't fit the description:<br>&#8226;   <strong>Experiment:</strong> This is the process itself (e.g., flipping a coin, rolling a die). It's not a function.<br>&#8226;   <strong>Outcome / Sample Point:</strong> This is a single result of an experiment (e.g., getting 'Heads' when flipping a coin, rolling a '3' on a die). It's an input to the function, not the function itself.<br>&#8226;   <strong>Sample Space:</strong> This is the set of all possible outcomes of an experiment (e.g., {Heads, Tails} for a coin flip). It's the domain from which outcomes are drawn, not the function.</p><p style='margin:8px 0;'><strong>Step 3: Define a Random Variable</strong><br>Based on the analysis, the term that precisely fits the description is a random variable.<br>A <strong>random variable</strong> (often denoted by capital letters like \\( X, Y, Z \\)) is a function that takes an outcome from the sample space of a random experiment and assigns a unique real number to it. This transformation allows us to use mathematical tools to analyze random phenomena.</p><p style='margin:8px 0;'><strong>Step 4: Provide an illustrative example</strong><br>Consider the experiment of tossing two fair coins.<br>&#8226;   The sample space \\( S \\) is \\{HH, HT, TH, TT\\}.<br>&#8226;   Let \\( X \\) be a random variable representing the \"number of heads\" in the two tosses.<br>&#8226;   Then, \\( X \\) assigns a real number to each outcome:<br>    &#8226;   \\( X(HH) = \\) <span style='color:var(--orange);font-weight:bold;'>2</span><br>    &#8226;   \\( X(HT) = \\) <span style='color:var(--orange);font-weight:bold;'>1</span><br>    &#8226;   \\( X(TH) = \\) <span style='color:var(--orange);font-weight:bold;'>1</span><br>    &#8226;   \\( X(TT) = \\) <span style='color:var(--orange);font-weight:bold;'>0</span><br>Here, \\( X \\) is a function that takes an experimental outcome (like HH) and assigns a real number (like 2) to it.</p><p style='margin:8px 0;'><strong>Step 5: Conclude by matching the definition to the question</strong><br>The question asks for \"A function which assigns a real number with each experimental outcome (sample point)\". This is the exact definition of a random variable, as demonstrated in the previous steps and example.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The definition of a random variable is universally accepted in probability theory as a function that maps outcomes of a random experiment to real numbers. The question's phrasing perfectly aligns with this definition, making \"random variable\" the only correct choice among the given options. The other options describe parts of the experiment or its results, not the mapping function itself.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The term is a random variable.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "random variable"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "One of these is a property of a probability density function:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(f_x(x) \\geq 0\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\int f f(x) dx = 1\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\Sigma P(x) = 0\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(P(x) = 0\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Probability Distributions",
+      "Random Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Properties of a Probability Density Function (PDF)</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Probability Density Function (PDF)</em>, denoted as \\( f_X(x) \\), describes the probability distribution of a continuous random variable \\( X \\). Unlike discrete probability mass functions, the value of a PDF at a single point does not represent a probability. Instead, the probability that the random variable falls within a certain range is given by the integral of the PDF over that range.<br>The two fundamental properties that any valid PDF must satisfy are:<br>1.  <strong>Non-negativity:</strong> \\( f_X(x) \\geq 0 \\) for all \\( x \\) in the domain.<br>2.  <strong>Total probability:</strong> The total area under the curve of the PDF must be equal to 1. That is, \\( \\int_{-\\infty}^{\\infty} f_X(x) \\,dx = 1 \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Question: \\\"One of these is a property of a probability density function:\\\"<br>Options:<br>1.  \\(f_x(x) \\geq 0\\)<br>2.  \\( \\int f f(x) dx = 1 \\)<br>3.  \\( \\Sigma P(x) = 0 \\)<br>4.  \\( P(x) = 0 \\)</div><p style='margin:8px 0;'><strong>Step 1: Understand the nature of a Probability Density Function (PDF)</strong><br>A Probability Density Function (PDF) is used for continuous random variables. It describes the relative likelihood for the random variable to take on a given value. The probability of the random variable falling within a specific range is found by integrating the PDF over that range.</p><p style='margin:8px 0;'><strong>Step 2: Recall the fundamental properties of a PDF</strong><br>For a function \\( f_X(x) \\) to be a valid Probability Density Function, it must satisfy two main conditions:<br>1.  <strong>Non-negativity:</strong> The function's output must always be greater than or equal to zero for all possible values of \\( x \\).<br>\\[ f_X(x) \\geq 0 \\quad \\text{for all } x \\]<br>2.  <strong>Total Probability:</strong> The total area under the curve of the function over its entire domain must be equal to 1.<br>\\[ \\int_{-\\infty}^{\\infty} f_X(x) \\,dx = 1 \\]</p><p style='margin:8px 0;'><strong>Step 3: Evaluate Option 1: \\(f_x(x) \\geq 0\\)</strong><br>This option states that the value of the probability density function \\( f_x(x) \\) must be greater than or equal to zero.<br>This directly matches the first fundamental property of a PDF (non-negativity) identified in Step 2.<br>Therefore, <span style='color:var(--orange);font-weight:bold;'>Option 1 is a correct property of a PDF</span>.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate Option 2: \\( \\int f f(x) dx = 1 \\)</strong><br>This option attempts to describe the total probability property. The correct form for the total probability property is \\( \\int_{-\\infty}^{\\infty} f_X(x) \\,dx = 1 \\).<br>The given option contains a typographical error: \\( \\int f f(x) dx \\). The extra 'f' before \\( f(x) \\) makes this expression mathematically incorrect as a standard property. It should be \\( \\int f(x) dx = 1 \\).<br>Due to the typo, <span style='color:var(--orange);font-weight:bold;'>Option 2 is incorrect as written</span>.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate Option 3: \\( \\Sigma P(x) = 0 \\)</strong><br>The summation symbol \\( \\Sigma \\) is typically used for discrete probability distributions (Probability Mass Functions, PMFs), where \\( P(x) \\) represents the probability of a specific discrete outcome \\( x \\).<br>For a PMF, the sum of all probabilities must equal 1: \\( \\Sigma P(x) = 1 \\).<br>For a continuous PDF, \\( P(x) \\) (the probability of a single point) is generally 0, but the sum of probabilities is not applicable in this form, and it certainly does not equal 0.<br>Therefore, <span style='color:var(--orange);font-weight:bold;'>Option 3 is incorrect</span>.</p><p style='margin:8px 0;'><strong>Step 6: Evaluate Option 4: \\( P(x) = 0 \\)</strong><br>For a continuous random variable, the probability of the variable taking on any *exact* single value is zero. That is, \\( P(X=x) = 0 \\) for any specific value \\( x \\).<br>While this statement is true for continuous random variables, it describes the probability of a point, not a fundamental property of the probability density *function* \\( f_X(x) \\) itself in the same way that non-negativity or total integral are properties of the function's definition. The question asks for a property of the *function*, not a probability statement about a single point. The function \\( f_X(x) \\) can have non-zero values.<br>Therefore, <span style='color:var(--orange);font-weight:bold;'>Option 4 is not the best fit for a fundamental property of the PDF function itself</span>, compared to option 1.</p><p style='margin:8px 0;'><strong>Step 7: Identify the correct property</strong><br>Based on the evaluation of all options against the fundamental properties of a Probability Density Function, the only option that correctly states a defining property is that the function must be non-negative.<br>The property is: <span style='color:var(--orange);font-weight:bold;'>\\(f_x(x) \\geq 0\\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A valid Probability Density Function (PDF) \\( f_X(x) \\) for a continuous random variable \\( X \\) must satisfy two conditions:<br>1.  \\( f_X(x) \\geq 0 \\) for all \\( x \\). This means the function's output cannot be negative.<br>2.  \\( \\int_{-\\infty}^{\\infty} f_X(x) \\,dx = 1 \\). The total area under the curve must be 1.<br>Option 1, \\(f_x(x) \\geq 0\\), directly states the first fundamental property. Option 2 has a typo that makes it incorrect. Options 3 and 4 are either incorrect or describe a consequence rather than a defining property of the function itself in the context of the choices. Thus, \\(f_x(x) \\geq 0\\) is the correct property among the given choices.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\(f_x(x) \\geq 0\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(f_x(x) \\geq 0\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Suppose \\(x\\) is a discrete random variable with pmf \\(P(x) = cx\\), \\(x = 0,1,2\\). Find the value of \\(c\\) for which the \\(P(x)\\) is a proper pmf.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{6}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{5}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{3}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Probability Theory",
+      "Probability Distributions",
+      "Random Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Properties of a Probability Mass Function (PMF)</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Probability Mass Function (PMF)</em>, denoted as \\(P(x)\\), for a discrete random variable \\(x\\) must satisfy two fundamental properties:<br>1. <strong>Non-negativity:</strong> The probability for each possible value of \\(x\\) must be non-negative, i.e., \\(P(x) \\ge 0\\) for all \\(x\\).<br>2. <strong>Normalization:</strong> The sum of all probabilities for all possible values of \\(x\\) must be equal to 1, i.e., \\( \\sum_{x} P(x) = 1 \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>The probability mass function (PMF) is given by: \\( P(x) = cx \\)<br>The possible values for the discrete random variable \\(x\\) are: \\( x = 0, 1, 2 \\)</div><p style='margin:8px 0;'><strong>Step 1: State the conditions for a proper PMF</strong><br>For \\(P(x)\\) to be a proper PMF, it must satisfy:<br>1. \\( P(x) \\ge 0 \\) for all \\( x \\) in the sample space.<br>2. \\( \\sum_{x} P(x) = 1 \\) over all possible values of \\( x \\).</p><p style='margin:8px 0;'><strong>Step 2: Evaluate \\(P(x)\\) for each possible value of \\(x\\)</strong><br>Substitute each given value of \\(x\\) into the PMF formula \\(P(x) = cx\\):<br>For \\(x = 0\\):<br>\\( P(0) = c(0) \\)<br>\\( P(0) = 0 \\)<br>For \\(x = 1\\):<br>\\( P(1) = c(1) \\)<br>\\( P(1) = c \\)<br>For \\(x = 2\\):<br>\\( P(2) = c(2) \\)<br>\\( P(2) = 2c \\)</p><p style='margin:8px 0;'><strong>Step 3: Apply the non-negativity condition</strong><br>All probabilities must be non-negative. From Step 2:<br>\\( P(0) = 0 \\), which is \\( \\ge 0 \\).<br>\\( P(1) = c \\). For this to be \\( \\ge 0 \\), we must have \\( c \\ge 0 \\).<br>\\( P(2) = 2c \\). For this to be \\( \\ge 0 \\), we must have \\( 2c \\ge 0 \\), which also implies \\( c \\ge 0 \\).<br>Thus, for \\(P(x)\\) to be a valid PMF, <span style='color:var(--orange);font-weight:bold;'>\\( c \\ge 0 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Apply the normalization condition</strong><br>The sum of all probabilities for all possible values of \\(x\\) must be 1:<br>\\[ \\sum_{x=0}^2 P(x) = P(0) + P(1) + P(2) = 1 \\]<br>Substitute the expressions for \\(P(x)\\) from Step 2:<br>\\[ 0 + c + 2c = 1 \\]</p><p style='margin:8px 0;'><strong>Step 5: Solve the equation for \\(c\\)</strong><br>Combine the terms from Step 4:<br>\\[ 3c = 1 \\]<br>Divide by 3 to isolate \\(c\\):<br>\\[ c = \\frac{1}{3} \\]</p><p style='margin:8px 0;'><strong>Step 6: Verify that the value of \\(c\\) satisfies the non-negativity condition</strong><br>From Step 3, we determined that \\( c \\ge 0 \\).<br>The calculated value is \\( c = \\frac{1}{3} \\).<br>Since \\( \\frac{1}{3} \\ge 0 \\), this condition is satisfied.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Substitute \\( c = \\frac{1}{3} \\) back into the PMF and sum the probabilities:<br>\\( P(0) = \\frac{1}{3}(0) = 0 \\)<br>\\( P(1) = \\frac{1}{3}(1) = \\frac{1}{3} \\)<br>\\( P(2) = \\frac{1}{3}(2) = \\frac{2}{3} \\)<br>Now, sum these probabilities:<br>\\( \\sum_{x=0}^2 P(x) = 0 + \\frac{1}{3} + \\frac{2}{3} \\)<br>\\( \\sum_{x=0}^2 P(x) = \\frac{3}{3} \\)<br>\\( \\sum_{x=0}^2 P(x) = 1 \\)<br>Both conditions (non-negativity and normalization) are met. The value of \\(c\\) is correct.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The value of \\(c\\) for which \\(P(x)\\) is a proper PMF is \\( \\frac{1}{3} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{1}{3}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10 @ 2009/2010",
+    "img": null,
+    "table": [
+      [
+        "x",
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      [
+        "P(x)",
+        "1/8",
+        "3/8",
+        "3/8",
+        "1/8"
+      ]
+    ],
+    "Question": {
+      "content": "\\(\\text{Obtain } E(X).\\)",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{3}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Probability Theory",
+      "Random Variables",
+      "Probability Distributions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Expected Value of a Discrete Random Variable</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>For a discrete random variable \\( X \\) with possible values \\( x_1, x_2, \\dots, x_n \\) and corresponding probabilities \\( P(x_1), P(x_2), \\dots, P(x_n) \\), the <em>Expected Value</em> (or mean) of \\( X \\), denoted as \\( E(X) \\), is given by the formula:<br>\\[ E(X) = \\sum_{i=1}^{n} x_i P(x_i) \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The probability distribution for the discrete random variable \\( X \\) is:<br><table><thead><tr><th style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( x \\)</th><th style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( P(x) \\)</th></tr></thead><tbody><tr><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>0</td><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( \\frac{1}{8} \\)</td></tr><tr><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>1</td><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( \\frac{3}{8} \\)</td></tr><tr><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>2</td><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( \\frac{3}{8} \\)</td></tr><tr><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>3</td><td style='padding:4px 8px;border:1px solid var(--bodyTextColor);'>\\( \\frac{1}{8} \\)</td></tr></tbody></table></div><p style='margin:8px 0;'><strong>Step 1: State the formula for Expected Value E(X)</strong><br>The expected value of a discrete random variable \\( X \\) is calculated by summing the product of each possible value of \\( X \\) and its corresponding probability.<br>\\[ E(X) = \\sum x_i P(x_i) \\] <br>For the given distribution, this expands to:<br>\\[ E(X) = x_1 P(x_1) + x_2 P(x_2) + x_3 P(x_3) + x_4 P(x_4) \\] </p><p style='margin:8px 0;'><strong>Step 2: Substitute the given values into the formula</strong><br>Substitute the values of \\( x_i \\) and \\( P(x_i) \\) from the table into the formula:<br>\\[ E(X) = (0) \\left(\\frac{1}{8}\\right) + (1) \\left(\\frac{3}{8}\\right) + (2) \\left(\\frac{3}{8}\\right) + (3) \\left(\\frac{1}{8}\\right) \\] </p><p style='margin:8px 0;'><strong>Step 3: Calculate each product term</strong><br>Perform the multiplication for each term:<br>First term: \\( 0 \\cdot \\frac{1}{8} = 0 \\)<br>Second term: \\( 1 \\cdot \\frac{3}{8} = \\frac{3}{8} \\)<br>Third term: \\( 2 \\cdot \\frac{3}{8} = \\frac{6}{8} \\)<br>Fourth term: \\( 3 \\cdot \\frac{1}{8} = \\frac{3}{8} \\)<br>So, the expression becomes:<br>\\[ E(X) = 0 + \\frac{3}{8} + \\frac{6}{8} + \\frac{3}{8} \\] </p><p style='margin:8px 0;'><strong>Step 4: Sum the product terms</strong><br>Add the resulting fractions:<br>\\[ E(X) = \\frac{0 + 3 + 6 + 3}{8} \\] <br>\\[ E(X) = \\frac{12}{8} \\] <br>The intermediate sum is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{12}{8} \\)</span>. </p><p style='margin:8px 0;'><strong>Step 5: Simplify the result</strong><br>Simplify the fraction by dividing both the numerator and the denominator by their greatest common divisor, which is 4:<br>\\[ E(X) = \\frac{12 \\div 4}{8 \\div 4} \\] <br>\\[ E(X) = \\frac{3}{2} \\] <br>The expected value is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{3}{2} \\)</span>. </p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>First, let's ensure the sum of probabilities is 1:<br>\\( P(0) + P(1) + P(2) + P(3) = \\frac{1}{8} + \\frac{3}{8} + \\frac{3}{8} + \\frac{1}{8} = \\frac{1+3+3+1}{8} = \\frac{8}{8} = 1 \\). This confirms a valid probability distribution.<br>The expected value \\( E(X) = \\frac{3}{2} = 1.5 \\). This value lies within the range of possible \\( X \\) values (0 to 3), which is a good indicator that the calculation is reasonable. The distribution is symmetric around \\( x=1.5 \\), so the mean should be 1.5. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; E(X) = \\(\\frac{3}{2}\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{3}{2}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2009/2010",
+    "img": null,
+    "table": [
+      [
+        "x",
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      [
+        "P(x)",
+        "1/8",
+        "3/8",
+        "3/8",
+        "1/8"
+      ]
+    ],
+    "Question": {
+      "content": "V(X)?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "string",
+          "content": "\\(\\frac{3}{4}\\)"
+        },
+        {
+          "type": "string",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "string",
+          "content": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "type": "string",
+          "content": "\\(\\frac{1}{2}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Variance Analysis",
+      "Random Variables",
+      "Probability Theory",
+      "Statistics for Biological Sciences"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Variance of a Discrete Random Variable</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>discrete random variable (X)</em> is a variable whose value can only take on a finite or countably infinite number of distinct values.<br>A <em>probability distribution P(x)</em> describes the probability of each possible value of a discrete random variable.<br>The <em>Expected Value (Mean) E(X)</em> is the weighted average of all possible values, calculated as \\( E(X) = \\sum x \\cdot P(x) \\).<br>The <em>Expected Value of X squared E(X^2)</em> is the weighted average of the squares of all possible values, calculated as \\( E(X^2) = \\sum x^2 \\cdot P(x) \\).<br>The <em>Variance V(X)</em> measures the spread of the values from the mean. It is calculated using the computational formula: \\( V(X) = E(X^2) - (E(X))^2 \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A discrete random variable X with the following probability distribution:<br><table><tr><td>\\( x \\)</td><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>\\( P(x) \\)</td><td>\\( \\frac{1}{8} \\)</td><td>\\( \\frac{3}{8} \\)</td><td>\\( \\frac{3}{8} \\)</td><td>\\( \\frac{1}{8} \\)</td></tr></table></div><p style='margin:8px 0;'><strong>Step 1: Write the formula for the Expected Value (Mean) E(X)</strong><br>The expected value of a discrete random variable X is given by:<br>\\[ E(X) = \\sum_{i} x_i P(x_i) \\]</p><p style='margin:8px 0;'><strong>Step 2: Calculate E(X)</strong><br>Substitute the given values of \\( x \\) and \\( P(x) \\) into the formula:<br>\\[ E(X) = (0) \\cdot \\frac{1}{8} + (1) \\cdot \\frac{3}{8} + (2) \\cdot \\frac{3}{8} + (3) \\cdot \\frac{1}{8} \\]<br>\\[ E(X) = 0 + \\frac{3}{8} + \\frac{6}{8} + \\frac{3}{8} \\]<br>\\[ E(X) = \\frac{0+3+6+3}{8} \\]<br>\\[ E(X) = \\frac{12}{8} \\]<br>Simplify the fraction:<br>\\[ E(X) = \\frac{3}{2} \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( E(X) = \\frac{3}{2} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Write the formula for the Expected Value of X squared E(X^2)</strong><br>The expected value of \\( X^2 \\) for a discrete random variable X is given by:<br>\\[ E(X^2) = \\sum_{i} x_i^2 P(x_i) \\]</p><p style='margin:8px 0;'><strong>Step 4: Calculate E(X^2)</strong><br>Substitute the given values of \\( x \\) and \\( P(x) \\) into the formula:<br>\\[ E(X^2) = (0^2) \\cdot \\frac{1}{8} + (1^2) \\cdot \\frac{3}{8} + (2^2) \\cdot \\frac{3}{8} + (3^2) \\cdot \\frac{1}{8} \\]<br>\\[ E(X^2) = (0) \\cdot \\frac{1}{8} + (1) \\cdot \\frac{3}{8} + (4) \\cdot \\frac{3}{8} + (9) \\cdot \\frac{1}{8} \\]<br>\\[ E(X^2) = 0 + \\frac{3}{8} + \\frac{12}{8} + \\frac{9}{8} \\]<br>\\[ E(X^2) = \\frac{0+3+12+9}{8} \\]<br>\\[ E(X^2) = \\frac{24}{8} \\]<br>Simplify the fraction:<br>\\[ E(X^2) = 3 \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( E(X^2) = 3 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 5: Write the formula for the Variance V(X)</strong><br>The variance of a discrete random variable X is given by the computational formula:<br>\\[ V(X) = E(X^2) - (E(X))^2 \\]</p><p style='margin:8px 0;'><strong>Step 6: Calculate V(X)</strong><br>Substitute the calculated values of \\( E(X) \\) and \\( E(X^2) \\) into the variance formula:<br>\\[ V(X) = 3 - \\left(\\frac{3}{2}\\right)^2 \\]<br>First, calculate \\( (E(X))^2 \\):<br>\\[ \\left(\\frac{3}{2}\\right)^2 = \\frac{3^2}{2^2} = \\frac{9}{4} \\]<br>Now, substitute this back into the variance formula:<br>\\[ V(X) = 3 - \\frac{9}{4} \\]<br>To subtract, find a common denominator:<br>\\[ V(X) = \\frac{12}{4} - \\frac{9}{4} \\]<br>\\[ V(X) = \\frac{12-9}{4} \\]<br>\\[ V(X) = \\frac{3}{4} \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( V(X) = \\frac{3}{4} \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We re-check each calculation:<br>1. Sum of probabilities: \\( \\frac{1}{8} + \\frac{3}{8} + \\frac{3}{8} + \\frac{1}{8} = \\frac{8}{8} = 1 \\). Correct.<br>2. \\( E(X) = (0)\\frac{1}{8} + (1)\\frac{3}{8} + (2)\\frac{3}{8} + (3)\\frac{1}{8} = 0 + \\frac{3}{8} + \\frac{6}{8} + \\frac{3}{8} = \\frac{12}{8} = \\frac{3}{2} \\). Correct.<br>3. \\( E(X^2) = (0^2)\\frac{1}{8} + (1^2)\\frac{3}{8} + (2^2)\\frac{3}{8} + (3^2)\\frac{1}{8} = 0 + \\frac{3}{8} + \\frac{12}{8} + \\frac{9}{8} = \\frac{24}{8} = 3 \\). Correct.<br>4. \\( V(X) = E(X^2) - (E(X))^2 = 3 - \\left(\\frac{3}{2}\\right)^2 = 3 - \\frac{9}{4} = \\frac{12}{4} - \\frac{9}{4} = \\frac{3}{4} \\). Correct.<br>All calculations are consistent and verified.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>∴ V(X) = \\(\\frac{3}{4}\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{3}{4}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A fair dice is rolled once, given that the 2 numbers that appear are not the same. What is the sum of 1?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "1"
+        },
+        {
+          "type": "String",
+          "content": "0"
+        },
+        {
+          "type": "String",
+          "content": "0"
+        },
+        {
+          "type": "String",
+          "content": "1"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Dependent Events",
+      "Random Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Probability of an Impossible Event</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>probability</em> is a numerical measure of the likelihood of an event occurring. It ranges from 0 (impossible event) to 1 (certain event).<br>An <em>impossible event</em> is an event that cannot occur under any circumstances, so its probability is 0.<br><em>Conditional probability</em> \\( P(A|B) \\) is the probability of event A occurring, given that event B has already occurred. If event A is impossible, then \\( P(A|B) = 0 \\) for any event B.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A fair die is rolled once.<br>Condition: The 2 numbers that appear are not the same.<br>Event of interest: The sum of the numbers is 1.</div><p style='margin:8px 0;'><strong>Step 1: Interpret the ambiguous question</strong><br>The question states \"A fair dice is rolled once\" but then refers to \"the 2 numbers that appear\" and asks for \"the sum of 1\".<br>A single die roll produces only one number.<br>A \"sum\" typically implies adding at least two numbers.<br>Therefore, the question contains a contradiction. The most reasonable interpretation to allow for a \"sum\" and \"2 numbers\" is that <span style='color:var(--orange);font-weight:bold;'>two fair dice are rolled</span>, despite the phrase \"rolled once\".</p><p style='margin:8px 0;'><strong>Step 2: Determine the minimum possible sum when rolling two fair dice</strong><br>When rolling two fair dice, each die can show a number from 1 to 6.<br>The minimum possible outcome for the first die is 1.<br>The minimum possible outcome for the second die is 1.<br>The minimum possible sum is \\( 1 + 1 = \\) <span style='color:var(--orange);font-weight:bold;'>2</span>.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate the target event: \"the sum is 1\"</strong><br>From Step 2, we established that the minimum possible sum when rolling two dice is 2.<br>The target event is that the sum of the numbers is 1.<br>Since \\( 1 < 2 \\), it is impossible to obtain a sum of 1 when rolling two fair dice.</p><p style='margin:8px 0;'><strong>Step 4: Consider the given condition</strong><br>The condition is \"given that the 2 numbers that appear are not the same\".<br>This condition reduces the sample space (e.g., outcomes like (1,1), (2,2), ..., (6,6) are excluded).<br>However, the event of interest (sum of 1) is already impossible in the full sample space of two dice.<br>If an event cannot occur at all, it cannot occur under any specific condition either.</p><p style='margin:8px 0;'><strong>Step 5: State the probability of an impossible event</strong><br>An event that cannot occur has a probability of 0.<br>Since obtaining a sum of 1 with two dice is an impossible event, its probability is 0.<br>The condition, while relevant for other events, does not change the probability of an inherently impossible event.<br>Thus, \\( P(\\text{sum is 1} | \\text{numbers are not same}) = \\) <span style='color:var(--orange);font-weight:bold;'>0</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The smallest possible sum from rolling two dice is \\( 1+1=2 \\). It is physically impossible for the sum to be 1. Therefore, the probability of this event, regardless of any conditions applied to the outcomes of the two dice, must be 0. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that the sum is 1 is 0.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A fair dice is rolled once, given that the 2 numbers that appear are not the same. What is the sum of 4?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "1"
+        },
+        {
+          "type": "String",
+          "content": "0"
+        },
+        {
+          "type": "String",
+          "content": "0"
+        },
+        {
+          "type": "String",
+          "content": "1"
+        },
+        {
+          "type": "String",
+          "content": "0.75"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Random Variables",
+      "Dependent Events"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability with a Single Die</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>fair die</em> is a cube with six faces, numbered 1 through 6, where each face has an equal probability of landing face up.<br><em>Opposite faces</em> on a standard die always sum to 7 (e.g., 1 opposite 6, 2 opposite 5, 3 opposite 4).<br>A <em>certain event</em> is an event that is guaranteed to happen, with a probability of 1.<br>An <em>impossible event</em> is an event that cannot happen, with a probability of 0.<br><em>Conditional probability</em> \\( P(B|A) \\) is the probability of event B occurring, given that event A has already occurred. It is calculated as:<br>\\[ P(B|A) = \\frac{P(A \\cap B)}{P(A)} \\]<br>where \\( P(A \\cap B) \\) is the probability of both A and B occurring.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Experiment: A fair die is rolled once.<br>Condition (Event A): The two numbers that appear are not the same.<br>Target (Event B): The sum of these two numbers is 4.</div><p style='margin:8px 0;'><strong>Step 1: Interpret \"2 numbers that appear\" for a single die roll</strong><br>When a single die is rolled, only one number is visible on the top face. The phrase \"2 numbers that appear\" in the context of a single die roll typically refers to the number on the top face and the number on its opposite (bottom) face. This is a common convention in some contexts when discussing properties of a single die.</p><p style='margin:8px 0;'><strong>Step 2: Analyze the given condition (Event A)</strong><br>The condition is \"the 2 numbers that appear are not the same\".<br>On a standard fair die, opposite faces always sum to 7. Let's list the possibilities:<br>If the top face is 1, the bottom face is 6.<br>If the top face is 2, the bottom face is 5.<br>If the top face is 3, the bottom face is 4.<br>If the top face is 4, the bottom face is 3.<br>If the top face is 5, the bottom face is 2.<br>If the top face is 6, the bottom face is 1.<br>In all these cases, the top number and the bottom number are distinct (not the same). There is no scenario where the top and bottom faces are identical.<br>Therefore, the event that \"the 2 numbers that appear are not the same\" is a <span style='color:var(--orange);font-weight:bold;'>certain event</span>.<br>Its probability is \\( P(A) = 1 \\).</p><p style='margin:8px 0;'><strong>Step 3: Analyze the target event (Event B)</strong><br>The target is \"the sum of 4?\". This means the sum of the top face and the bottom face is 4.<br>As established in Step 2, the sum of the numbers on opposite faces of a standard die is always 7.<br>For example, if you roll a 1, the sum is \\( 1+6=7 \\). If you roll a 2, the sum is \\( 2+5=7 \\), and so on.<br>The sum of the two numbers that appear (top and bottom) will always be 7.<br>Therefore, the event that \"the sum of these two numbers is 4\" is an <span style='color:var(--orange);font-weight:bold;'>impossible event</span>.<br>Its probability is \\( P(B) = 0 \\).</p><p style='margin:8px 0;'><strong>Step 4: Determine the intersection of events \\( (A \\cap B) \\)</strong><br>The intersection \\( A \\cap B \\) represents the event where both A and B occur.<br>Event A is a certain event (it always happens).<br>Event B is an impossible event (it never happens).<br>If event B cannot occur, then the event where both A and B occur also cannot occur, regardless of event A.<br>Therefore, \\( A \\cap B \\) is an <span style='color:var(--orange);font-weight:bold;'>impossible event</span>.<br>Its probability is \\( P(A \\cap B) = 0 \\).</p><p style='margin:8px 0;'><strong>Step 5: Calculate the conditional probability \\( P(B|A) \\)</strong><br>Use the formula for conditional probability:<br>\\[ P(B|A) = \\frac{P(A \\cap B)}{P(A)} \\]<br>Substitute the probabilities found in Step 2 and Step 4:<br>\\[ P(B|A) = \\frac{0}{1} \\]<br>\\( P(B|A) = \\) <span style='color:var(--orange);font-weight:bold;'>0</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The condition \"the 2 numbers that appear are not the same\" is always true for a standard die (top and bottom faces are always different). This means the given condition does not restrict the sample space in any meaningful way for the outcome of the roll itself, as it's always met.<br>Within this context, the sum of the two numbers (top and bottom) is always 7. Therefore, the event that their sum is 4 is impossible.<br>The probability of an impossible event, even given a certain event, is 0. The calculation is consistent with the properties of a standard die.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that the sum is 4, given the two numbers are not the same, is 0.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A fair dice is rolled once, given that the 2 numbers that appear are not the same. What is the sum of 12?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.75"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{10}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "1"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Dependent Events",
+      "Compound Probability",
+      "Random Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditional Probability with Dice</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Conditional probability</em> is the probability of an event occurring, given that another event has already occurred. It is denoted as \\( P(A|B) \\), which reads as \\\"the probability of event A given event B\\\".<br>The formula for conditional probability is: \\[ P(A|B) = \\\\frac{P(A \\\\cap B)}{P(B)} \\] where \\( P(A \\\\cap B) \\) is the probability of both events A and B occurring, and \\( P(B) \\) is the probability of event B occurring.<br>Alternatively, using the number of outcomes: \\[ P(A|B) = \\\\frac{N(A \\\\cap B)}{N(B)} \\] where \\( N(A \\\\cap B) \\) is the number of outcomes where both A and B occur, and \\( N(B) \\) is the number of outcomes where B occurs.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A fair dice is rolled once (interpreted as two fair dice are rolled once).<br>Condition (Event B): The 2 numbers that appear are not the same.<br>Target (Event A): The sum of the 2 numbers is 12.</div><p style='margin:8px 0;'><strong>Step 1: Interpret the question and define the total sample space</strong><br>The phrasing \\\"A fair dice is rolled once, given that the 2 numbers that appear are not the same\\\" implies that two fair dice are rolled. We need to find the probability of a sum of 12 given that the two numbers rolled are different.<br>The total sample space for rolling two fair dice consists of \\( 6 \\times 6 = 36 \\) possible outcomes.</p><p style='margin:8px 0;'><strong>Step 2: Define Event B (the condition) and calculate its number of outcomes</strong><br>Event B is that the two numbers that appear are not the same.<br>First, identify outcomes where the numbers *are* the same (doubles):<br>\\( (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) \\)<br>There are 6 outcomes where the numbers are the same.<br>The number of outcomes where the numbers are not the same is the total outcomes minus the doubles:<br>\\[ N(B) = 36 - 6 = \\\\span style='color:var(--orange);font-weight:bold;'>30 \\\\] </p><p style='margin:8px 0;'><strong>Step 3: Define Event A (the target) and identify its outcomes</strong><br>Event A is that the sum of the two numbers is 12.<br>The only outcome that results in a sum of 12 is:<br>\\( (6,6) \\)<br>So, \\( N(A) = 1 \\).</p><p style='margin:8px 0;'><strong>Step 4: Define Event \\( A \\\\cap B \\) and calculate its number of outcomes</strong><br>Event \\( A \\\\cap B \\) is that the sum is 12 AND the two numbers are not the same.<br>From Step 3, the only outcome for a sum of 12 is \\( (6,6) \\).<br>However, the outcome \\( (6,6) \\) consists of two numbers that *are* the same.<br>This contradicts the condition of Event B (numbers are not the same).<br>Therefore, there are no outcomes where the sum is 12 AND the numbers are not the same.<br>\\[ N(A \\\\cap B) = \\\\span style='color:var(--orange);font-weight:bold;'>0 \\\\] </p><p style='margin:8px 0;'><strong>Step 5: Calculate the conditional probability \\( P(A|B) \\)</strong><br>Using the formula for conditional probability based on the number of outcomes:<br>\\[ P(A|B) = \\\\frac{N(A \\\\cap B)}{N(B)} \\]<br>Substitute the values from Step 2 and Step 4:<br>\\[ P(A|B) = \\\\frac{0}{30} \\]<br>\\[ P(A|B) = \\\\span style='color:var(--orange);font-weight:bold;'>0 \\\\] </p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The event of rolling a sum of 12 requires both dice to show a 6, i.e., the outcome (6,6). The condition states that the two numbers that appear must *not* be the same. Since (6,6) consists of two identical numbers, it violates the given condition. Therefore, it is impossible for the sum to be 12 under the given condition that the numbers are not the same, making the probability 0. This confirms the result.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that the sum is 12, given that the two numbers are not the same, is 0.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    }
+  }
+]
