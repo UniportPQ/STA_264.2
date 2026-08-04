@@ -1,0 +1,139 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Measures of Central Tendency",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 4 @ 2017/2018",
+    "topic": [
+      "Descriptive Statistics",
+      "Measures of Central Tendency"
+    ],
+    "Question": {
+      "content": "The arithmetic mean of \\\\( x_1, x_2, \\\\dots, x_n \\\\) is:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\\\( \\\\frac{\\\\sum_{i=1}^n x_i}{n} \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( \\\\sum x_i \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( \\\\frac{\\\\sum_{i=1}^n x_i C}{2n} \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( \\\\frac{\\\\sum_{i=1}^n x_i^2}{n} \\\\)"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Arithmetic Mean</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>arithmetic mean</em>, also known as the average, is a measure of central tendency. It is calculated by summing all the values in a dataset and then dividing by the total number of values in that dataset.<br>It is commonly denoted by \\\\( \\\\bar{x} \\\\) (x-bar).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>A set of \\\\( n \\\\) data points: \\\\( x_1, x_2, \\\\dots, x_n \\\\).<br>We need to find the formula for the arithmetic mean of this set.</div><p style='margin:8px 0;'><strong>Step 1: Understand the definition of arithmetic mean</strong><br>The arithmetic mean is defined as the sum of all values in a dataset divided by the count of those values.<br>\\\\[ \\\\text{Arithmetic Mean} = \\\\frac{\\\\text{Sum of all values}}{\\\\text{Number of values}} \\\\]</p><p style='margin:8px 0;'><strong>Step 2: Express the sum of the given values</strong><br>The given values are \\\\( x_1, x_2, \\\\dots, x_n \\\\). To find their sum, we add them all together.<br>Sum \\\\( = x_1 + x_2 + \\\\dots + x_n \\\\)<br>Using summation notation, this sum can be concisely written as:<br>\\\\[ \\\\text{Sum} = \\\\sum_{i=1}^n x_i \\\\]<br>The symbol \\\\( \\\\sum \\\\) (sigma) indicates summation, and \\\\( i=1 \\\\) to \\\\( n \\\\) means we sum \\\\( x_i \\\\) for each integer value of \\\\( i \\\\) from 1 to \\\\( n \\\\).</p><p style='margin:8px 0;'><strong>Step 3: Identify the number of values in the dataset</strong><br>The dataset consists of \\\\( x_1, x_2, \\\\dots, x_n \\\\). By counting the subscripts, we can see there are exactly \\\\( n \\\\) values.<br>Number of values \\\\( = \\\\) <span style='color:var(--orange);font-weight:bold;'>\\\\( n \\\\)</span></p><p style='margin:8px 0;'><strong>Step 4: Formulate the arithmetic mean using the identified components</strong><br>Substitute the sum of values (from Step 2) and the number of values (from Step 3) into the definition of the arithmetic mean (from Step 1).<br>\\\\[ \\\\text{Arithmetic Mean} = \\\\frac{\\\\sum_{i=1}^n x_i}{n} \\\\]<br>This is the standard mathematical formula for calculating the arithmetic mean of a set of \\\\( n \\\\) observations.</p><p style='margin:8px 0;'><strong>Step 5: Compare the derived formula with the given options</strong><br>Let's examine the provided options:<br>Option A: \\\\( \\\\frac{\\\\sum_{i=1}^n x_i}{n} \\\\)<br>Option B: \\\\( \\\\sum x_i \\\\) (This represents only the sum of the values, not the mean.)<br>Option C: \\\\( \\\\frac{\\\\sum_{i=1}^n x_i C}{2n} \\\\) (This includes an arbitrary constant \\\\( C \\\\) and an incorrect denominator, which is not the standard arithmetic mean formula.)<br>Option D: \\\\( \\\\frac{\\\\sum_{i=1}^n x_i^2}{n} \\\\) (This represents the mean of the squares of the values, not the arithmetic mean.)<br>Our derived formula matches <span style='color:var(--orange);font-weight:bold;'>Option A</span> exactly.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Consider a simple dataset: \\\\( x_1=3, x_2=5, x_3=7 \\\\). Here, \\\\( n=3 \\\\).<br>According to the definition, the arithmetic mean is \\\\( \\\\frac{3+5+7}{3} = \\\\frac{15}{3} = 5 \\\\).<br>Using the formula from Option A: \\\\( \\\\frac{\\\\sum_{i=1}^3 x_i}{3} = \\\\frac{x_1+x_2+x_3}{3} = \\\\frac{3+5+7}{3} = \\\\frac{15}{3} = 5 \\\\).<br>The formula correctly calculates the arithmetic mean, confirming its accuracy.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>∴ The arithmetic mean of \\\\( x_1, x_2, \\\\dots, x_n \\\\) is \\\\( \\\\frac{\\\\sum_{i=1}^n x_i}{n} \\\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\\\( \\\\frac{\\\\sum_{i=1}^n x_i}{n} \\\\)"
+    }
+  }
+]
