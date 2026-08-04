@@ -1,0 +1,143 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Regression and Correlation for Biological Relationships",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2023/2024",
+    "topic": [
+      "Regression and Correlation for Biological Relationships",
+      "Statistical Calculations"
+    ],
+    "Question": {
+      "content": "Suppose that you have carried out a regression analysis where the total variance in the response is 133452 and the correlation coefficient was 0.85. What is the residual sum of squares?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "37032.92"
+        },
+        {
+          "type": "String",
+          "content": "20017.5"
+        },
+        {
+          "type": "String",
+          "content": "113434.2"
+        },
+        {
+          "type": "String",
+          "content": "96419.07"
+        },
+        {
+          "type": "String",
+          "content": "15% t 0.15"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Regression Analysis: Residual Sum of Squares</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Total Sum of Squares (TSS)</em> represents the total variation in the dependent variable.<br>The <em>Explained Sum of Squares (ESS)</em>, also known as Sum of Squares Regression (SSR), represents the variation in the dependent variable explained by the regression model.<br>The <em>Residual Sum of Squares (RSS)</em>, also known as Sum of Squares Error (SSE), represents the unexplained variation or error in the dependent variable.<br>The <em>Correlation Coefficient (r)</em> measures the strength and direction of a linear relationship.<br>The <em>Coefficient of Determination (R-squared, \\\\( R^2 \\\\))</em> is the proportion of the total variance in the dependent variable that is predictable from the independent variable(s). It is the square of the correlation coefficient: \\\\( R^2 = r^2 \\\\).<br>The relationship between these sums of squares is: \\\\( \\\\text{TSS} = \\\\text{ESS} + \\\\text{RSS} \\\\).<br>Alternatively, \\\\( R^2 = 1 - \\\\frac{\\\\text{RSS}}{\\\\text{TSS}} \\\\), which implies \\\\( \\\\text{RSS} = \\\\text{TSS} \\\\times (1 - R^2) \\\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Total variance in the response (TSS) = 133452<br>Correlation coefficient (r) = 0.85<br>Formula: \\\\( R^2 = r^2 \\\\)<br>Formula: \\\\( \\\\text{RSS} = \\\\text{TSS} \\\\times (1 - R^2) \\\\)</div><p style='margin:8px 0;'><strong>Step 1: State the formula for the Coefficient of Determination (R-squared)</strong><br>The coefficient of determination, \\\\( R^2 \\\\), is the square of the correlation coefficient, \\\\( r \\\\).<br>\\[ R^2 = r^2 \\]<br></p><p style='margin:8px 0;'><strong>Step 2: Substitute the given correlation coefficient and calculate \\\\( R^2 \\\\)</strong><br>Given \\\\( r = 0.85 \\\\).<br>\\[ R^2 = (0.85)^2 \\]<br>\\[ R^2 = 0.7225 \\]<br><span style='color:var(--orange);font-weight:bold;'>The coefficient of determination is 0.7225.</span></p><p style='margin:8px 0;'><strong>Step 3: State the formula for Residual Sum of Squares (RSS)</strong><br>The Residual Sum of Squares (RSS) can be calculated using the Total Sum of Squares (TSS) and the coefficient of determination (\\\\( R^2 \\\\)).<br>\\[ \\\\text{RSS} = \\\\text{TSS} \\\\times (1 - R^2) \\]<br></p><p style='margin:8px 0;'><strong>Step 4: Substitute the known values into the RSS formula</strong><br>Given TSS = 133452 and calculated \\\\( R^2 = 0.7225 \\\\).<br>\\[ \\\\text{RSS} = 133452 \\\\times (1 - 0.7225) \\]<br></p><p style='margin:8px 0;'><strong>Step 5: Simplify the expression to find RSS</strong><br>First, calculate the term in the parentheses:<br>\\[ 1 - 0.7225 = 0.2775 \\]<br>Now, multiply this by TSS:<br>\\[ \\\\text{RSS} = 133452 \\\\times 0.2775 \\]<br>\\[ \\\\text{RSS} = 37032.93 \\]<br><span style='color:var(--orange);font-weight:bold;'>The residual sum of squares is 37032.93.</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We can verify this by first calculating the Explained Sum of Squares (ESS) and then subtracting it from the Total Sum of Squares (TSS).<br><strong>1. Calculate ESS:</strong><br>\\[ \\\\text{ESS} = R^2 \\\\times \\\\text{TSS} \\]<br>\\[ \\\\text{ESS} = 0.7225 \\\\times 133452 \\]<br>\\[ \\\\text{ESS} = 96419.07 \\]<br><strong>2. Calculate RSS:</strong><br>\\[ \\\\text{RSS} = \\\\text{TSS} - \\\\text{ESS} \\]<br>\\[ \\\\text{RSS} = 133452 - 96419.07 \\]<br>\\[ \\\\text{RSS} = 37032.93 \\]<br>Both methods consistently yield \\\\( 37032.93 \\\\). The closest option provided is \\\\( 37032.92 \\\\). This minor difference of 0.01 is likely due to rounding conventions in the problem's options. We select the closest option that matches one of the provided strings exactly.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>∴ The Residual Sum of Squares is 37032.92</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "37032.92"
+    }
+  }
+]
