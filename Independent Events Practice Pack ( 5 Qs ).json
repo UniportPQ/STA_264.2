@@ -1,0 +1,305 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Independent Events",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 18 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The probability that a man will live 10 more years is \\(\\frac{1}{12}\\) and the probability that his wife will live 10 years is \\(\\frac{1}{8}\\). Find the probability that both will be alive in 10 years.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{96}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{22}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Independent Events"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Probability of Independent Events</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>probability</em> is a numerical measure of the likelihood of an event occurring. It is a number between 0 and 1, inclusive.<br>Two events are said to be <em>independent</em> if the occurrence of one does not affect the probability of the other occurring.<br>The probability that two independent events, A and B, both occur is given by the product of their individual probabilities: \\[ P(A \\text{ and } B) = P(A) \\times P(B) \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Probability that a man will live 10 more years, \\( P(M) = \\frac{1}{12} \\).<br>Probability that his wife will live 10 more years, \\( P(W) = \\frac{1}{8} \\).<br>The events are independent (the man's longevity does not affect the wife's, and vice versa).</div><p style='margin:8px 0;'><strong>Step 1: Identify the individual probabilities of the events.</strong><br>Let \\( M \\) be the event that the man lives 10 more years.<br>Let \\( W \\) be the event that the wife lives 10 more years.<br>The given probabilities are:<br>\\[ P(M) = \\frac{1}{12} \\]<br>\\[ P(W) = \\frac{1}{8} \\]</p><p style='margin:8px 0;'><strong>Step 2: Confirm the independence of the events.</strong><br>In standard probability problems of this type, the longevity of one individual is assumed to be independent of the longevity of another, unless explicitly stated otherwise (e.g., if they were in the same accident). Here, no such dependency is indicated, so we treat them as independent events.</p><p style='margin:8px 0;'><strong>Step 3: State the formula for the probability of two independent events both occurring.</strong><br>For two independent events A and B, the probability that both A and B occur is:<br>\\[ P(A \\text{ and } B) = P(A) \\times P(B) \\]</p><p style='margin:8px 0;'><strong>Step 4: Substitute the given probabilities into the formula.</strong><br>We want to find the probability that both the man and the wife will be alive in 10 years, which is \\( P(M \\text{ and } W) \\).<br>Using the formula from Step 3:<br>\\[ P(M \\text{ and } W) = P(M) \\times P(W) \\]<br>Substitute the values:<br>\\[ P(M \\text{ and } W) = \\frac{1}{12} \\times \\frac{1}{8} \\]</p><p style='margin:8px 0;'><strong>Step 5: Calculate the product.</strong><br>Multiply the numerators and the denominators:<br>\\[ P(M \\text{ and } W) = \\frac{1 \\times 1}{12 \\times 8} \\]<br>\\[ P(M \\text{ and } W) = \\frac{1}{96} \\]<br>The probability that both will be alive in 10 years is <span style='color:var(--orange);font-weight:bold;'>\\(\\frac{1}{96}\\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The problem asks for the probability of two events (man lives 10 years, wife lives 10 years) both occurring. Since these are independent events, the correct method is to multiply their individual probabilities.<br>Given \\( P(M) = \\frac{1}{12} \\) and \\( P(W) = \\frac{1}{8} \\).<br>The product \\( \\frac{1}{12} \\times \\frac{1}{8} = \\frac{1}{96} \\).<br>The calculation is straightforward and confirms the result.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>\\(\\therefore\\) The probability that both will be alive in 10 years is \\(\\frac{1}{96}\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{1}{96}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2009/2010",
+    "topic": [
+      "Probability Theory",
+      "Independent Events",
+      "Compound Probability"
+    ],
+    "Question": {
+      "content": "The probability that a man will live 10 more years is \\(\\frac{1}{12}\\) and the probability that his wife will live 10 years is \\(\\frac{1}{8}\\). Find the probability that at least one will be alive in 10 years time.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{12}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{22}\\)"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Compound Probability: At Least One Event</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>For two independent events, A and B, the probability that <em>at least one</em> of them occurs can be calculated using two common methods:<br>1. The Addition Rule for independent events: \\( P(A \\text{ or } B) = P(A) + P(B) - P(A) \\times P(B) \\).<br>2. The Complement Rule: \\( P(A \\text{ or } B) = 1 - P(A' \\text{ and } B') \\), where \\( A' \\) and \\( B' \\) are the complements of A and B, respectively. For independent events, \\( P(A' \\text{ and } B') = P(A') \\times P(B') \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Probability that a man will live 10 more years: \\( P(M) = \\frac{1}{12} \\)<br>Probability that his wife will live 10 more years: \\( P(W) = \\frac{1}{8} \\)<br>The events are independent.</div><p style='margin:8px 0;'><strong>Step 1: Define the complement probabilities</strong><br>First, we find the probability that the man will NOT live 10 more years, which is the complement of \\( P(M) \\).<br>Formula: \\( P(M') = 1 - P(M) \\)<br>Substitution: \\( P(M') = 1 - \\frac{1}{12} \\)<br>Simplification: \\( P(M') = \\frac{12}{12} - \\frac{1}{12} = \\frac{11}{12} \\)<br><br>Next, we find the probability that the wife will NOT live 10 more years, which is the complement of \\( P(W) \\).<br>Formula: \\( P(W') = 1 - P(W) \\)<br>Substitution: \\( P(W') = 1 - \\frac{1}{8} \\)<br>Simplification: \\( P(W') = \\frac{8}{8} - \\frac{1}{8} = \\frac{7}{8} \\)<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( P(M') = \\frac{11}{12} \\)</span> and <span style='color:var(--orange);font-weight:bold;'>\\( P(W') = \\frac{7}{8} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the probability that NEITHER will be alive</strong><br>Since the events are independent, the probability that neither the man nor the wife will be alive in 10 years is the product of their individual complement probabilities.<br>Formula: \\( P(M' \\text{ and } W') = P(M') \\times P(W') \\)<br>Substitution: \\( P(M' \\text{ and } W') = \\frac{11}{12} \\times \\frac{7}{8} \\)<br>Simplification: \\( P(M' \\text{ and } W') = \\frac{11 \\times 7}{12 \\times 8} = \\frac{77}{96} \\)<br>Thus, the probability that neither will be alive is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{77}{96} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Calculate the probability that AT LEAST ONE will be alive</strong><br>The probability that at least one person will be alive in 10 years is the complement of the probability that neither person will be alive.<br>Formula: \\( P(\\text{at least one}) = 1 - P(M' \\text{ and } W') \\)<br>Substitution: \\( P(\\text{at least one}) = 1 - \\frac{77}{96} \\)<br>Simplification: \\( P(\\text{at least one}) = \\frac{96}{96} - \\frac{77}{96} = \\frac{19}{96} \\)<br>Therefore, the probability that at least one will be alive is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{19}{96} \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We can verify this result using the Addition Rule for independent events:<br>Formula: \\( P(M \\text{ or } W) = P(M) + P(W) - P(M) \\times P(W) \\)<br>Substitution: \\( P(M \\text{ or } W) = \\frac{1}{12} + \\frac{1}{8} - \\left(\\frac{1}{12} \\times \\frac{1}{8}\\right) \\)<br>Calculate the product term first:<br>\\( \\frac{1}{12} \\times \\frac{1}{8} = \\frac{1}{96} \\)<br>Now, find a common denominator for \\( \\frac{1}{12} \\), \\( \\frac{1}{8} \\), and \\( \\frac{1}{96} \\). The least common multiple of 12, 8, and 96 is 96.<br>Convert fractions:<br>\\( \\frac{1}{12} = \\frac{1 \\times 8}{12 \\times 8} = \\frac{8}{96} \\)<br>\\( \\frac{1}{8} = \\frac{1 \\times 12}{8 \\times 12} = \\frac{12}{96} \\)<br>Substitute and simplify:<br>\\( P(M \\text{ or } W) = \\frac{8}{96} + \\frac{12}{96} - \\frac{1}{96} \\)<br>\\( P(M \\text{ or } W) = \\frac{8 + 12 - 1}{96} = \\frac{19}{96} \\)<br>Both methods yield the same result, confirming the answer. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that at least one will be alive in 10 years is \\(\\frac{19}{96}\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{19}{96}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The probability that a man will live 10 more years is \\(\\frac{1}{12}\\) and the probability that his wife will live 10 years is \\(\\frac{1}{8}\\). Find the probability that neither will be alive in 10 years time.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{22}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Independent Events",
+      "Compound Probability"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Compound Probability of Independent Events</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Probability:</strong> A measure of the likelihood of an event occurring, expressed as a number between 0 and 1.<br><strong>Complementary Events:</strong> Two events are complementary if one event occurs if and only if the other does not. The sum of their probabilities is 1. If \\( P(A) \\) is the probability of event A, then \\( P(A') \\) (or \\( P(\\text{not } A) \\)) is the probability of the complement, and \\( P(A') = 1 - P(A) \\).<br><strong>Independent Events:</strong> Two events are independent if the occurrence of one does not affect the probability of the other occurring. If A and B are independent events, the probability that both A and B occur is given by the product of their individual probabilities: \\( P(A \\text{ and } B) = P(A) \\times P(B) \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Probability that a man will live 10 more years: \\( P(M) = \\frac{1}{12} \\)<br>Probability that his wife will live 10 more years: \\( P(W) = \\frac{1}{8} \\)<br>We need to find the probability that neither will be alive in 10 years time.</div><p style='margin:8px 0;'><strong>Step 1: Define the events and their complements</strong><br>Let M be the event that the man lives 10 more years.<br>Let W be the event that the wife lives 10 more years.<br>Given: \\( P(M) = \\frac{1}{12} \\)<br>Given: \\( P(W) = \\frac{1}{8} \\)<br>We are looking for the probability that neither will be alive, which means the man does *not* live 10 more years AND the wife does *not* live 10 more years. Let M' be the event that the man does not live 10 more years, and W' be the event that the wife does not live 10 more years.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the probability that the man will not live 10 more years</strong><br>The probability that the man will not live 10 more years is the complement of him living 10 more years.<br>Formula for complementary events: \\( P(A') = 1 - P(A) \\)<br>Substitute the given probability for the man: \\( P(M') = 1 - P(M) \\)<br>\\( P(M') = 1 - \\frac{1}{12} \\)<br>To subtract, find a common denominator:<br>\\( P(M') = \\frac{12}{12} - \\frac{1}{12} \\)<br>Simplify:<br>\\( P(M') = \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\frac{11}{12} \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the probability that the wife will not live 10 more years</strong><br>Similarly, the probability that the wife will not live 10 more years is the complement of her living 10 more years.<br>Formula for complementary events: \\( P(A') = 1 - P(A) \\)<br>Substitute the given probability for the wife: \\( P(W') = 1 - P(W) \\)<br>\\( P(W') = 1 - \\frac{1}{8} \\)<br>To subtract, find a common denominator:<br>\\( P(W') = \\frac{8}{8} - \\frac{1}{8} \\)<br>Simplify:<br>\\( P(W') = \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\frac{7}{8} \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Determine the relationship between the events</strong><br>The event of the man living or not living for 10 years is independent of the event of the wife living or not living for 10 years. Therefore, we can multiply their probabilities to find the probability that both complementary events occur.</p><p style='margin:8px 0;'><strong>Step 5: Calculate the probability that neither will be alive in 10 years</strong><br>We need to find \\( P(M' \\text{ and } W') \\). Since M' and W' are independent events:<br>Formula for independent events: \\( P(A \\text{ and } B) = P(A) \\times P(B) \\)<br>Substitute the probabilities of the complementary events: \\( P(M' \\text{ and } W') = P(M') \\times P(W') \\)<br>\\( P(M' \\text{ and } W') = \\frac{11}{12} \\times \\frac{7}{8} \\)<br>Multiply the numerators and the denominators:<br>\\( P(M' \\text{ and } W') = \\frac{11 \\times 7}{12 \\times 8} \\)<br>Simplify:<br>\\( P(M' \\text{ and } W') = \\)<span style='color:var(--orange);font-weight:bold;'>\\( \\frac{77}{96} \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's re-check the calculations.<br>Probability man does not live: \\( 1 - \\frac{1}{12} = \\frac{12-1}{12} = \\frac{11}{12} \\). Correct.<br>Probability wife does not live: \\( 1 - \\frac{1}{8} = \\frac{8-1}{8} = \\frac{7}{8} \\). Correct.<br>Probability neither lives: \\( \\frac{11}{12} \\times \\frac{7}{8} = \\frac{11 \\times 7}{12 \\times 8} = \\frac{77}{96} \\). Correct.<br>The result is a valid probability between 0 and 1.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that neither will be alive in 10 years time is \\( \\frac{77}{96} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{77}{96}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The probability that a man will live 10 more years is \\(\\frac{1}{12}\\) and the probability that his wife will live 10 years is \\(\\frac{1}{8}\\). Find the probability that only the wife will be alive in 10 years.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{12}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{12}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{1}{22}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Independent Events",
+      "Compound Probability"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Compound Probability of Independent Events</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Probability:</strong> A numerical measure of the likelihood of an event occurring.<br><strong>Independent Events:</strong> Two events are independent if the occurrence of one does not affect the probability of the other.<br><strong>Complementary Events:</strong> If A is an event, then 'not A' (denoted A') is its complementary event. The sum of their probabilities is 1: \\( P(A) + P(A') = 1 \\).<br><strong>Compound Probability (Independent Events):</strong> The probability that two independent events A and B both occur is \\( P(A \\text{ and } B) = P(A) \\times P(B) \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Probability that a man will live 10 more years: \\( P(M) = \\frac{1}{12} \\)<br>Probability that his wife will live 10 more years: \\( P(W) = \\frac{1}{8} \\)</div><p style='margin:8px 0;'><strong>Step 1: Define the events and their given probabilities</strong><br>Let M be the event that the man lives 10 more years.<br>Let W be the event that the wife lives 10 more years.<br>Given:<br>\\[ P(M) = \\frac{1}{12} \\]<br>\\[ P(W) = \\frac{1}{8} \\]</p><p style='margin:8px 0;'><strong>Step 2: Determine the probability that the man does not live 10 more years</strong><br>The event 'man does not live 10 more years' is the complementary event to M, denoted as M'.<br>The formula for complementary probability is:<br>\\[ P(M') = 1 - P(M) \\]<br>Substitute the given value of \\( P(M) \\):<br>\\[ P(M') = 1 - \\frac{1}{12} \\]<br>Simplify the expression:<br>\\[ P(M') = \\frac{12}{12} - \\frac{1}{12} \\]<br>\\[ P(M') = \\frac{11}{12} \\]<br>The probability that the man will not be alive in 10 years is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{11}{12} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Identify the desired compound event</strong><br>We need to find the probability that 'only the wife will be alive in 10 years'.<br>This means two conditions must be met simultaneously:<br>1. The wife lives 10 more years (Event W occurs).<br>2. The man does not live 10 more years (Event M' occurs).<br>Since the life expectancies of the man and wife are independent events, we are looking for \\( P(W \\text{ and } M') \\).</p><p style='margin:8px 0;'><strong>Step 4: Apply the formula for the probability of independent events</strong><br>For two independent events A and B, the probability that both occur is given by:<br>\\[ P(A \\text{ and } B) = P(A) \\times P(B) \\]<br>In our case, A is event W and B is event M'. So the formula becomes:<br>\\[ P(W \\text{ and } M') = P(W) \\times P(M') \\]</p><p style='margin:8px 0;'><strong>Step 5: Substitute values and calculate the final probability</strong><br>Substitute the probabilities found in Step 1 and Step 2 into the formula from Step 4:<br>\\[ P(\\text{only wife alive}) = \\frac{1}{8} \\times \\frac{11}{12} \\]<br>Perform the multiplication:<br>\\[ P(\\text{only wife alive}) = \\frac{1 \\times 11}{8 \\times 12} \\]<br>\\[ P(\\text{only wife alive}) = \\frac{11}{96} \\]<br>The probability that only the wife will be alive in 10 years is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{11}{96} \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The probability of the wife living is \\( \\frac{1}{8} \\).<br>The probability of the man not living is \\( \\frac{11}{12} \\).<br>Since these are independent events, we multiply them to find the probability of both occurring.<br>\\( \\frac{1}{8} \\times \\frac{11}{12} = \\frac{11}{96} \\).<br>The result \\( \\frac{11}{96} \\) is a valid probability (between 0 and 1). The calculation is consistent with the rules of probability for independent and complementary events.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that only the wife will be alive in 10 years is \\( \\frac{11}{96} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{11}{96}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these statements is false?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "If A and B are independent events, they are mutually exclusive"
+        },
+        {
+          "type": "String",
+          "content": "Pair wise independence does not imply mutually independence"
+        },
+        {
+          "type": "String",
+          "content": "\\(P(A \\cap B) = P(A)P(B)\\), provided \\(P(B) > 0\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Theory",
+      "Independent Events",
+      "Dependent Events",
+      "Compound Probability",
+      "Mutually Exclusive Events"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Probability Event Relationships</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>• <strong>Independent Events:</strong> Two events A and B are independent if the occurrence of one does not affect the probability of the other. Mathematically, \\( P(A \\cap B) = P(A)P(B) \\).<br>• <strong>Mutually Exclusive Events:</strong> Two events A and B are mutually exclusive (or disjoint) if they cannot occur at the same time. This means their intersection is an empty set, so \\( P(A \\cap B) = 0 \\).<br>• <strong>Addition Rule of Probability:</strong> For any two events A and B, \\( P(A \\cup B) = P(A) + P(B) - P(A \\cap B) \\). If A and B are mutually exclusive, this simplifies to \\( P(A \\cup B) = P(A) + P(B) \\).<br>• <strong>Pairwise Independence vs. Mutual Independence:</strong> For a collection of more than two events, pairwise independence (where every pair of events is independent) does not necessarily imply mutual independence (where the probability of the intersection of any subcollection of events is the product of their individual probabilities).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Four statements regarding probability events. We need to identify the false statement.</div><p style='margin:8px 0;'><strong>Step 1: Evaluate Statement 1</strong><br>The statement is: \"If A and B are independent events, they are mutually exclusive.\"<br>Let's consider the definitions:<br>If A and B are independent, then \\( P(A \\cap B) = P(A)P(B) \\).<br>If A and B are mutually exclusive, then \\( P(A \\cap B) = 0 \\).<br>For these two conditions to hold simultaneously, we must have \\( P(A)P(B) = 0 \\). This implies that either \\( P(A) = 0 \\) or \\( P(B) = 0 \\).<br>However, if A and B are two non-trivial events (i.e., \\( P(A) > 0 \\) and \\( P(B) > 0 \\)), then \\( P(A)P(B) > 0 \\). In this common case, \\( P(A \\cap B) \\neq 0 \\), which means they cannot be mutually exclusive.<br>For example, consider rolling a fair die. Let A be the event of rolling an even number (\\({2, 4, 6}\\)), so \\( P(A) = 3/6 = 1/2 \\). Let B be the event of rolling a number greater than 3 (\\({4, 5, 6}\\)), so \\( P(B) = 3/6 = 1/2 \\).<br>The intersection \\( A \\cap B \\) is rolling an even number greater than 3 (\\({4, 6}\\)), so \\( P(A \\cap B) = 2/6 = 1/3 \\).<br>Are A and B independent? \\( P(A)P(B) = (1/2)(1/2) = 1/4 \\). Since \\( P(A \\cap B) = 1/3 \\neq 1/4 \\), these events are actually NOT independent. (My example choice was poor for independence, but it illustrates they are not mutually exclusive).<br>Let's use a better example for independence: Consider two coin tosses. Let A be 'first toss is Heads' (\\(P(A)=0.5\\)). Let B be 'second toss is Heads' (\\(P(B)=0.5\\)). These are independent events. The intersection \\(A \\cap B\\) is 'both tosses are Heads' (\\(P(A \\cap B)=0.25\\)).<br>For these events, \\(P(A \\cap B) = 0.25\\) and \\(P(A)P(B) = 0.5 \\times 0.5 = 0.25\\). So, they are independent.<br>Are they mutually exclusive? No, because \\(P(A \\cap B) = 0.25 \\neq 0\\).<br>Therefore, the statement <span style='color:var(--orange);font-weight:bold;'>\"If A and B are independent events, they are mutually exclusive\" is false</span> (unless one of the events has probability zero, which is a trivial case).<br></p><p style='margin:8px 0;'><strong>Step 2: Evaluate Statement 2</strong><br>The statement is: \"Pair wise independence does not imply mutually independence.\"<br>This is a well-known property in probability theory. For three or more events, it is possible for every pair of events to be independent, but for the entire set of events not to be mutually independent. A classic example involves three events related to coin tosses where pairwise independence holds but mutual independence does not.<br>Therefore, this statement is <span style='color:var(--orange);font-weight:bold;'>true</span>.<br></p><p style='margin:8px 0;'><strong>Step 3: Evaluate Statement 3</strong><br>The statement is: \"\\(P(A \\cap B) = P(A)P(B)\\), provided \\(P(B) > 0\\).\"<br>This is the fundamental definition of independent events. The condition \\( P(B) > 0 \\) is often included when defining independence through conditional probability, i.e., \\( P(A|B) = P(A) \\). If \\( P(B) > 0 \\), then \\( P(A|B) = \\frac{P(A \\cap B)}{P(B)} \\). Substituting \\( P(A|B) = P(A) \\) gives \\( P(A) = \\frac{P(A \\cap B)}{P(B)} \\), which rearranges to \\( P(A \\cap B) = P(A)P(B) \\). Even without conditional probability, \\( P(A \\cap B) = P(A)P(B) \\) is the direct definition of independence. The 'provided \\( P(B) > 0 \\)' clause does not make the statement false.<br>Therefore, this statement is <span style='color:var(--orange);font-weight:bold;'>true</span>.<br></p><p style='margin:8px 0;'><strong>Step 4: Evaluate Statement 4</strong><br>The statement is: \"\\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\).\"<br>This is the Addition Rule of Probability, a fundamental axiom derived from set theory for calculating the probability of the union of two events. It accounts for the overlap \\( P(A \\cap B) \\) to avoid double-counting.<br>Therefore, this statement is <span style='color:var(--orange);font-weight:bold;'>true</span>.<br></p><p style='margin:8px 0;'><strong>Step 5: Identify the false statement</strong><br>Based on the analysis of all four statements:<br>Statement 1: False<br>Statement 2: True<br>Statement 3: True<br>Statement 4: True<br>The only false statement is the first one.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's re-verify the relationship between independent and mutually exclusive events.<br>If A and B are independent, \\( P(A \\cap B) = P(A)P(B) \\).<br>If A and B are mutually exclusive, \\( P(A \\cap B) = 0 \\).<br>For both to be true simultaneously, \\( P(A)P(B) = 0 \\). This means either \\( P(A) = 0 \\) or \\( P(B) = 0 \\).<br>Consider a scenario where \\( P(A) \\neq 0 \\) and \\( P(B) \\neq 0 \\). In this case, \\( P(A)P(B) \\neq 0 \\).<br>Therefore, if A and B are independent and have non-zero probabilities, they cannot be mutually exclusive. The statement \"If A and B are independent events, they are mutually exclusive\" is generally false. For example, if you flip two coins, the event 'first coin is heads' and 'second coin is heads' are independent, but they are not mutually exclusive (you can get HH).</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The false statement is: If A and B are independent events, they are mutually exclusive</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "If A and B are independent events, they are mutually exclusive"
+    }
+  }
+]
