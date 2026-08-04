@@ -1,0 +1,376 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Chi-square Test",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 7a @ 2023/2024",
+    "img": null,
+    "table": [
+      [
+        "Malaria status",
+        "Residence (In campus)",
+        "Residence (Off-campus)",
+        "Row total"
+      ],
+      [
+        "Yes",
+        "213 (163.45)",
+        "150 ( ___ )",
+        "---"
+      ],
+      [
+        "No",
+        "190 ( ___ )",
+        "----- (292.45)",
+        "532"
+      ],
+      [
+        "Column total",
+        "403",
+        "492",
+        "895"
+      ]
+    ],
+    "Question": {
+      "content": "Complete the chi-square table below by providing the missing observed frequencies (\\(O_{ij}\\)), expected frequencies (\\(E_{ij}\\)) in brackets, and row totals. The table shows the number of students who may or may not have suffered from malaria and their residence in the last semester.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Chi-square Test",
+      "Categorical Data Analysis in Biology",
+      "Hypothesis Testing in Life Sciences",
+      "Statistical Calculations"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Table Completion</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>chi-square table</em> summarizes observed and expected frequencies for categorical data.<br>The <em>observed frequency</em> (\\(O_{ij}\\)) is the actual count in a cell.<br>The <em>expected frequency</em> (\\(E_{ij}\\)) is the count that would be expected if there were no association between the row and column variables.<br>The formula for expected frequency is: \\[ E_{ij} = \\frac{(\\text{Row i Total}) \\times (\\text{Column j Total})}{(\\text{Grand Total})} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>A partially completed chi-square table with observed frequencies (\\(O_{ij}\\)), expected frequencies (\\(E_{ij}\\)) in brackets, row totals, column totals, and the grand total.<br>The goal is to find the missing values.</div><p style='margin:8px 0;'><strong>Step 1: Identify the missing values in the table</strong><br>From the given table, the missing values are:<br>1. Row total for 'Malaria Yes'<br>2. Expected frequency for 'Malaria Yes, Off-campus' (\\(E_{12}\\))<br>3. Expected frequency for 'Malaria No, On-campus' (\\(E_{21}\\))<br>4. Observed frequency for 'Malaria No, Off-campus' (\\(O_{22}\\))</p><p style='margin:8px 0;'><strong>Step 2: Calculate the missing Row Total for 'Malaria Yes'</strong><br>The grand total is the sum of all row totals.<br>Formula: Grand Total = Row 1 Total + Row 2 Total<br>Given: Grand Total = 895, Row 2 Total (Malaria No) = 532<br>Substitution: \\( 895 = \\text{Row 1 Total} + 532 \\)<br>Simplification: \\( \\text{Row 1 Total} = 895 - 532 \\)<br><span style='color:var(--orange);font-weight:bold;'>Row 1 Total (Malaria Yes) = 363</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the missing Observed Frequency for 'Malaria No, Off-campus' (\\(O_{22}\\))</strong><br>The column total is the sum of observed frequencies in that column.<br>Formula: Column j Total = \\(O_{1j} + O_{2j}\\)<br>Given: Column total 'Off-campus' = 492, \\(O_{12}\\) (Malaria Yes, Off-campus) = 150<br>Substitution: \\( 492 = 150 + O_{22} \\)<br>Simplification: \\( O_{22} = 492 - 150 \\)<br><span style='color:var(--orange);font-weight:bold;'>\\(O_{22}\\) (Malaria No, Off-campus) = 342</span><br>Alternatively, using the row total for 'No':<br>Formula: Row 2 Total = \\(O_{21} + O_{22}\\)<br>Given: Row 2 Total (Malaria No) = 532, \\(O_{21}\\) (Malaria No, On-campus) = 190<br>Substitution: \\( 532 = 190 + O_{22} \\)<br>Simplification: \\( O_{22} = 532 - 190 \\)<br><span style='color:var(--orange);font-weight:bold;'>\\(O_{22}\\) (Malaria No, Off-campus) = 342</span> (Consistent result)</p><p style='margin:8px 0;'><strong>Step 4: Calculate the missing Expected Frequency for 'Malaria Yes, Off-campus' (\\(E_{12}\\))</strong><br>Formula: \\( E_{12} = \\frac{(\\text{Row 1 Total}) \\times (\\text{Column 2 Total})}{(\\text{Grand Total})} \\)<br>Given: Row 1 Total = 363 (calculated), Column 2 Total (Off-campus) = 492, Grand Total = 895<br>Substitution: \\( E_{12} = \\frac{363 \\times 492}{895} \\)<br>Simplification: \\( E_{12} = \\frac{178696}{895} \\)<br>Calculation: \\( E_{12} \\approx 199.660335... \\)<br><span style='color:var(--orange);font-weight:bold;'>\\(E_{12}\\) (Malaria Yes, Off-campus) \\approx 199.66</span> (rounded to two decimal places)</p><p style='margin:8px 0;'><strong>Step 5: Calculate the missing Expected Frequency for 'Malaria No, On-campus' (\\(E_{21}\\))</strong><br>Formula: \\( E_{21} = \\frac{(\\text{Row 2 Total}) \\times (\\text{Column 1 Total})}{(\\text{Grand Total})} \\)<br>Given: Row 2 Total (Malaria No) = 532, Column 1 Total (On-campus) = 403, Grand Total = 895<br>Substitution: \\( E_{21} = \\frac{532 \\times 403}{895} \\)<br>Simplification: \\( E_{21} = \\frac{214496}{895} \\)<br>Calculation: \\( E_{21} \\approx 239.660335... \\)<br><span style='color:var(--orange);font-weight:bold;'>\\(E_{21}\\) (Malaria No, On-campus) \\approx 239.66</span> (rounded to two decimal places)</p><p style='margin:8px 0;'><strong>Step 6: Present the completed table</strong><br>| Malaria status | Residence (In campus) | Residence (Off-campus) | Row total |<br>| :------------- | :-------------------- | :--------------------- | :-------- |<br>| Yes            | 213 (163.45)          | 150 ( <span style='color:var(--orange);font-weight:bold;'>199.66</span> )     | <span style='color:var(--orange);font-weight:bold;'>363</span>   |<br>| No             | 190 ( <span style='color:var(--orange);font-weight:bold;'>239.66</span> )    | <span style='color:var(--orange);font-weight:bold;'>342</span> (292.45)       | 532       |<br>| Column total   | 403                   | 492                    | 895       |</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Check if all totals sum correctly:<br>Row Totals: \\( 363 + 532 = 895 \\) &#10003;<br>Column Totals: \\( 403 + 492 = 895 \\) &#10003;<br>Check if observed frequencies sum to row/column totals:<br>Row 1: \\( 213 + 150 = 363 \\) &#10003;<br>Row 2: \\( 190 + 342 = 532 \\) &#10003;<br>Col 1: \\( 213 + 190 = 403 \\) &#10003;<br>Col 2: \\( 150 + 342 = 492 \\) &#10003;<br>All calculations are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The completed values are: Row 1 Total: 363, Observed (Malaria No, Off-campus): 342, Expected (Malaria Yes, Off-campus): 199.66, Expected (Malaria No, On-campus): 239.66</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Row 1 total: 363<br>Observed (Malaria No, Off-campus): 342<br>Expected (Malaria Yes, Off-campus): 199.66<br>Expected (Malaria No, On-campus): 239.66"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7b @ 2023/2024",
+    "img": null,
+    "table": [
+      [
+        "Malaria status",
+        "Residence (In campus)",
+        "Residence (Off-campus)",
+        "Row total"
+      ],
+      [
+        "Yes",
+        "213 (163.45)",
+        "150 (199.55)",
+        "363"
+      ],
+      [
+        "No",
+        "190 (239.55)",
+        "342 (292.45)",
+        "532"
+      ],
+      [
+        "Column total",
+        "403",
+        "492",
+        "895"
+      ]
+    ],
+    "Question": {
+      "content": "Calculate the chi-square test statistic using the completed table. Show your work.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Chi-square Test",
+      "Test Statistics",
+      "Statistical Calculations",
+      "Categorical Data Analysis in Biology",
+      "Hypothesis Testing in Life Sciences"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Test Statistic Calculation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-square (\\(\\chi^2\\)) test statistic</em> is used to determine if there is a significant association between two categorical variables. It compares the observed frequencies (O) in each category with the expected frequencies (E) if there were no association between the variables.<br>The formula for the Chi-square test statistic is:<br>\\[ \\chi^2 = \\sum \\frac{(O - E)^2}{E} \\]<br>where the summation is carried out over all cells in the contingency table.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>The contingency table provides the observed (O) and expected (E) frequencies for each cell:<br><ul><li>Malaria Yes, In campus: O = 213, E = 163.45</li><li>Malaria Yes, Off-campus: O = 150, E = 199.55</li><li>Malaria No, In campus: O = 190, E = 239.55</li><li>Malaria No, Off-campus: O = 342, E = 292.45</li></ul></div><p style='margin:8px 0;'><strong>Step 1: State the Chi-square formula</strong><br>The formula to calculate the Chi-square test statistic is:<br>\\[ \\chi^2 = \\sum \\frac{(O - E)^2}{E} \\]</p><p style='margin:8px 0;'><strong>Step 2: Calculate the term for 'Malaria Yes, In campus'</strong><br>Observed count (O) = 213<br>Expected count (E) = 163.45<br>Substitute the values into the formula for this cell:<br>\\[ \\frac{(O - E)^2}{E} = \\frac{(213 - 163.45)^2}{163.45} \\]<br>\\[ = \\frac{(49.55)^2}{163.45} \\]<br>\\[ = \\frac{2455.2025}{163.45} \\]<br>\\[ \\approx \\text{15.0211} \\]<br>The contribution from this cell is <span style='color:var(--orange);font-weight:bold;'>15.0211</span>.</p><p style='margin:8px 0;'><strong>Step 3: Calculate the term for 'Malaria Yes, Off-campus'</strong><br>Observed count (O) = 150<br>Expected count (E) = 199.55<br>Substitute the values into the formula for this cell:<br>\\[ \\frac{(O - E)^2}{E} = \\frac{(150 - 199.55)^2}{199.55} \\]<br>\\[ = \\frac{(-49.55)^2}{199.55} \\]<br>\\[ = \\frac{2455.2025}{199.55} \\]<br>\\[ \\approx \\text{12.3032} \\]<br>The contribution from this cell is <span style='color:var(--orange);font-weight:bold;'>12.3032</span>.</p><p style='margin:8px 0;'><strong>Step 4: Calculate the term for 'Malaria No, In campus'</strong><br>Observed count (O) = 190<br>Expected count (E) = 239.55<br>Substitute the values into the formula for this cell:<br>\\[ \\frac{(O - E)^2}{E} = \\frac{(190 - 239.55)^2}{239.55} \\]<br>\\[ = \\frac{(-49.55)^2}{239.55} \\]<br>\\[ = \\frac{2455.2025}{239.55} \\]<br>\\[ \\approx \\text{10.2492} \\]<br>The contribution from this cell is <span style='color:var(--orange);font-weight:bold;'>10.2492</span>.</p><p style='margin:8px 0;'><strong>Step 5: Calculate the term for 'Malaria No, Off-campus'</strong><br>Observed count (O) = 342<br>Expected count (E) = 292.45<br>Substitute the values into the formula for this cell:<br>\\[ \\frac{(O - E)^2}{E} = \\frac{(342 - 292.45)^2}{292.45} \\]<br>\\[ = \\frac{(49.55)^2}{292.45} \\]<br>\\[ = \\frac{2455.2025}{292.45} \\]<br>\\[ \\approx \\text{8.4098} \\]<br>The contribution from this cell is <span style='color:var(--orange);font-weight:bold;'>8.4098</span>.</p><p style='margin:8px 0;'><strong>Step 6: Sum all the calculated terms</strong><br>Add the contributions from all four cells to find the total Chi-square test statistic:<br>\\[ \\chi^2 = 15.0211 + 12.3032 + 10.2492 + 8.4098 \\]<br>\\[ \\chi^2 \\approx \\text{45.9833} \\]<br>Rounding to two decimal places, the Chi-square test statistic is <span style='color:var(--orange);font-weight:bold;'>45.98</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We re-sum the individual contributions to ensure accuracy:<br>\\( 15.0211 + 12.3032 + 10.2492 + 8.4098 = 45.9833 \\).<br>The sum is consistent, and rounding to two decimal places gives 45.98. &#10003;</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The calculated chi-square test statistic is approximately 45.98.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The calculated chi-square test statistic is approximately 45.98."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7c @ 2023/2024",
+    "topic": [
+      "Hypothesis Testing in Life Sciences",
+      "Chi-square Test",
+      "Test Statistics",
+      "Significance Level"
+    ],
+    "Question": {
+      "content": "Given the critical chi-square value \\( \\chi^2_{0.05} = 3.841 \\), what is your decision regarding the null hypothesis? Justify your decision.",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [
+      [
+        "Malaria status",
+        "Residence (In campus)",
+        "Residence (Off-campus)",
+        "Row total"
+      ],
+      [
+        "Yes",
+        "213 (163.45)",
+        "150 (199.55)",
+        "363"
+      ],
+      [
+        "No",
+        "190 (239.55)",
+        "342 (292.45)",
+        "532"
+      ],
+      [
+        "Column total",
+        "403",
+        "492",
+        "895"
+      ]
+    ],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Test of Independence</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-square Test of Independence</em> is used to determine if there is a significant association between two categorical variables.<br>The <em>null hypothesis</em> (\\( H_0 \\)) states that there is no association between the variables (they are independent).<br>The <em>alternative hypothesis</em> (\\( H_1 \\)) states that there is an association between the variables (they are dependent).<br>The <em>test statistic</em> is calculated as \\( \\chi^2 = \\sum \\frac{(O - E)^2}{E} \\), where \\( O \\) is the observed frequency and \\( E \\) is the expected frequency for each cell.<br>A <em>critical value</em> is a threshold from the chi-square distribution, determined by the significance level (\\( \\alpha \\)) and degrees of freedom (\\( df \\)).<br>The <em>decision rule</em> is: If the calculated \\( \\chi^2 \\) value is greater than the critical value, reject \\( H_0 \\). Otherwise, fail to reject \\( H_0 \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Observed (O) and Expected (E) frequencies from the table:<br><ul><li>Malaria Yes, In campus: O = 213, E = 163.45</li><li>Malaria Yes, Off-campus: O = 150, E = 199.55</li><li>Malaria No, In campus: O = 190, E = 239.55</li><li>Malaria No, Off-campus: O = 342, E = 292.45</li></ul>Critical chi-square value: \\( \\chi^2_{0.05} = 3.841 \\)<br>Significance level: \\( \\alpha = 0.05 \\)</div><p style='margin:8px 0;'><strong>Step 1: State the Null and Alternative Hypotheses</strong><br>The hypotheses for a chi-square test of independence are:<br>\\( H_0 \\): There is no association between malaria status and residence (malaria status is independent of residence).<br>\\( H_1 \\): There is an association between malaria status and residence (malaria status is dependent on residence).</p><p style='margin:8px 0;'><strong>Step 2: Calculate the Chi-square Test Statistic for each cell</strong><br>The formula for the chi-square contribution from each cell is \\( \\frac{(O - E)^2}{E} \\).<br><br>For Malaria Yes, In campus:<br>\\[ \\frac{(213 - 163.45)^2}{163.45} = \\frac{(49.55)^2}{163.45} = \\frac{2455.2025}{163.45} \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>15.0211</span>} \\]<br><br>For Malaria Yes, Off-campus:<br>\\[ \\frac{(150 - 199.55)^2}{199.55} = \\frac{(-49.55)^2}{199.55} = \\frac{2455.2025}{199.55} \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>12.3032</span>} \\]<br><br>For Malaria No, In campus:<br>\\[ \\frac{(190 - 239.55)^2}{239.55} = \\frac{(-49.55)^2}{239.55} = \\frac{2455.2025}{239.55} \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>10.2492</span>} \\]<br><br>For Malaria No, Off-campus:<br>\\[ \\frac{(342 - 292.45)^2}{292.45} = \\frac{(49.55)^2}{292.45} = \\frac{2455.2025}{292.45} \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>8.3953</span>} \\]</p><p style='margin:8px 0;'><strong>Step 3: Sum the contributions to find the total Chi-square Test Statistic</strong><br>The total chi-square test statistic is the sum of the contributions from all cells.<br>\\[ \\chi^2 = 15.0211 + 12.3032 + 10.2492 + 8.3953 \\]<br>\\[ \\chi^2 \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>45.9688</span>} \\]</p><p style='margin:8px 0;'><strong>Step 4: Determine the Degrees of Freedom (df)</strong><br>The degrees of freedom for a contingency table are calculated as \\( df = (\\text{rows} - 1) \\times (\\text{columns} - 1) \\).<br>Number of rows = 2 (Malaria Yes, No)<br>Number of columns = 2 (In campus, Off-campus)<br>\\[ df = (2 - 1) \\times (2 - 1) = 1 \\times 1 = \\text{<span style='color:var(--orange);font-weight:bold;'>1</span>} \\]</p><p style='margin:8px 0;'><strong>Step 5: Compare the Calculated Chi-square Value with the Critical Value</strong><br>Calculated chi-square value: \\( \\chi^2 \\approx 45.9688 \\)<br>Critical chi-square value: \\( \\chi^2_{0.05} = 3.841 \\)<br>Compare: \\( 45.9688 > 3.841 \\)</p><p style='margin:8px 0;'><strong>Step 6: Make a Decision Regarding the Null Hypothesis</strong><br>Since the calculated chi-square value (45.9688) is greater than the critical chi-square value (3.841) at the 0.05 significance level, we reject the null hypothesis.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The calculation of the chi-square statistic involves summing the squared differences between observed and expected frequencies, divided by the expected frequencies. Each step was performed carefully, and the sum is consistent. The decision rule for hypothesis testing is standard: if the test statistic exceeds the critical value, the null hypothesis is rejected. This indicates that the observed differences are unlikely to have occurred by chance alone.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Decision: Reject the null hypothesis. Justification: The calculated chi-square value (45.9688) is greater than the critical chi-square value (3.841).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Reject the null hypothesis because the calculated chi-square value (45.9688) is greater than the critical chi-square value (3.841)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2011/2012",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these is the correct formula for the chi-square test statistics?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum \\\\frac{(O_i - E_i)^2}{E_i}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)}{E_i}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i + E_i)^2}{E_i}\\\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Hypothesis Testing",
+      "Inferential Statistics",
+      "Categorical Data Analysis",
+      "Biostatistics",
+      "Chi-square Test"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Test Statistic Formula</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-square (\\\\(\\chi^2\\\\)) test</em> is a statistical test used to determine if there is a significant association between two categorical variables or if observed frequencies differ significantly from expected frequencies.<br><ul><li><em>Observed frequency (\\\\(O_i\\\\))</em>: The actual count of observations in each category or cell.</li><li><em>Expected frequency (\\\\(E_i\\\\))</em>: The frequency that would be expected in each category or cell under the null hypothesis (e.g., no association or a specific distribution).</li><li>The <em>Chi-square test statistic</em> quantifies the overall discrepancy between observed and expected frequencies.</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Identify the correct formula for the chi-square test statistic from the provided options, where \\\\(O_i\\\\) represents observed frequencies and \\\\(E_i\\\\) represents expected frequencies.</div><p style='margin:8px 0;'><strong>Step 1: Understand the Purpose of the Chi-square Test Statistic</strong><br>The chi-square test statistic measures how much the observed frequencies in various categories deviate from the frequencies that would be expected if there were no relationship or difference (under the null hypothesis). It must provide a single, positive value that increases as the discrepancy between observed and expected values grows.</p><p style='margin:8px 0;'><strong>Step 2: Account for Differences Between Observed and Expected Frequencies</strong><br>For each category \\\\(i\\\\), we first find the difference between the observed and expected frequencies: <br>\\\\[ (O_i - E_i) \\\\] <br>If we simply summed these differences, the result would often be zero because the sum of observed frequencies equals the sum of expected frequencies. To ensure that both positive and negative differences contribute to the total discrepancy, we square this difference: <br>\\\\[ (O_i - E_i)^2 \\\\] <span style='color:var(--orange);font-weight:bold;'>This squaring ensures all contributions are positive.</span></p><p style='margin:8px 0;'><strong>Step 3: Standardize the Squared Differences by Expected Frequencies</strong><br>The significance of a difference depends on the magnitude of the expected frequency. For example, a difference of 5 is more significant if the expected frequency is 10 than if it's 1000. To account for this, we divide the squared difference by the expected frequency for that category: <br>\\\\[ \\\\frac{(O_i - E_i)^2}{E_i} \\\\] <span style='color:var(--orange);font-weight:bold;'>This step normalizes the contribution of each category based on its expected count.</span></p><p style='margin:8px 0;'><strong>Step 4: Sum Across All Categories</strong><br>To obtain the total chi-square test statistic, we sum these standardized squared differences over all \\\\(n\\\\) categories (or cells in a contingency table): <br>\\\\[ \\\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i} \\\\] <span style='color:var(--orange);font-weight:bold;'>The summation symbol \\\\(\\sum_{i=1}^n\\\\) indicates that this calculation is performed for each category from the first (\\\\(i=1\\\\)) to the last (\\\\(n\\\\)), and all results are added together.</span></p><p style='margin:8px 0;'><strong>Step 5: Compare with Given Options</strong><br>Let's evaluate the provided options against the derived formula:<br><ul><li>Option 1: \\\\(\\chi^2 = \\\\sum \\\\frac{(O_i - E_i)^2}{E_i}\\\\)<br>This is very close, but it omits the explicit summation limits \\\\(i=1\\\\) to \\\\(n\\\\), which are standard in formal notation.</li><li>Option 2: \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\)<br>This option exactly matches the standard formula, including the squaring of the difference and the explicit summation limits.</li><li>Option 3: \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)}{E_i}\\\\)<br>This option is incorrect because it does not square the difference \\\\((O_i - E_i)\\\\). Without squaring, positive and negative differences would cancel out, making the statistic uninformative.</li><li>Option 4: \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i + E_i)^2}{E_i}\\\\)<br>This option is incorrect because it uses the sum \\\\((O_i + E_i)\\\\) instead of the difference \\\\((O_i - E_i)\\\\). The chi-square test measures discrepancy, not agreement in this manner.</li></ul>Based on this comparison, Option 2 is the correct formula.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The formula \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\) is the universally accepted and standard formula for the chi-square test statistic. It correctly quantifies the aggregate difference between observed and expected frequencies, ensuring that all discrepancies contribute positively and are weighted appropriately by their expected values. This formula is fundamental to hypothesis testing for categorical data.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correct formula for the chi-square test statistic is \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2011/2012",
+    "img": null,
+    "table": [
+      [
+        "Defects in vision",
+        "Normal",
+        "Short",
+        "Long",
+        "Total"
+      ],
+      [
+        "Eye color",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Blue",
+        "92",
+        "39( )",
+        "",
+        ""
+      ],
+      [
+        "Green",
+        "33",
+        "5( )",
+        "123",
+        ""
+      ],
+      [
+        "Gray",
+        "74( )",
+        "30",
+        "8",
+        ""
+      ],
+      [
+        "Hazel",
+        "75( )",
+        "",
+        "6( )",
+        "113"
+      ],
+      [
+        "Brown",
+        "70",
+        "31( )",
+        "?",
+        ""
+      ],
+      [
+        "Total",
+        "165",
+        "",
+        "",
+        "600"
+      ]
+    ],
+    "Question": {
+      "content": "Complete the following Chi-square table below given that the values in bracket are the expected frequencies (\\\\(E_{ij}\\\\)) while those without the bracket are the observed frequencies (\\\\(O_{ij}\\\\)). In a survey to examine whether defects in vision and eye color are independent, 600 children were classified as shown below. Also, given that \\\\\\\\(\\\\\\\\chi_{0.05}^2(1) = 15.507\\\\) and define \\\\(E_{ij}\\\\). State the hypothesis.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Chi-square Test",
+      "Hypothesis Testing",
+      "Categorical Data Analysis",
+      "Inferential Statistics",
+      "Biostatistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Test for Independence</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-square test for independence</em> is used to determine if there is a significant association between two categorical variables.<br>It compares observed frequencies (\\\\(O_{ij}\\\\)) in a contingency table with expected frequencies (\\\\(E_{ij}\\\\)) that would occur if the variables were independent.<br>The <em>expected frequency</em> (\\\\(E_{ij}\\\\)) for a cell \\\\( (i, j) \\\\) is the frequency that would be expected if the null hypothesis of independence were true.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br><ul><li>A survey of 600 children classified by defects in vision and eye color.</li><li>Values without brackets are observed frequencies (\\\\(O_{ij}\\\\)).</li><li>Values in brackets are expected frequencies (\\\\(E_{ij}\\\\)).</li><li>Critical value: \\\\\\\\(\\\\\\\\chi_{0.05}^2(1) = 15.507\\\\).</li><li>The table contains inconsistencies: The sum of the observed frequencies in the 'Normal' column (\\\\(92+33+70 = 195\\\\)) does not match the given 'Normal' column total (165). This prevents accurate numerical completion of the table.</li></ul></div><p style='margin:8px 0;'><strong>Step 1: State the Purpose of the Chi-square Test for Independence</strong><br>The Chi-square test for independence aims to determine whether there is a statistically significant relationship between two categorical variables, in this case, 'Defects in vision' and 'Eye color'.</p><p style='margin:8px 0;'><strong>Step 2: State the Null Hypothesis (\\\\(H_0\\\\))</strong><br>The null hypothesis states that there is no association between the two variables; they are independent.<br>\\\\[ H_0: \\\\\\\\text{Defects in vision and eye color are independent.} \\\\\\]</p><p style='margin:8px 0;'><strong>Step 3: State the Alternative Hypothesis (\\\\(H_1\\\\))</strong><br>The alternative hypothesis states that there is an association between the two variables; they are not independent (or dependent).<br>\\\\[ H_1: \\\\\\\\text{Defects in vision and eye color are not independent.} \\\\\\]</p><p style='margin:8px 0;'><strong>Step 4: Define Expected Frequency (\\\\(E_{ij}\\\\))</strong><br>The expected frequency for a cell \\\\( (i, j) \\\\) in a contingency table is calculated using the formula:<br>\\\\[ E_{ij} = \\\\\\\\frac{\\\\\\\\text{Row Total} \\\\\\\\times \\\\\\\\text{Column Total}}{\\\\\\\\text{Grand Total}} \\\\\\]<br>Where:<br>• &nbsp;<strong>Row Total</strong> is the sum of all frequencies in row \\\\( i \\\\).<br>• &nbsp;<strong>Column Total</strong> is the sum of all frequencies in column \\\\( j \\\\).<br>• &nbsp;<strong>Grand Total</strong> is the total number of observations in the entire table (600 in this case).</p><p style='margin:8px 0;'><strong>Step 5: Address Table Completion</strong><br>Due to the inconsistencies in the provided data (e.g., the 'Normal' column total of 165 contradicts the sum of its observed values (\\\\(92+33+70=195\\\\))), it is not possible to accurately complete the table by calculating the remaining expected or observed frequencies. If the table were consistent, one would first calculate all row and column totals, then use the \\\\(E_{ij}\\\\) formula to find the expected frequencies for all cells, and finally calculate the Chi-square test statistic.</p><p style='margin:8px 0;'><strong>Step 6: Note on Critical Value</strong><br>The critical value \\\\\\\\(\\\\\\\\chi_{0.05}^2(1) = 15.507\\\\) is provided for a significance level of 0.05 and 1 degree of freedom. In a complete Chi-square test, this value would be compared to the calculated Chi-square test statistic to make a decision about rejecting or failing to reject the null hypothesis. However, since the table cannot be completed and the question only asks for the hypothesis and definition of \\\\(E_{ij}\\\\), this value is not directly used in answering the specific questions posed.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The null and alternative hypotheses are correctly stated for a test of independence. The definition of the expected frequency \\\\(E_{ij}\\\\) is standard in Chi-square analysis. The identified inconsistency in the table data is critical for understanding why numerical completion is not feasible.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Null Hypothesis (\\\\(H_0\\\\)): Defects in vision and eye color are independent.<br>&#8756; \\\\(E_{ij} = \\\\\\\\frac{\\\\\\\\text{Row Total} \\\\\\\\times \\\\\\\\text{Column Total}}{\\\\\\\\text{Grand Total}}\\\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Null Hypothesis (H0): Defects in vision and eye color are independent.<br>Eij = (Row Total x Column Total) / Grand Total"
+    }
+  }
+]
