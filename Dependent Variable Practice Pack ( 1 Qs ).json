@@ -1,0 +1,140 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Dependent Variable",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given that \\(y = 0.02 - 0.70x\\), what is \\(y\\) known as?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "dependent variable"
+        },
+        {
+          "type": "String",
+          "content": "equal variable"
+        },
+        {
+          "type": "String",
+          "content": "independent variable"
+        },
+        {
+          "type": "String",
+          "content": "unknown variable"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Correlation and Regression Analysis",
+      "Dependent Variable"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Variables in Regression Analysis</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In mathematics and statistics, a <em>variable</em> is a symbol (like \\(x\\) or \\(y\\)) that represents a quantity that may change.<br>An <em>independent variable</em> (often denoted as \\(x\\)) is the variable whose value does not depend on any other variable in the relationship being studied; it is often manipulated or chosen by the researcher.<br>A <em>dependent variable</em> (often denoted as \\(y\\)) is the variable whose value depends on the value of another variable. It is the outcome or response that is being measured or predicted.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Equation: \\(y = 0.02 - 0.70x\\)<br>Identify: What \\(y\\) is known as.</div><p style='margin:8px 0;'><strong>Step 1: Understand the structure of the given equation</strong><br>The equation \\(y = 0.02 - 0.70x\\) is a linear equation. It expresses a relationship where the value of \\(y\\) is determined by the value of \\(x\\).<br>This equation can be compared to the general form of a linear regression equation: \\(y = a + bx\\), where \\(a\\) is the y-intercept and \\(b\\) is the slope.</p><p style='margin:8px 0;'><strong>Step 2: Define the independent variable (\\(x\\))</strong><br>In a relationship like \\(y = a + bx\\), the variable \\(x\\) is considered the independent variable.<br>Its value is typically manipulated, chosen, or observed to change independently, and it is presumed to cause or influence changes in the dependent variable.<br>For example, if we were studying the effect of hours studied (\\(x\\)) on exam scores (\\(y\\)), hours studied would be the independent variable.</p><p style='margin:8px 0;'><strong>Step 3: Define the dependent variable (\\(y\\))</strong><br>The variable \\(y\\) is the dependent variable.<br>Its value <em>depends</em> on the value of the independent variable \\(x\\). It is the outcome, response, or effect that is being measured or predicted.<br>In the exam score example, the exam score (\\(y\\)) depends on the hours studied (\\(x\\)).</p><p style='margin:8px 0;'><strong>Step 4: Apply the definitions to the given equation</strong><br>In the equation \\(y = 0.02 - 0.70x\\):<br>The value of \\(y\\) is calculated directly from the value of \\(x\\).<br>This means that \\(y\\)'s value is contingent upon, or determined by, the value of \\(x\\).<br>Therefore, \\(y\\) is the <span style='color:var(--orange);font-weight:bold;'>dependent variable</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, consider what happens to \\(y\\) when \\(x\\) changes:<br>If \\(x = 0\\), then \\(y = 0.02 - 0.70(0) = 0.02\\).<br>If \\(x = 1\\), then \\(y = 0.02 - 0.70(1) = 0.02 - 0.70 = -0.68\\).<br>Since the value of \\(y\\) clearly changes in response to changes in \\(x\\), \\(y\\) is indeed dependent on \\(x\\). This confirms its role as the dependent variable.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\(y\\) is known as the dependent variable.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "dependent variable"
+    }
+  }
+]
