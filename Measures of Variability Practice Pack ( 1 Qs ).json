@@ -1,0 +1,140 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Measures of Variability",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2023/2024",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these is simply the difference between the maximum and minimum values given in a data set?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Range"
+        },
+        {
+          "type": "String",
+          "content": "mean deviation"
+        },
+        {
+          "type": "String",
+          "content": "standard deviation"
+        },
+        {
+          "type": "String",
+          "content": "All of the above"
+        }
+      ]
+    },
+    "topic": [
+      "Descriptive Statistics for Biological Data",
+      "Statistical Calculations",
+      "Measures of Variability"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Measures of Variability</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Measures of variability</em> (or spread) describe how dispersed or spread out the data points are in a dataset. They provide information about the distribution of data beyond just the central tendency.<br><br>The three measures mentioned are:<br><ul><li><strong>Range:</strong> The difference between the highest and lowest values in a dataset.</li><li><strong>Mean Deviation:</strong> The average of the absolute differences between each data point and the mean of the dataset.</li><li><strong>Standard Deviation:</strong> A measure of the average amount of variability or dispersion around the mean. It indicates how much the data points deviate from the mean.</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>We are asked to identify the statistical measure that represents the difference between the maximum and minimum values in a data set.</div><p style='margin:8px 0;'><strong>Step 1: Understand the purpose of variability measures</strong><br>Measures of variability, also known as measures of dispersion, quantify how spread out or clustered the data points are in a dataset. They are crucial for understanding the distribution of data.</p><p style='margin:8px 0;'><strong>Step 2: Define Range</strong><br>The <em>Range</em> is the simplest measure of variability. It is calculated as the difference between the maximum (highest) value and the minimum (lowest) value in a dataset.<br>Formula:<br>\\[ \\text{Range} = \\text{Maximum Value} - \\text{Minimum Value} \\]<br>This measure gives a quick idea of the total spread of the data.</p><p style='margin:8px 0;'><strong>Step 3: Define Mean Deviation</strong><br>The <em>Mean Deviation</em> (or Average Absolute Deviation) measures the average of the absolute differences between each data point and the mean of the dataset.<br>Formula:<br>\\[ \\text{Mean Deviation} = \\frac{\\sum_{i=1}^{n} |x_i - \\bar{x}|}{n} \\]<br>where \\( x_i \\) are the individual data points, \\( \\bar{x} \\) is the mean, and \\( n \\) is the number of data points. This measure considers all data points relative to the mean.</p><p style='margin:8px 0;'><strong>Step 4: Define Standard Deviation</strong><br>The <em>Standard Deviation</em> is a widely used measure of the spread of data around the mean. It is the square root of the variance.<br>Formula for population standard deviation (\\( \\sigma \\)):<br>\\[ \\sigma = \\sqrt{\\frac{\\sum_{i=1}^{N} (x_i - \\mu)^2}{N}} \\]<br>Formula for sample standard deviation (\\( s \\)):<br>\\[ s = \\sqrt{\\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})^2}{n-1}} \\]<br>where \\( x_i \\) are the individual data points, \\( \\mu \\) is the population mean, \\( \\bar{x} \\) is the sample mean, \\( N \\) is the population size, and \\( n \\) is the sample size. It indicates how much the data points typically deviate from the mean.</p><p style='margin:8px 0;'><strong>Step 5: Compare definitions to the question</strong><br>The question asks for the measure that is \"simply the difference between the maximum and minimum values given in a data set.\"<br>Comparing this description with the definitions:<br><ul><li>The definition of <strong>Range</strong> directly matches this description: Maximum Value - Minimum Value.</li><li>Mean Deviation involves the mean and absolute differences of all data points.</li><li>Standard Deviation involves the mean, squared differences, and a square root of the average of these squared differences.</li></ul><br>Therefore, the <span style='color:var(--orange);font-weight:bold;'>Range</span> is the correct answer.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's consider a simple data set: {5, 12, 8, 3, 15}.<br>Maximum value = 15<br>Minimum value = 3<br>Difference = \\( 15 - 3 = 12 \\). This is the Range.<br><br>If we were to calculate mean deviation or standard deviation, the process would be much more involved, requiring calculation of the mean and then differences from the mean, which does not match the simple \"difference between maximum and minimum values\" description. Thus, the Range is definitively the measure described.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The measure described is the Range.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Range"
+    }
+  }
+]
