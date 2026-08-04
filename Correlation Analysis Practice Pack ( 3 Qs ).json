@@ -1,0 +1,255 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Correlation Analysis",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 8 @ 2017/2018",
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Correlation Analysis",
+      "Descriptive Statistics"
+    ],
+    "Question": {
+      "content": "Obtain the Karl Pearson's coefficient of correlation:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.8015"
+        },
+        {
+          "type": "String",
+          "content": "0.8115"
+        },
+        {
+          "type": "String",
+          "content": "0.8015"
+        },
+        {
+          "type": "String",
+          "content": "-0.8115"
+        }
+      ]
+    },
+    "table": [
+      [
+        "X",
+        "Y"
+      ],
+      [
+        "2",
+        "3"
+      ],
+      [
+        "3",
+        "6"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "5",
+        "8"
+      ],
+      [
+        "6",
+        "9"
+      ],
+      [
+        "7",
+        "10"
+      ],
+      [
+        "8",
+        "9"
+      ]
+    ],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Karl Pearson's Coefficient of Correlation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>Karl Pearson's coefficient of correlation (often denoted as \\( r \\)) is a measure of the linear correlation between two sets of data, X and Y. It ranges from -1 to +1, where:<br><ul><li>\\( r = 1 \\) indicates a perfect positive linear relationship.</li><li>\\( r = -1 \\) indicates a perfect negative linear relationship.</li><li>\\( r = 0 \\) indicates no linear relationship.</li></ul>The formula for Pearson's correlation coefficient is:<br>\\[ r = \\frac{n\\sum XY - (\\sum X)(\\sum Y)}{\\sqrt{[n\\sum X^2 - (\\sum X)^2][n\\sum Y^2 - (\\sum Y)^2]}} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>The data pairs for X and Y are:<br>X: 2, 3, 4, 5, 6, 7, 8<br>Y: 3, 6, 5, 8, 9, 10, 9<br>Number of data pairs, \\( n = 7 \\)</div><p style='margin:8px 0;'><strong>Step 1: Create a table to calculate necessary sums</strong><br>To apply the formula, we need the sums of X, Y, \\( X^2 \\), \\( Y^2 \\), and XY. We organize these in a table:<br><table><thead><tr><th>X</th><th>Y</th><th>\\( X^2 \\)</th><th>\\( Y^2 \\)</th><th>XY</th></tr></thead><tbody><tr><td>2</td><td>3</td><td>4</td><td>9</td><td>6</td></tr><tr><td>3</td><td>6</td><td>9</td><td>36</td><td>18</td></tr><tr><td>4</td><td>5</td><td>16</td><td>25</td><td>20</td></tr><tr><td>5</td><td>8</td><td>25</td><td>64</td><td>40</td></tr><tr><td>6</td><td>9</td><td>36</td><td>81</td><td>54</td></tr><tr><td>7</td><td>10</td><td>49</td><td>100</td><td>70</td></tr><tr><td>8</td><td>9</td><td>64</td><td>81</td><td>72</td></tr></tbody></table></p><p style='margin:8px 0;'><strong>Step 2: Calculate the sums</strong><br>Sum of X: \\( \\sum X = 2+3+4+5+6+7+8 = \\) <span style='color:var(--orange);font-weight:bold;'>35</span><br>Sum of Y: \\( \\sum Y = 3+6+5+8+9+10+9 = \\) <span style='color:var(--orange);font-weight:bold;'>50</span><br>Sum of \\( X^2 \\): \\( \\sum X^2 = 4+9+16+25+36+49+64 = \\) <span style='color:var(--orange);font-weight:bold;'>203</span><br>Sum of \\( Y^2 \\): \\( \\sum Y^2 = 9+36+25+64+81+100+81 = \\) <span style='color:var(--orange);font-weight:bold;'>396</span><br>Sum of XY: \\( \\sum XY = 6+18+20+40+54+70+72 = \\) <span style='color:var(--orange);font-weight:bold;'>280</span><br>Number of pairs: \\( n = \\) <span style='color:var(--orange);font-weight:bold;'>7</span></p><p style='margin:8px 0;'><strong>Step 3: State the formula for Pearson's r</strong><br>\\[ r = \\frac{n\\sum XY - (\\sum X)(\\sum Y)}{\\sqrt{[n\\sum X^2 - (\\sum X)^2][n\\sum Y^2 - (\\sum Y)^2]}} \\]</p><p style='margin:8px 0;'><strong>Step 4: Calculate the numerator</strong><br>Substitute the sums into the numerator part of the formula:<br>\\( \\text{Numerator} = n\\sum XY - (\\sum X)(\\sum Y) \\)<br>\\( = 7(280) - (35)(50) \\)<br>\\( = 1960 - 1750 \\)<br>\\( = \\) <span style='color:var(--orange);font-weight:bold;'>210</span></p><p style='margin:8px 0;'><strong>Step 5: Calculate the first part of the denominator (for X)</strong><br>Substitute the sums into the X-related part of the denominator:<br>\\( \\text{Part X} = n\\sum X^2 - (\\sum X)^2 \\)<br>\\( = 7(203) - (35)^2 \\)<br>\\( = 1421 - 1225 \\)<br>\\( = \\) <span style='color:var(--orange);font-weight:bold;'>196</span></p><p style='margin:8px 0;'><strong>Step 6: Calculate the second part of the denominator (for Y)</strong><br>Substitute the sums into the Y-related part of the denominator:<br>\\( \\text{Part Y} = n\\sum Y^2 - (\\sum Y)^2 \\)<br>\\( = 7(396) - (50)^2 \\)<br>\\( = 2772 - 2500 \\)<br>\\( = \\) <span style='color:var(--orange);font-weight:bold;'>272</span></p><p style='margin:8px 0;'><strong>Step 7: Calculate the square root of the product of the denominator parts</strong><br>Multiply the two parts of the denominator and take the square root:<br>\\( \\text{Denominator} = \\sqrt{(\\text{Part X})(\\text{Part Y})} \\)<br>\\( = \\sqrt{(196)(272)} \\)<br>\\( = \\sqrt{53312} \\)<br>\\( \\approx \\) <span style='color:var(--orange);font-weight:bold;'>230.89395</span></p><p style='margin:8px 0;'><strong>Step 8: Substitute values into the formula and calculate r</strong><br>Now, substitute the calculated numerator and denominator into the formula for \\( r \\):<br>\\( r = \\frac{\\text{Numerator}}{\\text{Denominator}} \\)<br>\\( r = \\frac{210}{230.89395} \\)<br>\\( r \\approx \\) <span style='color:var(--orange);font-weight:bold;'>0.9095</span></p><p style='margin:8px 0;'><strong>Step 9: Compare the calculated r with the given options</strong><br>The calculated Karl Pearson's coefficient of correlation is approximately \\( 0.9095 \\).<br>Let's compare this with the provided options:<br><ul><li>Option 1: 0.8015</li><li>Option 2: 0.8115</li><li>Option 3: 0.8015</li><li>Option 4: -0.8115</li></ul>Our calculated value \\( 0.9095 \\) is not exactly among the options. However, we must choose the closest option. Comparing the absolute differences:<br>|0.9095 - 0.8015| = 0.1080<br>|0.9095 - 0.8115| = 0.0980<br>|0.9095 - (-0.8115)| = 1.7210<br>The closest positive option to \\( 0.9095 \\) is <span style='color:var(--orange);font-weight:bold;'>0.8115</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A correlation coefficient of \\( r \\approx 0.9095 \\) indicates a very strong positive linear relationship between X and Y. Looking at the data, as X increases, Y generally increases, which is consistent with a strong positive correlation. While the exact calculated value is not an option, 0.8115 is the closest positive choice.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Karl Pearson's coefficient of correlation is approximately 0.9095, and the closest option is 0.8115.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.8115"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given -0.925 as a correlation coefficient between x and y, then:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "y is strongly and positively correlated with x"
+        },
+        {
+          "type": "String",
+          "content": "y is weakly and negatively correlated with x"
+        },
+        {
+          "type": "String",
+          "content": "y is weakly and positively correlated with x"
+        },
+        {
+          "type": "String",
+          "content": "y is strongly and negatively correlated with x"
+        }
+      ]
+    },
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Correlation Analysis",
+      "Descriptive Statistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Interpreting the Correlation Coefficient</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Pearson correlation coefficient</em>, denoted as \\( r \\), is a statistical measure that quantifies the strength and direction of a linear relationship between two variables.<br>Its value always ranges from -1 to +1.<br><ul><li><strong>Direction:</strong><br>  - If \\( r > 0 \\), there is a positive correlation (as one variable increases, the other tends to increase).<br>  - If \\( r < 0 \\), there is a negative correlation (as one variable increases, the other tends to decrease).<br>  - If \\( r \\approx 0 \\), there is no linear correlation.</li><li><strong>Strength (based on \\( |r| \\)):</strong><br>  - \\( |r| \\) between 0.0 and 0.3: Weak correlation<br>  - \\( |r| \\) between 0.3 and 0.7: Moderate correlation<br>  - \\( |r| \\) between 0.7 and 1.0: Strong correlation</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Correlation coefficient \\( r = -0.925 \\) between variables x and y.</div><p style='margin:8px 0;'><strong>Step 1: Understand the range of the correlation coefficient</strong><br>The Pearson correlation coefficient \\( r \\) is always between -1 and +1.<br>\\[ -1 \\le r \\le +1 \\]<br>A value of -1 indicates a perfect negative linear correlation, +1 indicates a perfect positive linear correlation, and 0 indicates no linear correlation.</p><p style='margin:8px 0;'><strong>Step 2: Interpret the sign of the correlation coefficient</strong><br>The given correlation coefficient is \\( r = -0.925 \\).<br>Since \\( r \\) is negative (\\( r < 0 \\)), it indicates a <span style='color:var(--orange);font-weight:bold;'>negative (or inverse) linear relationship</span> between x and y.<br>This means that as the values of x tend to increase, the values of y tend to decrease.</p><p style='margin:8px 0;'><strong>Step 3: Interpret the magnitude of the correlation coefficient</strong><br>The absolute value of the correlation coefficient is \\( |r| = |-0.925| = 0.925 \\).<br>According to the general guidelines for interpreting correlation strength:<br><ul><li>\\( |r| \\) between 0.0 and 0.3: Weak</li><li>\\( |r| \\) between 0.3 and 0.7: Moderate</li><li>\\( |r| \\) between 0.7 and 1.0: Strong</li></ul>Since \\( 0.925 \\) is between \\( 0.7 \\) and \\( 1.0 \\), the correlation is considered <span style='color:var(--orange);font-weight:bold;'>strong</span>.</p><p style='margin:8px 0;'><strong>Step 4: Combine the interpretations</strong><br>From Step 2, the correlation is negative.<br>From Step 3, the correlation is strong.<br>Therefore, a correlation coefficient of \\( -0.925 \\) indicates that y is strongly and negatively correlated with x.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A correlation coefficient of \\( -0.925 \\) is very close to -1.<br>Values very close to -1 represent a very strong negative linear relationship.<br>This means that as one variable increases, the other decreases in a highly predictable, linear fashion.<br>The interpretation 'y is strongly and negatively correlated with x' accurately reflects this statistical finding. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; y is strongly and negatively correlated with x</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "y is strongly and negatively correlated with x"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10 @ 2017/2018",
+    "topic": [
+      "Correlation Analysis",
+      "Descriptive Statistics",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES"
+    ],
+    "Question": {
+      "content": "The coefficient of correlation lies within this interval:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\\\( -1 < r < 1 \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( -1 < r < 0 \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( 0 < r < 1 \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( r < 2 \\\\)"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Correlation Coefficient Range</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>correlation coefficient</em>, typically denoted by \\( r \\) (for Pearson product-moment correlation coefficient), is a statistical measure that quantifies the strength and direction of a linear relationship between two variables.<br>Its value always falls within a specific, bounded interval.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks for the interval within which the coefficient of correlation lies.</div><p style='margin:8px 0;'><strong>Step 1: Define the Pearson Correlation Coefficient</strong><br>The Pearson correlation coefficient \\( r \\) measures how closely two variables move together linearly. It is a dimensionless value that summarizes the linear association between two quantitative variables.</p><p style='margin:8px 0;'><strong>Step 2: State the theoretical range of the correlation coefficient</strong><br>The mathematical derivation of the correlation coefficient ensures that its value is always between -1 and +1, inclusive.<br>This fundamental property can be expressed as: <span style='color:var(--orange);font-weight:bold;'>\\( -1 \\le r \\le 1 \\)</span>.<br>This means \\( r \\) cannot be less than -1 or greater than +1.</p><p style='margin:8px 0;'><strong>Step 3: Interpret the boundary values</strong><br><ul><li>If \\( r = 1 \\), there is a perfect positive linear relationship (as one variable increases, the other increases proportionally).</li><li>If \\( r = -1 \\), there is a perfect negative linear relationship (as one variable increases, the other decreases proportionally).</li><li>If \\( r = 0 \\), there is no linear relationship between the variables.</li><li>Values of \\( r \\) closer to 1 or -1 indicate stronger linear relationships, while values closer to 0 indicate weaker linear relationships.</li></ul></p><p style='margin:8px 0;'><strong>Step 4: Compare with the given options</strong><br>We need to select the option that best represents the interval \\( -1 \\le r \\le 1 \\).<br>The provided options are:<br>a) \\( -1 < r < 1 \\)<br>b) \\( -1 < r < 0 \\)<br>c) \\( 0 < r < 1 \\)<br>d) \\( r < 2 \\)<br><br>Options (b) and (c) only cover a partial range (negative or positive correlation, respectively) and exclude \\( r=0 \\).<br>Option (d) is too broad, as \\( r \\) cannot exceed 1.<br>Option (a) \\( -1 < r < 1 \\) represents the entire spectrum of possible correlation values, excluding only the theoretical perfect correlations at exactly -1 and 1. While the true mathematical range is inclusive (\\( -1 \\le r \\le 1 \\)), among the given multiple-choice options, \\( -1 < r < 1 \\) is the most appropriate and commonly accepted way to describe the general interval for the coefficient of correlation, especially in practical applications where perfect correlations are rare.<br>Therefore, option (a) is the best fit.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The range of the Pearson correlation coefficient \\( r \\) is a fundamental statistical property. It is mathematically proven that \\( r \\) cannot take values outside the interval \\( [-1, 1] \\). This is often demonstrated using the Cauchy-Schwarz inequality. Therefore, any value of \\( r \\) reported or calculated must fall within this range. The option \\( -1 < r < 1 \\) correctly identifies the boundaries within which \\( r \\) must lie, making it the most accurate choice among the given options.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The coefficient of correlation lies within the interval \\( -1 < r < 1 \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\\\( -1 < r < 1 \\\\)"
+    }
+  }
+]
