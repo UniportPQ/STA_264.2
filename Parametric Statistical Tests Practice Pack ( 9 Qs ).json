@@ -1,0 +1,569 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Parametric Statistical Tests",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2010/2011",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A certain type of cable is supposed to have at least 1,500kg. A sample of 50 cables suggests a mean breaking strength of 1,490kg with a standard deviation of 31kg using the appropriate test statistics with \\(\\alpha = 5\\%\\). Find \\(Z_{\\alpha}\\).",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "2.21"
+        },
+        {
+          "type": "String",
+          "content": "-2.28"
+        },
+        {
+          "type": "String",
+          "content": "1.65"
+        },
+        {
+          "type": "String",
+          "content": "-1.65"
+        }
+      ]
+    },
+    "topic": [
+      "Hypothesis Testing",
+      "Parametric Statistical Tests",
+      "Sampling and Estimation",
+      "Descriptive Statistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Hypothesis Testing: Finding Critical Z-Value</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Hypothesis Testing:</strong> A statistical method used to make decisions about a population parameter based on sample data.<br><strong>Null Hypothesis (\\(H_0\\)):</strong> A statement of no effect or no difference, often representing the status quo or a claim to be tested. For this problem, it's that the mean breaking strength is at least 1,500kg.<br><strong>Alternative Hypothesis (\\(H_1\\)):</strong> A statement that contradicts the null hypothesis, often representing what the researcher wants to prove. Here, it's that the mean breaking strength is less than 1,500kg.<br><strong>Significance Level (\\(\\alpha\\)):</strong> The probability of rejecting the null hypothesis when it is actually true (Type I error). Commonly set at 0.05 (5%).<br><strong>Critical Value (\\(Z_{\\alpha}\\)):</strong> A threshold value from the standard normal distribution that defines the rejection region. If the test statistic falls into this region, the null hypothesis is rejected.<br><strong>Left-tailed Test:</strong> An alternative hypothesis that states the population parameter is <em>less than</em> a specified value. The rejection region is entirely in the left tail of the distribution.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Population mean claim (null hypothesis value): \\( \\mu_0 = 1500 \\) kg<br>Sample size: \\( n = 50 \\)<br>Sample mean: \\( \\bar{x} = 1490 \\) kg<br>Sample standard deviation: \\( s = 31 \\) kg<br>Significance level: \\( \\alpha = 5\\% = 0.05 \\)<br>We need to find the critical Z-value, \\( Z_{\\alpha} \\), for the appropriate test.</div><p style='margin:8px 0;'><strong>Step 1: Formulate the Hypotheses</strong><br>The problem states the cable is \"supposed to have at least 1,500kg\". This sets up the null hypothesis. The sample mean (1,490kg) is less than 1,500kg, suggesting we are testing if the actual mean is <em>less than</em> 1,500kg. This indicates a left-tailed test.<br>Null Hypothesis: \\( H_0: \\mu \\ge 1500 \\) kg<br>Alternative Hypothesis: \\( H_1: \\mu < 1500 \\) kg</p><p style='margin:8px 0;'><strong>Step 2: Identify the Significance Level</strong><br>The significance level is given as \\( \\alpha = 5\\% \\).<br>Convert the percentage to a decimal:<br>\\( \\alpha = 5\\% = \\frac{5}{100} = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 0.05 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Determine the Critical Value for a Left-tailed Test</strong><br>For a left-tailed Z-test, the critical value \\( Z_{\\alpha} \\) is the Z-score such that the area to its left under the standard normal curve is equal to the significance level \\( \\alpha \\).<br>We are looking for \\( Z_{\\alpha} \\) such that \\( P(Z < Z_{\\alpha}) = \\alpha \\).<br>Substituting the value of \\( \\alpha \\):<br>\\( P(Z < Z_{\\alpha}) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 0.05 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Find the Z-score corresponding to the cumulative probability of 0.05</strong><br>To find \\( Z_{\\alpha} \\), we consult a standard normal distribution table (Z-table) or use statistical software/calculator. We look for the Z-score that has a cumulative probability (area to the left) of 0.05.<br>Looking up 0.05 in the body of a standard normal table, we find that the closest values are:<br>For \\( P(Z < -1.64) \\approx 0.0505 \\)<br>For \\( P(Z < -1.65) \\approx 0.0495 \\)<br>The value exactly in between -1.64 and -1.65 is often used, which is -1.645.</p><p style='margin:8px 0;'><strong>Step 5: Round the Critical Z-value</strong><br>The critical Z-value is approximately \\( -1.645 \\).<br>Rounding to two decimal places, which is common for Z-scores in multiple-choice options:<br>\\( Z_{\\alpha} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>\\( -1.65 \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>If \\( Z_{\\alpha} = -1.65 \\), then using a Z-table or calculator, the cumulative probability \\( P(Z < -1.65) \\) should be approximately 0.05.<br>Using a standard normal distribution calculator, \\( P(Z < -1.65) \\approx 0.04947 \\).<br>This value is very close to our significance level of \\( \\alpha = 0.05 \\), confirming our critical value. &#10003;</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The critical Z-value, \\( Z_{\\alpha} \\), is -1.65.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-1.65"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18 @ 2010/2011",
+    "topic": [
+      "Hypothesis Testing",
+      "Parametric Statistical Tests",
+      "Sampling and Estimation"
+    ],
+    "Question": {
+      "content": "If the sample size is large (\\(n > 30\\)) and the variance (\\(\\sigma^2\\)) known. Our decision is to reject \\(H_o\\) for the following alternative except?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "(\\(H_1: \\mu > \\mu_0\\)) if \\(Z > Z_{a2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "(\\(H_1: \\mu < \\mu_0\\)) if \\(Z > Z_{\\alpha}\\)"
+        },
+        {
+          "type": "String",
+          "content": "(\\(H_1: \\mu < \\mu_0\\)) if \\(Z < -Z_{\\alpha}\\)"
+        },
+        {
+          "type": "String",
+          "content": "(\\(H_1: \\mu \\ne \\mu_0\\)) if \\(|Z| \\ge Z_{\\alpha}\\)"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Hypothesis Testing Rejection Rules for Z-test</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Hypothesis Testing:</strong> A statistical method used to make inferences about a population parameter based on sample data.<br><strong>Null Hypothesis (\\(H_0\\)):</strong> A statement of no effect or no difference, which we assume to be true until evidence suggests otherwise.<br><strong>Alternative Hypothesis (\\(H_1\\)):</strong> A statement that contradicts the null hypothesis, representing what we are trying to find evidence for.<br><strong>Z-test for Mean:</strong> Used when the sample size is large (typically \\(n > 30\\)) or when the population standard deviation (or variance) is known, and the population is normally distributed or the Central Limit Theorem applies.<br><strong>Significance Level (\\(\\alpha\\)):</strong> The probability of rejecting the null hypothesis when it is actually true (Type I error).<br><strong>Rejection Region (Critical Region):</strong> The set of values for the test statistic that leads to the rejection of the null hypothesis. The boundaries of this region are defined by critical values (e.g., \\(Z_{\\alpha}\\) or \\(Z_{\\alpha/2}\\)).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br><ul><li>Sample size is large (\\(n > 30\\)).</li><li>Population variance (\\(\\sigma^2\\)) is known.</li><li>This implies a Z-test for the population mean (\\(\\mu\\)).</li><li>We need to identify the *incorrect* rejection rule among the given options.</li></ul></div><p style='margin:8px 0;'><strong>Step 1: Understand the Z-test conditions and types of alternative hypotheses</strong><br>Given a large sample size (\\(n > 30\\)) and known population variance (\\(\\sigma^2\\)), we use a Z-test to test hypotheses about the population mean (\\(\\mu\\)). The alternative hypothesis (\\(H_1\\)) determines whether the test is one-tailed (right or left) or two-tailed, which in turn dictates the rejection region.</p><p style='margin:8px 0;'><strong>Step 2: Recall the standard rejection rules for a Z-test</strong><br>The decision to reject the null hypothesis (\\(H_0\\)) depends on the calculated Z-statistic (\\(Z_{calc}\\)) and the critical value(s) from the Z-distribution at a given significance level (\\(\\alpha\\)).<br><br>1.  <strong>Right-tailed test:</strong> If \\(H_1: \\mu > \\mu_0\\)<br>    Reject \\(H_0\\) if \\(Z_{calc} > Z_{\\alpha}\\).<br><br>2.  <strong>Left-tailed test:</strong> If \\(H_1: \\mu < \\mu_0\\)<br>    Reject \\(H_0\\) if \\(Z_{calc} < -Z_{\\alpha}\\).<br><br>3.  <strong>Two-tailed test:</strong> If \\(H_1: \\mu \\ne \\mu_0\\)<br>    Reject \\(H_0\\) if \\(|Z_{calc}| > Z_{\\alpha/2}\\) (which means \\(Z_{calc} > Z_{\\alpha/2}\\) or \\(Z_{calc} < -Z_{\\alpha/2}\\)).</p><p style='margin:8px 0;'><strong>Step 3: Evaluate Option A</strong><br>Option A states: \\((H_1: \\mu > \\mu_0)\\) if \\((Z > Z_{a2})\\).<br>This is a right-tailed alternative hypothesis. The rejection rule is \\(Z > Z_{\\alpha}\\). Assuming \\(Z_{a2}\\) is a typo for \\(Z_{\\alpha}\\), this rule is <span style='color:var(--orange);font-weight:bold;'>correct</span>.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate Option B</strong><br>Option B states: \\((H_1: \\mu < \\mu_0)\\) if \\((Z > Z_{\\alpha})\\).<br>This is a left-tailed alternative hypothesis. The correct rejection rule for a left-tailed test is \\(Z < -Z_{\\alpha}\\).<br>The given rule \\(Z > Z_{\\alpha}\\) corresponds to a right-tailed test. Therefore, this option presents a fundamental mismatch between the alternative hypothesis and the direction of the rejection region. This rule is <span style='color:var(--orange);font-weight:bold;'>incorrect</span>.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate Option C</strong><br>Option C states: \\((H_1: \\mu < \\mu_0)\\) if \\((Z < -Z_{\\alpha})\\).<br>This is a left-tailed alternative hypothesis. The rejection rule is \\(Z < -Z_{\\alpha}\\). This rule is <span style='color:var(--orange);font-weight:bold;'>correct</span>.</p><p style='margin:8px 0;'><strong>Step 6: Evaluate Option D</strong><br>Option D states: \\((H_1: \\mu \\ne \\mu_0)\\) if \\((|Z| \\ge Z_{\\alpha})\\).<br>This is a two-tailed alternative hypothesis. The correct rejection rule for a two-tailed test is \\(|Z| \\ge Z_{\\alpha/2}\\).<br>If \\(Z_{\\alpha}\\) is strictly interpreted as the critical value for a one-tailed test at significance level \\(\\alpha\\), then this option would be technically incorrect as it should be \\(Z_{\\alpha/2}\\). However, the most glaring and fundamentally incorrect statement among the options is Option B, where the direction of the rejection region is completely opposite to the alternative hypothesis. Given that the question asks for *the* exception (singular), Option B is the most unequivocally incorrect choice.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Option B suggests rejecting \\(H_0\\) for a left-tailed alternative (\\(H_1: \\mu < \\mu_0\\)) if the Z-statistic is significantly *positive* (\\(Z > Z_{\\alpha}\\)). However, if \\(\\mu < \\mu_0\\), we would expect the Z-statistic to be significantly *negative*. Rejecting for a positive Z-statistic in a left-tailed test is contradictory to the logic of hypothesis testing. The correct rejection region for \\(H_1: \\mu < \\mu_0\\) is \\(Z < -Z_{\\alpha}\\). Therefore, Option B is definitively incorrect.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The incorrect alternative is (\\(H_1: \\mu < \\mu_0\\)) if \\(Z > Z_{\\alpha}\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(\\(H_1: \\mu < \\mu_0\\)) if \\(Z > Z_{\\alpha}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2010/2011",
+    "topic": [
+      "Hypothesis Testing",
+      "Parametric Statistical Tests",
+      "Descriptive Statistics",
+      "Sampling and Estimation"
+    ],
+    "Question": {
+      "content": "Given that school A has \\(X_1 = 1082\\), \\(S_1^2 = 7000\\), \\(n_1 = 12\\), while school B has \\(X_1 = 1145\\), \\(S_2^2 = 6500\\), \\(n_2 = 14\\). Test this claim at 5%. Using the appropriate test statistics, what is your test statistics value?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "-1.952"
+        },
+        {
+          "type": "String",
+          "content": "6729.16"
+        },
+        {
+          "type": "String",
+          "content": "2.064"
+        },
+        {
+          "type": "String",
+          "content": "0.025"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Two-Sample T-Test for Means (Pooled Variance)</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Two-Sample T-Test</em> is used to determine if there is a significant difference between the means of two independent groups. When the population variances are unknown but assumed to be equal, a <em>pooled variance</em> is calculated to estimate the common population variance. The test statistic follows a t-distribution with \\( n_1 + n_2 - 2 \\) degrees of freedom.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br><strong>School A:</strong><br>Sample Mean (\\( \\bar{X}_1 \\)): \\( 1082 \\)<br>Sample Variance (\\( S_1^2 \\)): \\( 7000 \\)<br>Sample Size (\\( n_1 \\)): \\( 12 \\)<br><br><strong>School B:</strong><br>Sample Mean (\\( \\bar{X}_2 \\)): \\( 1145 \\)<br>Sample Variance (\\( S_2^2 \\)): \\( 6500 \\)<br>Sample Size (\\( n_2 \\)): \\( 14 \\)<br><br>Significance Level (\\( \\alpha \\)): \\( 0.05 \\)<br><strong>Goal:</strong> Calculate the test statistic value.</div><p style='margin:8px 0;'><strong>Step 1: State the Hypotheses</strong><br>Although not explicitly asked, the first step in any hypothesis test is to state the null and alternative hypotheses. For comparing two means, we typically set up a two-tailed test if no direction is specified.<br>Null Hypothesis (\\( H_0 \\)): There is no difference between the population means.<br>\\[ H_0: \\mu_1 = \\mu_2 \\]<br>Alternative Hypothesis (\\( H_1 \\)): There is a difference between the population means.<br>\\[ H_1: \\mu_1 \\neq \\mu_2 \\]</p><p style='margin:8px 0;'><strong>Step 2: Calculate the Pooled Variance (\\( S_p^2 \\))</strong><br>The formula for pooled variance is:<br>\\[ S_p^2 = \\frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{n_1+n_2-2} \\]<br>Substitute the given values for \\( n_1, S_1^2, n_2, S_2^2 \\):<br>\\[ S_p^2 = \\frac{(12-1)(7000) + (14-1)(6500)}{12+14-2} \\]<br>Perform the subtractions and multiplications in the numerator:<br>\\[ S_p^2 = \\frac{(11)(7000) + (13)(6500)}{24} \\]<br>\\[ S_p^2 = \\frac{77000 + 84500}{24} \\]<br>Perform the addition in the numerator:<br>\\[ S_p^2 = \\frac{161500}{24} \\]<br>Simplify the pooled variance:<br><span style='color:var(--orange);font-weight:bold;'>\\( S_p^2 \\approx 6729.16666667 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the Degrees of Freedom (df)</strong><br>The degrees of freedom for the pooled t-test are:<br>\\[ df = n_1 + n_2 - 2 \\]<br>Substitute the sample sizes \\( n_1 = 12 \\) and \\( n_2 = 14 \\):<br>\\[ df = 12 + 14 - 2 \\]<br>Perform the addition and subtraction:<br>\\[ df = 26 - 2 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( df = 24 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Calculate the Standard Error of the Difference in Means (SE)</strong><br>The formula for the standard error of the difference in means using pooled variance is:<br>\\[ SE = \\sqrt{S_p^2 \\left(\\frac{1}{n_1} + \\frac{1}{n_2}\\right)} \\]<br>Substitute the calculated pooled variance and given sample sizes:<br>\\[ SE = \\sqrt{6729.16666667 \\left(\\frac{1}{12} + \\frac{1}{14}\\right)} \\]<br>First, calculate the sum of reciprocals of sample sizes:<br>\\[ \\frac{1}{12} + \\frac{1}{14} = \\frac{7}{84} + \\frac{6}{84} = \\frac{13}{84} \\]<br>Now, substitute this back into the SE formula:<br>\\[ SE = \\sqrt{6729.16666667 \\times \\frac{13}{84}} \\]<br>\\[ SE = \\sqrt{\\frac{161500}{24} \\times \\frac{13}{84}} \\]<br>\\[ SE = \\sqrt{\\frac{2099500}{2016}} \\]<br>\\[ SE = \\sqrt{1041.4186507936508} \\]<br>Simplify the standard error:<br><span style='color:var(--orange);font-weight:bold;'>\\( SE \\approx 32.271019 \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Calculate the Test Statistic (t-value)</strong><br>The formula for the t-test statistic is:<br>\\[ t = \\frac{(\\bar{X}_1 - \\bar{X}_2)}{SE} \\]<br>Substitute the given sample means and the calculated standard error:<br>\\[ t = \\frac{(1082 - 1145)}{32.271019...} \\]<br>Perform the subtraction in the numerator:<br>\\[ t = \\frac{-63}{32.271019...} \\]<br>Simplify to find the t-statistic:<br><span style='color:var(--orange);font-weight:bold;'>\\( t \\approx -1.95219 \\)</span><br>Rounding to three decimal places, the test statistic is <span style='color:var(--orange);font-weight:bold;'>\\( -1.952 \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the calculation, we can work backward. If \\( t = -1.952 \\) and \\( SE \\approx 32.271019 \\), then the difference in means should be approximately \\( t \\times SE \\).<br>\\( \\bar{X}_1 - \\bar{X}_2 = 1082 - 1145 = -63 \\)<br>\\( t \\times SE = -1.952 \\times 32.271019 \\approx -63.002 \\)<br>The calculated difference in means (\\( -63 \\)) is very close to the product of the t-statistic and standard error (\\( -63.002 \\)), confirming the accuracy of our calculation, considering rounding.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The test statistic value is -1.952</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-1.952"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21 @ 2010/2011",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Suppose a random sample of size ten gave the following: \\(X = 60\\), \\(S^2 = 11.56\\). Find a 95% confidence interval for the true mean of the above information.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "(\\(57.56 \\le \\mu \\le 61.4\\))"
+        },
+        {
+          "type": "String",
+          "content": "(\\(57.56 \\le \\mu \\le 62.86\\))"
+        },
+        {
+          "type": "String",
+          "content": "(\\(57.56 \\le \\mu \\le 62.44\\))"
+        },
+        {
+          "type": "String",
+          "content": "(\\(57.55 \\ge \\mu \\ge 61.4\\))"
+        }
+      ]
+    },
+    "topic": [
+      "Sampling and Estimation",
+      "Parametric Statistical Tests",
+      "Descriptive Statistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Confidence Interval for the Mean (t-distribution)</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>confidence interval</em> provides a range of values, derived from sample statistics, that is likely to contain the value of an unknown population parameter (e.g., the true mean \\( \\mu \\)).<br>The <em>t-distribution</em> is used when the sample size is small (typically \\(n < 30\\)) and the population standard deviation is unknown. It accounts for the additional uncertainty introduced by estimating the population standard deviation from the sample.<br>The formula for a confidence interval for the population mean \\( \\mu \\) using the t-distribution is:<br>\\[ \\bar{X} \\pm t_{\\alpha/2, n-1} \\times \\frac{S}{\\sqrt{n}} \\]<br>Where:<br>\\( \\bar{X} \\) is the sample mean.<br>\\( S \\) is the sample standard deviation.<br>\\( n \\) is the sample size.<br>\\( t_{\\alpha/2, n-1} \\) is the critical t-value for a given confidence level and \\( n-1 \\) degrees of freedom.<br>\\( \\alpha \\) is the significance level (\\( 1 - \\text{Confidence Level} \\)).<br>\\( \\frac{S}{\\sqrt{n}} \\) is the standard error of the mean.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Sample mean: \\( \\bar{X} = 60 \\)<br>Sample size: \\( n = 10 \\)<br>Sample variance: \\( S^2 = 11.56 \\)<br>Confidence level: 95%</div><p style='margin:8px 0;'><strong>Step 1: Identify the appropriate formula</strong><br>Since the sample size is small (\\( n=10 < 30 \\)) and the population standard deviation is unknown (we only have the sample variance), we will use the t-distribution formula for a confidence interval for the mean:<br>\\[ \\text{Confidence Interval} = \\bar{X} \\pm t_{\\alpha/2, n-1} \\times \\frac{S}{\\sqrt{n}} \\]<br></p><p style='margin:8px 0;'><strong>Step 2: Calculate the sample standard deviation (S)</strong><br>The sample standard deviation is the square root of the sample variance.<br>Formula: \\( S = \\sqrt{S^2} \\)<br>Substitute values: \\( S = \\sqrt{11.56} \\)<br>Simplify: \\( S = \\) <span style='color:var(--orange);font-weight:bold;'>3.4</span></p><p style='margin:8px 0;'><strong>Step 3: Determine the degrees of freedom (df)</strong><br>The degrees of freedom for a t-distribution are \\( n-1 \\).<br>Formula: \\( df = n - 1 \\)<br>Substitute values: \\( df = 10 - 1 \\)<br>Simplify: \\( df = \\) <span style='color:var(--orange);font-weight:bold;'>9</span></p><p style='margin:8px 0;'><strong>Step 4: Determine the significance level (\\( \\alpha \\)) and critical t-value (\\( t_{\\alpha/2, df} \\))</strong><br>The confidence level is 95%, so the significance level \\( \\alpha \\) is \\( 1 - 0.95 = 0.05 \\).<br>For a two-tailed confidence interval, we need \\( \\alpha/2 \\).<br>Calculate \\( \\alpha/2 \\): \\( 0.05 / 2 = 0.025 \\)<br>Using a t-distribution table with \\( df = 9 \\) and \\( \\alpha/2 = 0.025 \\) (for a two-tailed test), the critical t-value is:<br>\\[ t_{0.025, 9} = \\text{2.262} \\]<br></p><p style='margin:8px 0;'><strong>Step 5: Calculate the standard error of the mean (SE)</strong><br>Formula: \\( SE = \\frac{S}{\\sqrt{n}} \\)<br>Substitute values: \\( SE = \\frac{3.4}{\\sqrt{10}} \\)<br>Simplify: \\( SE \\approx \\frac{3.4}{3.16227766} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>1.07513</span><br>Rounding to two decimal places to match the precision implied by the options: <span style='color:var(--orange);font-weight:bold;'>1.08</span></p><p style='margin:8px 0;'><strong>Step 6: Calculate the margin of error (ME)</strong><br>Formula: \\( ME = t_{\\alpha/2, n-1} \\times SE \\)<br>Substitute values: \\( ME = 2.262 \\times 1.08 \\)<br>Simplify: \\( ME = \\) <span style='color:var(--orange);font-weight:bold;'>2.44296</span><br>Rounding to two decimal places: <span style='color:var(--orange);font-weight:bold;'>2.44</span></p><p style='margin:8px 0;'><strong>Step 7: Construct the 95% confidence interval</strong><br>Formula: \\( \\bar{X} \\pm ME \\)<br>Substitute values: \\( 60 \\pm 2.44 \\)<br>Calculate the lower bound:<br>\\( \\text{Lower Bound} = 60 - 2.44 = \\) <span style='color:var(--orange);font-weight:bold;'>57.56</span><br>Calculate the upper bound:<br>\\( \\text{Upper Bound} = 60 + 2.44 = \\) <span style='color:var(--orange);font-weight:bold;'>62.44</span><br>The 95% confidence interval is: <span style='color:var(--orange);font-weight:bold;'>(\\(57.56 \\le \\mu \\le 62.44\\))</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The calculated interval is \\( (57.56, 62.44) \\). The sample mean \\( \\bar{X} = 60 \\) is centered within this interval. The margin of error is \\( 2.44 \\).<br>We can check if the critical t-value and standard error lead to this margin of error:<br>\\( ME = t \\times \\frac{S}{\\sqrt{n}} \\)<br>\\( 2.44 \\approx 2.262 \\times \\frac{3.4}{\\sqrt{10}} \\)<br>\\( 2.44 \\approx 2.262 \\times 1.07513 \\)<br>\\( 2.44 \\approx 2.43199 \\)<br>This shows that the final interval is consistent with rounding the standard error to two decimal places (1.08) before calculating the margin of error, which then rounds to 2.44. This specific rounding strategy is necessary to match the provided options.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The 95% confidence interval for the true mean is (\\(57.56 \\le \\mu \\le 62.44\\)).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(\\(57.56 \\le \\mu \\le 62.44\\))"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22 @ 2010/2011",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A random study of sample size 100 used for a census study gave the mean of 245 and the variance of 400. Test the hypothesis that the mean is less than the specified population mean of 250 at \\(\\alpha = 5\\%\\), find \\(Z_{\\alpha}\\).",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "25.0"
+        },
+        {
+          "type": "String",
+          "content": "2.50"
+        },
+        {
+          "type": "String",
+          "content": "-2.50"
+        },
+        {
+          "type": "String",
+          "content": "1.645"
+        }
+      ]
+    },
+    "topic": [
+      "Hypothesis Testing",
+      "Parametric Statistical Tests",
+      "Sampling and Estimation",
+      "Descriptive Statistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Hypothesis Testing: One-Tailed Z-Test for Population Mean</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Hypothesis Testing</em> is a statistical method used to make inferences about a population parameter based on sample data.<br>The <em>Null Hypothesis</em> (\\(H_0\\)) is a statement of no effect or no difference, which we assume to be true until evidence suggests otherwise.<br>The <em>Alternative Hypothesis</em> (\\(H_1\\)) is a statement that contradicts the null hypothesis, representing what we are trying to find evidence for.<br>The <em>Significance Level</em> (\\(\\alpha\\)) is the probability of rejecting the null hypothesis when it is actually true (Type I error). Common values are 0.01, 0.05, 0.10.<br>The <em>Test Statistic</em> (Z-score for means with known population standard deviation or large sample size) quantifies how many standard errors the sample mean is from the hypothesized population mean.<br>\\[ Z = \\frac{\\bar{x} - \\mu_0}{\\sigma/\\sqrt{n}} \\]<br>The <em>Critical Value</em> (\\(Z_{\\alpha}\\)) is the threshold value that defines the rejection region. For a one-tailed test, \\(Z_{\\alpha}\\) is typically the positive Z-score such that the area to its right is \\(\\alpha\\). For a left-tailed test, the critical value for comparison is \\(-Z_{\\alpha}\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Sample size: \\( n = 100 \\)<br>Sample mean: \\( \\bar{x} = 245 \\)<br>Population variance: \\( \\sigma^2 = 400 \\)<br>Population standard deviation: \\( \\sigma = \\sqrt{400} = 20 \\)<br>Hypothesized population mean: \\( \\mu_0 = 250 \\)<br>Significance level: \\( \\alpha = 5\\% = 0.05 \\)<br>Test type: Left-tailed (mean is less than 250)</div><p style='margin:8px 0;'><strong>Step 1: State the Null and Alternative Hypotheses</strong><br>The null hypothesis (\\(H_0\\)) assumes the population mean is greater than or equal to the specified value.<br>The alternative hypothesis (\\(H_1\\)) reflects the claim that the mean is less than the specified value.<br>\\( H_0: \\mu \\ge 250 \\)<br>\\( H_1: \\mu < 250 \\) (This indicates a left-tailed test)</p><p style='margin:8px 0;'><strong>Step 2: Determine the Significance Level and Test Type</strong><br>The significance level is given as \\( \\alpha = 5\\% \\).<br>\\( \\alpha = 0.05 \\)<br>As \\( H_1 \\) states \\( \\mu < 250 \\), this is a <span style='color:var(--orange);font-weight:bold;'>left-tailed test</span>.</p><p style='margin:8px 0;'><strong>Step 3: Calculate the Test Statistic (Z-score)</strong><br>The formula for the Z-test statistic for a population mean with known standard deviation is:<br>\\[ Z = \\frac{\\bar{x} - \\mu_0}{\\sigma/\\sqrt{n}} \\]<br>Substitute the given values:<br>\\[ Z = \\frac{245 - 250}{20/\\sqrt{100}} \\]<br>Simplify the expression:<br>\\[ Z = \\frac{-5}{20/10} \\]<br>\\[ Z = \\frac{-5}{2} \\]<br>The calculated test statistic is <span style='color:var(--orange);font-weight:bold;'>\\( Z = -2.50 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Find the Critical Value \\(Z_{\\alpha}\\)</strong><br>For a one-tailed test with a significance level of \\( \\alpha = 0.05 \\), we need to find the Z-score such that the area in the tail is 0.05.<br>Using a standard normal distribution table or calculator, the Z-score that corresponds to a cumulative probability of \\( 1 - \\alpha = 1 - 0.05 = 0.95 \\) is approximately 1.645.<br>This value, \\(Z_{\\alpha}\\), is conventionally reported as positive.<br>Thus, <span style='color:var(--orange);font-weight:bold;'>\\( Z_{\\alpha} = 1.645 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 5: Make a Decision (Compare Test Statistic to Critical Value)</strong><br>Since this is a left-tailed test, the rejection region is \\( Z < -Z_{\\alpha} \\).<br>The critical value for the test is \\( -Z_{\\alpha} = -1.645 \\).<br>Compare the calculated test statistic (\\( Z = -2.50 \\)) with the critical value (\\( -1.645 \\)):<br>\\( -2.50 < -1.645 \\)<br>Since the test statistic falls into the rejection region, we <span style='color:var(--orange);font-weight:bold;'>reject the null hypothesis</span>.</p><p style='margin:8px 0;'><strong>Step 6: State the Conclusion</strong><br>Based on the analysis, there is sufficient evidence at the \\( 5\\% \\) significance level to conclude that the population mean is less than 250.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify \\( Z_{\\alpha} = 1.645 \\):<br>For a one-tailed test at \\( \\alpha = 0.05 \\), we look for the Z-score where the area to the right is 0.05 (or area to the left is 0.95).<br>Using a Z-table or statistical software, \\( P(Z < 1.645) \\approx 0.9500 \\). This confirms that \\( Z_{\\alpha} = 1.645 \\) is the correct critical value for a one-tailed test at \\( \\alpha = 0.05 \\).<br>To verify the Z-statistic:<br>\\( \\sigma/\\sqrt{n} = 20/\\sqrt{100} = 20/10 = 2 \\)<br>\\( Z = (245 - 250) / 2 = -5 / 2 = -2.50 \\). This is also correct.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\( Z_{\\alpha} = 1.645 \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.645"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2009/2010",
+    "topic": [
+      "Parametric Statistical Tests",
+      "Hypothesis Testing",
+      "Sampling and Estimation",
+      "Variance Analysis"
+    ],
+    "Question": {
+      "content": "Which of the following is used to compute the variance of two independent samples?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "F-test"
+        },
+        {
+          "type": "String",
+          "content": "t-test"
+        },
+        {
+          "type": "String",
+          "content": "Z-test"
+        },
+        {
+          "type": "String",
+          "content": "Q-test"
+        },
+        {
+          "type": "String",
+          "content": "S-test"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Comparing Variances of Two Independent Samples</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><ul><li><strong>Variance:</strong> A measure of how spread out a set of data is from its mean. A high variance indicates that data points are generally far from the mean and from each other, while a low variance indicates that data points are closer to the mean.</li><li><strong>Hypothesis Testing:</strong> A statistical method used to make inferences about a population parameter based on sample data. It involves setting up a null hypothesis (\\( H_0 \\)) and an alternative hypothesis (\\( H_1 \\)) and then using statistical tests to determine if there is enough evidence to reject \\( H_0 \\).</li><li><strong>F-distribution:</strong> A continuous probability distribution that arises in the testing of whether two observed samples have the same variance. It is the ratio of two chi-squared distributions, each divided by its degrees of freedom.</li><li><strong>F-test:</strong> A statistical test that uses the F-distribution to compare the variances of two populations or samples. It is particularly useful for assessing if the variability in two groups is significantly different.</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>We need to identify the statistical test used to compare the variances of two independent samples from the given options: F-test, t-test, Z-test, Q-test, S-test.</div><p style='margin:8px 0;'><strong>Step 1: Understand the objective of the question</strong><br>The question specifically asks for a test to compare the <em>variance</em> of two <em>independent samples</em>. This narrows down the search to tests designed for variance comparison, not mean comparison.</p><p style='margin:8px 0;'><strong>Step 2: Evaluate the F-test</strong><br>The F-test is a statistical test used to compare the variances of two populations. It calculates a ratio of the two sample variances.<br>The formula for the F-statistic is:<br>\\[ F = \\frac{s_1^2}{s_2^2} \\]<br>where \\( s_1^2 \\) is the variance of the first sample and \\( s_2^2 \\) is the variance of the second sample. If the null hypothesis (that the population variances are equal) is true, the F-ratio should be close to 1. A significantly different F-ratio (either very large or very small) suggests that the population variances are not equal.<br>Therefore, the F-test directly addresses the requirement of comparing variances.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate the t-test</strong><br>The t-test is a statistical test used to compare the <em>means</em> of two groups (or a sample mean to a known population mean) when the population standard deviation is unknown and the sample size is relatively small. It assesses whether the difference between the means of two groups is statistically significant.<br>The t-test is <span style='color:var(--orange);font-weight:bold;'>not used for comparing variances</span>.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate the Z-test</strong><br>The Z-test is a statistical test used to compare the <em>means</em> of two groups (or a sample mean to a known population mean) when the population standard deviation is known, or when the sample size is large (typically \\( n \\ge 30 \\)), allowing the sample standard deviation to approximate the population standard deviation. It assesses whether the difference between the means of two groups is statistically significant.<br>The Z-test is <span style='color:var(--orange);font-weight:bold;'>not used for comparing variances</span>.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate the Q-test and S-test</strong><br>The Q-test (Dixon's Q-test) is primarily used for identifying and rejecting outliers in a data set. The S-test is not a commonly recognized general statistical test for comparing variances of two independent samples in the same context as F, t, or Z-tests. Neither of these tests is designed for the primary purpose of comparing two sample variances.<br>Therefore, these options are <span style='color:var(--orange);font-weight:bold;'>not appropriate</span> for the given task.</p><p style='margin:8px 0;'><strong>Step 6: Conclude the most appropriate test</strong><br>Based on the definitions and applications of the various statistical tests, the F-test is the only one specifically designed for comparing the variances of two independent samples.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The fundamental purpose of the F-test in hypothesis testing is to determine if two population variances are equal. This directly matches the requirement stated in the question. Other tests like the t-test and Z-test are designed for comparing means, not variances.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The F-test is used to compute the variance of two independent samples.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "F-test"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2009/2010",
+    "img": null,
+    "table": [
+      [
+        "Age",
+        "Dead",
+        "Recovered",
+        "Total"
+      ],
+      [
+        "Young",
+        "4",
+        "25",
+        "29"
+      ],
+      [
+        "Old",
+        "23",
+        "44",
+        "67"
+      ],
+      [
+        "Total",
+        "27",
+        "69",
+        "96"
+      ]
+    ],
+    "Question": {
+      "content": "The associated degrees of freedom are?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "1"
+        },
+        {
+          "type": "String",
+          "content": "2"
+        },
+        {
+          "type": "String",
+          "content": "3"
+        },
+        {
+          "type": "String",
+          "content": "4"
+        },
+        {
+          "type": "String",
+          "content": "5"
+        }
+      ]
+    },
+    "topic": [
+      "Parametric Statistical Tests",
+      "Hypothesis Testing",
+      "Variance Analysis"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Degrees of Freedom for Contingency Tables</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Degrees of Freedom (df)</em> in statistics refers to the number of independent values or quantities that can vary in an analysis without violating any constraints. For a contingency table, which is used to display the frequency distribution of two categorical variables, the degrees of freedom are calculated based on the number of rows and columns of the actual data, excluding any 'Total' rows or columns.<br>The formula for degrees of freedom for a contingency table is:<br>\\[ df = (R - 1) \\times (C - 1) \\]<br>Where \\( R \\) is the number of rows and \\( C \\) is the number of columns in the observed data (excluding total rows/columns). This value is crucial for statistical tests like the Chi-Square test for independence.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A contingency table showing the distribution of 'Age' and 'Outcome':<br><table style='width:auto;border-collapse:collapse;margin-top:8px;'><thead><tr><th style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>Age</th><th style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>Dead</th><th style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>Recovered</th><th style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>Total</th></tr></thead><tbody><tr><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>Young</td><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>4</td><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>25</td><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>29</td></tr><tr><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>Old</td><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>23</td><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>44</td><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>67</td></tr><tr><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>Total</td><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>27</td><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>69</td><td style='border:1px solid var(--bodyTextColor);padding:4px 8px;'>96</td></tr></tbody></table><br>We need to find the degrees of freedom for this contingency table.</div><p style='margin:8px 0;'><strong>Step 1: Identify the formula for degrees of freedom in a contingency table</strong><br>For a contingency table, the degrees of freedom (df) are calculated using the formula that considers the number of independent rows and columns.<br>Formula:<br>\\[ df = (R - 1) \\times (C - 1) \\]<br>Where \\( R \\) is the number of rows and \\( C \\) is the number of columns, <em>excluding</em> any 'Total' rows or columns.</p><p style='margin:8px 0;'><strong>Step 2: Determine the number of data rows (R)</strong><br>From the given table, the categories for 'Age' are 'Young' and 'Old'. The 'Total' row is a summary and not an independent category.<br>Number of data rows, \\( R = 2 \\) (Young, Old).</p><p style='margin:8px 0;'><strong>Step 3: Determine the number of data columns (C)</strong><br>From the given table, the categories for 'Outcome' are 'Dead' and 'Recovered'. The 'Total' column is a summary and not an independent category.<br>Number of data columns, \\( C = 2 \\) (Dead, Recovered).</p><p style='margin:8px 0;'><strong>Step 4: Substitute the values into the degrees of freedom formula</strong><br>Now, substitute the determined values of \\( R \\) and \\( C \\) into the formula.<br>Formula: \\( df = (R - 1) \\times (C - 1) \\)<br>Substitution: \\( df = (2 - 1) \\times (2 - 1) \\)</p><p style='margin:8px 0;'><strong>Step 5: Calculate the degrees of freedom</strong><br>Perform the subtraction and multiplication operations.<br>Calculation: \\( df = (1) \\times (1) \\)<br>Result: <span style='color:var(--orange);font-weight:bold;'>\\( df = 1 \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The concept of degrees of freedom in a contingency table relates to how many cell values can be freely chosen once the marginal totals (row and column totals) are fixed. For a \\( 2 \\times 2 \\) table, if you know the grand total and all marginal totals, you only need to know the value of one cell to determine all other cell values. For example, if you know the count for 'Young' and 'Dead', then 'Young' and 'Recovered' is fixed (Young Total - Young Dead), 'Old' and 'Dead' is fixed (Dead Total - Young Dead), and consequently 'Old' and 'Recovered' is also fixed. Thus, only one cell value is truly independent.<br>Our calculation \\( (2-1) \\times (2-1) = 1 \\times 1 = 1 \\) aligns with this statistical principle. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The associated degrees of freedom are 1.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2009/2010",
+    "img": null,
+    "table": [
+      [
+        "Supplement",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      [
+        "A",
+        "33",
+        "37",
+        "60",
+        "64",
+        "46",
+        "50"
+      ],
+      [
+        "B",
+        "50",
+        "56",
+        "79",
+        "77",
+        "72",
+        "58"
+      ],
+      [
+        "C",
+        "72",
+        "64",
+        "80",
+        "72",
+        "72",
+        "80"
+      ],
+      [
+        "D",
+        "77",
+        "73",
+        "79",
+        "81",
+        "81",
+        "77"
+      ],
+      [
+        "E",
+        "67",
+        "73",
+        "84",
+        "69",
+        "69",
+        "83"
+      ]
+    ],
+    "Question": {
+      "content": "The above table represents?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "two-way ANOVA"
+        },
+        {
+          "type": "String",
+          "content": "one-way ANOVA"
+        },
+        {
+          "type": "String",
+          "content": "interaction ANOVA"
+        },
+        {
+          "type": "String",
+          "content": "three-way ANOVA"
+        },
+        {
+          "type": "String",
+          "content": "six-way ANOVA"
+        }
+      ]
+    },
+    "topic": [
+      "ANOVA",
+      "Variance Analysis",
+      "Parametric Statistical Tests"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Understanding ANOVA Types</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Analysis of Variance (ANOVA)</em> is a statistical test used to compare the means of three or more groups to determine if there is a statistically significant difference between them.<br><br><em>One-Way ANOVA:</em> Used when there is one categorical independent variable (factor) with three or more levels (groups) and one continuous dependent variable. It assesses if the means of the dependent variable are significantly different across the levels of the single factor.<br><br><em>Two-Way ANOVA:</em> Used when there are two categorical independent variables (factors) and one continuous dependent variable. It assesses the main effects of each factor and the interaction effect between them.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A table showing measurements for different \"Supplement\" types (A, B, C, D, E).<br>Each supplement type has 6 associated numerical values (observations).</div><p style='margin:8px 0;'><strong>Step 1: Identify the variables in the table</strong><br>The table has rows labeled 'Supplement' (A, B, C, D, E). This represents a categorical independent variable, or factor, with 5 different levels.<br>The columns labeled '1' through '6' represent individual observations or measurements taken for each supplement type. These are continuous numerical values, which would be the dependent variable.</p><p style='margin:8px 0;'><strong>Step 2: Determine the number of independent categorical factors</strong><br>In this table, there is only one clear categorical factor: \"Supplement Type\". The columns '1' through '6' are not distinct factors but rather repeated measurements or individual data points within each level of the \"Supplement\" factor. If '1' through '6' represented another independent variable (e.g., 'Time Point' or 'Dosage Level') whose effect was also being studied, then it would be a multi-way ANOVA. However, here they are simply observations.</p><p style='margin:8px 0;'><strong>Step 3: Apply the definition of ANOVA types</strong><br>According to the definitions:<br>- A <em>One-Way ANOVA</em> is used when comparing means across groups based on a single categorical independent variable.<br>- A <em>Two-Way ANOVA</em> is used when comparing means across groups based on two categorical independent variables.</p><p style='margin:8px 0;'><strong>Step 4: Conclude the appropriate ANOVA type</strong><br>Since the data involves one categorical independent variable (Supplement Type) and multiple observations for each level of this variable, the appropriate statistical test to analyze potential differences in means among the supplement types is a <span style='color:var(--orange);font-weight:bold;'>One-Way ANOVA</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>If this were a two-way ANOVA, the columns '1' through '6' would need to represent a second distinct categorical factor with its own levels, and we would be interested in the effect of this second factor and its interaction with the 'Supplement' factor. Since these columns are simply individual data points for each supplement, it confirms that only one factor is being analyzed for its effect on the dependent variable. Therefore, one-way ANOVA is the correct classification.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The table represents a scenario for a one-way ANOVA.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "one-way ANOVA"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of the following is used to complete the variance of two independent samples?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "F-test"
+        },
+        {
+          "type": "String",
+          "content": "t-test"
+        },
+        {
+          "type": "String",
+          "content": "Z-test"
+        },
+        {
+          "type": "String",
+          "content": "Q-test"
+        },
+        {
+          "type": "String",
+          "content": "S-test"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Hypothesis Testing",
+      "Parametric Statistical Tests",
+      "Variance Analysis"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Comparing Variances of Two Independent Samples</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Variance:</strong> A statistical measure that quantifies the spread or dispersion of a set of data points around their mean.<br><strong>Independent Samples:</strong> Two samples are independent if the selection of individuals for one sample does not affect the selection of individuals for the other sample.<br><strong>Hypothesis Testing for Variances:</strong> A statistical procedure used to determine if there is a significant difference between the variances of two populations based on sample data.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks to identify the statistical test used to compare the variances of two independent samples.<br>Options provided: F-test, t-test, Z-test, Q-test, S-test.</div><p style='margin:8px 0;'><strong>Step 1: Understand the objective of the question</strong><br>The core of the question is to find a statistical test that specifically compares the 'variance' of 'two independent samples'. This indicates we are looking for a test of variability, not central tendency (means).</p><p style='margin:8px 0;'><strong>Step 2: Review the purpose of the common statistical tests listed</strong><br>Let's examine the primary uses of the given options:<br><ul><li><strong>F-test:</strong> This test is primarily used to compare the variances of two populations. It is based on the ratio of the two sample variances and follows an F-distribution. The null hypothesis typically states that the two population variances are equal (\\( \\sigma_1^2 = \\sigma_2^2 \\)).</li><li><strong>t-test:</strong> This test is used to compare the means of two groups (either independent or dependent samples) when the population standard deviation is unknown and the sample size is relatively small. It focuses on differences in means, not variances.</li><li><strong>Z-test:</strong> Similar to the t-test, the Z-test is used to compare the means of two groups. It is typically applied when the population standard deviation is known or when the sample size is large (usually \\( n \\ge 30 \\)). It also focuses on differences in means.</li><li><strong>Q-test (Dixon's Q-test):</strong> This is a statistical test used to identify and reject outliers in a data set. It is not designed for comparing variances between two samples.</li><li><strong>S-test:</strong> This is not a standard, widely recognized general statistical test for comparing the variances of two independent samples in the context of common parametric tests. (There might be specialized tests or components of tests referred to as 'S-test' in specific domains, but not for this general purpose).</li></ul></p><p style='margin:8px 0;'><strong>Step 3: Match the objective to the appropriate test</strong><br>Based on the review in Step 2, the <span style='color:var(--orange);font-weight:bold;'>F-test</span> is the only test among the options specifically designed for comparing the variances of two independent populations. It calculates the ratio of the two sample variances to determine if there is a statistically significant difference between them.</p><p style='margin:8px 0;'><strong>Step 4: Conclude the correct test</strong><br>Therefore, the F-test is the appropriate statistical test for comparing the variances of two independent samples.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The F-test is the standard statistical procedure for testing the equality of variances from two normally distributed populations. Its test statistic is the ratio of the sample variances, and it is widely used in ANOVA (Analysis of Variance) as well as for preliminary checks before performing t-tests (to determine if a pooled variance estimate is appropriate). The other tests listed serve different statistical purposes. Thus, the F-test is indeed the correct choice.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The F-test is used to compare the variance of two independent samples.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "F-test"
+    }
+  }
+]
