@@ -1,0 +1,145 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Frequency Distribution",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 8b @ 2023/2024",
+    "img": null,
+    "table": [
+      [
+        "Class interval",
+        "Frequency"
+      ],
+      [
+        "140 – 150",
+        "6"
+      ],
+      [
+        "150 – 160",
+        "16"
+      ],
+      [
+        "160 – 170",
+        "21"
+      ],
+      [
+        "170 – 180",
+        "8"
+      ]
+    ],
+    "Question": {
+      "content": "Estimate the second quartile (Q₂) (median) from the given frequency distribution, correcting your answer to 2 decimal places.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Descriptive Statistics for Biological Data",
+      "Measures of Position",
+      "Statistical Calculations",
+      "Frequency Distribution"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Estimating the Median (Second Quartile) from a Grouped Frequency Distribution</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>median</em> (or second quartile, \\( Q_2 \\)) is the middle value in a dataset when arranged in order. For grouped frequency distributions, the median is estimated using the formula:<br>\\[ Q_2 = L + \\left( \\frac{\\frac{N}{2} - CF}{f} \\right) \\times w \\]<br>Where:<br>\\( L \\) = Lower boundary of the median class<br>\\( N \\) = Total frequency<br>\\( CF \\) = Cumulative frequency of the class immediately preceding the median class<br>\\( f \\) = Frequency of the median class<br>\\( w \\) = Class width</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Frequency distribution table:<br>| Class interval | Frequency (f) |<br>| :------------- | :------------ |<br>| 140 – 150      | 6             |<br>| 150 – 160      | 16            |<br>| 160 – 170      | 21            |<br>| 170 – 180      | 8             |<br>Estimate the second quartile (median) to 2 decimal places.</div><p style='margin:8px 0;'><strong>Step 1: Calculate the total frequency (N)</strong><br>Sum all the frequencies to find the total number of observations, \\( N \\).<br>\\[ N = 6 + 16 + 21 + 8 \\]<br>\\[ N = \\text{<span style='color:var(--orange);font-weight:bold;'>51</span>} \\]</p><p style='margin:8px 0;'><strong>Step 2: Determine the position of the median</strong><br>The median position is found by dividing the total frequency by 2.<br>\\[ \\text{Median Position} = \\frac{N}{2} \\]<br>\\[ \\text{Median Position} = \\frac{51}{2} \\]<br>\\[ \\text{Median Position} = \\text{<span style='color:var(--orange);font-weight:bold;'>25.5</span>} \\]</p><p style='margin:8px 0;'><strong>Step 3: Construct the cumulative frequency table and identify the median class</strong><br>Create a cumulative frequency column to find the class interval where the 25.5th observation lies.<br>| Class interval | Frequency (f) | Cumulative Frequency (CF) |<br>| :------------- | :------------ | :------------------------ |<br>| 140 – 150      | 6             | 6                         |<br>| 150 – 160      | 16            | 6 + 16 = 22               |<br>| 160 – 170      | 21            | 22 + 21 = 43              |<br>| 170 – 180      | 8             | 43 + 8 = 51               |<br>The 25.5th observation falls within the class where the cumulative frequency first exceeds 25.5. This is the <span style='color:var(--orange);font-weight:bold;'>160 – 170</span> class interval.</p><p style='margin:8px 0;'><strong>Step 4: Identify the values for the median formula</strong><br>From the median class (160 – 170) and the cumulative frequency table, identify the necessary values:<br>\\( L \\) (Lower boundary of the median class) = 160<br>\\( CF \\) (Cumulative frequency of the class before the median class) = 22<br>\\( f \\) (Frequency of the median class) = 21<br>\\( w \\) (Class width) = \\( 150 - 140 = \\text{<span style='color:var(--orange);font-weight:bold;'>10</span>} \\)</p><p style='margin:8px 0;'><strong>Step 5: Apply the median formula</strong><br>Substitute the identified values into the median formula:<br>\\[ Q_2 = L + \\left( \\frac{\\frac{N}{2} - CF}{f} \\right) \\times w \\]<br>\\[ Q_2 = 160 + \\left( \\frac{25.5 - 22}{21} \\right) \\times 10 \\]<br>\\[ Q_2 = 160 + \\left( \\frac{3.5}{21} \\right) \\times 10 \\]<br>\\[ Q_2 = 160 + (0.166666... ) \\times 10 \\]<br>\\[ Q_2 = 160 + 1.666666... \\]<br>\\[ Q_2 = \\text{<span style='color:var(--orange);font-weight:bold;'>161.666666...</span>} \\]</p><p style='margin:8px 0;'><strong>Step 6: Round the answer to 2 decimal places</strong><br>Rounding the calculated median to two decimal places:<br>\\[ Q_2 \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>161.67</span>} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The median class is 160 – 170. Our calculated median, 161.67, falls within this class interval, which is consistent with the definition of the median class.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The second quartile (median) is 161.67</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "161.67"
+    }
+  }
+]
