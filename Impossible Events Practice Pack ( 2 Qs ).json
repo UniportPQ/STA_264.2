@@ -1,0 +1,183 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Impossible Events",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "From past records, it is found that in a sample of 12TV tubes, 3 are defective. If a tube is drawn at random, what is the probability that exactly 4 is defective?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.1054"
+        },
+        {
+          "type": "String",
+          "content": "0.1936"
+        },
+        {
+          "type": "String",
+          "content": "0.2823"
+        },
+        {
+          "type": "String",
+          "content": "0.2581"
+        }
+      ]
+    },
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Theory Fundamentals",
+      "Sampling and Estimation",
+      "Impossible Events"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Binomial Probability Distribution</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Binomial Distribution</em> is used to model the number of successes in a fixed number of independent Bernoulli trials.<br>The probability mass function is given by:<br>\\[ P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k} \\]<br>Where:<br>\\( n \\) = total number of trials<br>\\( k \\) = number of successful outcomes desired<br>\\( p \\) = probability of success on a single trial<br>\\( (1-p) \\) = probability of failure on a single trial<br>\\( \\binom{n}{k} = \\frac{n!}{k!(n-k)!} \\) is the binomial coefficient, representing the number of ways to choose \\( k \\) successes from \\( n \\) trials.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>From past records, a sample of 12 TV tubes contained 3 defective tubes.<br>This implies the historical probability of a single tube being defective is \\( p = \\frac{3}{12} \\).<br><br><strong>Note on Question Ambiguity:</strong> The question asks \\\"If a tube is drawn at random, what is the probability that exactly 4 is defective?\\\" This phrasing is contradictory. If only one tube is drawn, it cannot be exactly 4 defective. Based on the options and the typical context of such problems, we will interpret this as asking for the probability of finding exactly 4 defective tubes in a *new sample of 12 tubes*, where the probability of a single tube being defective is based on the past records.<br><br>Therefore, the parameters for the Binomial Distribution are:<br>Number of trials (new sample size): \\( n = 12 \\)<br>Number of desired defective tubes (successes): \\( k = 4 \\)</div><p style='margin:8px 0;'><strong>Step 1: Determine the probability of a single defective tube (\\(p\\))</strong><br>The probability of a single tube being defective is derived from the past records.<br>Formula: \\( p = \\frac{\\text{Number of defective tubes}}{\\text{Total number of tubes in sample}} \\)<br>Substitution: \\( p = \\frac{3}{12} \\)<br>Simplification: \\( p = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 0.25 \\)</span></p><p style='margin:8px 0;'><strong>Step 2: Identify the probability of a non-defective tube (\\(1-p\\))</strong><br>Formula: \\( 1-p \\)<br>Substitution: \\( 1-0.25 \\)<br>Simplification: \\( 1-p = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 0.75 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Write the Binomial Probability Formula with identified parameters</strong><br>Formula: \\( P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k} \\)<br>Substitution with \\( n=12, k=4, p=0.25 \\):<br>\\[ P(X=4) = \\binom{12}{4} (0.25)^4 (0.75)^{12-4} \\]<br>Simplification: <br>\\[ P(X=4) = \\binom{12}{4} (0.25)^4 (0.75)^8 \\]</p><p style='margin:8px 0;'><strong>Step 4: Calculate the binomial coefficient (\\( \\binom{12}{4} \\))</strong><br>Formula: \\( \\binom{n}{k} = \\frac{n!}{k!(n-k)!} \\)<br>Substitution: \\( \\binom{12}{4} = \\frac{12!}{4!(12-4)!} = \\frac{12!}{4!8!} \\)<br>Calculation: \\( \\binom{12}{4} = \\frac{12 \\times 11 \\times 10 \\times 9 \\times 8!}{ (4 \\times 3 \\times 2 \\times 1) \\times 8!} = \\frac{12 \\times 11 \\times 10 \\times 9}{4 \\times 3 \\times 2 \\times 1} = 11 \\times 5 \\times 9 = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 495 \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Calculate the probability terms \\(p^k\\) and \\((1-p)^{n-k}\\)</strong><br>Calculate \\( (0.25)^4 \\):<br>\\[ (0.25)^4 = 0.00390625 \\]<br>Calculate \\( (0.75)^8 \\):<br>\\[ (0.75)^8 \\approx 0.10011296 \\]</p><p style='margin:8px 0;'><strong>Step 6: Multiply the calculated values to find the final probability</strong><br>Formula: \\( P(X=4) = \\binom{12}{4} \\times (0.25)^4 \\times (0.75)^8 \\)<br>Substitution: \\( P(X=4) = 495 \\times 0.00390625 \\times 0.10011296 \\)<br>Calculation: \\( P(X=4) \\approx 0.19359207 \\)<br>Rounding to four decimal places: \\( P(X=4) \\approx \\) <span style='color:var(--orange);font-weight:bold;'>\\( 0.1936 \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The calculation involves standard binomial probability steps. The probability of success \\(p=0.25\\) is relatively low, and we are looking for 4 successes out of 12 trials. The calculated value of 0.1936 is a reasonable probability for such an event, being less than 1 and greater than 0. This result aligns with common binomial probability tables or calculators for the given parameters.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that exactly 4 tubes are defective is 0.1936.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.1936"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "From past records, it is found that in a sample of 12TV tubes, 3 are defective. If a tube is drawn at random, what is the probability that at least 4 is defective?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.3781"
+        },
+        {
+          "type": "String",
+          "content": "0.5212"
+        },
+        {
+          "type": "String",
+          "content": "0.3323"
+        },
+        {
+          "type": "String",
+          "content": "0.1267"
+        }
+      ]
+    },
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Theory Fundamentals",
+      "Sampling and Estimation",
+      "Impossible Events"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Binomial Probability Distribution</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Binomial Distribution</em> models the number of successes in a fixed number of independent Bernoulli trials.<br>The probability mass function (PMF) is given by:<br>\\[ P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k} \\]<br>where:<br>\\[ n \\] is the total number of trials.<br>\\[ k \\] is the number of successes.<br>\\[ p \\] is the probability of success on a single trial.<br>\\[ \\binom{n}{k} = \\frac{n!}{k!(n-k)!} \\] is the binomial coefficient.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Total number of TV tubes in the sample: \\[ n = 12 \\]<br>Number of defective tubes from past records: 3<br>We need to find the probability that at least 4 tubes are defective, i.e., \\[ P(X \\ge 4) \\].</div><p style='margin:8px 0;'><strong>Step 1: Determine the probability of a defective tube (p)</strong><br>The probability of a single tube being defective is estimated from past records.<br>Formula: \\[ p = \\frac{\\text{Number of defective tubes}}{\\text{Total number of tubes}} \\]<br>Substitution: \\[ p = \\frac{3}{12} \\]<br>Simplification: \\[ p = \\] <span style='color:var(--orange);font-weight:bold;'>\\[ 0.25 \\]</span></p><p style='margin:8px 0;'><strong>Step 2: Identify the parameters of the Binomial Distribution</strong><br>Number of trials (sample size): \\[ n = 12 \\]<br>Probability of success (a tube being defective): \\[ p = 0.25 \\]<br>Probability of failure (a tube not being defective): \\[ q = 1 - p = 1 - 0.25 = \\] <span style='color:var(--orange);font-weight:bold;'>\\[ 0.75 \\]</span></p><p style='margin:8px 0;'><strong>Step 3: Formulate the probability for \"at least 4 defective tubes\"</strong><br>We want to find \\[ P(X \\ge 4) \\]. This can be calculated using the complement rule:<br>Formula: \\[ P(X \\ge 4) = 1 - P(X < 4) \\]<br>This means: \\[ P(X \\ge 4) = 1 - [P(X=0) + P(X=1) + P(X=2) + P(X=3)] \\]</p><p style='margin:8px 0;'><strong>Step 4: Calculate \\[ P(X=0) \\]</strong><br>Using the Binomial PMF: \\[ P(X=k) = \\binom{n}{k} p^k q^{n-k} \\]<br>Formula: \\[ P(X=0) = \\binom{12}{0} (0.25)^0 (0.75)^{12} \\]<br>Substitution: \\[ P(X=0) = 1 \\times 1 \\times (0.75)^{12} \\]<br>Simplification: \\[ P(X=0) \\approx \\] <span style='color:var(--orange);font-weight:bold;'>\\[ 0.031676 \\]</span></p><p style='margin:8px 0;'><strong>Step 5: Calculate \\[ P(X=1) \\]</strong><br>Formula: \\[ P(X=1) = \\binom{12}{1} (0.25)^1 (0.75)^{11} \\]<br>Substitution: \\[ P(X=1) = 12 \\times 0.25 \\times (0.75)^{11} \\]<br>Simplification: \\[ P(X=1) \\approx \\] <span style='color:var(--orange);font-weight:bold;'>\\[ 0.126705 \\]</span></p><p style='margin:8px 0;'><strong>Step 6: Calculate \\[ P(X=2) \\]</strong><br>Formula: \\[ P(X=2) = \\binom{12}{2} (0.25)^2 (0.75)^{10} \\]<br>Substitution: \\[ P(X=2) = 66 \\times (0.25)^2 \\times (0.75)^{10} \\]<br>Simplification: \\[ P(X=2) \\approx \\] <span style='color:var(--orange);font-weight:bold;'>\\[ 0.232509 \\]</span></p><p style='margin:8px 0;'><strong>Step 7: Calculate \\[ P(X=3) \\]</strong><br>Formula: \\[ P(X=3) = \\binom{12}{3} (0.25)^3 (0.75)^9 \\]<br>Substitution: \\[ P(X=3) = 220 \\times (0.25)^3 \\times (0.75)^9 \\]<br>Simplification: \\[ P(X=3) \\approx \\] <span style='color:var(--orange);font-weight:bold;'>\\[ 0.258163 \\]</span></p><p style='margin:8px 0;'><strong>Step 8: Sum the probabilities for \\[ P(X < 4) \\]</strong><br>Formula: \\[ P(X < 4) = P(X=0) + P(X=1) + P(X=2) + P(X=3) \\]<br>Substitution: \\[ P(X < 4) \\approx 0.031676 + 0.126705 + 0.232509 + 0.258163 \\]<br>Simplification: \\[ P(X < 4) \\approx \\] <span style='color:var(--orange);font-weight:bold;'>\\[ 0.649053 \\]</span></p><p style='margin:8px 0;'><strong>Step 9: Calculate \\[ P(X \\ge 4) \\]</strong><br>Formula: \\[ P(X \\ge 4) = 1 - P(X < 4) \\]<br>Substitution: \\[ P(X \\ge 4) \\approx 1 - 0.649053 \\]<br>Simplification: \\[ P(X \\ge 4) \\approx \\] <span style='color:var(--orange);font-weight:bold;'>\\[ 0.350947 \\]</span></p><p style='margin:8px 0;'><strong>Step 10: Compare with options and select the closest</strong><br>Our calculated probability is approximately \\[ 0.3509 \\]. Let's compare this to the given options:<br>- 0.3781<br>- 0.5212<br>- 0.3323<br>- 0.1267<br>The closest option to \\[ 0.3509 \\] is \\[ 0.3323 \\] (difference \\[ |0.3509 - 0.3323| \\approx 0.0186 \\]).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can sum the probabilities for \\[ X=4 \\] through \\[ X=12 \\].<br>\\[ P(X=4) \\approx 0.193589 \\]<br>\\[ P(X=5) \\approx 0.103247 \\]<br>\\[ P(X=6) \\approx 0.040149 \\]<br>\\[ P(X=7) \\approx 0.011471 \\]<br>\\[ P(X=8) \\approx 0.002389 \\]<br>\\[ P(X=9) \\approx 0.000353 \\]<br>\\[ P(X=10) \\approx 0.000035 \\]<br>\\[ P(X=11) \\approx 0.000002 \\]<br>\\[ P(X=12) \\approx 0.000000 \\]<br>Summing these values: \\[ P(X \\ge 4) \\approx 0.193589 + 0.103247 + 0.040149 + 0.011471 + 0.002389 + 0.000353 + 0.000035 + 0.000002 + 0.000000 \\approx 0.351235 \\].<br>This value is very close to our calculated \\[ 0.350947 \\], with minor differences due to rounding in intermediate steps. This confirms the accuracy of our calculation for \\[ P(X \\ge 4) \\].</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The probability that at least 4 tubes are defective is approximately 0.3509, which is closest to 0.3323 among the given options.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.3323"
+    }
+  }
+]
