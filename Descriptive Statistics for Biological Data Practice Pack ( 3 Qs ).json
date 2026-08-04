@@ -1,0 +1,231 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Descriptive Statistics for Biological Data",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2023/2024",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these is simply the difference between the maximum and minimum values given in a data set?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Range"
+        },
+        {
+          "type": "String",
+          "content": "mean deviation"
+        },
+        {
+          "type": "String",
+          "content": "standard deviation"
+        },
+        {
+          "type": "String",
+          "content": "All of the above"
+        }
+      ]
+    },
+    "topic": [
+      "Descriptive Statistics for Biological Data",
+      "Statistical Calculations",
+      "Measures of Variability"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Measures of Variability</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Measures of variability</em> (or spread) describe how dispersed or spread out the data points are in a dataset. They provide information about the distribution of data beyond just the central tendency.<br><br>The three measures mentioned are:<br><ul><li><strong>Range:</strong> The difference between the highest and lowest values in a dataset.</li><li><strong>Mean Deviation:</strong> The average of the absolute differences between each data point and the mean of the dataset.</li><li><strong>Standard Deviation:</strong> A measure of the average amount of variability or dispersion around the mean. It indicates how much the data points deviate from the mean.</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>We are asked to identify the statistical measure that represents the difference between the maximum and minimum values in a data set.</div><p style='margin:8px 0;'><strong>Step 1: Understand the purpose of variability measures</strong><br>Measures of variability, also known as measures of dispersion, quantify how spread out or clustered the data points are in a dataset. They are crucial for understanding the distribution of data.</p><p style='margin:8px 0;'><strong>Step 2: Define Range</strong><br>The <em>Range</em> is the simplest measure of variability. It is calculated as the difference between the maximum (highest) value and the minimum (lowest) value in a dataset.<br>Formula:<br>\\[ \\text{Range} = \\text{Maximum Value} - \\text{Minimum Value} \\]<br>This measure gives a quick idea of the total spread of the data.</p><p style='margin:8px 0;'><strong>Step 3: Define Mean Deviation</strong><br>The <em>Mean Deviation</em> (or Average Absolute Deviation) measures the average of the absolute differences between each data point and the mean of the dataset.<br>Formula:<br>\\[ \\text{Mean Deviation} = \\frac{\\sum_{i=1}^{n} |x_i - \\bar{x}|}{n} \\]<br>where \\( x_i \\) are the individual data points, \\( \\bar{x} \\) is the mean, and \\( n \\) is the number of data points. This measure considers all data points relative to the mean.</p><p style='margin:8px 0;'><strong>Step 4: Define Standard Deviation</strong><br>The <em>Standard Deviation</em> is a widely used measure of the spread of data around the mean. It is the square root of the variance.<br>Formula for population standard deviation (\\( \\sigma \\)):<br>\\[ \\sigma = \\sqrt{\\frac{\\sum_{i=1}^{N} (x_i - \\mu)^2}{N}} \\]<br>Formula for sample standard deviation (\\( s \\)):<br>\\[ s = \\sqrt{\\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})^2}{n-1}} \\]<br>where \\( x_i \\) are the individual data points, \\( \\mu \\) is the population mean, \\( \\bar{x} \\) is the sample mean, \\( N \\) is the population size, and \\( n \\) is the sample size. It indicates how much the data points typically deviate from the mean.</p><p style='margin:8px 0;'><strong>Step 5: Compare definitions to the question</strong><br>The question asks for the measure that is \"simply the difference between the maximum and minimum values given in a data set.\"<br>Comparing this description with the definitions:<br><ul><li>The definition of <strong>Range</strong> directly matches this description: Maximum Value - Minimum Value.</li><li>Mean Deviation involves the mean and absolute differences of all data points.</li><li>Standard Deviation involves the mean, squared differences, and a square root of the average of these squared differences.</li></ul><br>Therefore, the <span style='color:var(--orange);font-weight:bold;'>Range</span> is the correct answer.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's consider a simple data set: {5, 12, 8, 3, 15}.<br>Maximum value = 15<br>Minimum value = 3<br>Difference = \\( 15 - 3 = 12 \\). This is the Range.<br><br>If we were to calculate mean deviation or standard deviation, the process would be much more involved, requiring calculation of the mean and then differences from the mean, which does not match the simple \"difference between maximum and minimum values\" description. Thus, the Range is definitively the measure described.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The measure described is the Range.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Range"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8a @ 2023/2024",
+    "img": null,
+    "table": [
+      [
+        "Class interval",
+        "Frequency"
+      ],
+      [
+        "140 – 150",
+        "6"
+      ],
+      [
+        "150 – 160",
+        "16"
+      ],
+      [
+        "160 – 170",
+        "21"
+      ],
+      [
+        "170 – 180",
+        "8"
+      ]
+    ],
+    "Question": {
+      "content": "Estimate the first quartile (Q₁) from the given frequency distribution, correcting your answer to 2 decimal places.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Descriptive Statistics for Biological Data",
+      "Statistical Calculations",
+      "Measures of Position"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Estimating First Quartile (Q₁) from Grouped Data</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>quartile</em> divides a data set into four equal parts. The <em>first quartile (Q₁)</em> is the value below which 25% of the data falls.<br>For grouped frequency distributions, Q₁ is estimated using the formula:<br>\\[ Q_1 = L + \\left( \\frac{\\frac{N}{4} - F}{f} \\right) \\times w \\]<br>Where:<br>\\( L \\) = Lower boundary of the first quartile class<br>\\( N \\) = Total frequency (sum of all frequencies)<br>\\( F \\) = Cumulative frequency of the class immediately preceding the first quartile class<br>\\( f \\) = Frequency of the first quartile class<br>\\( w \\) = Class width of the first quartile class</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Frequency distribution table:<br>| Class interval | Frequency (f) |<br>| :------------- | :------------ |<br>| 140 – 150      | 6             |<br>| 150 – 160      | 16            |<br>| 160 – 170      | 21            |<br>| 170 – 180      | 8             |<br>Goal: Estimate the first quartile (Q₁) to 2 decimal places.</div><p style='margin:8px 0;'><strong>Step 1: Calculate the total frequency (N)</strong><br>The total frequency is the sum of all individual class frequencies.<br>\\[ N = \\sum f = 6 + 16 + 21 + 8 \\]<br>\\( N = \\) <span style='color:var(--orange);font-weight:bold;'>51</span></p><p style='margin:8px 0;'><strong>Step 2: Determine the position of the first quartile (Q₁)</strong><br>The position of the first quartile is given by \\( \\frac{N}{4} \\).<br>\\[ \\text{Position of } Q_1 = \\frac{N}{4} = \\frac{51}{4} \\]<br>\\( \\text{Position of } Q_1 = \\) <span style='color:var(--orange);font-weight:bold;'>12.75</span></p><p style='margin:8px 0;'><strong>Step 3: Identify the first quartile class</strong><br>We need to find the class interval where the cumulative frequency first exceeds the Q₁ position (12.75).<br>First, calculate cumulative frequencies:<br>| Class interval | Frequency (f) | Cumulative Frequency (CF) |<br>| :------------- | :------------ | :------------------------ |<br>| 140 – 150      | 6             | 6                         |<br>| 150 – 160      | 16            | 6 + 16 = 22               |<br>| 160 – 170      | 21            | 22 + 21 = 43              |<br>| 170 – 180      | 8             | 43 + 8 = 51               |<br>Since the Q₁ position (12.75) is greater than the cumulative frequency of the first class (6) and less than or equal to the cumulative frequency of the second class (22), the <span style='color:var(--orange);font-weight:bold;'>first quartile class is 150 – 160</span>.</p><p style='margin:8px 0;'><strong>Step 4: Identify the values for the Q₁ formula</strong><br>From the identified Q₁ class (150 – 160):<br>Lower boundary (L) = 150<br>Cumulative frequency of the class preceding the Q₁ class (F) = 6 (from the 140-150 class)<br>Frequency of the Q₁ class (f) = 16<br>Class width (w) = Upper boundary - Lower boundary = 160 - 150 = 10</p><p style='margin:8px 0;'><strong>Step 5: Apply the formula for Q₁</strong><br>Substitute the values into the formula:<br>\\[ Q_1 = L + \\left( \\frac{\\frac{N}{4} - F}{f} \\right) \\times w \\]<br>\\[ Q_1 = 150 + \\left( \\frac{12.75 - 6}{16} \\right) \\times 10 \\]<br>\\[ Q_1 = 150 + \\left( \\frac{6.75}{16} \\right) \\times 10 \\]<br>\\[ Q_1 = 150 + (0.421875) \\times 10 \\]<br>\\[ Q_1 = 150 + 4.21875 \\]<br>\\( Q_1 = \\) <span style='color:var(--orange);font-weight:bold;'>154.21875</span></p><p style='margin:8px 0;'><strong>Step 6: Round the result to 2 decimal places</strong><br>Rounding 154.21875 to two decimal places gives:<br>\\( Q_1 \\approx \\) <span style='color:var(--orange);font-weight:bold;'>154.22</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The calculated Q₁ value of 154.22 falls within the identified Q₁ class of 150 – 160, which is expected. This indicates the calculation is consistent with the data distribution.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The first quartile (Q₁) is 154.22</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "154.22"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8b @ 2023/2024",
+    "img": null,
+    "table": [
+      [
+        "Class interval",
+        "Frequency"
+      ],
+      [
+        "140 – 150",
+        "6"
+      ],
+      [
+        "150 – 160",
+        "16"
+      ],
+      [
+        "160 – 170",
+        "21"
+      ],
+      [
+        "170 – 180",
+        "8"
+      ]
+    ],
+    "Question": {
+      "content": "Estimate the second quartile (Q₂) (median) from the given frequency distribution, correcting your answer to 2 decimal places.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Descriptive Statistics for Biological Data",
+      "Measures of Position",
+      "Statistical Calculations",
+      "Frequency Distribution"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Estimating the Median (Second Quartile) from a Grouped Frequency Distribution</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>median</em> (or second quartile, \\( Q_2 \\)) is the middle value in a dataset when arranged in order. For grouped frequency distributions, the median is estimated using the formula:<br>\\[ Q_2 = L + \\left( \\frac{\\frac{N}{2} - CF}{f} \\right) \\times w \\]<br>Where:<br>\\( L \\) = Lower boundary of the median class<br>\\( N \\) = Total frequency<br>\\( CF \\) = Cumulative frequency of the class immediately preceding the median class<br>\\( f \\) = Frequency of the median class<br>\\( w \\) = Class width</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Frequency distribution table:<br>| Class interval | Frequency (f) |<br>| :------------- | :------------ |<br>| 140 – 150      | 6             |<br>| 150 – 160      | 16            |<br>| 160 – 170      | 21            |<br>| 170 – 180      | 8             |<br>Estimate the second quartile (median) to 2 decimal places.</div><p style='margin:8px 0;'><strong>Step 1: Calculate the total frequency (N)</strong><br>Sum all the frequencies to find the total number of observations, \\( N \\).<br>\\[ N = 6 + 16 + 21 + 8 \\]<br>\\[ N = \\text{<span style='color:var(--orange);font-weight:bold;'>51</span>} \\]</p><p style='margin:8px 0;'><strong>Step 2: Determine the position of the median</strong><br>The median position is found by dividing the total frequency by 2.<br>\\[ \\text{Median Position} = \\frac{N}{2} \\]<br>\\[ \\text{Median Position} = \\frac{51}{2} \\]<br>\\[ \\text{Median Position} = \\text{<span style='color:var(--orange);font-weight:bold;'>25.5</span>} \\]</p><p style='margin:8px 0;'><strong>Step 3: Construct the cumulative frequency table and identify the median class</strong><br>Create a cumulative frequency column to find the class interval where the 25.5th observation lies.<br>| Class interval | Frequency (f) | Cumulative Frequency (CF) |<br>| :------------- | :------------ | :------------------------ |<br>| 140 – 150      | 6             | 6                         |<br>| 150 – 160      | 16            | 6 + 16 = 22               |<br>| 160 – 170      | 21            | 22 + 21 = 43              |<br>| 170 – 180      | 8             | 43 + 8 = 51               |<br>The 25.5th observation falls within the class where the cumulative frequency first exceeds 25.5. This is the <span style='color:var(--orange);font-weight:bold;'>160 – 170</span> class interval.</p><p style='margin:8px 0;'><strong>Step 4: Identify the values for the median formula</strong><br>From the median class (160 – 170) and the cumulative frequency table, identify the necessary values:<br>\\( L \\) (Lower boundary of the median class) = 160<br>\\( CF \\) (Cumulative frequency of the class before the median class) = 22<br>\\( f \\) (Frequency of the median class) = 21<br>\\( w \\) (Class width) = \\( 150 - 140 = \\text{<span style='color:var(--orange);font-weight:bold;'>10</span>} \\)</p><p style='margin:8px 0;'><strong>Step 5: Apply the median formula</strong><br>Substitute the identified values into the median formula:<br>\\[ Q_2 = L + \\left( \\frac{\\frac{N}{2} - CF}{f} \\right) \\times w \\]<br>\\[ Q_2 = 160 + \\left( \\frac{25.5 - 22}{21} \\right) \\times 10 \\]<br>\\[ Q_2 = 160 + \\left( \\frac{3.5}{21} \\right) \\times 10 \\]<br>\\[ Q_2 = 160 + (0.166666... ) \\times 10 \\]<br>\\[ Q_2 = 160 + 1.666666... \\]<br>\\[ Q_2 = \\text{<span style='color:var(--orange);font-weight:bold;'>161.666666...</span>} \\]</p><p style='margin:8px 0;'><strong>Step 6: Round the answer to 2 decimal places</strong><br>Rounding the calculated median to two decimal places:<br>\\[ Q_2 \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>161.67</span>} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The median class is 160 – 170. Our calculated median, 161.67, falls within this class interval, which is consistent with the definition of the median class.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The second quartile (median) is 161.67</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "161.67"
+    }
+  }
+]
