@@ -1,0 +1,336 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Categorical Data Analysis",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2011/2012",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these is the correct formula for the chi-square test statistics?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum \\\\frac{(O_i - E_i)^2}{E_i}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)}{E_i}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i + E_i)^2}{E_i}\\\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Hypothesis Testing",
+      "Inferential Statistics",
+      "Categorical Data Analysis",
+      "Biostatistics",
+      "Chi-square Test"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Test Statistic Formula</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-square (\\\\(\\chi^2\\\\)) test</em> is a statistical test used to determine if there is a significant association between two categorical variables or if observed frequencies differ significantly from expected frequencies.<br><ul><li><em>Observed frequency (\\\\(O_i\\\\))</em>: The actual count of observations in each category or cell.</li><li><em>Expected frequency (\\\\(E_i\\\\))</em>: The frequency that would be expected in each category or cell under the null hypothesis (e.g., no association or a specific distribution).</li><li>The <em>Chi-square test statistic</em> quantifies the overall discrepancy between observed and expected frequencies.</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Identify the correct formula for the chi-square test statistic from the provided options, where \\\\(O_i\\\\) represents observed frequencies and \\\\(E_i\\\\) represents expected frequencies.</div><p style='margin:8px 0;'><strong>Step 1: Understand the Purpose of the Chi-square Test Statistic</strong><br>The chi-square test statistic measures how much the observed frequencies in various categories deviate from the frequencies that would be expected if there were no relationship or difference (under the null hypothesis). It must provide a single, positive value that increases as the discrepancy between observed and expected values grows.</p><p style='margin:8px 0;'><strong>Step 2: Account for Differences Between Observed and Expected Frequencies</strong><br>For each category \\\\(i\\\\), we first find the difference between the observed and expected frequencies: <br>\\\\[ (O_i - E_i) \\\\] <br>If we simply summed these differences, the result would often be zero because the sum of observed frequencies equals the sum of expected frequencies. To ensure that both positive and negative differences contribute to the total discrepancy, we square this difference: <br>\\\\[ (O_i - E_i)^2 \\\\] <span style='color:var(--orange);font-weight:bold;'>This squaring ensures all contributions are positive.</span></p><p style='margin:8px 0;'><strong>Step 3: Standardize the Squared Differences by Expected Frequencies</strong><br>The significance of a difference depends on the magnitude of the expected frequency. For example, a difference of 5 is more significant if the expected frequency is 10 than if it's 1000. To account for this, we divide the squared difference by the expected frequency for that category: <br>\\\\[ \\\\frac{(O_i - E_i)^2}{E_i} \\\\] <span style='color:var(--orange);font-weight:bold;'>This step normalizes the contribution of each category based on its expected count.</span></p><p style='margin:8px 0;'><strong>Step 4: Sum Across All Categories</strong><br>To obtain the total chi-square test statistic, we sum these standardized squared differences over all \\\\(n\\\\) categories (or cells in a contingency table): <br>\\\\[ \\\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i} \\\\] <span style='color:var(--orange);font-weight:bold;'>The summation symbol \\\\(\\sum_{i=1}^n\\\\) indicates that this calculation is performed for each category from the first (\\\\(i=1\\\\)) to the last (\\\\(n\\\\)), and all results are added together.</span></p><p style='margin:8px 0;'><strong>Step 5: Compare with Given Options</strong><br>Let's evaluate the provided options against the derived formula:<br><ul><li>Option 1: \\\\(\\chi^2 = \\\\sum \\\\frac{(O_i - E_i)^2}{E_i}\\\\)<br>This is very close, but it omits the explicit summation limits \\\\(i=1\\\\) to \\\\(n\\\\), which are standard in formal notation.</li><li>Option 2: \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\)<br>This option exactly matches the standard formula, including the squaring of the difference and the explicit summation limits.</li><li>Option 3: \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)}{E_i}\\\\)<br>This option is incorrect because it does not square the difference \\\\((O_i - E_i)\\\\). Without squaring, positive and negative differences would cancel out, making the statistic uninformative.</li><li>Option 4: \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i + E_i)^2}{E_i}\\\\)<br>This option is incorrect because it uses the sum \\\\((O_i + E_i)\\\\) instead of the difference \\\\((O_i - E_i)\\\\). The chi-square test measures discrepancy, not agreement in this manner.</li></ul>Based on this comparison, Option 2 is the correct formula.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The formula \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\) is the universally accepted and standard formula for the chi-square test statistic. It correctly quantifies the aggregate difference between observed and expected frequencies, ensuring that all discrepancies contribute positively and are weighted appropriately by their expected values. This formula is fundamental to hypothesis testing for categorical data.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correct formula for the chi-square test statistic is \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2011/2012",
+    "img": null,
+    "table": [
+      [
+        "Defects in vision",
+        "Normal",
+        "Short",
+        "Long",
+        "Total"
+      ],
+      [
+        "Eye color",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Blue",
+        "92",
+        "39( )",
+        "",
+        ""
+      ],
+      [
+        "Green",
+        "33",
+        "5( )",
+        "123",
+        ""
+      ],
+      [
+        "Gray",
+        "74( )",
+        "30",
+        "8",
+        ""
+      ],
+      [
+        "Hazel",
+        "75( )",
+        "",
+        "6( )",
+        "113"
+      ],
+      [
+        "Brown",
+        "70",
+        "31( )",
+        "?",
+        ""
+      ],
+      [
+        "Total",
+        "165",
+        "",
+        "",
+        "600"
+      ]
+    ],
+    "Question": {
+      "content": "Complete the following Chi-square table below given that the values in bracket are the expected frequencies (\\\\(E_{ij}\\\\)) while those without the bracket are the observed frequencies (\\\\(O_{ij}\\\\)). In a survey to examine whether defects in vision and eye color are independent, 600 children were classified as shown below. Also, given that \\\\\\\\(\\\\\\\\chi_{0.05}^2(1) = 15.507\\\\) and define \\\\(E_{ij}\\\\). State the hypothesis.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Chi-square Test",
+      "Hypothesis Testing",
+      "Categorical Data Analysis",
+      "Inferential Statistics",
+      "Biostatistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Test for Independence</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-square test for independence</em> is used to determine if there is a significant association between two categorical variables.<br>It compares observed frequencies (\\\\(O_{ij}\\\\)) in a contingency table with expected frequencies (\\\\(E_{ij}\\\\)) that would occur if the variables were independent.<br>The <em>expected frequency</em> (\\\\(E_{ij}\\\\)) for a cell \\\\( (i, j) \\\\) is the frequency that would be expected if the null hypothesis of independence were true.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br><ul><li>A survey of 600 children classified by defects in vision and eye color.</li><li>Values without brackets are observed frequencies (\\\\(O_{ij}\\\\)).</li><li>Values in brackets are expected frequencies (\\\\(E_{ij}\\\\)).</li><li>Critical value: \\\\\\\\(\\\\\\\\chi_{0.05}^2(1) = 15.507\\\\).</li><li>The table contains inconsistencies: The sum of the observed frequencies in the 'Normal' column (\\\\(92+33+70 = 195\\\\)) does not match the given 'Normal' column total (165). This prevents accurate numerical completion of the table.</li></ul></div><p style='margin:8px 0;'><strong>Step 1: State the Purpose of the Chi-square Test for Independence</strong><br>The Chi-square test for independence aims to determine whether there is a statistically significant relationship between two categorical variables, in this case, 'Defects in vision' and 'Eye color'.</p><p style='margin:8px 0;'><strong>Step 2: State the Null Hypothesis (\\\\(H_0\\\\))</strong><br>The null hypothesis states that there is no association between the two variables; they are independent.<br>\\\\[ H_0: \\\\\\\\text{Defects in vision and eye color are independent.} \\\\\\]</p><p style='margin:8px 0;'><strong>Step 3: State the Alternative Hypothesis (\\\\(H_1\\\\))</strong><br>The alternative hypothesis states that there is an association between the two variables; they are not independent (or dependent).<br>\\\\[ H_1: \\\\\\\\text{Defects in vision and eye color are not independent.} \\\\\\]</p><p style='margin:8px 0;'><strong>Step 4: Define Expected Frequency (\\\\(E_{ij}\\\\))</strong><br>The expected frequency for a cell \\\\( (i, j) \\\\) in a contingency table is calculated using the formula:<br>\\\\[ E_{ij} = \\\\\\\\frac{\\\\\\\\text{Row Total} \\\\\\\\times \\\\\\\\text{Column Total}}{\\\\\\\\text{Grand Total}} \\\\\\]<br>Where:<br>• &nbsp;<strong>Row Total</strong> is the sum of all frequencies in row \\\\( i \\\\).<br>• &nbsp;<strong>Column Total</strong> is the sum of all frequencies in column \\\\( j \\\\).<br>• &nbsp;<strong>Grand Total</strong> is the total number of observations in the entire table (600 in this case).</p><p style='margin:8px 0;'><strong>Step 5: Address Table Completion</strong><br>Due to the inconsistencies in the provided data (e.g., the 'Normal' column total of 165 contradicts the sum of its observed values (\\\\(92+33+70=195\\\\))), it is not possible to accurately complete the table by calculating the remaining expected or observed frequencies. If the table were consistent, one would first calculate all row and column totals, then use the \\\\(E_{ij}\\\\) formula to find the expected frequencies for all cells, and finally calculate the Chi-square test statistic.</p><p style='margin:8px 0;'><strong>Step 6: Note on Critical Value</strong><br>The critical value \\\\\\\\(\\\\\\\\chi_{0.05}^2(1) = 15.507\\\\) is provided for a significance level of 0.05 and 1 degree of freedom. In a complete Chi-square test, this value would be compared to the calculated Chi-square test statistic to make a decision about rejecting or failing to reject the null hypothesis. However, since the table cannot be completed and the question only asks for the hypothesis and definition of \\\\(E_{ij}\\\\), this value is not directly used in answering the specific questions posed.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The null and alternative hypotheses are correctly stated for a test of independence. The definition of the expected frequency \\\\(E_{ij}\\\\) is standard in Chi-square analysis. The identified inconsistency in the table data is critical for understanding why numerical completion is not feasible.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Null Hypothesis (\\\\(H_0\\\\)): Defects in vision and eye color are independent.<br>&#8756; \\\\(E_{ij} = \\\\\\\\frac{\\\\\\\\text{Row Total} \\\\\\\\times \\\\\\\\text{Column Total}}{\\\\\\\\text{Grand Total}}\\\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Null Hypothesis (H0): Defects in vision and eye color are independent.<br>Eij = (Row Total x Column Total) / Grand Total"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25 @ 2010/2011",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these is the correct formula for the chi-square test statistic?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - E_{ij})^2}{E_{ij}}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(E_{ij} - O_{ij})^2}{E_{ij}}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - O_{ij})^2}{E_{ij}}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\chi^2 = \\sum_{i=1}^{r} \\frac{(O_i - E_i)^2}{E_i^2}\\\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Hypothesis Testing",
+      "Non-parametric Statistical Tests",
+      "Categorical Data Analysis"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-Square Test Statistic</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>chi-square test statistic</em> (\\( \\chi^2 \\)) is a non-parametric statistic used to test hypotheses about the distribution of categorical variables. It quantifies the discrepancy between observed frequencies and frequencies that would be expected under a null hypothesis. It is commonly used for goodness-of-fit tests and tests of independence.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>The question asks for the correct formula for the chi-square test statistic.<br>Symbols used in the formulas:<br>\\( O_{ij} \\): Observed frequency in cell (i, j)<br>\\( E_{ij} \\): Expected frequency in cell (i, j)<br>\\( r \\): Number of rows<br>\\( c \\): Number of columns<br>\\( \\sum \\): Summation symbol</div><p style='margin:8px 0;'><strong>Step 1: Understand the purpose of the Chi-Square test statistic</strong><br>The chi-square test statistic measures how much the observed counts in various categories deviate from the counts that would be expected if the null hypothesis were true. A larger value of \\( \\chi^2 \\) indicates a greater discrepancy between observed and expected frequencies, suggesting evidence against the null hypothesis.</p><p style='margin:8px 0;'><strong>Step 2: Identify the core components of the chi-square formula</strong><br>The formula is based on the difference between observed (\\( O \\)) and expected (\\( E \\)) frequencies. This difference is squared to ensure positive values and to penalize larger deviations more heavily. The squared difference is then divided by the expected frequency (\\( E \\)) to normalize the contribution of each cell, making it a relative measure of deviation. Finally, these values are summed across all categories or cells.</p><p style='margin:8px 0;'><strong>Step 3: State the general form of the chi-square test statistic formula</strong><br>The general form for the chi-square test statistic, particularly for tests of independence or goodness-of-fit in a contingency table, is:<br>\\[ \\chi^2 = \\sum \\frac{(O - E)^2}{E} \\]<br>where the summation is performed over all relevant cells or categories.</p><p style='margin:8px 0;'><strong>Step 4: Apply to a contingency table with specific notation</strong><br>When dealing with a contingency table with \\( r \\) rows and \\( c \\) columns, the summation needs to cover all cells (i, j). Thus, the formula includes a double summation:<br>\\[ \\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - E_{ij})^2}{E_{ij}} \\]<br>This formula calculates the sum of the squared differences between observed and expected frequencies, divided by the expected frequencies, for every cell in the table.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate the given options against the correct formula</strong><br>Let's examine each option:<br>• &nbsp;Option A: \\( \\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - E_{ij})^2}{E_{ij}} \\)<br>This matches the standard and correct formula for the chi-square test statistic.<br><br>• &nbsp;Option B: \\( \\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(E_{ij} - O_{ij})^2}{E_{ij}} \\)<br>While \\( (E_{ij} - O_{ij})^2 \\) is mathematically equivalent to \\( (O_{ij} - E_{ij})^2 \\) due to squaring, the conventional and most commonly cited form places \\( O_{ij} \\) first. However, it would yield the same numerical result.<br><br>• &nbsp;Option C: \\( \\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - O_{ij})^2}{E_{ij}} \\)<br>This simplifies to \\( \\sum \\frac{(0)^2}{E_{ij}} = 0 \\), which is incorrect as it implies no deviation always.<br><br>• &nbsp;Option D: \\( \\chi^2 = \\sum_{i=1}^{r} \\frac{(O_i - E_i)^2}{E_i^2} \\)<br>This formula uses a single summation, which might be applicable for a goodness-of-fit test with a single row of categories, but the denominator is \\( E_i^2 \\) instead of \\( E_i \\), which is incorrect for the chi-square statistic.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The widely accepted and standard formula for the chi-square test statistic is given by option A. The numerator \\( (O_{ij} - E_{ij})^2 \\) ensures that positive and negative deviations contribute equally and are squared to prevent cancellation. The denominator \\( E_{ij} \\) normalizes the squared difference, giving less weight to deviations in categories with very large expected frequencies and more weight to deviations in categories with small expected frequencies. This makes the statistic interpretable across different sample sizes and distributions. Option A correctly represents this statistical measure.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correct formula is given by option A.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2009/2010",
+    "img": null,
+    "table": [
+      [
+        "Age",
+        "Dead",
+        "Recovered",
+        "Total"
+      ],
+      [
+        "Young",
+        "4",
+        "25",
+        "29"
+      ],
+      [
+        "Old",
+        "23",
+        "44",
+        "67"
+      ],
+      [
+        "Total",
+        "27",
+        "69",
+        "96"
+      ]
+    ],
+    "Question": {
+      "content": "The value of \\(x^2\\) calculated is?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "3.22"
+        },
+        {
+          "type": "String",
+          "content": "3.27"
+        },
+        {
+          "type": "String",
+          "content": "4.22"
+        },
+        {
+          "type": "String",
+          "content": "5.72"
+        },
+        {
+          "type": "String",
+          "content": "5.37"
+        }
+      ]
+    },
+    "topic": [
+      "Categorical Data Analysis",
+      "Hypothesis Testing",
+      "Chi-squared Statistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-squared Test for Independence</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-squared (\\(\\chi^2\\)) test for independence</em> is used to determine if there is a statistically significant association between two categorical variables. The question asks for the value of \\(x^2\\), which in this context refers to the calculated chi-squared statistic, \\(\\chi^2_{\\text{calculated}}\\).<br><br>The formula for the chi-squared statistic is:<br>\\[ \\chi^2 = \\sum \\frac{(O - E)^2}{E} \\]<br>where:<br>\\( O \\) = Observed frequency (actual count in each cell)<br>\\( E \\) = Expected frequency (frequency expected if the variables were independent)</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Contingency table showing observed frequencies:<br>| Age   | Dead | Recovered | Total |<br>| :---- | :--- | :-------- | :---- |<br>| Young | 4    | 25        | 29    |<br>| Old   | 23   | 44        | 67    |<br>| Total | 27   | 69        | 96    |<br>Grand Total = 96</div><p style='margin:8px 0;'><strong>Step 1: State the formula for Expected Frequencies (E)</strong><br>The expected frequency for each cell is calculated using the formula:<br>\\[ E = \\frac{\\text{(Row Total)} \\times \\text{(Column Total)}}{\\text{Grand Total}} \\]</p><p style='margin:8px 0;'><strong>Step 2: Calculate Expected Frequencies (E) for each cell</strong><br>We will calculate E for each of the four cells:<br><strong>For Young and Dead:</strong><br>\\( E_{\\text{Young, Dead}} = \\frac{\\text{(Row Total for Young)} \\times \\text{(Column Total for Dead)}}{\\text{Grand Total}} \\)<br>\\( E_{\\text{Young, Dead}} = \\frac{29 \\times 27}{96} \\)<br>\\( E_{\\text{Young, Dead}} = \\frac{783}{96} \\)<br>\\( E_{\\text{Young, Dead}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>8.15625</span><br><br><strong>For Young and Recovered:</strong><br>\\( E_{\\text{Young, Recovered}} = \\frac{\\text{(Row Total for Young)} \\times \\text{(Column Total for Recovered)}}{\\text{Grand Total}} \\)<br>\\( E_{\\text{Young, Recovered}} = \\frac{29 \\times 69}{96} \\)<br>\\( E_{\\text{Young, Recovered}} = \\frac{2001}{96} \\)<br>\\( E_{\\text{Young, Recovered}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>20.84375</span><br><br><strong>For Old and Dead:</strong><br>\\( E_{\\text{Old, Dead}} = \\frac{\\text{(Row Total for Old)} \\times \\text{(Column Total for Dead)}}{\\text{Grand Total}} \\)<br>\\( E_{\\text{Old, Dead}} = \\frac{67 \\times 27}{96} \\)<br>\\( E_{\\text{Old, Dead}} = \\frac{1809}{96} \\)<br>\\( E_{\\text{Old, Dead}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>18.84375</span><br><br><strong>For Old and Recovered:</strong><br>\\( E_{\\text{Old, Recovered}} = \\frac{\\text{(Row Total for Old)} \\times \\text{(Column Total for Recovered)}}{\\text{Grand Total}} \\)<br>\\( E_{\\text{Old, Recovered}} = \\frac{67 \\times 69}{96} \\)<br>\\( E_{\\text{Old, Recovered}} = \\frac{4623}{96} \\)<br>\\( E_{\\text{Old, Recovered}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>48.15625</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the Chi-squared contribution \\(\\frac{(O - E)^2}{E}\\) for each cell</strong><br><strong>For Young and Dead:</strong><br>\\( O = 4 \\)<br>\\( E \\approx 8.15625 \\)<br>\\( (O - E) = 4 - 8.15625 = -4.15625 \\)<br>\\( (O - E)^2 = (-4.15625)^2 \\approx 17.2740625 \\)<br>\\( \\text{Contribution}_{\\text{YD}} = \\frac{17.2740625}{8.15625} \\)<br>\\( \\text{Contribution}_{\\text{YD}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>2.11790</span><br><br><strong>For Young and Recovered:</strong><br>\\( O = 25 \\)<br>\\( E \\approx 20.84375 \\)<br>\\( (O - E) = 25 - 20.84375 = 4.15625 \\)<br>\\( (O - E)^2 = (4.15625)^2 \\approx 17.2740625 \\)<br>\\( \\text{Contribution}_{\\text{YR}} = \\frac{17.2740625}{20.84375} \\)<br>\\( \\text{Contribution}_{\\text{YR}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>0.82873</span><br><br><strong>For Old and Dead:</strong><br>\\( O = 23 \\)<br>\\( E \\approx 18.84375 \\)<br>\\( (O - E) = 23 - 18.84375 = 4.15625 \\)<br>\\( (O - E)^2 = (4.15625)^2 \\approx 17.2740625 \\)<br>\\( \\text{Contribution}_{\\text{OD}} = \\frac{17.2740625}{18.84375} \\)<br>\\( \\text{Contribution}_{\\text{OD}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>0.91670</span><br><br><strong>For Old and Recovered:</strong><br>\\( O = 44 \\)<br>\\( E \\approx 48.15625 \\)<br>\\( (O - E) = 44 - 48.15625 = -4.15625 \\)<br>\\( (O - E)^2 = (-4.15625)^2 \\approx 17.2740625 \\)<br>\\( \\text{Contribution}_{\\text{OR}} = \\frac{17.2740625}{48.15625} \\)<br>\\( \\text{Contribution}_{\\text{OR}} \\approx \\) <span style='color:var(--orange);font-weight:bold;'>0.35871</span></p><p style='margin:8px 0;'><strong>Step 4: Sum the contributions to find the total Chi-squared statistic (\\(\\chi^2\\))</strong><br>\\[ \\chi^2 = \\text{Contribution}_{\\text{YD}} + \\text{Contribution}_{\\text{YR}} + \\text{Contribution}_{\\text{OD}} + \\text{Contribution}_{\\text{OR}} \\]<br>\\( \\chi^2 \\approx 2.11790 + 0.82873 + 0.91670 + 0.35871 \\)<br>\\( \\chi^2 \\approx \\) <span style='color:var(--orange);font-weight:bold;'>4.22204</span><br>Rounding to two decimal places, we get <span style='color:var(--orange);font-weight:bold;'>4.22</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The sum of the expected frequencies equals the grand total (96): \\( 8.15625 + 20.84375 + 18.84375 + 48.15625 = 96 \\). This confirms the expected frequencies were calculated correctly. The individual contributions to the chi-squared statistic are all positive, as expected. The final sum of \\( \\approx 4.22 \\) is a reasonable value for a chi-squared statistic in a 2x2 contingency table.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The calculated value of \\(\\chi^2\\) (or \\(x^2\\) as per the question) is 4.22</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4.22"
+    }
+  }
+]
