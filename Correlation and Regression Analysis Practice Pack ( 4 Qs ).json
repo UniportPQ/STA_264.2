@@ -1,0 +1,287 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Correlation and Regression Analysis",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 23 @ 2010/2011",
+    "img": null,
+    "table": [
+      [
+        "X",
+        "3",
+        "4",
+        "2",
+        "6",
+        "10"
+      ],
+      [
+        "Y",
+        "6",
+        "9",
+        "5",
+        "11",
+        "19"
+      ]
+    ],
+    "Question": {
+      "content": "For the model \\(Y = \\beta_0 + \\beta_1 X + e\\), find \\(\\beta_0\\).",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "3.21"
+        },
+        {
+          "type": "String",
+          "content": "1.25"
+        },
+        {
+          "type": "String",
+          "content": "1.75"
+        },
+        {
+          "type": "String",
+          "content": "2.95"
+        }
+      ]
+    },
+    "topic": [
+      "Correlation and Regression Analysis",
+      "Sampling and Estimation",
+      "Linear Regression"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Linear Regression Intercept Calculation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Linear Regression</em> is a statistical method used to model the relationship between a dependent variable (Y) and one or more independent variables (X) by fitting a linear equation to observed data.<br>The model is typically represented as \\(Y = \\beta_0 + \\beta_1 X + e\\), where:<br>\\( \\beta_0 \\) is the <em>Y-intercept</em>, representing the expected value of Y when X is 0.<br>\\( \\beta_1 \\) is the <em>slope</em>, representing the change in Y for a one-unit change in X.<br>\\( e \\) is the <em>error term</em>, accounting for variability not explained by the model.<br>The <em>least squares method</em> is used to find the values of \\( \\beta_0 \\) and \\( \\beta_1 \\) that minimize the sum of the squared differences between the observed and predicted Y values.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Data points (X, Y): (3, 6), (4, 9), (2, 5), (6, 11), (10, 19)<br>Linear regression model: \\(Y = \\beta_0 + \\beta_1 X + e\\)<br>Goal: Find the intercept \\( \\beta_0 \\).</div><p style='margin:8px 0;'><strong>Step 1: Understand the Objective</strong><br>We need to find the estimated Y-intercept, denoted as \\( b_0 \\), for the given linear regression model using the provided data points. The formula for \\( b_0 \\) depends on the calculated slope \\( b_1 \\) and the means of X and Y.</p><p style='margin:8px 0;'><strong>Step 2: Determine the Number of Data Points (\\(n\\))</strong><br>Count the number of (X, Y) pairs.<br>There are 5 data points.<br>\\( n = \\) <span style='color:var(--orange);font-weight:bold;'>5</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the Sum of X values (\\(\\sum X\\))</strong><br>Sum all the X values from the table.<br>\\( \\sum X = 3 + 4 + 2 + 6 + 10 \\)<br>\\( \\sum X = \\) <span style='color:var(--orange);font-weight:bold;'>25</span></p><p style='margin:8px 0;'><strong>Step 4: Calculate the Sum of Y values (\\(\\sum Y\\))</strong><br>Sum all the Y values from the table.<br>\\( \\sum Y = 6 + 9 + 5 + 11 + 19 \\)<br>\\( \\sum Y = \\) <span style='color:var(--orange);font-weight:bold;'>50</span></p><p style='margin:8px 0;'><strong>Step 5: Calculate the Sum of the Product of X and Y values (\\(\\sum XY\\))</strong><br>Multiply each X value by its corresponding Y value, then sum the products.<br>\\( \\sum XY = (3 \\times 6) + (4 \\times 9) + (2 \\times 5) + (6 \\times 11) + (10 \\times 19) \\)<br>\\( \\sum XY = 18 + 36 + 10 + 66 + 190 \\)<br>\\( \\sum XY = \\) <span style='color:var(--orange);font-weight:bold;'>320</span></p><p style='margin:8px 0;'><strong>Step 6: Calculate the Sum of X squared values (\\(\\sum X^2\\))</strong><br>Square each X value, then sum the squared values.<br>\\( \\sum X^2 = 3^2 + 4^2 + 2^2 + 6^2 + 10^2 \\)<br>\\( \\sum X^2 = 9 + 16 + 4 + 36 + 100 \\)<br>\\( \\sum X^2 = \\) <span style='color:var(--orange);font-weight:bold;'>165</span></p><p style='margin:8px 0;'><strong>Step 7: Calculate the Mean of X (\\(\\bar{X}\\))</strong><br>The mean of X is the sum of X divided by the number of data points.<br>Formula: \\( \\bar{X} = \\frac{\\sum X}{n} \\)<br>Substitute values: \\( \\bar{X} = \\frac{25}{5} \\)<br>Simplify: \\( \\bar{X} = \\) <span style='color:var(--orange);font-weight:bold;'>5</span></p><p style='margin:8px 0;'><strong>Step 8: Calculate the Mean of Y (\\(\\bar{Y}\\))</strong><br>The mean of Y is the sum of Y divided by the number of data points.<br>Formula: \\( \\bar{Y} = \\frac{\\sum Y}{n} \\)<br>Substitute values: \\( \\bar{Y} = \\frac{50}{5} \\)<br>Simplify: \\( \\bar{Y} = \\) <span style='color:var(--orange);font-weight:bold;'>10</span></p><p style='margin:8px 0;'><strong>Step 9: State the Formula for the Slope (\\(b_1\\))</strong><br>The least squares formula for the slope \\( b_1 \\) is:<br>\\[ b_1 = \\frac{n(\\sum XY) - (\\sum X)(\\sum Y)}{n(\\sum X^2) - (\\sum X)^2} \\]</p><p style='margin:8px 0;'><strong>Step 10: Calculate the Slope (\\(b_1\\))</strong><br>Substitute the calculated sums into the slope formula.<br>\\[ b_1 = \\frac{5(320) - (25)(50)}{5(165) - (25)^2} \\]<br>Calculate the numerator:<br>\\( 5 \\times 320 = 1600 \\)<br>\\( 25 \\times 50 = 1250 \\)<br>\\( \\text{Numerator} = 1600 - 1250 = 350 \\)<br>Calculate the denominator:<br>\\( 5 \\times 165 = 825 \\)<br>\\( 25^2 = 625 \\)<br>\\( \\text{Denominator} = 825 - 625 = 200 \\)<br>Simplify:<br>\\( b_1 = \\frac{350}{200} \\)<br>\\( b_1 = \\) <span style='color:var(--orange);font-weight:bold;'>1.75</span></p><p style='margin:8px 0;'><strong>Step 11: State the Formula for the Intercept (\\(b_0\\))</strong><br>The least squares formula for the intercept \\( b_0 \\) is:<br>\\[ b_0 = \\bar{Y} - b_1 \\bar{X} \\]</p><p style='margin:8px 0;'><strong>Step 12: Calculate the Intercept (\\(b_0\\))</strong><br>Substitute the calculated mean values and the slope into the intercept formula.<br>\\[ b_0 = 10 - (1.75)(5) \\]<br>Multiply:<br>\\( 1.75 \\times 5 = 8.75 \\)<br>Subtract:<br>\\( b_0 = 10 - 8.75 \\)<br>\\( b_0 = \\) <span style='color:var(--orange);font-weight:bold;'>1.25</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The estimated regression equation is \\( \\hat{Y} = 1.25 + 1.75X \\).<br>Let's check a data point, for example, X=4, Y=9.<br>Predicted Y for X=4: \\( \\hat{Y} = 1.25 + 1.75(4) = 1.25 + 7 = 8.25 \\).<br>The actual Y is 9. The predicted value is close to the actual value, indicating our coefficients are likely correct.<br>Re-verifying the calculations for \\( b_0 \\) and \\( b_1 \\) using the sums:<br>\\( b_1 = \\frac{350}{200} = 1.75 \\) (Correct)<br>\\( b_0 = 10 - 1.75 \\times 5 = 10 - 8.75 = 1.25 \\) (Correct)<br>All calculations are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The value of \\( \\beta_0 \\) is 1.25.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.25"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "One of the following is not a degree of correlation:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "zero correlation"
+        },
+        {
+          "type": "String",
+          "content": "perfect correlation"
+        },
+        {
+          "type": "String",
+          "content": "negative correlation"
+        },
+        {
+          "type": "String",
+          "content": "positive correlation"
+        },
+        {
+          "type": "String",
+          "content": "covariance correlation"
+        }
+      ]
+    },
+    "topic": [
+      "Correlation and Regression Analysis",
+      "Statistics for Biological Sciences"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Understanding Degrees of Correlation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Correlation:</strong> A statistical measure that expresses the extent to which two variables are linearly related (i.e., they change together at a constant rate). It indicates the strength and direction of the linear relationship.<br><strong>Correlation Coefficient (\\( r \\)):</strong> A numerical value that quantifies the strength and direction of a linear relationship between two variables. It ranges from -1 to +1.<br><strong>Degrees of Correlation:</strong> These describe the specific characteristics of the linear relationship based on the correlation coefficient's value.<br><strong>Covariance:</strong> A measure of how much two random variables change together. A positive covariance indicates that the variables tend to move in the same direction, while a negative covariance indicates that they tend to move in opposite directions. Unlike correlation, covariance is not standardized and its magnitude depends on the units of the variables.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A list of terms related to statistical relationships between variables.<br><strong>Task:</strong> Identify which term is NOT a 'degree of correlation'.</div><p style='margin:8px 0;'><strong>Step 1: Define 'Degree of Correlation'</strong><br>Degrees of correlation refer to the qualitative descriptions of the strength and direction of the linear relationship between two variables, typically quantified by the correlation coefficient (\\( r \\)). The correlation coefficient ranges from -1 to +1.</p><p style='margin:8px 0;'><strong>Step 2: Evaluate standard degrees of correlation</strong><br>Let's examine the first four options in the context of the correlation coefficient \\( r \\):<br><ul><li><strong>Zero correlation:</strong> Occurs when \\( r = 0 \\), indicating no linear relationship between the variables.</li><li><strong>Perfect correlation:</strong> Occurs when \\( r = +1 \\) (perfect positive correlation) or \\( r = -1 \\) (perfect negative correlation), indicating a perfectly linear relationship.</li><li><strong>Negative correlation:</strong> Occurs when \\( -1 < r < 0 \\), indicating that as one variable increases, the other tends to decrease.</li><li><strong>Positive correlation:</strong> Occurs when \\( 0 < r < +1 \\), indicating that as one variable increases, the other also tends to increase.</li></ul>These terms clearly describe different degrees or types of linear relationships.</p><p style='margin:8px 0;'><strong>Step 3: Define Covariance</strong><br>Covariance is a measure of how two variables vary together. It indicates the direction of the linear relationship (positive or negative) but not its strength in a standardized way. The formula for population covariance between two variables \\( X \\) and \\( Y \\) is:<br>\\[ \\text{Cov}(X, Y) = E[(X - E[X])(Y - E[Y])] \\]<br>Unlike the correlation coefficient, covariance is not bounded between -1 and +1, and its value depends on the units of the variables. Therefore, its magnitude alone does not directly tell us the strength of the relationship in a standardized way.</p><p style='margin:8px 0;'><strong>Step 4: Distinguish Covariance from Degrees of Correlation</strong><br>While covariance helps determine the direction of a relationship (positive or negative), it does not quantify the 'degree' or strength of the relationship in a standardized, unit-independent manner like the correlation coefficient does. For instance, a covariance of 100 could represent a strong relationship if the variables have small ranges, or a weak relationship if they have large ranges. To standardize covariance and get a 'degree' of correlation, it is divided by the product of the standard deviations of the two variables, which then yields the correlation coefficient \\( r \\).<br>\\[ r = \\frac{\\text{Cov}(X, Y)}{\\sigma_X \\sigma_Y} \\]<br>Therefore, covariance is a component used to calculate correlation, but it is not a 'degree' of correlation itself.</p><p style='margin:8px 0;'><strong>Step 5: Identify the term that is not a degree of correlation</strong><br>Based on the definitions and comparisons, 'zero correlation', 'perfect correlation', 'negative correlation', and 'positive correlation' are all established terms used to describe the <span style='color:var(--orange);font-weight:bold;'>degrees or types of linear relationships</span> between variables.<br>'Covariance correlation' is not a standard term for a degree of correlation. Covariance is a statistical measure, and while it's related to correlation, it doesn't represent a 'degree' in the same way the other options do. The term itself is also somewhat redundant; one would typically refer to 'covariance' or 'correlation coefficient', not 'covariance correlation'.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The terms 'zero correlation', 'perfect correlation', 'negative correlation', and 'positive correlation' are standard classifications used to describe the strength and direction of a linear relationship, which are the 'degrees' of correlation. Covariance, on the other hand, is a raw measure of how two variables vary together, but its magnitude is not standardized and thus does not directly represent a 'degree' of correlation. It is an intermediate step in calculating the correlation coefficient. Therefore, 'covariance correlation' is the term that does not fit the description of a degree of correlation.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Covariance correlation</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "covariance correlation"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given that \\(y = 0.02 - 0.70x\\), what is \\(y\\) known as?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "dependent variable"
+        },
+        {
+          "type": "String",
+          "content": "equal variable"
+        },
+        {
+          "type": "String",
+          "content": "independent variable"
+        },
+        {
+          "type": "String",
+          "content": "unknown variable"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Correlation and Regression Analysis",
+      "Dependent Variable"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Variables in Regression Analysis</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In mathematics and statistics, a <em>variable</em> is a symbol (like \\(x\\) or \\(y\\)) that represents a quantity that may change.<br>An <em>independent variable</em> (often denoted as \\(x\\)) is the variable whose value does not depend on any other variable in the relationship being studied; it is often manipulated or chosen by the researcher.<br>A <em>dependent variable</em> (often denoted as \\(y\\)) is the variable whose value depends on the value of another variable. It is the outcome or response that is being measured or predicted.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Equation: \\(y = 0.02 - 0.70x\\)<br>Identify: What \\(y\\) is known as.</div><p style='margin:8px 0;'><strong>Step 1: Understand the structure of the given equation</strong><br>The equation \\(y = 0.02 - 0.70x\\) is a linear equation. It expresses a relationship where the value of \\(y\\) is determined by the value of \\(x\\).<br>This equation can be compared to the general form of a linear regression equation: \\(y = a + bx\\), where \\(a\\) is the y-intercept and \\(b\\) is the slope.</p><p style='margin:8px 0;'><strong>Step 2: Define the independent variable (\\(x\\))</strong><br>In a relationship like \\(y = a + bx\\), the variable \\(x\\) is considered the independent variable.<br>Its value is typically manipulated, chosen, or observed to change independently, and it is presumed to cause or influence changes in the dependent variable.<br>For example, if we were studying the effect of hours studied (\\(x\\)) on exam scores (\\(y\\)), hours studied would be the independent variable.</p><p style='margin:8px 0;'><strong>Step 3: Define the dependent variable (\\(y\\))</strong><br>The variable \\(y\\) is the dependent variable.<br>Its value <em>depends</em> on the value of the independent variable \\(x\\). It is the outcome, response, or effect that is being measured or predicted.<br>In the exam score example, the exam score (\\(y\\)) depends on the hours studied (\\(x\\)).</p><p style='margin:8px 0;'><strong>Step 4: Apply the definitions to the given equation</strong><br>In the equation \\(y = 0.02 - 0.70x\\):<br>The value of \\(y\\) is calculated directly from the value of \\(x\\).<br>This means that \\(y\\)'s value is contingent upon, or determined by, the value of \\(x\\).<br>Therefore, \\(y\\) is the <span style='color:var(--orange);font-weight:bold;'>dependent variable</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, consider what happens to \\(y\\) when \\(x\\) changes:<br>If \\(x = 0\\), then \\(y = 0.02 - 0.70(0) = 0.02\\).<br>If \\(x = 1\\), then \\(y = 0.02 - 0.70(1) = 0.02 - 0.70 = -0.68\\).<br>Since the value of \\(y\\) clearly changes in response to changes in \\(x\\), \\(y\\) is indeed dependent on \\(x\\). This confirms its role as the dependent variable.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\(y\\) is known as the dependent variable.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "dependent variable"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Correlation coefficient ranges from?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "1 to 2"
+        },
+        {
+          "type": "String",
+          "content": "-1 to 1"
+        },
+        {
+          "type": "String",
+          "content": "10 to 100"
+        },
+        {
+          "type": "String",
+          "content": "-2 to 4"
+        },
+        {
+          "type": "String",
+          "content": "0 to 1"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Correlation and Regression Analysis",
+      "Descriptive Statistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Understanding the Correlation Coefficient Range</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>correlation coefficient</em>, often denoted by \\( r \\) (specifically the Pearson product-moment correlation coefficient), is a statistical measure that quantifies the strength and direction of a linear relationship between two quantitative variables.<br>It is a dimensionless quantity that provides insight into how closely two variables move together.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks for the range of the correlation coefficient.</div><p style='margin:8px 0;'><strong>Step 1: Define the Correlation Coefficient (r)</strong><br>The Pearson product-moment correlation coefficient \\( r \\) is calculated using the formula:<br>\\[ r = \\frac{n(\\sum xy) - (\\sum x)(\\sum y)}{\\sqrt{[n\\sum x^2 - (\\sum x)^2][n\\sum y^2 - (\\sum y)^2]}} \\]<br>This formula measures the covariance of two variables divided by the product of their standard deviations. Its design ensures that its value is always bounded.</p><p style='margin:8px 0;'><strong>Step 2: State the Mathematical Range of r</strong><br>Due to its mathematical definition, the correlation coefficient \\( r \\) always falls within a specific range. It can never be less than -1 or greater than 1.<br>Therefore, the range of the correlation coefficient is <span style='color:var(--orange);font-weight:bold;'>\\( -1 \\le r \\le 1 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Interpret the Range Boundaries</strong><br>The values of \\( r \\) provide specific insights into the relationship between variables:<br><ul><li>If \\( r = 1 \\): This indicates a perfect positive linear relationship. As one variable increases, the other variable increases proportionally.</li><li>If \\( r = -1 \\): This indicates a perfect negative linear relationship. As one variable increases, the other variable decreases proportionally.</li><li>If \\( r = 0 \\): This indicates no linear relationship between the variables. It's important to note that a correlation coefficient of 0 does not mean there is no relationship at all, only no <em>linear</em> relationship. Other types of relationships (e.g., non-linear) might still exist.</li><li>Values between 0 and 1 (e.g., \\( r = 0.7 \\)): Indicate a strong positive linear relationship.</li><li>Values between -1 and 0 (e.g., \\( r = -0.6 \\)): Indicate a moderate negative linear relationship.</li></ul></p><p style='margin:8px 0;'><strong>Step 4: Conclude the Range for the Question</strong><br>Based on the mathematical definition and interpretation, the correlation coefficient \\( r \\) always ranges from -1 to 1, inclusive.<br>This means the smallest possible value is -1, and the largest possible value is 1.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The range of the correlation coefficient \\( r \\) is a fundamental property derived from its mathematical formula. It is normalized such that its value always lies between -1 and 1, inclusive. This normalization allows for easy interpretation of the strength and direction of linear relationships across different datasets, regardless of the units or scale of the variables. Any value outside this range would indicate an error in calculation or a misunderstanding of the statistic. The options provided confirm that we are looking for this standard range.<br>The option \"-1 to 1\" perfectly matches this established statistical principle. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correlation coefficient ranges from -1 to 1.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-1 to 1"
+    }
+  }
+]
