@@ -1,0 +1,295 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Linear Models",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2017/2018",
+    "topic": [
+      "Regression Analysis",
+      "Linear Models"
+    ],
+    "Question": {
+      "content": "A simple linear regression model is given as?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\\\( y = a + bx + e \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( y = \\\\mu + \\\\sigma x + e \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( y = a + e \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( y = a + bx \\\\)"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Simple Linear Regression Model</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>simple linear regression model</em> is a statistical model that describes the relationship between a dependent variable (response variable) and a single independent variable (predictor variable) by fitting a linear equation to observed data. It includes a random error term to account for variability not explained by the linear relationship.<br>The general form is \\( Y = \\beta_0 + \\beta_1 X + \\epsilon \\), where:<br>\\( Y \\) is the dependent variable.<br>\\( X \\) is the independent variable.<br>\\( \\beta_0 \\) is the y-intercept (the expected value of \\( Y \\) when \\( X = 0 \\)).<br>\\( \\beta_1 \\) is the slope (the change in \\( Y \\) for a one-unit change in \\( X \\)).<br>\\( \\epsilon \\) (epsilon) is the random error term, representing the difference between the observed value of \\( Y \\) and the predicted value from the linear relationship.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks for the form of a simple linear regression model from the given options.</div><p style='margin:8px 0;'><strong>Step 1: Understand the purpose of a regression model</strong><br>A regression model aims to quantify and predict the relationship between variables. In a simple linear regression, we model how a dependent variable (\\( y \\)) changes with respect to a single independent variable (\\( x \\)).</p><p style='margin:8px 0;'><strong>Step 2: Identify the core components of a linear relationship</strong><br>A straight line relationship is generally represented by the equation \\( y = \\text{intercept} + \\text{slope} \\times x \\). In many statistical contexts, the intercept is denoted by \\( a \\) (or \\( \\beta_0 \\)) and the slope by \\( b \\) (or \\( \\beta_1 \\)).<br>So, the deterministic part of the model is \\( y = a + bx \\).</p><p style='margin:8px 0;'><strong>Step 3: Account for unexplained variation with an error term</strong><br>In real-world data, the relationship between variables is rarely perfectly linear. There are always other factors influencing the dependent variable, or inherent randomness. To account for this, a statistical regression model includes a random error term, often denoted by \\( e \\) or \\( \\epsilon \\). This term represents the residual variation in \\( y \\) that is not explained by \\( x \\).</p><p style='margin:8px 0;'><strong>Step 4: Combine the deterministic and stochastic parts</strong><br>The complete simple linear regression model combines the linear relationship with the error term. This means the observed value of \\( y \\) is a sum of the predicted linear part and the random error.<br>Model: \\( y = \\text{deterministic part} + \\text{error term} \\)<br>Substituting the components: \\( y = a + bx + e \\).<br>Here, <span style='color:var(--orange);font-weight:bold;'>\\( y \\) is the dependent variable, \\( x \\) is the independent variable, \\( a \\) is the y-intercept, \\( b \\) is the slope, and \\( e \\) is the random error term.</span></p><p style='margin:8px 0;'><strong>Step 5: Compare with the given options</strong><br>Let's examine the provided options:<br>1. \\( y = a + bx + e \\): This matches the standard form of a simple linear regression model, including the error term.<br>2. \\( y = \\mu + \\sigma x + e \\): While \\( \\mu \\) and \\( \\sigma \\) are parameters, they typically represent mean and standard deviation, not directly intercept and slope in this general notation. However, if \\( \\mu \\) were the intercept and \\( \\sigma \\) the slope, it would be structurally similar. But \\( a \\) and \\( b \\) are more common for sample estimates or general model parameters.<br>3. \\( y = a + e \\): This is a model with only an intercept and an error term, implying no independent variable \\( x \\), so it's not a simple linear regression model with a predictor.<br>4. \\( y = a + bx \\): This represents the deterministic part of the model, the regression line itself, but it omits the crucial random error term \\( e \\). Without \\( e \\), it's a mathematical equation for a line, not a statistical model that accounts for real-world variability.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A statistical model must account for both the systematic (deterministic) relationship and the random (stochastic) variation. The term \\( a + bx \\) describes the systematic linear relationship between \\( x \\) and \\( y \\). The error term \\( e \\) accounts for all other factors influencing \\( y \\) that are not captured by \\( x \\), as well as inherent randomness. Therefore, the complete simple linear regression model must include the error term, making \\( y = a + bx + e \\) the correct and most complete representation among the options. The option \\( y = a + bx \\) is the <em>estimated</em> regression line, but not the <em>model</em> itself.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The simple linear regression model is \\( y = a + bx + e \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\\\( y = a + bx + e \\\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2017/2018",
+    "topic": [
+      "Regression Analysis",
+      "Linear Models"
+    ],
+    "Question": {
+      "content": "Given the model \\( y = \\alpha + \\beta x + \\epsilon \\), the:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Independent variable"
+        },
+        {
+          "type": "String",
+          "content": "intercept"
+        },
+        {
+          "type": "String",
+          "content": "Dependent variable"
+        },
+        {
+          "type": "String",
+          "content": "error term"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Linear Regression Model Components</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>linear regression model</em> is a statistical equation that describes the linear relationship between a dependent variable and one or more independent variables. The simple linear regression model is typically represented as:<br>\\[ y = \\alpha + \\beta x + \\epsilon \\]<br>where each term has a specific role in explaining the relationship.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The linear regression model: \\( y = \\alpha + \\beta x + \\epsilon \\)<br>Task: Identify the component represented by one of the options (implicitly, what \\(\\alpha\\) represents).</div><p style='margin:8px 0;'><strong>Step 1: Understand the General Linear Regression Model</strong><br>The given model \\( y = \\alpha + \\beta x + \\epsilon \\) is a simple linear regression model. It aims to model how the dependent variable \\(y\\) changes as the independent variable \\(x\\) changes.</p><p style='margin:8px 0;'><strong>Step 2: Identify the Dependent Variable (\\(y\\))</strong><br>In the model \\( y = \\alpha + \\beta x + \\epsilon \\),<br>\\(y\\) is the <span style='color:var(--orange);font-weight:bold;'>dependent variable</span> (or response variable). It is the variable whose variation is being explained or predicted by the model.</p><p style='margin:8px 0;'><strong>Step 3: Identify the Independent Variable (\\(x\\))</strong><br>In the model \\( y = \\alpha + \\beta x + \\epsilon \\),<br>\\(x\\) is the <span style='color:var(--orange);font-weight:bold;'>independent variable</span> (or predictor variable). It is the variable used to explain or predict the changes in \\(y\\).</p><p style='margin:8px 0;'><strong>Step 4: Identify the Intercept (\\(\\alpha\\))</strong><br>In the model \\( y = \\alpha + \\beta x + \\epsilon \\),<br>\\(\\alpha\\) (alpha) is the <span style='color:var(--orange);font-weight:bold;'>intercept</span>. It represents the expected value of the dependent variable \\(y\\) when the independent variable \\(x\\) is equal to zero. Geometrically, it is the point where the regression line crosses the y-axis.</p><p style='margin:8px 0;'><strong>Step 5: Identify the Slope Coefficient (\\(\\beta\\))</strong><br>In the model \\( y = \\alpha + \\beta x + \\epsilon \\),<br>\\(\\beta\\) (beta) is the <span style='color:var(--orange);font-weight:bold;'>slope coefficient</span>. It represents the change in the expected value of \\(y\\) for a one-unit increase in \\(x\\).</p><p style='margin:8px 0;'><strong>Step 6: Identify the Error Term (\\(\\epsilon\\))</strong><br>In the model \\( y = \\alpha + \\beta x + \\epsilon \\),<br>\\(\\epsilon\\) (epsilon) is the <span style='color:var(--orange);font-weight:bold;'>error term</span> (or residual). It accounts for the unobserved factors that affect \\(y\\) and the random variability not explained by \\(x\\).</p><p style='margin:8px 0;'><strong>Step 7: Match with the Options</strong><br>The question asks to identify a component of the model. Given the options, and the common interpretation of the model, \\(\\alpha\\) specifically represents the intercept.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Reviewing the components:<br>• \\(y\\) is the dependent variable.<br>• \\(x\\) is the independent variable.<br>• \\(\\alpha\\) is the intercept.<br>• \\(\\beta\\) is the slope.<br>• \\(\\epsilon\\) is the error term.<br>The option 'intercept' correctly identifies the role of \\(\\alpha\\) in the given linear regression model.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; In the model \\( y = \\alpha + \\beta x + \\epsilon \\), \\(\\alpha\\) represents the intercept.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "intercept"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7 @ 2017/2018",
+    "topic": [
+      "Regression Analysis",
+      "Linear Models"
+    ],
+    "Question": {
+      "content": "Given the data set above, obtain the regression equation of y on x:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\\\( \\\\hat{y} = 1.695 + 0.574x \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( \\\\hat{y} = -1.695_i \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( \\\\hat{y} = 1.965 + 0.754x \\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\( \\\\hat{y} = 1.695 - 0.574x \\\\)"
+        }
+      ]
+    },
+    "table": [
+      [
+        "X",
+        "Y"
+      ],
+      [
+        "2",
+        "3"
+      ],
+      [
+        "3",
+        "6"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "5",
+        "8"
+      ],
+      [
+        "6",
+        "9"
+      ],
+      [
+        "7",
+        "10"
+      ],
+      [
+        "8",
+        "9"
+      ]
+    ],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Linear Regression Equation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Linear Regression</em> is a statistical method used to model the relationship between a dependent variable (Y) and one or more independent variables (X) by fitting a linear equation to the observed data.<br>The <em>Least Squares Method</em> is used to find the line of best fit, minimizing the sum of the squared vertical distances from each data point to the line.<br>The regression equation of Y on X is given by: \\\\( \\\\hat{y} = a + bx \\\\)<br>Where:<br>\\\\( b = \\\\frac{n\\\\sum(xy) - (\\\\sum x)(\\\\sum y)}{n\\\\sum(x^2) - (\\\\sum x)^2} \\\\) (slope)<br>\\\\( a = \\\\bar{y} - b\\\\bar{x} \\\\) (y-intercept)<br>\\\\( n \\\\) is the number of data points.<br>\\\\( \\\\bar{x} = \\\\frac{\\\\sum x}{n} \\\\) and \\\\( \\\\bar{y} = \\\\frac{\\\\sum y}{n} \\\\) are the means of X and Y, respectively.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Data points (X, Y): (2,3), (3,6), (4,5), (5,8), (6,9), (7,10), (8,9)<br>Number of data points, \\\\( n = 7 \\\\)<br>Formulas for slope \\\\( b \\\\) and y-intercept \\\\( a \\\\) as defined above.</div><p style='margin:8px 0;'><strong>Step 1: Calculate the necessary sums</strong><br>We need to calculate \\\\( \\\\sum X \\\\), \\\\( \\\\sum Y \\\\), \\\\( \\\\sum XY \\\\), and \\\\( \\\\sum X^2 \\\\) from the given data.<br>Let's organize the calculations in a table:<br><table><tr><th>X</th><th>Y</th><th>XY</th><th>X\\\\(^2\\\\)</th></tr><tr><td>2</td><td>3</td><td>6</td><td>4</td></tr><tr><td>3</td><td>6</td><td>18</td><td>9</td></tr><tr><td>4</td><td>5</td><td>20</td><td>16</td></tr><tr><td>5</td><td>8</td><td>40</td><td>25</td></tr><tr><td>6</td><td>9</td><td>54</td><td>36</td></tr><tr><td>7</td><td>10</td><td>70</td><td>49</td></tr><tr><td>8</td><td>9</td><td>72</td><td>64</td></tr><tr><td><strong>\\\\( \\\\sum X = 35 \\\\)</strong></td><td><strong>\\\\( \\\\sum Y = 50 \\\\)</strong></td><td><strong>\\\\( \\\\sum XY = 280 \\\\)</strong></td><td><strong>\\\\( \\\\sum X^2 = 203 \\\\)</strong></td></tr></table></p><p style='margin:8px 0;'><strong>Step 2: Calculate the slope (b)</strong><br>Use the formula for slope \\\\( b \\\\):<br>\\\\[ b = \\\\frac{n\\\\sum(xy) - (\\\\sum x)(\\\\sum y)}{n\\\\sum(x^2) - (\\\\sum x)^2} \\\\\\]<br>Substitute the calculated sums and \\\\( n=7 \\\\):<br>\\\\[ b = \\\\frac{7(280) - (35)(50)}{7(203) - (35)^2} \\\\\\]<br>Perform the multiplications:<br>\\\\[ b = \\\\frac{1960 - 1750}{1421 - 1225} \\\\\\]<br>Perform the subtractions:<br>\\\\[ b = \\\\frac{210}{196} \\\\\\]<br>Simplify the fraction and calculate the decimal value:<br>\\\\[ b = \\\\frac{15}{14} \\\\approx \\\\text{<span style='color:var(--orange);font-weight:bold;'>1.071</span>} \\\\\\]</p><p style='margin:8px 0;'><strong>Step 3: Calculate the means of X and Y</strong><br>Calculate \\\\( \\\\bar{x} \\\\) and \\\\( \\\\bar{y} \\\\):<br>\\\\[ \\\\bar{x} = \\\\frac{\\\\sum x}{n} = \\\\frac{35}{7} \\\\\\]<br>\\\\[ \\\\bar{x} = \\\\text{<span style='color:var(--orange);font-weight:bold;'>5</span>} \\\\\\]<br>\\\\[ \\\\bar{y} = \\\\frac{\\\\sum y}{n} = \\\\frac{50}{7} \\\\\\]<br>\\\\[ \\\\bar{y} \\\\approx \\\\text{<span style='color:var(--orange);font-weight:bold;'>7.143</span>} \\\\\\]</p><p style='margin:8px 0;'><strong>Step 4: Calculate the Y-intercept (a)</strong><br>Use the formula for the y-intercept \\\\( a \\\\):<br>\\\\[ a = \\\\bar{y} - b\\\\bar{x} \\\\\\]<br>Substitute the calculated means and slope:<br>\\\\[ a = \\\\frac{50}{7} - \\\\left(\\\\frac{15}{14}\\\\right)(5) \\\\\\]<br>Perform the multiplication:<br>\\\\[ a = \\\\frac{50}{7} - \\\\frac{75}{14} \\\\\\]<br>Find a common denominator and subtract:<br>\\\\[ a = \\\\frac{100}{14} - \\\\frac{75}{14} \\\\\\]<br>\\\\[ a = \\\\frac{25}{14} \\\\approx \\\\text{<span style='color:var(--orange);font-weight:bold;'>1.786</span>} \\\\\\]</p><p style='margin:8px 0;'><strong>Step 5: Formulate the regression equation</strong><br>Substitute the calculated values of \\\\( a \\\\) and \\\\( b \\\\) into the regression equation \\\\( \\\\hat{y} = a + bx \\\\):<br>\\\\[ \\\\hat{y} = \\\\frac{25}{14} + \\\\frac{15}{14}x \\\\\\]<br>Using decimal approximations rounded to three decimal places:<br>\\\\[ \\\\hat{y} \\\\approx \\\\text{<span style='color:var(--orange);font-weight:bold;'>1.786 + 1.071x</span>} \\\\\\]</p><p style='margin:8px 0;'><strong>Step 6: Compare with options</strong><br>The calculated regression equation is \\\\( \\\\hat{y} \\\\approx 1.786 + 1.071x \\\\).<br>Let's compare this with the given options:<br>a) \\\\( \\\\hat{y} = 1.695 + 0.574x \\\\)<br>c) \\\\( \\\\hat{y} = 1.965 + 0.754x \\\\)<br>d) \\\\( \\\\hat{y} = 1.695 - 0.574x \\\\)<br><br>None of the options exactly match the calculated equation. However, we must select the closest option. Comparing the coefficients (a, b):<br>Calculated: (1.786, 1.071)<br>Option a: (1.695, 0.574) &nbsp;&nbsp; (Distance \\\\( \\\\approx 0.505 \\\\))<br>Option c: (1.965, 0.754) &nbsp;&nbsp; (Distance \\\\( \\\\approx 0.364 \\\\))<br>Option d: (1.695, -0.574) (Distance \\\\( \\\\approx 1.647 \\\\))<br>Option (c) is numerically the closest to our calculated regression equation.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the calculated equation \\\\( \\\\hat{y} = \\\\frac{25}{14} + \\\\frac{15}{14}x \\\\), we can check if it passes through the mean point \\\\( (\\\\bar{x}, \\\\bar{y}) = (5, \\\\frac{50}{7}) \\\\).<br>Substitute \\\\( x = 5 \\\\) into the equation:<br>\\\\[ \\\\hat{y} = \\\\frac{25}{14} + \\\\frac{15}{14}(5) \\\\\\]<br>\\\\[ \\\\hat{y} = \\\\frac{25}{14} + \\\\frac{75}{14} \\\\\\]<br>\\\\[ \\\\hat{y} = \\\\frac{100}{14} \\\\\\]<br>\\\\[ \\\\hat{y} = \\\\frac{50}{7} \\\\\\]<br>Since \\\\( \\\\hat{y} = \\\\bar{y} \\\\) when \\\\( x = \\\\bar{x} \\\\), our calculated equation is consistent and correct based on the least squares method.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The closest option to the calculated regression equation \\\\( \\\\hat{y} \\\\approx 1.786 + 1.071x \\\\) is option (c).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\\\( \\\\hat{y} = 1.965 + 0.754x \\\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23 @ 2017/2018",
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Regression Analysis",
+      "Linear Models",
+      "Sampling and Estimation",
+      "Prediction"
+    ],
+    "Question": {
+      "content": "_____ can be used for prediction purpose and for obtaining a parameter estimates for decision making.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Chi-Square"
+        },
+        {
+          "type": "String",
+          "content": "Regression Model"
+        },
+        {
+          "type": "String",
+          "content": "Correlation"
+        },
+        {
+          "type": "String",
+          "content": "R-square"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Regression Analysis and Predictive Modeling</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Regression Model</em> is a statistical tool used to model the relationship between a dependent variable and one or more independent variables. Its primary applications include prediction, forecasting, and understanding the strength and direction of the relationship between variables. It provides <em>parameter estimates</em> (e.g., coefficients) that quantify these relationships, which are crucial for decision-making.<br><br><em>Chi-Square Test</em>: A statistical test used to determine if there is a significant association between two categorical variables.<br><em>Correlation</em>: A statistical measure that expresses the extent to which two variables are linearly related (meaning they change together at a constant rate). It indicates the strength and direction of a linear relationship, but does not imply causation or provide a model for prediction.<br><em>R-square (Coefficient of Determination)</em>: A statistical measure that represents the proportion of the variance in the dependent variable that is predictable from the independent variables. It indicates how well the model fits the data, but it is not a model itself for prediction or parameter estimation.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks to identify a statistical tool that can be used for \"prediction purpose\" and for \"obtaining parameter estimates for decision making.\"<br>Options provided: Chi-Square, Regression Model, Correlation, R-square.</div><p style='margin:8px 0;'><strong>Step 1: Analyze the requirements of the question</strong><br>The question specifies two key functions for the statistical tool:<br>1.  <span style='color:var(--orange);font-weight:bold;'>Prediction purpose</span>: The ability to forecast or estimate future values or outcomes based on existing data.<br>2.  <span style='color:var(--orange);font-weight:bold;'>Obtaining parameter estimates for decision making</span>: The ability to quantify the relationships between variables, providing specific numerical values (parameters) that can inform choices and strategies.</p><p style='margin:8px 0;'><strong>Step 2: Evaluate \"Regression Model\" against the requirements</strong><br>A regression model, such as a linear regression model \\( Y = \\beta_0 + \\beta_1 X + \\epsilon \\), explicitly aims to predict the dependent variable \\( Y \\) based on the independent variable \\( X \\).<br>The model provides <span style='color:var(--orange);font-weight:bold;'>parameter estimates</span> (\\( \\beta_0 \\) for the intercept and \\( \\beta_1 \\) for the slope) which quantify the relationship. These estimates are directly used for understanding how changes in \\( X \\) affect \\( Y \\) and for making informed <span style='color:var(--orange);font-weight:bold;'>decisions</span>. Therefore, a Regression Model perfectly aligns with both requirements.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate \"Chi-Square\" against the requirements</strong><br>The Chi-Square test is used to assess the association between categorical variables. For example, it can determine if there's a relationship between gender and preference for a certain product.<br>It does not primarily serve a <span style='color:var(--orange);font-weight:bold;'>prediction purpose</span> in the sense of forecasting continuous outcomes, nor does it provide <span style='color:var(--orange);font-weight:bold;'>parameter estimates</span> (like regression coefficients) for decision-making about the magnitude of influence one variable has on another. Thus, it does not fit the description.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate \"Correlation\" against the requirements</strong><br>Correlation measures the strength and direction of a linear relationship between two quantitative variables (e.g., Pearson's r). It tells us *how* two variables move together.<br>While a strong correlation might suggest a basis for prediction, correlation itself is not a <span style='color:var(--orange);font-weight:bold;'>predictive model</span>. It does not provide <span style='color:var(--orange);font-weight:bold;'>parameter estimates</span> that define a functional relationship for direct decision-making in the way a regression equation does. For instance, correlation tells you if height and weight are related, but not a formula to predict weight from height.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate \"R-square\" against the requirements</strong><br>R-square is a statistic derived from a regression model. It indicates the proportion of the variance in the dependent variable that is explained by the independent variables in the model.<br>It is a <span style='color:var(--orange);font-weight:bold;'>measure of model fit</span>, not a model itself. It does not perform <span style='color:var(--orange);font-weight:bold;'>prediction</span> directly, nor does it provide the <span style='color:var(--orange);font-weight:bold;'>parameter estimates</span> (coefficients) that are used for decision-making. It tells you *how good* a regression model is, but it is not the model itself.</p><p style='margin:8px 0;'><strong>Step 6: Conclude the best fit</strong><br>Comparing all options against the requirements, the <span style='color:var(--orange);font-weight:bold;'>Regression Model</span> is the only statistical tool that directly serves both \"prediction purpose\" and provides \"parameter estimates for decision making.\"</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A core application of regression analysis is to develop models that can predict future outcomes based on observed relationships between variables. For example, predicting sales based on advertising spend. The coefficients (parameter estimates) obtained from a regression model quantify the impact of each independent variable on the dependent variable, allowing businesses or researchers to make informed decisions (e.g., \"for every dollar spent on advertising, sales increase by \\( \\beta_1 \\) dollars\"). This directly matches the question's criteria.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Regression Model</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Regression Model"
+    }
+  }
+]
