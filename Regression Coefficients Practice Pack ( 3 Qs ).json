@@ -1,0 +1,259 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Regression Coefficients",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2011/2012",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these formula is used for co-efficient \\(\\beta_1\\) in fitting simple linear regression model?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{n\\sum x_iy_i - (\\sum x_i)(\\sum y_i)}{n\\sum x_i^2 - (\\sum x_i)^2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{n\\sum x_iy_i - (\\sum x_i)(\\sum y_i)}{\\sum y_i^2 - (\\sum y_i)^2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{\\sum y_i^2 - (\\sum y_i)^2}{\\sum x_i^2 - (\\sum x_i)^2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{n\\sum x_iy_i - (\\sum x_i)(\\sum y_i)}{\\sqrt{[n\\sum x_i^2 - (\\sum x_i)^2][n\\sum y_i^2 - (\\sum y_i)^2]}}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Linear Regression",
+      "Inferential Statistics",
+      "Biostatistics",
+      "Variables",
+      "Regression Coefficients"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Simple Linear Regression Slope (\\\\(\\\\beta_1\\\\))</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Simple Linear Regression</em> is a statistical method that allows us to summarize and study relationships between two continuous variables: a dependent variable (response variable) \\(y\\), and an independent variable (predictor variable) \\(x\\).<br>The model is typically represented as: \\( y_i = \\\\beta_0 + \\\\beta_1 x_i + \\\\epsilon_i \\), where:<br>• \\( y_i \\) is the dependent variable for the \\(i\\)-th observation.<br>• \\( x_i \\) is the independent variable for the \\(i\\)-th observation.<br>• \\( \\\\beta_0 \\) is the y-intercept, representing the expected value of \\(y\\) when \\(x\\) is 0.<br>• \\( \\\\beta_1 \\) is the slope coefficient, representing the expected change in \\(y\\) for a one-unit change in \\(x\\).<br>• \\( \\\\epsilon_i \\) is the error term, representing the residual variation not explained by the model.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Identify the formula for the slope coefficient \\( \\\\beta_1 \\) in a simple linear regression model.</div><p style='margin:8px 0;'><strong>Step 1: Understand the Simple Linear Regression Model</strong><br>The simple linear regression model aims to find the best-fitting straight line through a set of data points \\((x_i, y_i)\\). The equation of this line is given by:<br>\\[ \\\\hat{y}_i = \\\\hat{\\\\beta}_0 + \\\\hat{\\\\beta}_1 x_i \\]where \\( \\\\hat{y}_i \\) is the predicted value of \\(y\\), and \\( \\\\hat{\\\\beta}_0 \\) and \\( \\\\hat{\\\\beta}_1 \\) are the estimated regression coefficients.</p><p style='margin:8px 0;'><strong>Step 2: Define the Regression Coefficients</strong><br>The coefficients \\( \\\\hat{\\\\beta}_0 \\) (intercept) and \\( \\\\hat{\\\\beta}_1 \\) (slope) are estimated using the Ordinary Least Squares (OLS) method. This method minimizes the sum of the squared differences between the observed \\(y_i\\) values and the predicted \\( \\\\hat{y}_i \\) values.</p><p style='margin:8px 0;'><strong>Step 3: Recall the Formula for the Slope Coefficient (\\\\(\\\\beta_1\\\\))</strong><br>The slope coefficient \\( \\\\hat{\\\\beta}_1 \\) quantifies the relationship between \\(x\\) and \\(y\\). It is defined as the ratio of the covariance between \\(x\\) and \\(y\\) to the variance of \\(x\\):<br>\\[ \\\\hat{\\\\beta}_1 = \\\\frac{\\\\text{Cov}(x, y)}{\\\\text{Var}(x)} \\]<br>In terms of summations, this formula can be expressed as:<br>\\[ \\\\hat{\\\\beta}_1 = \\\\frac{\\\\sum_{i=1}^n (x_i - \\\\bar{x})(y_i - \\\\bar{y})}{\\\\sum_{i=1}^n (x_i - \\\\bar{x})^2} \\]<br>Expanding the numerator and denominator to a more computationally friendly form, we multiply both by \\(n\\):<br>\\[ \\\\hat{\\\\beta}_1 = \\\\frac{n\\\\sum x_iy_i - (\\\\sum x_i)(\\\\sum y_i)}{n\\\\sum x_i^2 - (\\\\sum x_i)^2} \\]This is a standard formula used in simple linear regression analysis.</p><p style='margin:8px 0;'><strong>Step 4: Compare with Given Options</strong><br>Let's examine the provided options:<br>•   Option A: \\( \\\\frac{n\\\\sum x_iy_i - (\\\\sum x_i)(\\\\sum y_i)}{n\\\\sum x_i^2 - (\\\\sum x_i)^2} \\)<br>•   Option B: \\( \\\\frac{n\\\\sum x_iy_i - (\\\\sum x_i)(\\\\sum y_i)}{\\\\sum y_i^2 - (\\\\sum y_i)^2} \\)<br>•   Option C: \\( \\\\frac{\\\\sum y_i^2 - (\\\\sum y_i)^2}{\\\\sum x_i^2 - (\\\\sum x_i)^2} \\)<br>•   Option D: \\( \\\\frac{n\\\\sum x_iy_i - (\\\\sum x_i)(\\\\sum y_i)}{\\\\sqrt{[n\\\\sum x_i^2 - (\\\\sum x_i)^2][n\\\\sum y_i^2 - (\\\\sum y_i)^2]}} \\)<br><br>Comparing the derived formula from Step 3 with the options, we find that <span style='color:var(--orange);font-weight:bold;'>Option A exactly matches the formula for \\( \\\\hat{\\\\beta}_1 \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>•   Option A is the correct formula for the slope coefficient \\( \\\\beta_1 \\) in simple linear regression, derived from the least squares method.<br>•   Option B has an incorrect denominator; it uses a form related to the variance of \\(y\\) instead of \\(x\\).<br>•   Option C represents a ratio of variances, not the slope coefficient.<br>•   Option D is the formula for the Pearson product-moment correlation coefficient \\(r\\), which measures the strength and direction of a linear relationship, not the slope of the regression line.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correct formula for the coefficient \\( \\\\beta_1 \\) is given by Option A.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{n\\sum x_iy_i - (\\sum x_i)(\\sum y_i)}{n\\sum x_i^2 - (\\sum x_i)^2}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2011/2012",
+    "img": null,
+    "table": [
+      [
+        "x",
+        "3",
+        "4",
+        "2",
+        "6"
+      ],
+      [
+        "y",
+        "8",
+        "5",
+        "14",
+        "17"
+      ]
+    ],
+    "Question": {
+      "content": "Use the information below to answer question 15 and 16. Given the following data. Evaluate \\(\\beta_0\\) and \\(\\beta_1\\)",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "-2 and 4"
+        },
+        {
+          "type": "String",
+          "content": "-3 and 4"
+        },
+        {
+          "type": "String",
+          "content": "-4 and 2"
+        },
+        {
+          "type": "String",
+          "content": "-4 and 2"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics",
+      "Biostatistics",
+      "Linear Regression",
+      "Regression Coefficients",
+      "Inferential Statistics",
+      "Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Linear Regression Coefficients (\\\\(\\\\beta_0\\\\) and \\\\(\\\\beta_1\\\\))</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Linear Regression</em> is a statistical method used to model the relationship between a dependent variable (y) and one or more independent variables (x) by fitting a linear equation to observed data.<br>The <em>least squares regression line</em> is represented by the equation \\\\( \\\\hat{y} = \\\\beta_0 + \\\\beta_1 x \\\\), where:<br>\\\\( \\\\beta_0 \\\\) is the <em>y-intercept</em>, representing the predicted value of y when x is 0.<br>\\\\( \\\\beta_1 \\\\) is the <em>slope</em>, representing the change in y for a one-unit change in x.<br>The <em>least squares method</em> minimizes the sum of the squared differences between the observed y-values and the predicted y-values (Sum of Squared Errors, SSE).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Data points: (3, 8), (4, 5), (2, 14), (6, 17)<br>Formulas for least squares coefficients:<br>Slope: \\\\( \\\\beta_1 = \\\\frac{n \\\\sum (xy) - (\\\\sum x)(\\\\sum y)}{n \\\\sum (x^2) - (\\\\sum x)^2} \\\\)<br>Y-intercept: \\\\( \\\\beta_0 = \\\\bar{y} - \\\\beta_1 \\\\bar{x} \\\\)</div><p style='margin:8px 0;'><strong>Step 1: Calculate necessary summations and the number of data points (n)</strong><br>We need to calculate \\\\( \\\\sum x \\\\), \\\\( \\\\sum y \\\\), \\\\( \\\\sum xy \\\\), \\\\( \\\\sum x^2 \\\\), and \\\\( n \\\\) from the given data.<br>Given data:<br>\\\\( x \\\\): 3, 4, 2, 6<br>\\\\( y \\\\): 8, 5, 14, 17<br><br>Number of data points: <br>\\\\( n = 4 \\\\)<br><br>Sum of x values:<br>\\\\( \\\\sum x = 3 + 4 + 2 + 6 = \\\\)<span style='color:var(--orange);font-weight:bold;'>15</span><br><br>Sum of y values:<br>\\\\( \\\\sum y = 8 + 5 + 14 + 17 = \\\\)<span style='color:var(--orange);font-weight:bold;'>44</span><br><br>Sum of products of x and y:<br>\\\\( \\\\sum xy = (3 \\\\times 8) + (4 \\\\times 5) + (2 \\\\times 14) + (6 \\\\times 17) \\\\)<br>\\\\( \\\\sum xy = 24 + 20 + 28 + 102 = \\\\)<span style='color:var(--orange);font-weight:bold;'>174</span><br><br>Sum of squared x values:<br>\\\\( \\\\sum x^2 = 3^2 + 4^2 + 2^2 + 6^2 \\\\)<br>\\\\( \\\\sum x^2 = 9 + 16 + 4 + 36 = \\\\)<span style='color:var(--orange);font-weight:bold;'>65</span></p><p style='margin:8px 0;'><strong>Step 2: Calculate the means of x and y</strong><br>Mean of x:<br>\\\\( \\\\bar{x} = \\\\frac{\\\\sum x}{n} \\\\)<br>\\\\( \\\\bar{x} = \\\\frac{15}{4} = \\\\)<span style='color:var(--orange);font-weight:bold;'>3.75</span><br><br>Mean of y:<br>\\\\( \\\\bar{y} = \\\\frac{\\\\sum y}{n} \\\\)<br>\\\\( \\\\bar{y} = \\\\frac{44}{4} = \\\\)<span style='color:var(--orange);font-weight:bold;'>11</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the slope (\\\\(\\\\beta_1\\\\))</strong><br>\\[ \\\\beta_1 = \\\\frac{n \\\\sum (xy) - (\\\\sum x)(\\\\sum y)}{n \\\\sum (x^2) - (\\\\sum x)^2} \\]<br>Substitute the calculated values:<br>\\[ \\\\beta_1 = \\\\frac{4(174) - (15)(44)}{4(65) - (15)^2} \\]<br>Perform multiplication and subtraction:<br>\\[ \\\\beta_1 = \\\\frac{696 - 660}{260 - 225} \\]<br>Simplify:<br>\\[ \\\\beta_1 = \\\\frac{36}{35} \\]<br>The calculated slope is <span style='color:var(--orange);font-weight:bold;'>\\\\( \\\\beta_1 = \\\\frac{36}{35} \\\\approx 1.0286 \\\\)</span></p><p style='margin:8px 0;'><strong>Step 4: Calculate the y-intercept (\\\\(\\\\beta_0\\\\))</strong><br>\\[ \\\\beta_0 = \\\\bar{y} - \\\\beta_1 \\\\bar{x} \\]<br>Substitute the calculated means and slope:<br>\\[ \\\\beta_0 = 11 - \\\\left(\\\\frac{36}{35}\\\\right)(3.75) \\]<br>Convert 3.75 to a fraction: \\\\( 3.75 = \\\\frac{15}{4} \\\\)<br>\\[ \\\\beta_0 = 11 - \\\\left(\\\\frac{36}{35}\\\\right)\\\\left(\\\\frac{15}{4}\\\\right) \\]<br>Multiply the fractions:<br>\\[ \\\\beta_0 = 11 - \\\\frac{36 \\\\times 15}{35 \\\\times 4} \\]<br>\\[ \\\\beta_0 = 11 - \\\\frac{540}{140} \\]<br>Simplify the fraction \\\\( \\\\frac{540}{140} \\\\) by dividing numerator and denominator by 20:<br>\\[ \\\\beta_0 = 11 - \\\\frac{27}{7} \\]<br>Find a common denominator to subtract:<br>\\[ \\\\beta_0 = \\\\frac{11 \\\\times 7}{7} - \\\\frac{27}{7} \\]<br>\\[ \\\\beta_0 = \\\\frac{77 - 27}{7} \\]<br>Simplify:<br>\\[ \\\\beta_0 = \\\\frac{50}{7} \\]<br>The calculated y-intercept is <span style='color:var(--orange);font-weight:bold;'>\\\\( \\\\beta_0 = \\\\frac{50}{7} \\\\approx 7.1429 \\\\)</span></p><p style='margin:8px 0;'><strong>Step 5: Address discrepancy with options and determine the best fit</strong><br>The mathematically correct least squares coefficients are \\\\( \\\\beta_0 = \\\\frac{50}{7} \\\\) and \\\\( \\\\beta_1 = \\\\frac{36}{35} \\\\). These values are not present as exact options. Since this is an objective question requiring a choice from the given options, we must assume the question is asking for the pair of coefficients that provides the 'best fit' among the choices, which means minimizing the Sum of Squared Errors (SSE). We will calculate the SSE for each option.</p><p style='margin:8px 0;'><strong>Step 6: Calculate Sum of Squared Errors (SSE) for each option</strong><br>The SSE is calculated as \\\\( \\\\sum (y_i - \\\\hat{y}_i)^2 \\\\), where \\\\( \\\\hat{y}_i = \\\\beta_0 + \\\\beta_1 x_i \\\\).<br><br><strong>Option 1: \\\\( \\\\beta_0 = -2, \\\\beta_1 = 4 \\\\)</strong><br>Model: \\\\( \\\\hat{y} = -2 + 4x \\\\)<br>- For (3, 8): \\\\( \\\\hat{y} = -2 + 4(3) = 10 \\\\). Error: \\\\( (8-10)^2 = (-2)^2 = 4 \\\\)<br>- For (4, 5): \\\\( \\\\hat{y} = -2 + 4(4) = 14 \\\\). Error: \\\\( (5-14)^2 = (-9)^2 = 81 \\\\)<br>- For (2, 14): \\\\( \\\\hat{y} = -2 + 4(2) = 6 \\\\). Error: \\\\( (14-6)^2 = (8)^2 = 64 \\\\)<br>- For (6, 17): \\\\( \\\\hat{y} = -2 + 4(6) = 22 \\\\). Error: \\\\( (17-22)^2 = (-5)^2 = 25 \\\\)<br>SSE for Option 1 = \\\\( 4 + 81 + 64 + 25 = \\\\)<span style='color:var(--orange);font-weight:bold;'>174</span><br><br><strong>Option 2: \\\\( \\\\beta_0 = -3, \\\\beta_1 = 4 \\\\)</strong><br>Model: \\\\( \\\\hat{y} = -3 + 4x \\\\)<br>- For (3, 8): \\\\( \\\\hat{y} = -3 + 4(3) = 9 \\\\). Error: \\\\( (8-9)^2 = (-1)^2 = 1 \\\\)<br>- For (4, 5): \\\\( \\\\hat{y} = -3 + 4(4) = 13 \\\\). Error: \\\\( (5-13)^2 = (-8)^2 = 64 \\\\)<br>- For (2, 14): \\\\( \\\\hat{y} = -3 + 4(2) = 5 \\\\). Error: \\\\( (14-5)^2 = (9)^2 = 81 \\\\)<br>- For (6, 17): \\\\( \\\\hat{y} = -3 + 4(6) = 21 \\\\). Error: \\\\( (17-21)^2 = (-4)^2 = 16 \\\\)<br>SSE for Option 2 = \\\\( 1 + 64 + 81 + 16 = \\\\)<span style='color:var(--orange);font-weight:bold;'>162</span><br><br><strong>Option 3/4: \\\\( \\\\beta_0 = -4, \\\\beta_1 = 2 \\\\)</strong><br>Model: \\\\( \\\\hat{y} = -4 + 2x \\\\)<br>- For (3, 8): \\\\( \\\\hat{y} = -4 + 2(3) = 2 \\\\). Error: \\\\( (8-2)^2 = (6)^2 = 36 \\\\)<br>- For (4, 5): \\\\( \\\\hat{y} = -4 + 2(4) = 4 \\\\). Error: \\\\( (5-4)^2 = (1)^2 = 1 \\\\)<br>- For (2, 14): \\\\( \\\\hat{y} = -4 + 2(2) = 0 \\\\). Error: \\\\( (14-0)^2 = (14)^2 = 196 \\\\)<br>- For (6, 17): \\\\( \\\\hat{y} = -4 + 2(6) = 8 \\\\). Error: \\\\( (17-8)^2 = (9)^2 = 81 \\\\)<br>SSE for Option 3/4 = \\\\( 36 + 1 + 196 + 81 = \\\\)<span style='color:var(--orange);font-weight:bold;'>314</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The calculations for \\\\( \\\\beta_0 = \\\\frac{50}{7} \\\\) and \\\\( \\\\beta_1 = \\\\frac{36}{35} \\\\) are confirmed to be the exact least squares coefficients. The SSE for these exact coefficients would be lower than any of the options. However, since the question requires selecting from the given options, we verified that Option 2 yields the lowest SSE among the choices, making it the 'best fit' from the provided list.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The pair of coefficients that best fits the data among the given options is -3 and 4.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-3 and 4"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2011/2012",
+    "img": null,
+    "table": [
+      [
+        "x",
+        "3",
+        "4",
+        "2",
+        "6"
+      ],
+      [
+        "y",
+        "8",
+        "5",
+        "14",
+        "17"
+      ]
+    ],
+    "Question": {
+      "content": "Evaluate \\(r\\) (Pearson correlation coefficient)",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "1"
+        },
+        {
+          "type": "String",
+          "content": "0"
+        },
+        {
+          "type": "String",
+          "content": "-1"
+        },
+        {
+          "type": "String",
+          "content": "2"
+        }
+      ]
+    },
+    "topic": [
+      "Biostatistics",
+      "Inferential Statistics",
+      "Linear Regression",
+      "Regression Coefficients",
+      "Correlation"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Pearson Correlation Coefficient (\\(r\\))</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Pearson correlation coefficient</em>, denoted by \\(r\\), is a measure of the linear correlation (dependence) between two sets of data. It is a dimensionless quantity that ranges from -1 to +1.<br><ul><li>\\(r = +1\\) indicates a perfect positive linear relationship.</li><li>\\(r = -1\\) indicates a perfect negative linear relationship.</li><li>\\(r = 0\\) indicates no linear relationship.</li></ul>The formula for \\(r\\) is:<br>\\[ r = \\frac{n(\\sum xy) - (\\sum x)(\\sum y)}{\\sqrt{[n\\sum x^2 - (\\sum x)^2][n\\sum y^2 - (\\sum y)^2]}} \\]<br>where \\(n\\) is the number of data points.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Data points:<br>\\((x_1, y_1) = (3, 8)\\)<br>\\((x_2, y_2) = (4, 5)\\)<br>\\((x_3, y_3) = (2, 14)\\)<br>\\((x_4, y_4) = (6, 17)\\)<br>Number of data points, \\(n = 4\\).</div><p style='margin:8px 0;'><strong>Step 1: List the given data points and determine \\(n\\)</strong><br>The given data points are:<br>\\((x_1, y_1) = (3, 8)\\)<br>\\((x_2, y_2) = (4, 5)\\)<br>\\((x_3, y_3) = (2, 14)\\)<br>\\((x_4, y_4) = (6, 17)\\)<br>The number of data points is \\(n = \\)<span style='color:var(--orange);font-weight:bold;'>4</span>.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the sum of x values (\\( \\sum x \\))</strong><br>\\[ \\sum x = x_1 + x_2 + x_3 + x_4 \\]<br>\\[ \\sum x = 3 + 4 + 2 + 6 \\]<br>\\[ \\sum x = \\text{<span style='color:var(--orange);font-weight:bold;'>15</span>} \\] </p><p style='margin:8px 0;'><strong>Step 3: Calculate the sum of y values (\\( \\sum y \\))</strong><br>\\[ \\sum y = y_1 + y_2 + y_3 + y_4 \\]<br>\\[ \\sum y = 8 + 5 + 14 + 17 \\]<br>\\[ \\sum y = \\text{<span style='color:var(--orange);font-weight:bold;'>44</span>} \\] </p><p style='margin:8px 0;'><strong>Step 4: Calculate the sum of x squared values (\\( \\sum x^2 \\))</strong><br>\\[ \\sum x^2 = x_1^2 + x_2^2 + x_3^2 + x_4^2 \\]<br>\\[ \\sum x^2 = 3^2 + 4^2 + 2^2 + 6^2 \\]<br>\\[ \\sum x^2 = 9 + 16 + 4 + 36 \\]<br>\\[ \\sum x^2 = \\text{<span style='color:var(--orange);font-weight:bold;'>65</span>} \\] </p><p style='margin:8px 0;'><strong>Step 5: Calculate the sum of y squared values (\\( \\sum y^2 \\))</strong><br>\\[ \\sum y^2 = y_1^2 + y_2^2 + y_3^2 + y_4^2 \\]<br>\\[ \\sum y^2 = 8^2 + 5^2 + 14^2 + 17^2 \\]<br>\\[ \\sum y^2 = 64 + 25 + 196 + 289 \\]<br>\\[ \\sum y^2 = \\text{<span style='color:var(--orange);font-weight:bold;'>574</span>} \\] </p><p style='margin:8px 0;'><strong>Step 6: Calculate the sum of the product of x and y values (\\( \\sum xy \\))</strong><br>\\[ \\sum xy = (x_1 y_1) + (x_2 y_2) + (x_3 y_3) + (x_4 y_4) \\]<br>\\[ \\sum xy = 24 + 20 + 28 + 102 \\]<br>\\[ \\sum xy = \\text{<span style='color:var(--orange);font-weight:bold;'>174</span>} \\] </p><p style='margin:8px 0;'><strong>Step 7: State the Pearson correlation coefficient formula</strong><br>The formula for the Pearson correlation coefficient \\(r\\) is:<br>\\[ r = \\frac{n(\\sum xy) - (\\sum x)(\\sum y)}{\\sqrt{[n\\sum x^2 - (\\sum x)^2][n\\sum y^2 - (\\sum y)^2]}} \\] </p><p style='margin:8px 0;'><strong>Step 8: Calculate the numerator of the formula</strong><br>Substitute the calculated sums into the numerator:<br>Numerator \\( = n(\\sum xy) - (\\sum x)(\\sum y) \\)<br>Numerator \\( = 4(174) - (15)(44) \\)<br>Numerator \\( = 696 - 660 \\)<br>Numerator \\( = \\text{<span style='color:var(--orange);font-weight:bold;'>36</span>} \\) </p><p style='margin:8px 0;'><strong>Step 9: Calculate the first part of the denominator (x-component)</strong><br>Substitute the calculated sums into the x-component of the denominator:<br>x-component \\( = n\\sum x^2 - (\\sum x)^2 \\)<br>x-component \\( = 4(65) - (15)^2 \\)<br>x-component \\( = 260 - 225 \\)<br>x-component \\( = \\text{<span style='color:var(--orange);font-weight:bold;'>35</span>} \\) </p><p style='margin:8px 0;'><strong>Step 10: Calculate the second part of the denominator (y-component)</strong><br>Substitute the calculated sums into the y-component of the denominator:<br>y-component \\( = n\\sum y^2 - (\\sum y)^2 \\)<br>y-component \\( = 4(574) - (44)^2 \\)<br>y-component \\( = 2296 - 1936 \\)<br>y-component \\( = \\text{<span style='color:var(--orange);font-weight:bold;'>360</span>} \\) </p><p style='margin:8px 0;'><strong>Step 11: Calculate the square root of the product of the denominator parts</strong><br>Denominator \\( = \\sqrt{(\\text{x-component})(\\text{y-component})} \\)<br>Denominator \\( = \\sqrt{(35)(360)} \\)<br>Denominator \\( = \\sqrt{12600} \\)<br>Denominator \\( \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>112.2497</span>} \\) </p><p style='margin:8px 0;'><strong>Step 12: Calculate the Pearson correlation coefficient \\(r\\)</strong><br>Divide the numerator by the denominator:<br>\\[ r = \\frac{\\text{Numerator}}{\\text{Denominator}} \\]<br>\\[ r = \\frac{36}{112.2497} \\]<br>\\[ r \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>0.32071</span>} \\] </p><p style='margin:8px 0;'><strong>Step 13: Compare the calculated \\(r\\) with the given options</strong><br>The calculated value for \\(r\\) is approximately \\(0.32\\).<br>The given options are: 1, 0, -1, 2.<br>The value \\(r=2\\) is not possible for a correlation coefficient, as \\(r\\) must be between -1 and 1.<br>Comparing \\(0.32\\) to the valid options (1, 0, -1):<br>Distance to 1: \\(|0.32 - 1| = 0.68\\)<br>Distance to 0: \\(|0.32 - 0| = 0.32\\)<br>Distance to -1: \\(|0.32 - (-1)| = 1.32\\)<br>The calculated value \\(0.32\\) is numerically closest to <span style='color:var(--orange);font-weight:bold;'>0</span> among the valid options.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A Pearson correlation coefficient of approximately \\(0.32\\) indicates a weak positive linear relationship between \\(x\\) and \\(y\\). This means that as \\(x\\) tends to increase, \\(y\\) also tends to increase, but not very consistently or strongly. Given the options, 0 represents the closest integer value to a weak correlation.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Pearson correlation coefficient \\(r\\) is approximately 0.32, which is closest to 0 among the given options.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    }
+  }
+]
