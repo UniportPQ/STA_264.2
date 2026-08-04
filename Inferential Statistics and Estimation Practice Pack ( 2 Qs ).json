@@ -1,0 +1,183 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Inferential Statistics and Estimation",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2023/2024",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Based on a scenario where the population mean age of students in STA264.2 class is hypothesized to be 17 years, and a random sample of 55 students drawn from this population shows a sample mean age of 19 years and a sample variance of 3.5, what is the appropriate test statistic for comparing the sample mean to the hypothesized population mean?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Z statistics"
+        },
+        {
+          "type": "String",
+          "content": "T statistics"
+        },
+        {
+          "type": "String",
+          "content": "W statistics"
+        },
+        {
+          "type": "String",
+          "content": "P statistics"
+        }
+      ]
+    },
+    "topic": [
+      "Hypothesis Testing in Life Sciences",
+      "Inferential Statistics and Estimation",
+      "Test Statistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Choosing the Appropriate Test Statistic for a Population Mean</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>When performing hypothesis tests for a population mean, the choice between a Z-statistic and a T-statistic depends critically on whether the <em>population standard deviation</em> (\\( \\sigma \\)) is known.<br><br>• <strong>Z-statistic</strong>: Used when the population standard deviation (\\( \\sigma \\)) is <strong>known</strong>.<br>• <strong>T-statistic</strong>: Used when the population standard deviation (\\( \\sigma \\)) is <strong>unknown</strong> and must be estimated using the sample standard deviation (\\( s \\)). This applies regardless of sample size, although for large sample sizes (typically \\( n > 30 \\)), the t-distribution approximates the normal (Z) distribution.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>• Hypothesized population mean age (\\( \\mu_0 \\)) = 17 years<br>• Sample size (\\( n \\)) = 55 students<br>• Sample mean age (\\( \\bar{x} \\)) = 19 years<br>• Sample variance (\\( s^2 \\)) = 3.5<br>• Population standard deviation (\\( \\sigma \\)) = <span style='color:var(--orange);font-weight:bold;'>Unknown</span></div><p style='margin:8px 0;'><strong>Step 1: Identify the objective of the hypothesis test</strong><br>The problem asks for the appropriate test statistic for comparing a sample mean (19 years) to a hypothesized population mean (17 years).</p><p style='margin:8px 0;'><strong>Step 2: Determine if the population standard deviation is known</strong><br>The problem provides the \"sample variance of 3.5\". It does not state that the population standard deviation (\\( \\sigma \\)) is known. Therefore, we must assume that \\( \\sigma \\) is unknown and will be estimated from the sample data.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate the sample size</strong><br>The sample size is \\( n = 55 \\). This is considered a large sample size (typically \\( n > 30 \\)).</p><p style='margin:8px 0;'><strong>Step 4: Select the appropriate test statistic based on known information</strong><br>Since the population standard deviation (\\( \\sigma \\)) is unknown and we are using the sample standard deviation (derived from the sample variance \\( s^2 \\)) to estimate it, the <span style='color:var(--orange);font-weight:bold;'>T-statistic</span> is the appropriate choice. Even though the sample size is large (\\( n=55 \\)), the fundamental condition for using the T-statistic is the unknown population standard deviation.</p><p style='margin:8px 0;'><strong>Step 5: State the formula for the T-statistic</strong><br>The formula for the one-sample T-statistic is:<br>\\[ t = \\frac{\\bar{x} - \\mu_0}{s / \\sqrt{n}} \\]<br>where \\( \\bar{x} \\) is the sample mean, \\( \\mu_0 \\) is the hypothesized population mean, \\( s \\) is the sample standard deviation (\\( s = \\sqrt{s^2} = \\sqrt{3.5} \\)), and \\( n \\) is the sample size.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The key differentiator between the Z-statistic and the T-statistic for a mean is the knowledge of the population standard deviation (\\( \\sigma \\)). If \\( \\sigma \\) is known, use Z. If \\( \\sigma \\) is unknown and estimated by the sample standard deviation \\( s \\), use T. In this scenario, \\( \\sigma \\) is unknown, making the T-statistic the correct choice. The large sample size only means that the t-distribution will closely resemble the normal distribution, but it does not change the theoretical basis for using the T-statistic when \\( \\sigma \\) is unknown.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The appropriate test statistic is the T statistics.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "T statistics"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4 @ 2023/2024",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Based on a scenario where the population mean age of students in STA264.2 class is hypothesized to be 17 years, and a random sample of 55 students drawn from this population shows a sample mean age of 19 years and a sample variance of 3.5, what is the conclusion of the test at a 0.05 level of significance?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Reject H₀"
+        },
+        {
+          "type": "String",
+          "content": "Accept H₀"
+        },
+        {
+          "type": "String",
+          "content": "Reject H"
+        },
+        {
+          "type": "String",
+          "content": "Inconclusive"
+        }
+      ]
+    },
+    "topic": [
+      "Hypothesis Testing in Life Sciences",
+      "Inferential Statistics and Estimation",
+      "Test Statistics",
+      "Statistical Calculations",
+      "Significance Level"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Hypothesis Testing for a Population Mean (t-test)</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Hypothesis Testing:</strong> A statistical method used to make inferences about a population parameter based on sample data.<br><strong>Null Hypothesis (\\\\(H_0\\\\)):</strong> A statement of no effect or no difference, often representing the status quo. For this problem, \\\\(H_0: \\\\\\\\mu = \\\\\\\\mu_0\\\\).<br><strong>Alternative Hypothesis (\\\\(H_1\\\\)):</strong> A statement that contradicts the null hypothesis, suggesting an effect or difference. For this problem, \\\\(H_1: \\\\\\\\mu \\\\\\\\neq \\\\\\\\mu_0\\\\) (two-tailed test).<br><strong>t-test for a single mean:</strong> Used when the population standard deviation is unknown, and the sample size is either small or large. It uses the t-distribution.<br><strong>Test Statistic:</strong> A value calculated from sample data during a hypothesis test, used to decide whether to reject the null hypothesis. For a t-test, it is calculated as \\\\(t = \\\\frac{\\\\\\\\bar{x} - \\\\\\\\mu_0}{s / \\\\\\\\sqrt{n}}\\\\\\\\).<br><strong>Degrees of Freedom (df):</strong> For a t-test of a single mean, \\\\(df = n - 1\\\\\\\\).<br><strong>Significance Level (\\\\\\\\alpha):</strong> The probability of rejecting the null hypothesis when it is actually true (Type I error). Common values are 0.05, 0.01, 0.10.<br><strong>Critical Value:</strong> The threshold value(s) from the sampling distribution that define the rejection region(s). If the test statistic falls into the rejection region, \\\\(H_0\\\\) is rejected.<br><strong>Rejection Region:</strong> The range of values for the test statistic that would lead to rejecting the null hypothesis.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Hypothesized population mean age (\\\\(\\\\\\\\mu_0\\\\)): 17 years<br>Sample size (\\\\(n\\\\)): 55 students<br>Sample mean age (\\\\(\\\\\\\\bar{x}\\\\)): 19 years<br>Sample variance (\\\\(s^2\\\\)): 3.5<br>Level of significance (\\\\(\\\\\\\\alpha\\\\)): 0.05</div><p style='margin:8px 0;'><strong>Step 1: State the null and alternative hypotheses</strong><br>The null hypothesis (\\\\(H_0\\\\)) states that the population mean age is 17 years.<br>The alternative hypothesis (\\\\(H_1\\\\)) states that the population mean age is not 17 years, indicating a two-tailed test.<br>\\[ H_0: \\\\\\\\mu = 17 \\\\\\]<br>\\[ H_1: \\\\\\\\mu \\\\\\\\neq 17 \\\\\\]</p><p style='margin:8px 0;'><strong>Step 2: Determine the level of significance and degrees of freedom</strong><br>The level of significance is given as \\\\( \\\\\\\\alpha = 0.05 \\\\).<br>Since this is a two-tailed test, the significance level for each tail is calculated as:<br>\\[ \\\\\\\\alpha/2 = 0.05 / 2 = 0.025 \\\\\\]<br>The degrees of freedom (\\\\(df\\\\)) for a t-test are calculated as \\\\( n - 1 \\\\).<br>Formula: \\\\( df = n - 1 \\\\)<br>Substitution: \\\\( df = 55 - 1 \\\\)<br>Calculation: \\\\( df = \\\\) <span style='color:var(--orange);font-weight:bold;'>54</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the sample standard deviation</strong><br>The sample variance (\\\\(s^2\\\\)) is given as 3.5.<br>The sample standard deviation (\\\\(s\\\\)) is the square root of the variance.<br>Formula: \\\\( s = \\\\\\\\sqrt{s^2} \\\\)<br>Substitution: \\\\( s = \\\\\\\\sqrt{3.5} \\\\)<br>Calculation: \\\\( s \\\\\\\\approx \\\\) <span style='color:var(--orange);font-weight:bold;'>1.8708</span></p><p style='margin:8px 0;'><strong>Step 4: Calculate the standard error of the mean</strong><br>The standard error of the mean (\\\\(SE\\\\)) is calculated by dividing the sample standard deviation by the square root of the sample size.<br>Formula: \\\\( SE = \\\\frac{s}{\\\\\\\\sqrt{n}} \\\\)<br>Substitution: \\\\( SE = \\\\frac{1.8708}{\\\\\\\\sqrt{55}} \\\\)<br>Simplification: \\\\( SE = \\\\frac{1.8708}{7.4162} \\\\)<br>Calculation: \\\\( SE \\\\\\\\approx \\\\) <span style='color:var(--orange);font-weight:bold;'>0.2523</span></p><p style='margin:8px 0;'><strong>Step 5: Calculate the t-test statistic</strong><br>The formula for the t-test statistic is:<br>\\[ t = \\\\frac{\\\\\\\\bar{x} - \\\\\\\\mu_0}{SE} \\\\\\]<br>Substitution: \\\\( t = \\\\frac{19 - 17}{0.2523} \\\\)<br>Simplification: \\\\( t = \\\\frac{2}{0.2523} \\\\)<br>Calculation: \\\\( t \\\\\\\\approx \\\\) <span style='color:var(--orange);font-weight:bold;'>7.9271</span></p><p style='margin:8px 0;'><strong>Step 6: Determine the critical t-values</strong><br>For a two-tailed t-test with \\\\(df = 54\\\\) and \\\\( \\\\\\\\alpha = 0.05 \\\\) (meaning \\\\( \\\\\\\\alpha/2 = 0.025 \\\\) in each tail), we find the critical t-values from a t-distribution table or statistical software.<br>Critical t-values: \\\\( t_{critical} = \\\\) <span style='color:var(--orange);font-weight:bold;'>\\\\( \\\\\\\\pm 2.005 \\\\)</span></p><p style='margin:8px 0;'><strong>Step 7: Compare the calculated t-statistic with the critical t-values</strong><br>The calculated t-statistic is \\\\( t_{calc} \\\\\\\\approx 7.9271 \\\\).<br>The critical t-values are \\\\( \\\\\\\\pm 2.005 \\\\).<br>We compare the absolute value of the calculated t-statistic with the positive critical t-value.<br>Comparison: \\\\( |7.9271| > 2.005 \\\\)<br>Since \\\\( 7.9271 > 2.005 \\\\), the calculated t-statistic falls into the rejection region.</p><p style='margin:8px 0;'><strong>Step 8: Make a decision</strong><br>Because the calculated t-statistic (7.9271) is greater than the positive critical t-value (2.005), it falls within the rejection region.<br>Therefore, we <span style='color:var(--orange);font-weight:bold;'>reject the null hypothesis (\\\\(H_0\\\\))</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can consider the p-value approach. For a t-statistic of \\\\(t \\\\\\\\approx 7.9271\\\\) with \\\\(df = 54\\\\), the two-tailed p-value is extremely small (much less than 0.0001).<br>Since the p-value (\\\\(p < 0.0001\\\\)) is less than the significance level (\\\\(\\\\\\\\alpha = 0.05\\\\)), we reject the null hypothesis.<br>This confirms the decision made using the critical value approach.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The conclusion of the test is to Reject H₀.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Reject H₀"
+    }
+  }
+]
