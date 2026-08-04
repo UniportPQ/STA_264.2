@@ -1,0 +1,142 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Prediction",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 23 @ 2017/2018",
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Regression Analysis",
+      "Linear Models",
+      "Sampling and Estimation",
+      "Prediction"
+    ],
+    "Question": {
+      "content": "_____ can be used for prediction purpose and for obtaining a parameter estimates for decision making.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Chi-Square"
+        },
+        {
+          "type": "String",
+          "content": "Regression Model"
+        },
+        {
+          "type": "String",
+          "content": "Correlation"
+        },
+        {
+          "type": "String",
+          "content": "R-square"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Regression Analysis and Predictive Modeling</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Regression Model</em> is a statistical tool used to model the relationship between a dependent variable and one or more independent variables. Its primary applications include prediction, forecasting, and understanding the strength and direction of the relationship between variables. It provides <em>parameter estimates</em> (e.g., coefficients) that quantify these relationships, which are crucial for decision-making.<br><br><em>Chi-Square Test</em>: A statistical test used to determine if there is a significant association between two categorical variables.<br><em>Correlation</em>: A statistical measure that expresses the extent to which two variables are linearly related (meaning they change together at a constant rate). It indicates the strength and direction of a linear relationship, but does not imply causation or provide a model for prediction.<br><em>R-square (Coefficient of Determination)</em>: A statistical measure that represents the proportion of the variance in the dependent variable that is predictable from the independent variables. It indicates how well the model fits the data, but it is not a model itself for prediction or parameter estimation.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks to identify a statistical tool that can be used for \"prediction purpose\" and for \"obtaining parameter estimates for decision making.\"<br>Options provided: Chi-Square, Regression Model, Correlation, R-square.</div><p style='margin:8px 0;'><strong>Step 1: Analyze the requirements of the question</strong><br>The question specifies two key functions for the statistical tool:<br>1.  <span style='color:var(--orange);font-weight:bold;'>Prediction purpose</span>: The ability to forecast or estimate future values or outcomes based on existing data.<br>2.  <span style='color:var(--orange);font-weight:bold;'>Obtaining parameter estimates for decision making</span>: The ability to quantify the relationships between variables, providing specific numerical values (parameters) that can inform choices and strategies.</p><p style='margin:8px 0;'><strong>Step 2: Evaluate \"Regression Model\" against the requirements</strong><br>A regression model, such as a linear regression model \\( Y = \\beta_0 + \\beta_1 X + \\epsilon \\), explicitly aims to predict the dependent variable \\( Y \\) based on the independent variable \\( X \\).<br>The model provides <span style='color:var(--orange);font-weight:bold;'>parameter estimates</span> (\\( \\beta_0 \\) for the intercept and \\( \\beta_1 \\) for the slope) which quantify the relationship. These estimates are directly used for understanding how changes in \\( X \\) affect \\( Y \\) and for making informed <span style='color:var(--orange);font-weight:bold;'>decisions</span>. Therefore, a Regression Model perfectly aligns with both requirements.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate \"Chi-Square\" against the requirements</strong><br>The Chi-Square test is used to assess the association between categorical variables. For example, it can determine if there's a relationship between gender and preference for a certain product.<br>It does not primarily serve a <span style='color:var(--orange);font-weight:bold;'>prediction purpose</span> in the sense of forecasting continuous outcomes, nor does it provide <span style='color:var(--orange);font-weight:bold;'>parameter estimates</span> (like regression coefficients) for decision-making about the magnitude of influence one variable has on another. Thus, it does not fit the description.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate \"Correlation\" against the requirements</strong><br>Correlation measures the strength and direction of a linear relationship between two quantitative variables (e.g., Pearson's r). It tells us *how* two variables move together.<br>While a strong correlation might suggest a basis for prediction, correlation itself is not a <span style='color:var(--orange);font-weight:bold;'>predictive model</span>. It does not provide <span style='color:var(--orange);font-weight:bold;'>parameter estimates</span> that define a functional relationship for direct decision-making in the way a regression equation does. For instance, correlation tells you if height and weight are related, but not a formula to predict weight from height.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate \"R-square\" against the requirements</strong><br>R-square is a statistic derived from a regression model. It indicates the proportion of the variance in the dependent variable that is explained by the independent variables in the model.<br>It is a <span style='color:var(--orange);font-weight:bold;'>measure of model fit</span>, not a model itself. It does not perform <span style='color:var(--orange);font-weight:bold;'>prediction</span> directly, nor does it provide the <span style='color:var(--orange);font-weight:bold;'>parameter estimates</span> (coefficients) that are used for decision-making. It tells you *how good* a regression model is, but it is not the model itself.</p><p style='margin:8px 0;'><strong>Step 6: Conclude the best fit</strong><br>Comparing all options against the requirements, the <span style='color:var(--orange);font-weight:bold;'>Regression Model</span> is the only statistical tool that directly serves both \"prediction purpose\" and provides \"parameter estimates for decision making.\"</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A core application of regression analysis is to develop models that can predict future outcomes based on observed relationships between variables. For example, predicting sales based on advertising spend. The coefficients (parameter estimates) obtained from a regression model quantify the impact of each independent variable on the dependent variable, allowing businesses or researchers to make informed decisions (e.g., \"for every dollar spent on advertising, sales increase by \\( \\beta_1 \\) dollars\"). This directly matches the question's criteria.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Regression Model</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Regression Model"
+    }
+  }
+]
