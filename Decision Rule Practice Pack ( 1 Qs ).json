@@ -1,0 +1,144 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Decision Rule",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 35 @ 2009/2010",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The condition that leads to the rejection or acceptance of \\(H_0\\) is called:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "string",
+          "content": "confidence interval"
+        },
+        {
+          "type": "string",
+          "content": "critical region"
+        },
+        {
+          "type": "string",
+          "content": "real value"
+        },
+        {
+          "type": "string",
+          "content": "decision rule"
+        },
+        {
+          "type": "string",
+          "content": "bounding value"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics for Biological Sciences",
+      "Hypothesis Testing",
+      "Decision Rule"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Hypothesis Testing: The Decision Rule</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><ul><li><strong>Hypothesis Testing:</strong> A statistical method used to make decisions about a population parameter based on sample data.</li><li><strong>Null Hypothesis (\\(H_0\\)):</strong> A statement of no effect or no difference, which is assumed to be true until evidence suggests otherwise.</li><li><strong>Alternative Hypothesis (\\(H_1\\) or \\(H_a\\)):</strong> A statement that contradicts the null hypothesis, representing what the researcher is trying to prove.</li><li><strong>Decision Rule:</strong> A predefined condition or set of conditions that determines whether the null hypothesis (\\(H_0\\)) should be rejected or not rejected (accepted). This rule is established <em>before</em> data collection and analysis.</li><li><strong>Critical Region (or Rejection Region):</strong> The set of values for the test statistic that leads to the rejection of the null hypothesis. It is defined by the significance level (\\(\\alpha\\)).</li><li><strong>Confidence Interval:</strong> A range of values, derived from sample data, that is likely to contain the true value of an unknown population parameter.</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks for the term that describes the condition leading to the rejection or acceptance of the null hypothesis (\\(H_0\\)).</div><p style='margin:8px 0;'><strong>Step 1: Understand the Goal of Hypothesis Testing</strong><br>Hypothesis testing is a formal procedure to evaluate two mutually exclusive statements about a population using sample data: the null hypothesis (\\(H_0\\)) and the alternative hypothesis (\\(H_1\\)). The ultimate goal is to make a decision: either reject \\(H_0\\) or fail to reject \\(H_0\\).</p><p style='margin:8px 0;'><strong>Step 2: Identify What Determines the Decision</strong><br>To make a decision in hypothesis testing, we compare our observed sample data (often summarized by a test statistic or p-value) against a predetermined standard or criterion. This criterion is what the question is asking for.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate Option A: Confidence Interval</strong><br>A confidence interval provides a range of plausible values for a population parameter. While it can be used to perform a hypothesis test (e.g., if the hypothesized parameter value falls outside the confidence interval, \\(H_0\\) is rejected), it is not itself the <em>condition</em> or <em>rule</em> for making the decision. It is a tool or an outcome, not the decision-making criterion.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate Option B: Critical Region</strong><br>The critical region (or rejection region) is a specific range of values for the test statistic that would lead to the rejection of the null hypothesis. It is an integral part of the decision rule, as the decision rule often states: \"Reject \\(H_0\\) if the test statistic falls within the critical region.\" However, the critical region itself is the <em>area</em> or <em>range</em>, not the overarching <em>condition</em> or <em>rule</em> that dictates the acceptance or rejection. The decision rule <em>uses</em> the critical region.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate Option C: Real Value</strong><br>\"Real value\" is a general mathematical term and does not have a specific meaning in the context of hypothesis testing that describes the condition for rejecting or accepting \\(H_0\\). This option is irrelevant to the question.</p><p style='margin:8px 0;'><strong>Step 6: Evaluate Option D: Decision Rule</strong><br>The <strong>decision rule</strong> is the explicit statement that specifies the conditions under which the null hypothesis (\\(H_0\\)) is rejected or not rejected. It typically involves comparing a test statistic to a critical value or a p-value to a significance level. For example, a decision rule might be: \"Reject \\(H_0\\) if the p-value \\( \\le \\alpha \\)\" or \"Reject \\(H_0\\) if the test statistic \\( |Z| \\ge Z_{\\alpha/2} \\)\". This term precisely describes the condition that leads to the rejection or acceptance of \\(H_0\\).</p><p style='margin:8px 0;'><strong>Step 7: Evaluate Option E: Bounding Value</strong><br>\"Bounding value\" is not a standard or recognized term in hypothesis testing for the condition that leads to rejection or acceptance of \\(H_0\\). While critical values could be seen as \"bounding values\" for the critical region, the term itself is not the formal name for the decision condition.</p><p style='margin:8px 0;'><strong>Step 8: Conclude the Correct Term</strong><br>Based on the definitions and evaluation of all options, the term that encompasses the condition for rejecting or accepting \\(H_0\\) is the <span style='color:var(--orange);font-weight:bold;'>decision rule</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The decision rule is the formal statement that outlines the criteria for making a choice between the null and alternative hypotheses. It explicitly states when to reject \\(H_0\\) and when not to reject \\(H_0\\). For instance, \"Reject \\(H_0\\) if the calculated test statistic falls into the critical region\" is a decision rule. This rule is the condition that dictates the outcome of the hypothesis test. Therefore, \"decision rule\" is the most accurate term.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The condition that leads to the rejection or acceptance of \\(H_0\\) is called the decision rule.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "decision rule"
+    }
+  }
+]
