@@ -1,0 +1,142 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Z-score Calculation",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 13 @ 2011/2012",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find P(0.82 \\(\\leq\\) Z \\(\\leq\\) 1.57)",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.1356"
+        },
+        {
+          "type": "String",
+          "content": "0.1257"
+        },
+        {
+          "type": "String",
+          "content": "0.1543"
+        },
+        {
+          "type": "String",
+          "content": "0.1479"
+        }
+      ]
+    },
+    "topic": [
+      "Probability Distributions",
+      "Normal Distribution",
+      "Probability Theory",
+      "Biostatistics",
+      "Z-score Calculation"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Probability for a Standard Normal Distribution</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Standard Normal Distribution</em> is a normal distribution with a mean (\\( \\mu \\)) of 0 and a standard deviation (\\( \\sigma \\)) of 1. Probabilities for this distribution are often found using a Z-table (or standard normal table).<br>A <em>Z-score</em> represents the number of standard deviations an element is from the mean.<br>To find the probability \\( P(a \\leq Z \\leq b) \\) for a Z-score \\( Z \\) falling between two values \\( a \\) and \\( b \\), we use the formula:<br>\\[ P(a \\leq Z \\leq b) = P(Z \\leq b) - P(Z \\leq a) \\]<br>where \\( P(Z \\leq z) \\) is the cumulative probability up to Z-score \\( z \\), typically found in a Z-table.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>We need to find the probability \\( P(0.82 \\leq Z \\leq 1.57) \\).<br>This involves a Standard Normal Distribution.</div><p style='margin:8px 0;'><strong>Step 1: Identify the required probability interval</strong><br>The question asks for the probability that a Z-score falls between 0.82 and 1.57, inclusive. This is represented as \\( P(0.82 \\leq Z \\leq 1.57) \\).</p><p style='margin:8px 0;'><strong>Step 2: Apply the formula for an interval probability</strong><br>For any two Z-scores \\( a \\) and \\( b \\) where \\( a < b \\), the probability \\( P(a \\leq Z \\leq b) \\) is calculated as the difference between the cumulative probabilities up to \\( b \\) and up to \\( a \\).<br>Formula:<br>\\[ P(a \\leq Z \\leq b) = P(Z \\leq b) - P(Z \\leq a) \\]<br>Substitute the given values \\( a = 0.82 \\) and \\( b = 1.57 \\):<br>\\[ P(0.82 \\leq Z \\leq 1.57) = P(Z \\leq 1.57) - P(Z \\leq 0.82) \\]</p><p style='margin:8px 0;'><strong>Step 3: Find \\( P(Z \\leq 1.57) \\) using a Z-table</strong><br>Locate the row corresponding to the first two digits of the Z-score (1.5).<br>Locate the column corresponding to the third digit (0.07).<br>The intersection of this row and column gives the cumulative probability.<br>From the Z-table, \\( P(Z \\leq 1.57) = \\) <span style='color:var(--orange);font-weight:bold;'>0.9418</span>.</p><p style='margin:8px 0;'><strong>Step 4: Find \\( P(Z \\leq 0.82) \\) using a Z-table</strong><br>Locate the row corresponding to the first two digits of the Z-score (0.8).<br>Locate the column corresponding to the third digit (0.02).<br>The intersection of this row and column gives the cumulative probability.<br>From the Z-table, \\( P(Z \\leq 0.82) = \\) <span style='color:var(--orange);font-weight:bold;'>0.7939</span>.</p><p style='margin:8px 0;'><strong>Step 5: Calculate the final probability</strong><br>Substitute the probabilities found in Step 3 and Step 4 into the formula from Step 2.<br>Formula:<br>\\[ P(0.82 \\leq Z \\leq 1.57) = P(Z \\leq 1.57) - P(Z \\leq 0.82) \\]<br>Substitute values:<br>\\[ P(0.82 \\leq Z \\leq 1.57) = 0.9418 - 0.7939 \\]<br>Perform the subtraction:<br>\\[ P(0.82 \\leq Z \\leq 1.57) = \\] <span style='color:var(--orange);font-weight:bold;'>0.1479</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The calculated probability \\( 0.1479 \\) is a positive value between 0 and 1, which is expected for a probability. The values \\( P(Z \\leq 1.57) = 0.9418 \\) and \\( P(Z \\leq 0.82) = 0.7939 \\) are correctly read from a standard Z-table. The subtraction \\( 0.9418 - 0.7939 = 0.1479 \\) is also arithmetically correct. This confirms the result.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; P(0.82 \\(\\leq\\) Z \\(\\leq\\) 1.57) = 0.1479</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.1479"
+    }
+  }
+]
