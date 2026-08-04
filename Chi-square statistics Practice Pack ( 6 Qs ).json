@@ -1,0 +1,477 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Chi-square statistics",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Chi-square statistics can be used in the following test except:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Test for normality"
+        },
+        {
+          "type": "String",
+          "content": "Test of independence"
+        },
+        {
+          "type": "String",
+          "content": "Test of homogeneity"
+        },
+        {
+          "type": "String",
+          "content": "Test of goodness of fit"
+        }
+      ]
+    },
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Hypothesis Testing Principles",
+      "Non-Parametric Hypothesis Tests",
+      "Chi-square statistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Test Applications</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-square (\\( \\chi^2 \\)) test</em> is a non-parametric statistical test used to determine if there is a significant difference between the observed and expected frequencies in one or more categories. It is primarily applied to categorical data.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks to identify which of the listed tests is *not* typically performed using Chi-square statistics.</div><p style='margin:8px 0;'><strong>Step 1: Understand the Chi-square statistic formula</strong><br>The Chi-square statistic is calculated as:<br>\\[ \\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i} \\]<br>Where:<br>\\( O_i \\) = observed frequency for category \\( i \\)<br>\\( E_i \\) = expected frequency for category \\( i \\)<br>This formula quantifies the discrepancy between observed and expected counts.</p><p style='margin:8px 0;'><strong>Step 2: Evaluate the 'Test of Goodness of Fit'</strong><br>The Chi-square goodness-of-fit test is used to determine whether an observed frequency distribution matches an expected distribution. It compares a single sample distribution to a hypothesized population distribution.<br><em>Example:</em> Testing if the observed number of cars of different colors in a parking lot fits a hypothesized distribution (e.g., 20% red, 30% blue, etc.).<br>This is a standard application of the Chi-square test.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate the 'Test of Independence'</strong><br>The Chi-square test of independence is used to determine if there is a significant association between two categorical variables in a single population. It assesses whether the observed frequencies in a contingency table are significantly different from the frequencies that would be expected if the variables were independent.<br><em>Example:</em> Testing if there is a relationship between gender (male/female) and preference for a certain political candidate (candidate A/B/C).<br>This is a standard application of the Chi-square test.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate the 'Test of Homogeneity'</strong><br>The Chi-square test of homogeneity is used to determine if two or more independent samples (populations) come from the same distribution with respect to a categorical variable. It compares the distribution of a categorical variable across different populations.<br><em>Example:</em> Testing if the proportion of people who prefer coffee over tea is the same in two different cities.<br>This is a standard application of the Chi-square test.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate the 'Test for Normality'</strong><br>A test for normality assesses whether a given dataset is well-modeled by a normal distribution. While it is theoretically possible to adapt the Chi-square goodness-of-fit test for normality by binning continuous data into categories and comparing observed frequencies to expected frequencies from a normal distribution, it is generally <span style='color:var(--orange);font-weight:bold;'>not the primary or most powerful method</span>.<br>Dedicated tests for normality, such as the Shapiro-Wilk test, Kolmogorov-Smirnov test, or Anderson-Darling test, are specifically designed for this purpose and are typically more sensitive and appropriate for continuous data.<br>Therefore, among the given options, the Chi-square test is least commonly and least effectively used for a direct test of normality compared to its primary applications.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The Chi-square test is a fundamental tool for analyzing categorical data, specifically for goodness-of-fit, independence, and homogeneity. While it can be forced to test for normality by discretizing continuous data, this approach is less robust and less common than using specialized normality tests. Thus, 'Test for normality' is the exception where Chi-square is not the preferred or standard method.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Chi-square statistics are not typically used for a direct Test for normality.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Test for normality"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2017/2018",
+    "topic": [
+      "Chi-square statistics",
+      "Hypothesis Testing Principles",
+      "Expected Frequencies"
+    ],
+    "Question": {
+      "content": "Given the table above of observed frequencies, obtain \\\\( e_{11} \\\\) is observed to be:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "14.89"
+        },
+        {
+          "type": "String",
+          "content": "14.76"
+        },
+        {
+          "type": "String",
+          "content": "14.06"
+        },
+        {
+          "type": "String",
+          "content": "14.66"
+        }
+      ]
+    },
+    "table": [
+      [
+        "Variable",
+        "B",
+        "C",
+        "Total"
+      ],
+      [
+        "A",
+        "14",
+        "13",
+        "27"
+      ],
+      [
+        "e1",
+        "11",
+        "10",
+        "21"
+      ],
+      [
+        "e2",
+        "?",
+        "?",
+        "?"
+      ]
+    ],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-Square Test: Calculating Expected Frequencies</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In a chi-square test for independence, <em>observed frequencies</em> (\\\\( O_{ij} \\\\)) are the actual counts in each cell of a contingency table.<br><em>Expected frequencies</em> (\\\\( E_{ij} \\\\) or \\\\( e_{ij} \\\\)) are the frequencies that would be expected in each cell if there were no association between the row and column variables.<br>The formula for the expected frequency of a cell in row \\\\( i \\\\) and column \\\\( j \\\\) is:<br>\\[ E_{ij} = \\\\frac{(\\\\text{Row i Total}) \\\\times (\\\\text{Column j Total})}{\\\\text{Grand Total}} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Contingency table of observed frequencies:<br><table><tr><td>Variable</td><td>B</td><td>C</td><td>Total</td></tr><tr><td>A</td><td>14</td><td>13</td><td>27</td></tr><tr><td>e1</td><td>11</td><td>10</td><td>21</td></tr><tr><td>e2</td><td>?</td><td>?</td><td>?</td></tr></table><br>We need to find the expected frequency for the cell in the first row and first column, denoted as \\\\( e_{11} \\\\).</div><p style='margin:8px 0;'><strong>Step 1: Identify the cell for which to calculate the expected frequency</strong><br>The notation \\\\( e_{11} \\\\) refers to the expected frequency for the cell in the first row (Variable A) and the first column (Variable B).</p><p style='margin:8px 0;'><strong>Step 2: Determine the total for the first row</strong><br>From the given table, the total for the first row (Variable A) is 27.<br><span style='color:var(--orange);font-weight:bold;'>Row 1 Total = 27</span></p><p style='margin:8px 0;'><strong>Step 3: Determine the total for the first column</strong><br>From the given table, the observed frequencies in the first column (Variable B) are 14 (for A) and 11 (for e1).<br>Column 1 Total = Observed frequency (A, B) + Observed frequency (e1, B)<br>Column 1 Total = \\\\( 14 + 11 \\\\)<br><span style='color:var(--orange);font-weight:bold;'>Column 1 Total = 25</span></p><p style='margin:8px 0;'><strong>Step 4: Calculate the Grand Total of all observed frequencies</strong><br>The Grand Total is the sum of all row totals or all column totals.<br>Grand Total = Row A Total + Row e1 Total<br>Grand Total = \\\\( 27 + 21 \\\\)<br><span style='color:var(--orange);font-weight:bold;'>Grand Total = 48</span></p><p style='margin:8px 0;'><strong>Step 5: State the formula for expected frequency</strong><br>The formula for expected frequency \\\\( E_{ij} \\\\) is:<br>\\[ E_{ij} = \\\\frac{(\\\\text{Row i Total}) \\\\times (\\\\text{Column j Total})}{\\\\text{Grand Total}} \\]</p><p style='margin:8px 0;'><strong>Step 6: Substitute the identified values into the formula for \\\\( e_{11} \\\\)</strong><br>For \\\\( e_{11} \\\\):<br>Row i Total = Row 1 Total = 27<br>Column j Total = Column 1 Total = 25<br>Grand Total = 48<br>\\[ e_{11} = \\\\frac{27 \\\\times 25}{48} \\]</p><p style='margin:8px 0;'><strong>Step 7: Calculate the numerator</strong><br>Numerator = \\\\( 27 \\\\times 25 \\\\)<br>Numerator = <span style='color:var(--orange);font-weight:bold;'>675</span></p><p style='margin:8px 0;'><strong>Step 8: Perform the division to find \\\\( e_{11} \\\\)</strong><br>\\[ e_{11} = \\\\frac{675}{48} \\]<br>\\[ e_{11} \\\\approx 14.0625 \\]</p><p style='margin:8px 0;'><strong>Step 9: Round the result to two decimal places</strong><br>Rounding \\\\( 14.0625 \\\\) to two decimal places gives 14.06.<br><span style='color:var(--orange);font-weight:bold;'>\\\\( e_{11} = 14.06 \\\\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we re-calculate: \\\\( \\\\frac{27 \\\\times 25}{48} = \\\\frac{675}{48} = 14.0625 \\\\). Rounding to two decimal places yields 14.06. This confirms the calculation.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The expected frequency \\\\( e_{11} \\\\) is 14.06.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "14.06"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17 @ 2017/2018",
+    "topic": [
+      "Expected Frequencies",
+      "Chi-square statistics",
+      "Non-Parametric Hypothesis Tests",
+      "Hypothesis Testing Principles",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES"
+    ],
+    "Question": {
+      "content": "Given the table above of observed frequencies, obtain \\( e_{12} \\) is observed to be:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "12.94"
+        },
+        {
+          "type": "String",
+          "content": "12.09"
+        },
+        {
+          "type": "String",
+          "content": "12.06"
+        },
+        {
+          "type": "String",
+          "content": "12.66"
+        }
+      ]
+    },
+    "table": [
+      [
+        "Variable",
+        "B",
+        "C",
+        "Total"
+      ],
+      [
+        "A",
+        "14",
+        "13",
+        "27"
+      ],
+      [
+        "e1",
+        "11",
+        "10",
+        "21"
+      ],
+      [
+        "e2",
+        "?",
+        "?",
+        "?"
+      ]
+    ],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Expected Frequency Calculation for Contingency Tables</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In statistics, when analyzing categorical data using a contingency table, <em>expected frequencies</em> (denoted as \\( e_{ij} \\)) represent the cell counts that would be expected if there were no association (i.e., independence) between the row and column variables. They are crucial for calculating the chi-square (\\( \\chi^2 \\)) statistic, which tests for independence.<br>The formula for the expected frequency of a cell in row \\( i \\) and column \\( j \\) is:<br>\\[ e_{ij} = \\frac{(\\text{Row i Total}) \\times (\\text{Column j Total})}{(\\text{Grand Total})} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Observed Frequencies Table:<br><table style='width:auto; border-collapse: collapse;'><thead><tr><th style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>Variable</th><th style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>B</th><th style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>C</th><th style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>Total</th></tr></thead><tbody><tr><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>A</td><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>14</td><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>13</td><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>27</td></tr><tr><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>e1</td><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>11</td><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>10</td><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>21</td></tr><tr><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>e2</td><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>?</td><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>?</td><td style='border:1px solid var(--bodyTextColor); padding: 4px 8px;'>?</td></tr></tbody></table><br>We need to find the expected frequency for the cell in Row 1, Column 2, denoted as \\( e_{12} \\).</div><p style='margin:8px 0;'><strong>Step 1: Understand the notation \\( e_{ij} \\)</strong><br>The notation \\( e_{ij} \\) refers to the expected frequency for the cell located at the intersection of the \\( i \\)-th row and the \\( j \\)-th column of the contingency table.<br>For \\( e_{12} \\), this means we are looking for the expected frequency for the first row (Variable 'A') and the second column (Variable 'C').</p><p style='margin:8px 0;'><strong>Step 2: Identify the row total for Row 1</strong><br>From the given table, the total for Row 1 (Variable 'A') is:<br>Row 1 Total \\( = 14 + 13 = \\) <span style='color:var(--orange);font-weight:bold;'>27</span>.</p><p style='margin:8px 0;'><strong>Step 3: Identify the column total for Column 2</strong><br>From the given table, the total for Column 2 (Variable 'C') is the sum of values in that column:<br>Column 2 Total \\( = 13 + 10 = \\) <span style='color:var(--orange);font-weight:bold;'>23</span>.</p><p style='margin:8px 0;'><strong>Step 4: Identify the Grand Total of the table</strong><br>The Grand Total is the sum of all observed frequencies, or the sum of all row totals, or the sum of all column totals.<br>Sum of Row Totals \\( = 27 \\text{ (for A)} + 21 \\text{ (for e1)} = \\) <span style='color:var(--orange);font-weight:bold;'>48</span>.<br>(Alternatively, Sum of Column Totals: \\( (14+11) + (13+10) = 25 + 23 = 48 \\)).</p><p style='margin:8px 0;'><strong>Step 5: State the formula for expected frequency</strong><br>The formula to calculate the expected frequency \\( e_{ij} \\) is:<br>\\[ e_{ij} = \\frac{(\\text{Row i Total}) \\times (\\text{Column j Total})}{(\\text{Grand Total})} \\]<br>For \\( e_{12} \\), the formula becomes:<br>\\[ e_{12} = \\frac{(\\text{Row 1 Total}) \\times (\\text{Column 2 Total})}{(\\text{Grand Total})} \\]</p><p style='margin:8px 0;'><strong>Step 6: Substitute the identified values into the formula</strong><br>Substitute the totals found in Steps 2, 3, and 4 into the formula:<br>\\[ e_{12} = \\frac{27 \\times 23}{48} \\]</p><p style='margin:8px 0;'><strong>Step 7: Perform the multiplication in the numerator</strong><br>Multiply the Row 1 Total by the Column 2 Total:<br>\\( 27 \\times 23 = \\) <span style='color:var(--orange);font-weight:bold;'>621</span>.<br>So, the expression becomes:<br>\\[ e_{12} = \\frac{621}{48} \\]</p><p style='margin:8px 0;'><strong>Step 8: Perform the division</strong><br>Divide the numerator by the Grand Total:<br>\\( \\frac{621}{48} = \\) <span style='color:var(--orange);font-weight:bold;'>12.9375</span>.</p><p style='margin:8px 0;'><strong>Step 9: Round the result</strong><br>The options provided are rounded to two decimal places. Rounding \\( 12.9375 \\) to two decimal places:<br>\\( 12.9375 \\approx \\) <span style='color:var(--orange);font-weight:bold;'>12.94</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can re-check the arithmetic:<br>Row 1 Total = 27<br>Column 2 Total = 23<br>Grand Total = 48<br>\\( e_{12} = (27 \\times 23) / 48 = 621 / 48 = 12.9375 \\).<br>Rounding to two decimal places gives 12.94. The calculation is consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The expected frequency \\( e_{12} \\) is 12.94.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "12.94"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18 @ 2017/2018",
+    "topic": [
+      "Expected Frequencies",
+      "Chi-square statistics",
+      "Non-Parametric Hypothesis Tests",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES"
+    ],
+    "Question": {
+      "content": "Given the table above of observed frequencies, obtain \\( e_{21} \\) is obtained to be:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "10.11"
+        },
+        {
+          "type": "String",
+          "content": "10.66"
+        },
+        {
+          "type": "String",
+          "content": "10.06"
+        },
+        {
+          "type": "String",
+          "content": "10.94"
+        }
+      ]
+    },
+    "table": [
+      [
+        "Variable",
+        "B",
+        "C",
+        "Total"
+      ],
+      [
+        "A",
+        "14",
+        "13",
+        "27"
+      ],
+      [
+        "e1",
+        "11",
+        "10",
+        "21"
+      ],
+      [
+        "e2",
+        "?",
+        "?",
+        "?"
+      ]
+    ],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Expected Frequencies in Contingency Tables</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In statistics, when analyzing categorical data, we often use <em>contingency tables</em> to display the frequencies of two or more variables. To test for independence between these variables (e.g., using a Chi-square test), we calculate <em>expected frequencies</em>.<br><br>An <strong>Observed Frequency</strong> is the actual count of occurrences in a specific category or cell of the table.<br>An <strong>Expected Frequency</strong> (denoted as \\( E_{ij} \\) or \\( e_{ij} \\)) is the frequency that would be expected in a particular cell (row \\( i \\), column \\( j \\)) if there were no association between the row and column variables. It is calculated using the formula:<br>\\[ E_{ij} = \\frac{(\\text{Row i Total}) \\times (\\text{Column j Total})}{\\text{Grand Total}} \\]<br></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>We are given a table of observed frequencies:<br><table><thead><tr><th>Variable</th><th>B (Column 1)</th><th>C (Column 2)</th><th>Total (Row Total)</th></tr></thead><tbody><tr><td>A (Row 1)</td><td>14</td><td>13</td><td>27</td></tr><tr><td>e1 (Row 2)</td><td>11</td><td>10</td><td>21</td></tr><tr><td>e2 (Row 3)</td><td>?</td><td>?</td><td>?</td></tr></tbody></table><br>From the table, we can identify:<br>Row 1 Total = \\( 27 \\)<br>Row 2 Total = \\( 21 \\)<br>We need to find the expected frequency for the cell in Row 2, Column 1, denoted as \\( e_{21} \\).</div><p style='margin:8px 0;'><strong>Step 1: Understand the Goal</strong><br>The notation \\( e_{21} \\) refers to the expected frequency for the cell located in the second row and the first column of the contingency table.</p><p style='margin:8px 0;'><strong>Step 2: Calculate Column Totals</strong><br>To use the expected frequency formula, we first need the total for Column 1 (B) and the Grand Total.<br>Column 1 (B) Total = Observed frequency (Row 1, Col 1) + Observed frequency (Row 2, Col 1)<br>Column 1 (B) Total = \\( 14 + 11 \\)<br>Column 1 (B) Total = <span style='color:var(--orange);font-weight:bold;'>\\( 25 \\)</span><br><br>Column 2 (C) Total = Observed frequency (Row 1, Col 2) + Observed frequency (Row 2, Col 2)<br>Column 2 (C) Total = \\( 13 + 10 \\)<br>Column 2 (C) Total = <span style='color:var(--orange);font-weight:bold;'>\\( 23 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the Grand Total</strong><br>The Grand Total is the sum of all observed frequencies, or the sum of all row totals, or the sum of all column totals.<br>Grand Total = Row 1 Total + Row 2 Total<br>Grand Total = \\( 27 + 21 \\)<br>Grand Total = <span style='color:var(--orange);font-weight:bold;'>\\( 48 \\)</span><br><br>Alternatively, using column totals:<br>Grand Total = Column 1 Total + Column 2 Total<br>Grand Total = \\( 25 + 23 \\)<br>Grand Total = <span style='color:var(--orange);font-weight:bold;'>\\( 48 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: State the Formula for Expected Frequency</strong><br>The formula to calculate the expected frequency \\( E_{ij} \\) for a cell in row \\( i \\) and column \\( j \\) is:<br>\\[ E_{ij} = \\frac{(\\text{Row i Total}) \\times (\\text{Column j Total})}{\\text{Grand Total}} \\]</p><p style='margin:8px 0;'><strong>Step 5: Identify Relevant Totals for \\( e_{21} \\)</strong><br>For the expected frequency \\( e_{21} \\) (Row 2, Column 1):<br>Row i Total = Row 2 Total = <span style='color:var(--orange);font-weight:bold;'>\\( 21 \\)</span><br>Column j Total = Column 1 (B) Total = <span style='color:var(--orange);font-weight:bold;'>\\( 25 \\)</span><br>Grand Total = <span style='color:var(--orange);font-weight:bold;'>\\( 48 \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Substitute Values into the Formula</strong><br>Substitute the identified totals into the expected frequency formula:<br>\\[ e_{21} = \\frac{21 \\times 25}{48} \\]</p><p style='margin:8px 0;'><strong>Step 7: Calculate the Expected Frequency</strong><br>First, calculate the product in the numerator:<br>Numerator = \\( 21 \\times 25 = 525 \\)<br>Now, perform the division:<br>\\( e_{21} = \\frac{525}{48} \\)<br>\\( e_{21} \\approx 10.9375 \\)</p><p style='margin:8px 0;'><strong>Step 8: Round to Appropriate Precision</strong><br>The options provided are given to two decimal places. We will round our calculated value to two decimal places.<br>\\( e_{21} \\approx 10.9375 \\)<br>Rounding to two decimal places, we get:<br>\\( e_{21} \\approx \\)<span style='color:var(--orange);font-weight:bold;'>\\( 10.94 \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify our answer, we can plug the result back into the formula's logic.<br>If \\( e_{21} = 10.94 \\), then it should be approximately equal to \\( \\frac{\\text{Row 2 Total} \\times \\text{Column 1 Total}}{\\text{Grand Total}} \\).<br>\\( \\frac{21 \\times 25}{48} = \\frac{525}{48} \\approx 10.9375 \\)<br>Since \\( 10.9375 \\) rounds to \\( 10.94 \\), our calculation is consistent and correct. ✓</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>∴ The expected frequency \\( e_{21} \\) is 10.94.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "10.94"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2017/2018",
+    "topic": [
+      "Expected Frequencies",
+      "Chi-square statistics",
+      "Non-Parametric Hypothesis Tests",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES"
+    ],
+    "Question": {
+      "content": "Given the table above of observed frequencies, obtain \\( e_{22} \\) is obtained to be:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "10.11"
+        },
+        {
+          "type": "String",
+          "content": "10.66"
+        },
+        {
+          "type": "String",
+          "content": "10.06"
+        },
+        {
+          "type": "String",
+          "content": "10.94"
+        }
+      ]
+    },
+    "table": [
+      [
+        "Variable",
+        "B",
+        "C",
+        "Total"
+      ],
+      [
+        "A",
+        "14",
+        "13",
+        "27"
+      ],
+      [
+        "e1",
+        "11",
+        "10",
+        "21"
+      ],
+      [
+        "e2",
+        "?",
+        "?",
+        "?"
+      ]
+    ],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Expected Frequencies Calculation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>In statistics, when performing a chi-square test, <em>expected frequencies</em> (\\( e_{ij} \\)) represent the frequencies that would be expected in each cell of a contingency table if there were no association between the row and column variables. They are calculated based on the assumption of independence.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Observed Frequencies Table:<br>| Variable | B | C | Total |<br>|---|---|---|---|<br>| A | 14 | 13 | 27 |<br>| e1 | 11 | 10 | 21 |<br>| e2 | ? | ? | ? |<br><br>Formula for Expected Frequency \\( e_{ij} \\):<br>\\[ e_{ij} = \\\\frac{(\\\\text{Row Total}_i \\\\times \\\\text{Column Total}_j)}{\\\\text{Grand Total}} \\]<br></div><p style='margin:8px 0;'><strong>Step 1: Identify the cell for which the expected frequency is needed</strong><br>The question asks for \\( e_{22} \\). This refers to the expected frequency for the cell in the second row and second column of the observed data. In the given table, the second row is labeled 'e1' and the second column is 'C'.</p><p style='margin:8px 0;'><strong>Step 2: Determine the Row Total for the second row (\\( R_2 \\))</strong><br>From the table, the total for row 'e1' (second row) is 21.<br>\\[ R_2 = 21 \\]<br></p><p style='margin:8px 0;'><strong>Step 3: Determine the Column Total for the second column (\\( C_2 \\))</strong><br>From the table, the sum of observed frequencies in column 'C' (second column) is \\( 13 + 10 \\).<br>\\[ C_2 = 13 + 10 \\\\ ]<br>\\[ C_2 = \\\\span style='color:var(--orange);font-weight:bold;'>23</span> \\]<br></p><p style='margin:8px 0;'><strong>Step 4: Determine the Grand Total (\\( N \\))</strong><br>The grand total is the sum of all row totals or all column totals.<br>Sum of row totals: \\( 27 + 21 = 48 \\)<br>Sum of column totals: \\( (14+11) + (13+10) = 25 + 23 = 48 \\)<br>\\[ N = \\\\span style='color:var(--orange);font-weight:bold;'>48</span> \\]<br></p><p style='margin:8px 0;'><strong>Step 5: Apply the formula for expected frequency \\( e_{22} \\)</strong><br>The formula is: \\( e_{ij} = \\\\frac{R_i \\\\times C_j}{N} \\)<br>Substitute the values for \\( i=2 \\) and \\( j=2 \\):<br>\\[ e_{22} = \\\\frac{R_2 \\\\times C_2}{N} \\\\ ]<br>\\[ e_{22} = \\\\frac{21 \\\\times 23}{48} \\\\ ]<br>\\[ e_{22} = \\\\frac{483}{48} \\\\ ]<br>\\[ e_{22} \\\\approx \\\\span style='color:var(--orange);font-weight:bold;'>10.0625</span> \\]<br></p><p style='margin:8px 0;'><strong>Step 6: Round the result to the appropriate number of decimal places</strong><br>The options provided suggest rounding to two decimal places.<br>\\[ e_{22} \\\\approx 10.06 \\]<br></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can work backward. If \\( e_{22} = 10.0625 \\), then \\( R_2 \\\\times C_2 \\) should equal \\( N \\\\times e_{22} \\).<br>\\( R_2 \\\\times C_2 = 21 \\\\times 23 = 483 \\)<br>\\( N \\\\times e_{22} = 48 \\\\times 10.0625 = 483 \\)<br>Since both sides are equal, our calculation is confirmed.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The expected frequency \\( e_{22} \\) is 10.06.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "10.06"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2017/2018",
+    "topic": [
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Chi-square statistics",
+      "Non-Parametric Hypothesis Tests",
+      "Hypothesis Testing Principles",
+      "Observed Frequencies"
+    ],
+    "Question": {
+      "content": "Given the table above of observed frequencies, Chi-square statistics is obtained to be:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "0.0120"
+        },
+        {
+          "type": "String",
+          "content": "0.0130"
+        },
+        {
+          "type": "String",
+          "content": "0.0666"
+        },
+        {
+          "type": "String",
+          "content": "0.094"
+        }
+      ]
+    },
+    "table": [
+      [
+        "Variable",
+        "B",
+        "C",
+        "Total"
+      ],
+      [
+        "A",
+        "14",
+        "13",
+        "27"
+      ],
+      [
+        "e1",
+        "11",
+        "10",
+        "21"
+      ],
+      [
+        "e2",
+        "?",
+        "?",
+        "?"
+      ]
+    ],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Statistic for Contingency Tables</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-square (\\( \\chi^2 \\)) test for independence</em> is used to determine if there is a significant association between two categorical variables in a contingency table. It compares observed frequencies (actual counts) with expected frequencies (counts that would be expected if there were no association between the variables).<br>The formula for the Chi-square statistic is:<br>\\[ \\chi^2 = \\sum \\frac{(O_{ij} - E_{ij})^2}{E_{ij}} \\]<br>where:<br>\\( O_{ij} \\) = observed frequency in cell (i, j)<br>\\( E_{ij} \\) = expected frequency in cell (i, j)<br>The expected frequency for each cell is calculated as:<br>\\[ E_{ij} = \\frac{\\text{(Row i Total)} \\times \\text{(Column j Total)}}{\\text{Grand Total}} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Observed Frequencies (from the table):<br>\\( O_{A,B} = 14 \\)<br>\\( O_{A,C} = 13 \\)<br>\\( O_{e1,B} = 11 \\)<br>\\( O_{e1,C} = 10 \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify Observed Frequencies and Calculate Totals</strong><br>First, we list the observed frequencies and calculate the row, column, and grand totals for the 2x2 contingency table. The 'e2' row is ignored as it contains no observed data.<br>Observed Frequencies:<br>\\( O_{A,B} = 14 \\)<br>\\( O_{A,C} = 13 \\)<br>\\( O_{e1,B} = 11 \\)<br>\\( O_{e1,C} = 10 \\)<br>Row Totals:<br>\\( R_A = O_{A,B} + O_{A,C} = 14 + 13 = \\) <span style='color:var(--orange);font-weight:bold;'>27</span><br>\\( R_{e1} = O_{e1,B} + O_{e1,C} = 11 + 10 = \\) <span style='color:var(--orange);font-weight:bold;'>21</span><br>Column Totals:<br>\\( C_B = O_{A,B} + O_{e1,B} = 14 + 11 = \\) <span style='color:var(--orange);font-weight:bold;'>25</span><br>\\( C_C = O_{A,C} + O_{e1,C} = 13 + 10 = \\) <span style='color:var(--orange);font-weight:bold;'>23</span><br>Grand Total (N):<br>\\( N = R_A + R_{e1} = 27 + 21 = \\) <span style='color:var(--orange);font-weight:bold;'>48</span><br>Alternatively, \\( N = C_B + C_C = 25 + 23 = \\) <span style='color:var(--orange);font-weight:bold;'>48</span></p><p style='margin:8px 0;'><strong>Step 2: Calculate Expected Frequencies (\\( E_{ij} \\))</strong><br>Using the formula \\( E_{ij} = \\frac{\\text{(Row i Total)} \\times \\text{(Column j Total)}}{\\text{Grand Total}} \\):<br>For cell (A, B):<br>\\[ E_{A,B} = \\frac{R_A \\times C_B}{N} = \\frac{27 \\times 25}{48} = \\frac{675}{48} = \\text{14.0625} \\]<br>For cell (A, C):<br>\\[ E_{A,C} = \\frac{R_A \\times C_C}{N} = \\frac{27 \\times 23}{48} = \\frac{621}{48} = \\text{12.9375} \\]<br>For cell (e1, B):<br>\\[ E_{e1,B} = \\frac{R_{e1} \\times C_B}{N} = \\frac{21 \\times 25}{48} = \\frac{525}{48} = \\text{10.9375} \\]<br>For cell (e1, C):<br>\\[ E_{e1,C} = \\frac{R_{e1} \\times C_C}{N} = \\frac{21 \\times 23}{48} = \\frac{483}{48} = \\text{10.0625} \\]<br>All expected frequencies are calculated: <span style='color:var(--orange);font-weight:bold;'>\\( E_{A,B} = 14.0625, E_{A,C} = 12.9375, E_{e1,B} = 10.9375, E_{e1,C} = 10.0625 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Calculate the Chi-square Statistic for each cell</strong><br>Now, we apply the Chi-square formula \\( \\frac{(O_{ij} - E_{ij})^2}{E_{ij}} \\) for each cell:<br>For cell (A, B):<br>\\[ \\frac{(O_{A,B} - E_{A,B})^2}{E_{A,B}} = \\frac{(14 - 14.0625)^2}{14.0625} = \\frac{(-0.0625)^2}{14.0625} = \\frac{0.00390625}{14.0625} \\approx \\text{0.00027778} \\]<br>For cell (A, C):<br>\\[ \\frac{(O_{A,C} - E_{A,C})^2}{E_{A,C}} = \\frac{(13 - 12.9375)^2}{12.9375} = \\frac{(0.0625)^2}{12.9375} = \\frac{0.00390625}{12.9375} \\approx \\text{0.00030193} \\]<br>For cell (e1, B):<br>\\[ \\frac{(O_{e1,B} - E_{e1,B})^2}{E_{e1,B}} = \\frac{(11 - 10.9375)^2}{10.9375} = \\frac{(0.0625)^2}{10.9375} = \\frac{0.00390625}{10.9375} \\approx \\text{0.00035714} \\]<br>For cell (e1, C):<br>\\[ \\frac{(O_{e1,C} - E_{e1,C})^2}{E_{e1,C}} = \\frac{(10 - 10.0625)^2}{10.0625} = \\frac{(-0.0625)^2}{10.0625} = \\frac{0.00390625}{10.0625} \\approx \\text{0.00038820} \\]</p><p style='margin:8px 0;'><strong>Step 4: Sum the terms to find the total Chi-square Statistic</strong><br>Summing the values from Step 3:<br>\\[ \\chi^2 \\approx 0.00027778 + 0.00030193 + 0.00035714 + 0.00038820 \\]<br>\\[ \\chi^2 \\approx \\text{0.00132505} \\]<br>The calculated Chi-square statistic is approximately <span style='color:var(--orange);font-weight:bold;'>0.0013</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Re-calculating the sum of the terms confirms the value: \\( 0.000277777... + 0.000301934... + 0.000357142... + 0.000388201... \\approx 0.001325 \\).<br>This calculated value (0.0013) is not directly present in the given options. However, option (b) 0.0130 is indicated as the intended answer in the problem's context. There appears to be a discrepancy between the accurately calculated value from the given table and the provided options, possibly due to a typo in the question's values or options, or an intended approximation that is not standard in Chi-square calculations. Given the strict requirement to select an option, and acknowledging the discrepancy, 0.0130 is chosen.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Chi-square statistic calculated from the given table is approximately 0.0013. Based on the provided options and context, the answer is 0.0130.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.0130"
+    }
+  }
+]
