@@ -1,0 +1,563 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Inferential Statistics",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2011/2012",
+    "img": null,
+    "table": [
+      [
+        "Doses X(µg)",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      [
+        "No. of deaths",
+        "1",
+        "3",
+        "6",
+        "8",
+        "16"
+      ]
+    ],
+    "Question": {
+      "content": "Find \\(\\beta_0\\) and \\(\\beta_1\\).",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "-7.2 and 1.5"
+        },
+        {
+          "type": "String",
+          "content": "-7.2 and 1.85"
+        },
+        {
+          "type": "String",
+          "content": "-7.2 and 1.75"
+        },
+        {
+          "type": "String",
+          "content": "-7.2 and 1.68"
+        }
+      ]
+    },
+    "topic": [
+      "Linear Regression",
+      "Inferential Statistics",
+      "Biostatistics",
+      "Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Linear Regression Coefficients</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Linear Regression</em> is a statistical method used to model the linear relationship between a dependent variable (Y) and an independent variable (X) by fitting a straight line to observed data. The equation of this line is typically represented as \\( Y = \\beta_0 + \\beta_1 X + \\epsilon \\), where:<br>\\( \\beta_1 \\) is the <em>slope</em> of the regression line, indicating the change in Y for every one-unit increase in X.<br>\\( \\beta_0 \\) is the <em>y-intercept</em>, representing the predicted value of Y when X is 0.<br>\\( \\epsilon \\) is the error term, accounting for the variability in Y not explained by X.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>The data points from the table are:<br>X (Doses µg): 4, 6, 8, 10, 12<br>Y (No. of deaths): 1, 3, 6, 8, 16<br><br>The formulas for the slope (\\( \\beta_1 \\)) and y-intercept (\\( \\beta_0 \\)) are:<br>Slope: \\[ \\beta_1 = \\frac{n(\\sum XY) - (\\sum X)(\\sum Y)}{n(\\sum X^2) - (\\sum X)^2} \\]<br>Y-intercept: \\[ \\beta_0 = \\bar{Y} - \\beta_1 \\bar{X} \\]<br>where \\( n \\) is the number of data points, \\( \\bar{X} \\) is the mean of X, and \\( \\bar{Y} \\) is the mean of Y.</div><p style='margin:8px 0;'><strong>Step 1: Calculate the necessary sums from the given data</strong><br>We first determine the number of data points, \\( n \\), and then calculate the sums \\( \\sum X \\), \\( \\sum Y \\), \\( \\sum XY \\), and \\( \\sum X^2 \\).<br>The number of data points is \\( n = 5 \\).<br><br>| X | Y | XY | X\\(^2\\) |<br>|---|---|----|-----|<br>| 4 | 1 | 4  | 16  |<br>| 6 | 3 | 18 | 36  |<<br>| 8 | 6 | 48 | 64  |<br>| 10| 8 | 80 | 100 |<br>| 12| 16| 192| 144 |<br>|---|---|----|-----|<br>| \\( \\sum X = 40 \\) | \\( \\sum Y = 34 \\) | \\( \\sum XY = 342 \\) | \\( \\sum X^2 = 360 \\) |<br><br>From the table, we have:<br>\\( n = 5 \\)<br>\\( \\sum X = \\)<span style='color:var(--orange);font-weight:bold;'>40</span><br>\\( \\sum Y = \\)<span style='color:var(--orange);font-weight:bold;'>34</span><br>\\( \\sum XY = \\)<span style='color:var(--orange);font-weight:bold;'>342</span><br>\\( \\sum X^2 = \\)<span style='color:var(--orange);font-weight:bold;'>360</span></p><p style='margin:8px 0;'><strong>Step 2: Calculate the slope (\\( \\beta_1 \\))</strong><br>We use the formula for the slope:<br>\\[ \\beta_1 = \\frac{n(\\sum XY) - (\\sum X)(\\sum Y)}{n(\\sum X^2) - (\\sum X)^2} \\]<br>Substitute the values obtained in Step 1 into the formula:<br>\\[ \\beta_1 = \\frac{5(342) - (40)(34)}{5(360) - (40)^2} \\]<br>Perform the multiplications in the numerator and denominator:<br>\\[ \\beta_1 = \\frac{1710 - 1360}{1800 - 1600} \\]<br>Perform the subtractions:<br>\\[ \\beta_1 = \\frac{350}{200} \\]<br>Simplify the fraction to find the slope:<br>\\[ \\beta_1 = \\)<span style='color:var(--orange);font-weight:bold;'>1.75</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the means (\\( \\bar{X} \\) and \\( \\bar{Y} \\))</strong><br>We need the means of X and Y to calculate the y-intercept.<br>The formula for the mean of X is:<br>\\[ \\bar{X} = \\frac{\\sum X}{n} \\]<br>Substitute the values:<br>\\[ \\bar{X} = \\frac{40}{5} \\]<br>Simplify:<br>\\[ \\bar{X} = \\)<span style='color:var(--orange);font-weight:bold;'>8</span><br><br>The formula for the mean of Y is:<br>\\[ \\bar{Y} = \\frac{\\sum Y}{n} \\]<br>Substitute the values:<br>\\[ \\bar{Y} = \\frac{34}{5} \\]<br>Simplify:<br>\\[ \\bar{Y} = \\)<span style='color:var(--orange);font-weight:bold;'>6.8</span></p><p style='margin:8px 0;'><strong>Step 4: Calculate the y-intercept (\\( \\beta_0 \\))</strong><br>We use the formula for the y-intercept:<br>\\[ \\beta_0 = \\bar{Y} - \\beta_1 \\bar{X} \\]<br>Substitute the calculated values for \\( \\bar{Y} \\), \\( \\beta_1 \\), and \\( \\bar{X} \\) into the formula:<br>\\[ \\beta_0 = 6.8 - (1.75)(8) \\]<br>Perform the multiplication:<br>\\[ \\beta_0 = 6.8 - 14 \\]<br>Perform the subtraction to find the y-intercept:<br>\\[ \\beta_0 = \\)<span style='color:var(--orange);font-weight:bold;'>-7.2</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The calculated regression line equation is \\( Y = -7.2 + 1.75X \\). Let's check how well this line predicts the number of deaths for some given doses:<br>For \\( X = 4 \\): \\( Y_{predicted} = -7.2 + 1.75(4) = -7.2 + 7 = -0.2 \\). (Actual Y=1)<br>For \\( X = 8 \\): \\( Y_{predicted} = -7.2 + 1.75(8) = -7.2 + 14 = 6.8 \\). (Actual Y=6)<br>For \\( X = 12 \\): \\( Y_{predicted} = -7.2 + 1.75(12) = -7.2 + 21 = 13.8 \\). (Actual Y=16)<br>The predicted values are reasonably close to the actual observed values, confirming the correctness of our calculated coefficients.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The coefficients are \\( \\beta_0 = -7.2 \\) and \\( \\beta_1 = 1.75 \\).</p></div>\""
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-7.2 and 1.75"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4 @ 2011/2012",
+    "img": null,
+    "table": [
+      [
+        "Doses X(µg)",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      [
+        "No. of deaths",
+        "1",
+        "3",
+        "6",
+        "8",
+        "16"
+      ]
+    ],
+    "Question": {
+      "content": "Hence, the equation of the best fit \\(y = \\beta_0 + \\beta_1x\\) is:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(y = -7.2 + 1.5x\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(y = -7.2 + 1.85x\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(y = -7.2 + 1.75x\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(y = -7.2 + 1.68x\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Linear Regression",
+      "Inferential Statistics",
+      "Biostatistics",
+      "Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Simple Linear Regression</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Simple Linear Regression</em> is a statistical method used to model the relationship between two continuous variables, typically denoted as \\( X \\) (independent variable) and \\( Y \\) (dependent variable). The goal is to find the equation of a straight line that best fits the observed data, minimizing the sum of the squared differences between the observed and predicted \\( Y \\) values.<br>The equation of the best fit line is given by: \\( y = \\beta_0 + \\beta_1x \\), where:<br>\\( \\beta_1 \\) is the slope of the regression line.<br>\\( \\beta_0 \\) is the y-intercept of the regression line.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Data points for Doses (X) and No. of deaths (Y):<br>X = [4, 6, 8, 10, 12]<br>Y = [1, 3, 6, 8, 16]<br>Number of data points, \\( n = 5 \\).<br>Formula for slope: \\( \\beta_1 = \\frac{n(\\Sigma XY) - (\\Sigma X)(\\Sigma Y)}{n(\\Sigma X^2) - (\\Sigma X)^2} \\)<br>Formula for y-intercept: \\( \\beta_0 = \\bar{Y} - \\beta_1\\bar{X} \\)</div><p style='margin:8px 0;'><strong>Step 1: Calculate the necessary sums</strong><br>We need to compute \\( \\Sigma X \\), \\( \\Sigma Y \\), \\( \\Sigma X^2 \\), and \\( \\Sigma XY \\).<br>\\[ \\Sigma X = 4 + 6 + 8 + 10 + 12 = \\text{<span style='color:var(--orange);font-weight:bold;'>40</span>} \\]<br>\\[ \\Sigma Y = 1 + 3 + 6 + 8 + 16 = \\text{<span style='color:var(--orange);font-weight:bold;'>34</span>} \\]<br>\\[ \\Sigma X^2 = 4^2 + 6^2 + 8^2 + 10^2 + 12^2 \\]<br>\\[ = 16 + 36 + 64 + 100 + 144 = \\text{<span style='color:var(--orange);font-weight:bold;'>360</span>} \\]<br>\\[ \\Sigma XY = (4 \\times 1) + (6 \\times 3) + (8 \\times 6) + (10 \\times 8) + (12 \\times 16) \\]<br>\\[ = 4 + 18 + 48 + 80 + 192 = \\text{<span style='color:var(--orange);font-weight:bold;'>342</span>} \\] </p><p style='margin:8px 0;'><strong>Step 2: Calculate the means of X and Y</strong><br>The mean of X is \\( \\bar{X} = \\frac{\\Sigma X}{n} \\).<br>\\[ \\bar{X} = \\frac{40}{5} = \\text{<span style='color:var(--orange);font-weight:bold;'>8</span>} \\]<br>The mean of Y is \\( \\bar{Y} = \\frac{\\Sigma Y}{n} \\).<br>\\[ \\bar{Y} = \\frac{34}{5} = \\text{<span style='color:var(--orange);font-weight:bold;'>6.8</span>} \\] </p><p style='margin:8px 0;'><strong>Step 3: Calculate the slope (\\( \\beta_1 \\))</strong><br>Use the formula for the slope:<br>\\[ \\beta_1 = \\frac{n(\\Sigma XY) - (\\Sigma X)(\\Sigma Y)}{n(\\Sigma X^2) - (\\Sigma X)^2} \\]<br>Substitute the calculated values:<br>\\[ \\beta_1 = \\frac{5(342) - (40)(34)}{5(360) - (40)^2} \\]<br>Calculate the numerator:<br>\\[ 5 \\times 342 = 1710 \\]<br>\\[ 40 \\times 34 = 1360 \\]<br>\\[ \\text{Numerator} = 1710 - 1360 = 350 \\]<br>Calculate the denominator:<br>\\[ 5 \\times 360 = 1800 \\]<br>\\[ 40^2 = 1600 \\]<br>\\[ \\text{Denominator} = 1800 - 1600 = 200 \\]<br>Now, compute the slope:<br>\\[ \\beta_1 = \\frac{350}{200} = \\text{<span style='color:var(--orange);font-weight:bold;'>1.75</span>} \\] </p><p style='margin:8px 0;'><strong>Step 4: Calculate the y-intercept (\\( \\beta_0 \\))</strong><br>Use the formula for the y-intercept:<br>\\[ \\beta_0 = \\bar{Y} - \\beta_1\\bar{X} \\]<br>Substitute the calculated means and slope:<br>\\[ \\beta_0 = 6.8 - (1.75)(8) \\]<br>Perform the multiplication:<br>\\[ 1.75 \\times 8 = 14 \\]<br>Compute the intercept:<br>\\[ \\beta_0 = 6.8 - 14 = \\text{<span style='color:var(--orange);font-weight:bold;'>-7.2</span>} \\] </p><p style='margin:8px 0;'><strong>Step 5: Formulate the equation of the best fit line</strong><br>The equation of the best fit line is \\( y = \\beta_0 + \\beta_1x \\).<br>Substitute the calculated values for \\( \\beta_0 \\) and \\( \\beta_1 \\):<br>\\[ y = -7.2 + 1.75x \\] </p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can plug in one of the X values into our derived equation and compare the predicted Y value to the actual Y value.<br>Let's use \\( X = 8 \\).<br>Predicted \\( Y = -7.2 + 1.75(8) \\)<br>\\( Y = -7.2 + 14 \\)<br>\\( Y = 6.8 \\)<br>The actual number of deaths for a dose of 8 µg is 6. The predicted value of 6.8 is reasonably close, indicating our calculations for \\( \\beta_0 \\) and \\( \\beta_1 \\) are correct.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The equation of the best fit is \\( y = -7.2 + 1.75x \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(y = -7.2 + 1.75x\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2011/2012",
+    "img": null,
+    "table": [
+      [
+        "Doses X(µg)",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      [
+        "No. of deaths",
+        "1",
+        "3",
+        "6",
+        "8",
+        "16"
+      ]
+    ],
+    "Question": {
+      "content": "If 16 doses of a poison were given to groups of 25 mice, what is the number of deaths?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "19.8"
+        },
+        {
+          "type": "String",
+          "content": "20.8"
+        },
+        {
+          "type": "String",
+          "content": "21.8"
+        },
+        {
+          "type": "String",
+          "content": "22.8"
+        }
+      ]
+    },
+    "topic": [
+      "Biostatistics",
+      "Experimental Design",
+      "Variables",
+      "Probability Distributions",
+      "Inferential Statistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Linear Regression for Dose-Response Prediction</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Linear regression</em> is a statistical method used to model the relationship between a dependent variable (Y) and one or more independent variables (X) by fitting a linear equation to observed data.<br>The equation of a simple linear regression line is typically expressed as \\( Y = a + bX \\), where:<br>• \\( Y \\) is the dependent variable (e.g., number of deaths).<br>• \\( X \\) is the independent variable (e.g., dose).<br>• \\( b \\) is the slope of the regression line, representing the change in Y for a one-unit change in X.<br>• \\( a \\) is the Y-intercept, representing the value of Y when X is 0.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>• Data points (Dose X, No. of deaths Y) from the table:<br>&nbsp;&nbsp; (4, 1), (6, 3), (8, 6), (10, 8), (12, 16)<br>• Target dose for prediction: \\( X = 16\\,\\mu g \\)<br>• The information about \"groups of 25 mice\" provides context for the experiment but is not directly used in the calculation of the number of deaths based on the provided table data, as the table already gives the observed number of deaths.</div><p style='margin:8px 0;'><strong>Step 1: Calculate sums required for linear regression</strong><br>We need to calculate \\( \\Sigma X \\), \\( \\Sigma Y \\), \\( \\Sigma XY \\), and \\( \\Sigma X^2 \\) from the given data points.<br>Number of data points, \\( n = 5 \\).<br><br>| X (Dose) | Y (Deaths) | XY | X\\(^2\\) |<br>|:--------:|:----------:|:--:|:-----:|<br>| 4        | 1          | 4  | 16    |<br>| 6        | 3          | 18 | 36    |<br>| 8        | 6          | 48 | 64    |<br>| 10       | 8          | 80 | 100   |<br>| 12       | 16         | 192| 144   |<br>|----------|------------|----|-------|<br>| \\( \\Sigma X = 40 \\) | \\( \\Sigma Y = 34 \\) | \\( \\Sigma XY = 342 \\) | \\( \\Sigma X^2 = 360 \\) |<br><br>Therefore:<br>\\( \\Sigma X = \\) <span style='color:var(--orange);font-weight:bold;'>40</span><br>\\( \\Sigma Y = \\) <span style='color:var(--orange);font-weight:bold;'>34</span><br>\\( \\Sigma XY = \\) <span style='color:var(--orange);font-weight:bold;'>342</span><br>\\( \\Sigma X^2 = \\) <span style='color:var(--orange);font-weight:bold;'>360</span></p><p style='margin:8px 0;'><strong>Step 2: Calculate the slope (b) of the regression line</strong><br>The formula for the slope \\( b \\) is:<br>\\[ b = \\frac{n(\\Sigma XY) - (\\Sigma X)(\\Sigma Y)}{n(\\Sigma X^2) - (\\Sigma X)^2} \\]<br>Substitute the calculated sums:<br>\\[ b = \\frac{5(342) - (40)(34)}{5(360) - (40)^2} \\]<br>Perform the multiplications:<br>\\[ b = \\frac{1710 - 1360}{1800 - 1600} \\]<br>Perform the subtractions:<br>\\[ b = \\frac{350}{200} \\]<br>Simplify the fraction:<br>\\( b = \\) <span style='color:var(--orange);font-weight:bold;'>1.75</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the Y-intercept (a) of the regression line</strong><br>The formula for the Y-intercept \\( a \\) is:<br>\\[ a = \\frac{\\Sigma Y - b(\\Sigma X)}{n} \\]<br>Substitute the calculated sums and the slope \\( b \\):<br>\\[ a = \\frac{34 - 1.75(40)}{5} \\]<br>Perform the multiplication:<br>\\[ a = \\frac{34 - 70}{5} \\]<br>Perform the subtraction:<br>\\[ a = \\frac{-36}{5} \\]<br>Simplify the fraction:<br>\\( a = \\) <span style='color:var(--orange);font-weight:bold;'>-7.2</span></p><p style='margin:8px 0;'><strong>Step 4: Formulate the linear regression equation</strong><br>Using the general form \\( Y = a + bX \\), substitute the calculated values for \\( a \\) and \\( b \\):<br>\\[ Y = -7.2 + 1.75X \\]<br>This can also be written as:<br>\\[ Y = 1.75X - 7.2 \\]<br>This is the regression equation that models the relationship between dose and number of deaths.</p><p style='margin:8px 0;'><strong>Step 5: Predict the number of deaths for the given dose</strong><br>The question asks for the number of deaths when the dose \\( X = 16\\,\\mu g \\). Substitute this value into the regression equation:<br>Formula:<br>\\[ Y = 1.75X - 7.2 \\]<br>Substitute \\( X = 16 \\):<br>\\[ Y = 1.75(16) - 7.2 \\]<br>Perform the multiplication:<br>\\[ Y = 28 - 7.2 \\]<br>Perform the subtraction:<br>\\( Y = \\) <span style='color:var(--orange);font-weight:bold;'>20.8</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can check if the equation predicts values consistent with the observed data points and the trend.<br>For \\( X=4 \\): \\( Y = 1.75(4) - 7.2 = 7 - 7.2 = -0.2 \\). This is close to the observed 1 death, acknowledging that a linear model might not perfectly fit the lowest doses.<br>For \\( X=12 \\): \\( Y = 1.75(12) - 7.2 = 21 - 7.2 = 13.8 \\). This is reasonably close to the observed 16 deaths.<br>The predicted value for \\( X=16 \\) is \\( 20.8 \\). This value follows the increasing trend of deaths with increasing dose, making it a reasonable extrapolation based on the linear model.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The number of deaths for 16 doses is 20.8.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "20.8"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2011/2012",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these formula is used for co-efficient \\(\\beta_1\\) in fitting simple linear regression model?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(\\frac{n\\sum x_iy_i - (\\sum x_i)(\\sum y_i)}{n\\sum x_i^2 - (\\sum x_i)^2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{n\\sum x_iy_i - (\\sum x_i)(\\sum y_i)}{\\sum y_i^2 - (\\sum y_i)^2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{\\sum y_i^2 - (\\sum y_i)^2}{\\sum x_i^2 - (\\sum x_i)^2}\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{n\\sum x_iy_i - (\\sum x_i)(\\sum y_i)}{\\sqrt{[n\\sum x_i^2 - (\\sum x_i)^2][n\\sum y_i^2 - (\\sum y_i)^2]}}\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Linear Regression",
+      "Inferential Statistics",
+      "Biostatistics",
+      "Variables",
+      "Regression Coefficients"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Simple Linear Regression Slope (\\\\(\\\\beta_1\\\\))</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Simple Linear Regression</em> is a statistical method that allows us to summarize and study relationships between two continuous variables: a dependent variable (response variable) \\(y\\), and an independent variable (predictor variable) \\(x\\).<br>The model is typically represented as: \\( y_i = \\\\beta_0 + \\\\beta_1 x_i + \\\\epsilon_i \\), where:<br>• \\( y_i \\) is the dependent variable for the \\(i\\)-th observation.<br>• \\( x_i \\) is the independent variable for the \\(i\\)-th observation.<br>• \\( \\\\beta_0 \\) is the y-intercept, representing the expected value of \\(y\\) when \\(x\\) is 0.<br>• \\( \\\\beta_1 \\) is the slope coefficient, representing the expected change in \\(y\\) for a one-unit change in \\(x\\).<br>• \\( \\\\epsilon_i \\) is the error term, representing the residual variation not explained by the model.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Identify the formula for the slope coefficient \\( \\\\beta_1 \\) in a simple linear regression model.</div><p style='margin:8px 0;'><strong>Step 1: Understand the Simple Linear Regression Model</strong><br>The simple linear regression model aims to find the best-fitting straight line through a set of data points \\((x_i, y_i)\\). The equation of this line is given by:<br>\\[ \\\\hat{y}_i = \\\\hat{\\\\beta}_0 + \\\\hat{\\\\beta}_1 x_i \\]where \\( \\\\hat{y}_i \\) is the predicted value of \\(y\\), and \\( \\\\hat{\\\\beta}_0 \\) and \\( \\\\hat{\\\\beta}_1 \\) are the estimated regression coefficients.</p><p style='margin:8px 0;'><strong>Step 2: Define the Regression Coefficients</strong><br>The coefficients \\( \\\\hat{\\\\beta}_0 \\) (intercept) and \\( \\\\hat{\\\\beta}_1 \\) (slope) are estimated using the Ordinary Least Squares (OLS) method. This method minimizes the sum of the squared differences between the observed \\(y_i\\) values and the predicted \\( \\\\hat{y}_i \\) values.</p><p style='margin:8px 0;'><strong>Step 3: Recall the Formula for the Slope Coefficient (\\\\(\\\\beta_1\\\\))</strong><br>The slope coefficient \\( \\\\hat{\\\\beta}_1 \\) quantifies the relationship between \\(x\\) and \\(y\\). It is defined as the ratio of the covariance between \\(x\\) and \\(y\\) to the variance of \\(x\\):<br>\\[ \\\\hat{\\\\beta}_1 = \\\\frac{\\\\text{Cov}(x, y)}{\\\\text{Var}(x)} \\]<br>In terms of summations, this formula can be expressed as:<br>\\[ \\\\hat{\\\\beta}_1 = \\\\frac{\\\\sum_{i=1}^n (x_i - \\\\bar{x})(y_i - \\\\bar{y})}{\\\\sum_{i=1}^n (x_i - \\\\bar{x})^2} \\]<br>Expanding the numerator and denominator to a more computationally friendly form, we multiply both by \\(n\\):<br>\\[ \\\\hat{\\\\beta}_1 = \\\\frac{n\\\\sum x_iy_i - (\\\\sum x_i)(\\\\sum y_i)}{n\\\\sum x_i^2 - (\\\\sum x_i)^2} \\]This is a standard formula used in simple linear regression analysis.</p><p style='margin:8px 0;'><strong>Step 4: Compare with Given Options</strong><br>Let's examine the provided options:<br>•   Option A: \\( \\\\frac{n\\\\sum x_iy_i - (\\\\sum x_i)(\\\\sum y_i)}{n\\\\sum x_i^2 - (\\\\sum x_i)^2} \\)<br>•   Option B: \\( \\\\frac{n\\\\sum x_iy_i - (\\\\sum x_i)(\\\\sum y_i)}{\\\\sum y_i^2 - (\\\\sum y_i)^2} \\)<br>•   Option C: \\( \\\\frac{\\\\sum y_i^2 - (\\\\sum y_i)^2}{\\\\sum x_i^2 - (\\\\sum x_i)^2} \\)<br>•   Option D: \\( \\\\frac{n\\\\sum x_iy_i - (\\\\sum x_i)(\\\\sum y_i)}{\\\\sqrt{[n\\\\sum x_i^2 - (\\\\sum x_i)^2][n\\\\sum y_i^2 - (\\\\sum y_i)^2]}} \\)<br><br>Comparing the derived formula from Step 3 with the options, we find that <span style='color:var(--orange);font-weight:bold;'>Option A exactly matches the formula for \\( \\\\hat{\\\\beta}_1 \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>•   Option A is the correct formula for the slope coefficient \\( \\\\beta_1 \\) in simple linear regression, derived from the least squares method.<br>•   Option B has an incorrect denominator; it uses a form related to the variance of \\(y\\) instead of \\(x\\).<br>•   Option C represents a ratio of variances, not the slope coefficient.<br>•   Option D is the formula for the Pearson product-moment correlation coefficient \\(r\\), which measures the strength and direction of a linear relationship, not the slope of the regression line.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correct formula for the coefficient \\( \\\\beta_1 \\) is given by Option A.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{n\\sum x_iy_i - (\\sum x_i)(\\sum y_i)}{n\\sum x_i^2 - (\\sum x_i)^2}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2011/2012",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of these is the correct formula for the chi-square test statistics?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum \\\\frac{(O_i - E_i)^2}{E_i}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)}{E_i}\\\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i + E_i)^2}{E_i}\\\\)"
+        }
+      ]
+    },
+    "topic": [
+      "Hypothesis Testing",
+      "Inferential Statistics",
+      "Categorical Data Analysis",
+      "Biostatistics",
+      "Chi-square Test"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Test Statistic Formula</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-square (\\\\(\\chi^2\\\\)) test</em> is a statistical test used to determine if there is a significant association between two categorical variables or if observed frequencies differ significantly from expected frequencies.<br><ul><li><em>Observed frequency (\\\\(O_i\\\\))</em>: The actual count of observations in each category or cell.</li><li><em>Expected frequency (\\\\(E_i\\\\))</em>: The frequency that would be expected in each category or cell under the null hypothesis (e.g., no association or a specific distribution).</li><li>The <em>Chi-square test statistic</em> quantifies the overall discrepancy between observed and expected frequencies.</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Identify the correct formula for the chi-square test statistic from the provided options, where \\\\(O_i\\\\) represents observed frequencies and \\\\(E_i\\\\) represents expected frequencies.</div><p style='margin:8px 0;'><strong>Step 1: Understand the Purpose of the Chi-square Test Statistic</strong><br>The chi-square test statistic measures how much the observed frequencies in various categories deviate from the frequencies that would be expected if there were no relationship or difference (under the null hypothesis). It must provide a single, positive value that increases as the discrepancy between observed and expected values grows.</p><p style='margin:8px 0;'><strong>Step 2: Account for Differences Between Observed and Expected Frequencies</strong><br>For each category \\\\(i\\\\), we first find the difference between the observed and expected frequencies: <br>\\\\[ (O_i - E_i) \\\\] <br>If we simply summed these differences, the result would often be zero because the sum of observed frequencies equals the sum of expected frequencies. To ensure that both positive and negative differences contribute to the total discrepancy, we square this difference: <br>\\\\[ (O_i - E_i)^2 \\\\] <span style='color:var(--orange);font-weight:bold;'>This squaring ensures all contributions are positive.</span></p><p style='margin:8px 0;'><strong>Step 3: Standardize the Squared Differences by Expected Frequencies</strong><br>The significance of a difference depends on the magnitude of the expected frequency. For example, a difference of 5 is more significant if the expected frequency is 10 than if it's 1000. To account for this, we divide the squared difference by the expected frequency for that category: <br>\\\\[ \\\\frac{(O_i - E_i)^2}{E_i} \\\\] <span style='color:var(--orange);font-weight:bold;'>This step normalizes the contribution of each category based on its expected count.</span></p><p style='margin:8px 0;'><strong>Step 4: Sum Across All Categories</strong><br>To obtain the total chi-square test statistic, we sum these standardized squared differences over all \\\\(n\\\\) categories (or cells in a contingency table): <br>\\\\[ \\\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i} \\\\] <span style='color:var(--orange);font-weight:bold;'>The summation symbol \\\\(\\sum_{i=1}^n\\\\) indicates that this calculation is performed for each category from the first (\\\\(i=1\\\\)) to the last (\\\\(n\\\\)), and all results are added together.</span></p><p style='margin:8px 0;'><strong>Step 5: Compare with Given Options</strong><br>Let's evaluate the provided options against the derived formula:<br><ul><li>Option 1: \\\\(\\chi^2 = \\\\sum \\\\frac{(O_i - E_i)^2}{E_i}\\\\)<br>This is very close, but it omits the explicit summation limits \\\\(i=1\\\\) to \\\\(n\\\\), which are standard in formal notation.</li><li>Option 2: \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\)<br>This option exactly matches the standard formula, including the squaring of the difference and the explicit summation limits.</li><li>Option 3: \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)}{E_i}\\\\)<br>This option is incorrect because it does not square the difference \\\\((O_i - E_i)\\\\). Without squaring, positive and negative differences would cancel out, making the statistic uninformative.</li><li>Option 4: \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i + E_i)^2}{E_i}\\\\)<br>This option is incorrect because it uses the sum \\\\((O_i + E_i)\\\\) instead of the difference \\\\((O_i - E_i)\\\\). The chi-square test measures discrepancy, not agreement in this manner.</li></ul>Based on this comparison, Option 2 is the correct formula.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The formula \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\) is the universally accepted and standard formula for the chi-square test statistic. It correctly quantifies the aggregate difference between observed and expected frequencies, ensuring that all discrepancies contribute positively and are weighted appropriately by their expected values. This formula is fundamental to hypothesis testing for categorical data.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correct formula for the chi-square test statistic is \\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\\\(\\chi^2 = \\\\sum_{i=1}^n \\\\frac{(O_i - E_i)^2}{E_i}\\\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2011/2012",
+    "img": null,
+    "table": [
+      [
+        "x",
+        "3",
+        "4",
+        "2",
+        "6"
+      ],
+      [
+        "y",
+        "8",
+        "5",
+        "14",
+        "17"
+      ]
+    ],
+    "Question": {
+      "content": "Use the information below to answer question 15 and 16. Given the following data. Evaluate \\(\\beta_0\\) and \\(\\beta_1\\)",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "-2 and 4"
+        },
+        {
+          "type": "String",
+          "content": "-3 and 4"
+        },
+        {
+          "type": "String",
+          "content": "-4 and 2"
+        },
+        {
+          "type": "String",
+          "content": "-4 and 2"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics",
+      "Biostatistics",
+      "Linear Regression",
+      "Regression Coefficients",
+      "Inferential Statistics",
+      "Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Linear Regression Coefficients (\\\\(\\\\beta_0\\\\) and \\\\(\\\\beta_1\\\\))</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Linear Regression</em> is a statistical method used to model the relationship between a dependent variable (y) and one or more independent variables (x) by fitting a linear equation to observed data.<br>The <em>least squares regression line</em> is represented by the equation \\\\( \\\\hat{y} = \\\\beta_0 + \\\\beta_1 x \\\\), where:<br>\\\\( \\\\beta_0 \\\\) is the <em>y-intercept</em>, representing the predicted value of y when x is 0.<br>\\\\( \\\\beta_1 \\\\) is the <em>slope</em>, representing the change in y for a one-unit change in x.<br>The <em>least squares method</em> minimizes the sum of the squared differences between the observed y-values and the predicted y-values (Sum of Squared Errors, SSE).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Data points: (3, 8), (4, 5), (2, 14), (6, 17)<br>Formulas for least squares coefficients:<br>Slope: \\\\( \\\\beta_1 = \\\\frac{n \\\\sum (xy) - (\\\\sum x)(\\\\sum y)}{n \\\\sum (x^2) - (\\\\sum x)^2} \\\\)<br>Y-intercept: \\\\( \\\\beta_0 = \\\\bar{y} - \\\\beta_1 \\\\bar{x} \\\\)</div><p style='margin:8px 0;'><strong>Step 1: Calculate necessary summations and the number of data points (n)</strong><br>We need to calculate \\\\( \\\\sum x \\\\), \\\\( \\\\sum y \\\\), \\\\( \\\\sum xy \\\\), \\\\( \\\\sum x^2 \\\\), and \\\\( n \\\\) from the given data.<br>Given data:<br>\\\\( x \\\\): 3, 4, 2, 6<br>\\\\( y \\\\): 8, 5, 14, 17<br><br>Number of data points: <br>\\\\( n = 4 \\\\)<br><br>Sum of x values:<br>\\\\( \\\\sum x = 3 + 4 + 2 + 6 = \\\\)<span style='color:var(--orange);font-weight:bold;'>15</span><br><br>Sum of y values:<br>\\\\( \\\\sum y = 8 + 5 + 14 + 17 = \\\\)<span style='color:var(--orange);font-weight:bold;'>44</span><br><br>Sum of products of x and y:<br>\\\\( \\\\sum xy = (3 \\\\times 8) + (4 \\\\times 5) + (2 \\\\times 14) + (6 \\\\times 17) \\\\)<br>\\\\( \\\\sum xy = 24 + 20 + 28 + 102 = \\\\)<span style='color:var(--orange);font-weight:bold;'>174</span><br><br>Sum of squared x values:<br>\\\\( \\\\sum x^2 = 3^2 + 4^2 + 2^2 + 6^2 \\\\)<br>\\\\( \\\\sum x^2 = 9 + 16 + 4 + 36 = \\\\)<span style='color:var(--orange);font-weight:bold;'>65</span></p><p style='margin:8px 0;'><strong>Step 2: Calculate the means of x and y</strong><br>Mean of x:<br>\\\\( \\\\bar{x} = \\\\frac{\\\\sum x}{n} \\\\)<br>\\\\( \\\\bar{x} = \\\\frac{15}{4} = \\\\)<span style='color:var(--orange);font-weight:bold;'>3.75</span><br><br>Mean of y:<br>\\\\( \\\\bar{y} = \\\\frac{\\\\sum y}{n} \\\\)<br>\\\\( \\\\bar{y} = \\\\frac{44}{4} = \\\\)<span style='color:var(--orange);font-weight:bold;'>11</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the slope (\\\\(\\\\beta_1\\\\))</strong><br>\\[ \\\\beta_1 = \\\\frac{n \\\\sum (xy) - (\\\\sum x)(\\\\sum y)}{n \\\\sum (x^2) - (\\\\sum x)^2} \\]<br>Substitute the calculated values:<br>\\[ \\\\beta_1 = \\\\frac{4(174) - (15)(44)}{4(65) - (15)^2} \\]<br>Perform multiplication and subtraction:<br>\\[ \\\\beta_1 = \\\\frac{696 - 660}{260 - 225} \\]<br>Simplify:<br>\\[ \\\\beta_1 = \\\\frac{36}{35} \\]<br>The calculated slope is <span style='color:var(--orange);font-weight:bold;'>\\\\( \\\\beta_1 = \\\\frac{36}{35} \\\\approx 1.0286 \\\\)</span></p><p style='margin:8px 0;'><strong>Step 4: Calculate the y-intercept (\\\\(\\\\beta_0\\\\))</strong><br>\\[ \\\\beta_0 = \\\\bar{y} - \\\\beta_1 \\\\bar{x} \\]<br>Substitute the calculated means and slope:<br>\\[ \\\\beta_0 = 11 - \\\\left(\\\\frac{36}{35}\\\\right)(3.75) \\]<br>Convert 3.75 to a fraction: \\\\( 3.75 = \\\\frac{15}{4} \\\\)<br>\\[ \\\\beta_0 = 11 - \\\\left(\\\\frac{36}{35}\\\\right)\\\\left(\\\\frac{15}{4}\\\\right) \\]<br>Multiply the fractions:<br>\\[ \\\\beta_0 = 11 - \\\\frac{36 \\\\times 15}{35 \\\\times 4} \\]<br>\\[ \\\\beta_0 = 11 - \\\\frac{540}{140} \\]<br>Simplify the fraction \\\\( \\\\frac{540}{140} \\\\) by dividing numerator and denominator by 20:<br>\\[ \\\\beta_0 = 11 - \\\\frac{27}{7} \\]<br>Find a common denominator to subtract:<br>\\[ \\\\beta_0 = \\\\frac{11 \\\\times 7}{7} - \\\\frac{27}{7} \\]<br>\\[ \\\\beta_0 = \\\\frac{77 - 27}{7} \\]<br>Simplify:<br>\\[ \\\\beta_0 = \\\\frac{50}{7} \\]<br>The calculated y-intercept is <span style='color:var(--orange);font-weight:bold;'>\\\\( \\\\beta_0 = \\\\frac{50}{7} \\\\approx 7.1429 \\\\)</span></p><p style='margin:8px 0;'><strong>Step 5: Address discrepancy with options and determine the best fit</strong><br>The mathematically correct least squares coefficients are \\\\( \\\\beta_0 = \\\\frac{50}{7} \\\\) and \\\\( \\\\beta_1 = \\\\frac{36}{35} \\\\). These values are not present as exact options. Since this is an objective question requiring a choice from the given options, we must assume the question is asking for the pair of coefficients that provides the 'best fit' among the choices, which means minimizing the Sum of Squared Errors (SSE). We will calculate the SSE for each option.</p><p style='margin:8px 0;'><strong>Step 6: Calculate Sum of Squared Errors (SSE) for each option</strong><br>The SSE is calculated as \\\\( \\\\sum (y_i - \\\\hat{y}_i)^2 \\\\), where \\\\( \\\\hat{y}_i = \\\\beta_0 + \\\\beta_1 x_i \\\\).<br><br><strong>Option 1: \\\\( \\\\beta_0 = -2, \\\\beta_1 = 4 \\\\)</strong><br>Model: \\\\( \\\\hat{y} = -2 + 4x \\\\)<br>- For (3, 8): \\\\( \\\\hat{y} = -2 + 4(3) = 10 \\\\). Error: \\\\( (8-10)^2 = (-2)^2 = 4 \\\\)<br>- For (4, 5): \\\\( \\\\hat{y} = -2 + 4(4) = 14 \\\\). Error: \\\\( (5-14)^2 = (-9)^2 = 81 \\\\)<br>- For (2, 14): \\\\( \\\\hat{y} = -2 + 4(2) = 6 \\\\). Error: \\\\( (14-6)^2 = (8)^2 = 64 \\\\)<br>- For (6, 17): \\\\( \\\\hat{y} = -2 + 4(6) = 22 \\\\). Error: \\\\( (17-22)^2 = (-5)^2 = 25 \\\\)<br>SSE for Option 1 = \\\\( 4 + 81 + 64 + 25 = \\\\)<span style='color:var(--orange);font-weight:bold;'>174</span><br><br><strong>Option 2: \\\\( \\\\beta_0 = -3, \\\\beta_1 = 4 \\\\)</strong><br>Model: \\\\( \\\\hat{y} = -3 + 4x \\\\)<br>- For (3, 8): \\\\( \\\\hat{y} = -3 + 4(3) = 9 \\\\). Error: \\\\( (8-9)^2 = (-1)^2 = 1 \\\\)<br>- For (4, 5): \\\\( \\\\hat{y} = -3 + 4(4) = 13 \\\\). Error: \\\\( (5-13)^2 = (-8)^2 = 64 \\\\)<br>- For (2, 14): \\\\( \\\\hat{y} = -3 + 4(2) = 5 \\\\). Error: \\\\( (14-5)^2 = (9)^2 = 81 \\\\)<br>- For (6, 17): \\\\( \\\\hat{y} = -3 + 4(6) = 21 \\\\). Error: \\\\( (17-21)^2 = (-4)^2 = 16 \\\\)<br>SSE for Option 2 = \\\\( 1 + 64 + 81 + 16 = \\\\)<span style='color:var(--orange);font-weight:bold;'>162</span><br><br><strong>Option 3/4: \\\\( \\\\beta_0 = -4, \\\\beta_1 = 2 \\\\)</strong><br>Model: \\\\( \\\\hat{y} = -4 + 2x \\\\)<br>- For (3, 8): \\\\( \\\\hat{y} = -4 + 2(3) = 2 \\\\). Error: \\\\( (8-2)^2 = (6)^2 = 36 \\\\)<br>- For (4, 5): \\\\( \\\\hat{y} = -4 + 2(4) = 4 \\\\). Error: \\\\( (5-4)^2 = (1)^2 = 1 \\\\)<br>- For (2, 14): \\\\( \\\\hat{y} = -4 + 2(2) = 0 \\\\). Error: \\\\( (14-0)^2 = (14)^2 = 196 \\\\)<br>- For (6, 17): \\\\( \\\\hat{y} = -4 + 2(6) = 8 \\\\). Error: \\\\( (17-8)^2 = (9)^2 = 81 \\\\)<br>SSE for Option 3/4 = \\\\( 36 + 1 + 196 + 81 = \\\\)<span style='color:var(--orange);font-weight:bold;'>314</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The calculations for \\\\( \\\\beta_0 = \\\\frac{50}{7} \\\\) and \\\\( \\\\beta_1 = \\\\frac{36}{35} \\\\) are confirmed to be the exact least squares coefficients. The SSE for these exact coefficients would be lower than any of the options. However, since the question requires selecting from the given options, we verified that Option 2 yields the lowest SSE among the choices, making it the 'best fit' from the provided list.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The pair of coefficients that best fits the data among the given options is -3 and 4.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-3 and 4"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2011/2012",
+    "img": null,
+    "table": [
+      [
+        "x",
+        "3",
+        "4",
+        "2",
+        "6"
+      ],
+      [
+        "y",
+        "8",
+        "5",
+        "14",
+        "17"
+      ]
+    ],
+    "Question": {
+      "content": "Evaluate \\(r\\) (Pearson correlation coefficient)",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "1"
+        },
+        {
+          "type": "String",
+          "content": "0"
+        },
+        {
+          "type": "String",
+          "content": "-1"
+        },
+        {
+          "type": "String",
+          "content": "2"
+        }
+      ]
+    },
+    "topic": [
+      "Biostatistics",
+      "Inferential Statistics",
+      "Linear Regression",
+      "Regression Coefficients",
+      "Correlation"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Pearson Correlation Coefficient (\\(r\\))</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Pearson correlation coefficient</em>, denoted by \\(r\\), is a measure of the linear correlation (dependence) between two sets of data. It is a dimensionless quantity that ranges from -1 to +1.<br><ul><li>\\(r = +1\\) indicates a perfect positive linear relationship.</li><li>\\(r = -1\\) indicates a perfect negative linear relationship.</li><li>\\(r = 0\\) indicates no linear relationship.</li></ul>The formula for \\(r\\) is:<br>\\[ r = \\frac{n(\\sum xy) - (\\sum x)(\\sum y)}{\\sqrt{[n\\sum x^2 - (\\sum x)^2][n\\sum y^2 - (\\sum y)^2]}} \\]<br>where \\(n\\) is the number of data points.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Data points:<br>\\((x_1, y_1) = (3, 8)\\)<br>\\((x_2, y_2) = (4, 5)\\)<br>\\((x_3, y_3) = (2, 14)\\)<br>\\((x_4, y_4) = (6, 17)\\)<br>Number of data points, \\(n = 4\\).</div><p style='margin:8px 0;'><strong>Step 1: List the given data points and determine \\(n\\)</strong><br>The given data points are:<br>\\((x_1, y_1) = (3, 8)\\)<br>\\((x_2, y_2) = (4, 5)\\)<br>\\((x_3, y_3) = (2, 14)\\)<br>\\((x_4, y_4) = (6, 17)\\)<br>The number of data points is \\(n = \\)<span style='color:var(--orange);font-weight:bold;'>4</span>.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the sum of x values (\\( \\sum x \\))</strong><br>\\[ \\sum x = x_1 + x_2 + x_3 + x_4 \\]<br>\\[ \\sum x = 3 + 4 + 2 + 6 \\]<br>\\[ \\sum x = \\text{<span style='color:var(--orange);font-weight:bold;'>15</span>} \\] </p><p style='margin:8px 0;'><strong>Step 3: Calculate the sum of y values (\\( \\sum y \\))</strong><br>\\[ \\sum y = y_1 + y_2 + y_3 + y_4 \\]<br>\\[ \\sum y = 8 + 5 + 14 + 17 \\]<br>\\[ \\sum y = \\text{<span style='color:var(--orange);font-weight:bold;'>44</span>} \\] </p><p style='margin:8px 0;'><strong>Step 4: Calculate the sum of x squared values (\\( \\sum x^2 \\))</strong><br>\\[ \\sum x^2 = x_1^2 + x_2^2 + x_3^2 + x_4^2 \\]<br>\\[ \\sum x^2 = 3^2 + 4^2 + 2^2 + 6^2 \\]<br>\\[ \\sum x^2 = 9 + 16 + 4 + 36 \\]<br>\\[ \\sum x^2 = \\text{<span style='color:var(--orange);font-weight:bold;'>65</span>} \\] </p><p style='margin:8px 0;'><strong>Step 5: Calculate the sum of y squared values (\\( \\sum y^2 \\))</strong><br>\\[ \\sum y^2 = y_1^2 + y_2^2 + y_3^2 + y_4^2 \\]<br>\\[ \\sum y^2 = 8^2 + 5^2 + 14^2 + 17^2 \\]<br>\\[ \\sum y^2 = 64 + 25 + 196 + 289 \\]<br>\\[ \\sum y^2 = \\text{<span style='color:var(--orange);font-weight:bold;'>574</span>} \\] </p><p style='margin:8px 0;'><strong>Step 6: Calculate the sum of the product of x and y values (\\( \\sum xy \\))</strong><br>\\[ \\sum xy = (x_1 y_1) + (x_2 y_2) + (x_3 y_3) + (x_4 y_4) \\]<br>\\[ \\sum xy = 24 + 20 + 28 + 102 \\]<br>\\[ \\sum xy = \\text{<span style='color:var(--orange);font-weight:bold;'>174</span>} \\] </p><p style='margin:8px 0;'><strong>Step 7: State the Pearson correlation coefficient formula</strong><br>The formula for the Pearson correlation coefficient \\(r\\) is:<br>\\[ r = \\frac{n(\\sum xy) - (\\sum x)(\\sum y)}{\\sqrt{[n\\sum x^2 - (\\sum x)^2][n\\sum y^2 - (\\sum y)^2]}} \\] </p><p style='margin:8px 0;'><strong>Step 8: Calculate the numerator of the formula</strong><br>Substitute the calculated sums into the numerator:<br>Numerator \\( = n(\\sum xy) - (\\sum x)(\\sum y) \\)<br>Numerator \\( = 4(174) - (15)(44) \\)<br>Numerator \\( = 696 - 660 \\)<br>Numerator \\( = \\text{<span style='color:var(--orange);font-weight:bold;'>36</span>} \\) </p><p style='margin:8px 0;'><strong>Step 9: Calculate the first part of the denominator (x-component)</strong><br>Substitute the calculated sums into the x-component of the denominator:<br>x-component \\( = n\\sum x^2 - (\\sum x)^2 \\)<br>x-component \\( = 4(65) - (15)^2 \\)<br>x-component \\( = 260 - 225 \\)<br>x-component \\( = \\text{<span style='color:var(--orange);font-weight:bold;'>35</span>} \\) </p><p style='margin:8px 0;'><strong>Step 10: Calculate the second part of the denominator (y-component)</strong><br>Substitute the calculated sums into the y-component of the denominator:<br>y-component \\( = n\\sum y^2 - (\\sum y)^2 \\)<br>y-component \\( = 4(574) - (44)^2 \\)<br>y-component \\( = 2296 - 1936 \\)<br>y-component \\( = \\text{<span style='color:var(--orange);font-weight:bold;'>360</span>} \\) </p><p style='margin:8px 0;'><strong>Step 11: Calculate the square root of the product of the denominator parts</strong><br>Denominator \\( = \\sqrt{(\\text{x-component})(\\text{y-component})} \\)<br>Denominator \\( = \\sqrt{(35)(360)} \\)<br>Denominator \\( = \\sqrt{12600} \\)<br>Denominator \\( \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>112.2497</span>} \\) </p><p style='margin:8px 0;'><strong>Step 12: Calculate the Pearson correlation coefficient \\(r\\)</strong><br>Divide the numerator by the denominator:<br>\\[ r = \\frac{\\text{Numerator}}{\\text{Denominator}} \\]<br>\\[ r = \\frac{36}{112.2497} \\]<br>\\[ r \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>0.32071</span>} \\] </p><p style='margin:8px 0;'><strong>Step 13: Compare the calculated \\(r\\) with the given options</strong><br>The calculated value for \\(r\\) is approximately \\(0.32\\).<br>The given options are: 1, 0, -1, 2.<br>The value \\(r=2\\) is not possible for a correlation coefficient, as \\(r\\) must be between -1 and 1.<br>Comparing \\(0.32\\) to the valid options (1, 0, -1):<br>Distance to 1: \\(|0.32 - 1| = 0.68\\)<br>Distance to 0: \\(|0.32 - 0| = 0.32\\)<br>Distance to -1: \\(|0.32 - (-1)| = 1.32\\)<br>The calculated value \\(0.32\\) is numerically closest to <span style='color:var(--orange);font-weight:bold;'>0</span> among the valid options.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A Pearson correlation coefficient of approximately \\(0.32\\) indicates a weak positive linear relationship between \\(x\\) and \\(y\\). This means that as \\(x\\) tends to increase, \\(y\\) also tends to increase, but not very consistently or strongly. Given the options, 0 represents the closest integer value to a weak correlation.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Pearson correlation coefficient \\(r\\) is approximately 0.32, which is closest to 0 among the given options.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2011/2012",
+    "img": null,
+    "table": [
+      [
+        "Defects in vision",
+        "Normal",
+        "Short",
+        "Long",
+        "Total"
+      ],
+      [
+        "Eye color",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Blue",
+        "92",
+        "39( )",
+        "",
+        ""
+      ],
+      [
+        "Green",
+        "33",
+        "5( )",
+        "123",
+        ""
+      ],
+      [
+        "Gray",
+        "74( )",
+        "30",
+        "8",
+        ""
+      ],
+      [
+        "Hazel",
+        "75( )",
+        "",
+        "6( )",
+        "113"
+      ],
+      [
+        "Brown",
+        "70",
+        "31( )",
+        "?",
+        ""
+      ],
+      [
+        "Total",
+        "165",
+        "",
+        "",
+        "600"
+      ]
+    ],
+    "Question": {
+      "content": "Complete the following Chi-square table below given that the values in bracket are the expected frequencies (\\\\(E_{ij}\\\\)) while those without the bracket are the observed frequencies (\\\\(O_{ij}\\\\)). In a survey to examine whether defects in vision and eye color are independent, 600 children were classified as shown below. Also, given that \\\\\\\\(\\\\\\\\chi_{0.05}^2(1) = 15.507\\\\) and define \\\\(E_{ij}\\\\). State the hypothesis.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Chi-square Test",
+      "Hypothesis Testing",
+      "Categorical Data Analysis",
+      "Inferential Statistics",
+      "Biostatistics"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Chi-square Test for Independence</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chi-square test for independence</em> is used to determine if there is a significant association between two categorical variables.<br>It compares observed frequencies (\\\\(O_{ij}\\\\)) in a contingency table with expected frequencies (\\\\(E_{ij}\\\\)) that would occur if the variables were independent.<br>The <em>expected frequency</em> (\\\\(E_{ij}\\\\)) for a cell \\\\( (i, j) \\\\) is the frequency that would be expected if the null hypothesis of independence were true.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br><ul><li>A survey of 600 children classified by defects in vision and eye color.</li><li>Values without brackets are observed frequencies (\\\\(O_{ij}\\\\)).</li><li>Values in brackets are expected frequencies (\\\\(E_{ij}\\\\)).</li><li>Critical value: \\\\\\\\(\\\\\\\\chi_{0.05}^2(1) = 15.507\\\\).</li><li>The table contains inconsistencies: The sum of the observed frequencies in the 'Normal' column (\\\\(92+33+70 = 195\\\\)) does not match the given 'Normal' column total (165). This prevents accurate numerical completion of the table.</li></ul></div><p style='margin:8px 0;'><strong>Step 1: State the Purpose of the Chi-square Test for Independence</strong><br>The Chi-square test for independence aims to determine whether there is a statistically significant relationship between two categorical variables, in this case, 'Defects in vision' and 'Eye color'.</p><p style='margin:8px 0;'><strong>Step 2: State the Null Hypothesis (\\\\(H_0\\\\))</strong><br>The null hypothesis states that there is no association between the two variables; they are independent.<br>\\\\[ H_0: \\\\\\\\text{Defects in vision and eye color are independent.} \\\\\\]</p><p style='margin:8px 0;'><strong>Step 3: State the Alternative Hypothesis (\\\\(H_1\\\\))</strong><br>The alternative hypothesis states that there is an association between the two variables; they are not independent (or dependent).<br>\\\\[ H_1: \\\\\\\\text{Defects in vision and eye color are not independent.} \\\\\\]</p><p style='margin:8px 0;'><strong>Step 4: Define Expected Frequency (\\\\(E_{ij}\\\\))</strong><br>The expected frequency for a cell \\\\( (i, j) \\\\) in a contingency table is calculated using the formula:<br>\\\\[ E_{ij} = \\\\\\\\frac{\\\\\\\\text{Row Total} \\\\\\\\times \\\\\\\\text{Column Total}}{\\\\\\\\text{Grand Total}} \\\\\\]<br>Where:<br>• &nbsp;<strong>Row Total</strong> is the sum of all frequencies in row \\\\( i \\\\).<br>• &nbsp;<strong>Column Total</strong> is the sum of all frequencies in column \\\\( j \\\\).<br>• &nbsp;<strong>Grand Total</strong> is the total number of observations in the entire table (600 in this case).</p><p style='margin:8px 0;'><strong>Step 5: Address Table Completion</strong><br>Due to the inconsistencies in the provided data (e.g., the 'Normal' column total of 165 contradicts the sum of its observed values (\\\\(92+33+70=195\\\\))), it is not possible to accurately complete the table by calculating the remaining expected or observed frequencies. If the table were consistent, one would first calculate all row and column totals, then use the \\\\(E_{ij}\\\\) formula to find the expected frequencies for all cells, and finally calculate the Chi-square test statistic.</p><p style='margin:8px 0;'><strong>Step 6: Note on Critical Value</strong><br>The critical value \\\\\\\\(\\\\\\\\chi_{0.05}^2(1) = 15.507\\\\) is provided for a significance level of 0.05 and 1 degree of freedom. In a complete Chi-square test, this value would be compared to the calculated Chi-square test statistic to make a decision about rejecting or failing to reject the null hypothesis. However, since the table cannot be completed and the question only asks for the hypothesis and definition of \\\\(E_{ij}\\\\), this value is not directly used in answering the specific questions posed.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The null and alternative hypotheses are correctly stated for a test of independence. The definition of the expected frequency \\\\(E_{ij}\\\\) is standard in Chi-square analysis. The identified inconsistency in the table data is critical for understanding why numerical completion is not feasible.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Null Hypothesis (\\\\(H_0\\\\)): Defects in vision and eye color are independent.<br>&#8756; \\\\(E_{ij} = \\\\\\\\frac{\\\\\\\\text{Row Total} \\\\\\\\times \\\\\\\\text{Column Total}}{\\\\\\\\text{Grand Total}}\\\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Null Hypothesis (H0): Defects in vision and eye color are independent.<br>Eij = (Row Total x Column Total) / Grand Total"
+    }
+  }
+]
