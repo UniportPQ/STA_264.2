@@ -1,0 +1,158 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Statistics",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2011/2012",
+    "img": null,
+    "table": [
+      [
+        "x",
+        "3",
+        "4",
+        "2",
+        "6"
+      ],
+      [
+        "y",
+        "8",
+        "5",
+        "14",
+        "17"
+      ]
+    ],
+    "Question": {
+      "content": "Use the information below to answer question 15 and 16. Given the following data. Evaluate \\(\\beta_0\\) and \\(\\beta_1\\)",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "-2 and 4"
+        },
+        {
+          "type": "String",
+          "content": "-3 and 4"
+        },
+        {
+          "type": "String",
+          "content": "-4 and 2"
+        },
+        {
+          "type": "String",
+          "content": "-4 and 2"
+        }
+      ]
+    },
+    "topic": [
+      "Statistics",
+      "Biostatistics",
+      "Linear Regression",
+      "Regression Coefficients",
+      "Inferential Statistics",
+      "Variables"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Linear Regression Coefficients (\\\\(\\\\beta_0\\\\) and \\\\(\\\\beta_1\\\\))</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Linear Regression</em> is a statistical method used to model the relationship between a dependent variable (y) and one or more independent variables (x) by fitting a linear equation to observed data.<br>The <em>least squares regression line</em> is represented by the equation \\\\( \\\\hat{y} = \\\\beta_0 + \\\\beta_1 x \\\\), where:<br>\\\\( \\\\beta_0 \\\\) is the <em>y-intercept</em>, representing the predicted value of y when x is 0.<br>\\\\( \\\\beta_1 \\\\) is the <em>slope</em>, representing the change in y for a one-unit change in x.<br>The <em>least squares method</em> minimizes the sum of the squared differences between the observed y-values and the predicted y-values (Sum of Squared Errors, SSE).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Data points: (3, 8), (4, 5), (2, 14), (6, 17)<br>Formulas for least squares coefficients:<br>Slope: \\\\( \\\\beta_1 = \\\\frac{n \\\\sum (xy) - (\\\\sum x)(\\\\sum y)}{n \\\\sum (x^2) - (\\\\sum x)^2} \\\\)<br>Y-intercept: \\\\( \\\\beta_0 = \\\\bar{y} - \\\\beta_1 \\\\bar{x} \\\\)</div><p style='margin:8px 0;'><strong>Step 1: Calculate necessary summations and the number of data points (n)</strong><br>We need to calculate \\\\( \\\\sum x \\\\), \\\\( \\\\sum y \\\\), \\\\( \\\\sum xy \\\\), \\\\( \\\\sum x^2 \\\\), and \\\\( n \\\\) from the given data.<br>Given data:<br>\\\\( x \\\\): 3, 4, 2, 6<br>\\\\( y \\\\): 8, 5, 14, 17<br><br>Number of data points: <br>\\\\( n = 4 \\\\)<br><br>Sum of x values:<br>\\\\( \\\\sum x = 3 + 4 + 2 + 6 = \\\\)<span style='color:var(--orange);font-weight:bold;'>15</span><br><br>Sum of y values:<br>\\\\( \\\\sum y = 8 + 5 + 14 + 17 = \\\\)<span style='color:var(--orange);font-weight:bold;'>44</span><br><br>Sum of products of x and y:<br>\\\\( \\\\sum xy = (3 \\\\times 8) + (4 \\\\times 5) + (2 \\\\times 14) + (6 \\\\times 17) \\\\)<br>\\\\( \\\\sum xy = 24 + 20 + 28 + 102 = \\\\)<span style='color:var(--orange);font-weight:bold;'>174</span><br><br>Sum of squared x values:<br>\\\\( \\\\sum x^2 = 3^2 + 4^2 + 2^2 + 6^2 \\\\)<br>\\\\( \\\\sum x^2 = 9 + 16 + 4 + 36 = \\\\)<span style='color:var(--orange);font-weight:bold;'>65</span></p><p style='margin:8px 0;'><strong>Step 2: Calculate the means of x and y</strong><br>Mean of x:<br>\\\\( \\\\bar{x} = \\\\frac{\\\\sum x}{n} \\\\)<br>\\\\( \\\\bar{x} = \\\\frac{15}{4} = \\\\)<span style='color:var(--orange);font-weight:bold;'>3.75</span><br><br>Mean of y:<br>\\\\( \\\\bar{y} = \\\\frac{\\\\sum y}{n} \\\\)<br>\\\\( \\\\bar{y} = \\\\frac{44}{4} = \\\\)<span style='color:var(--orange);font-weight:bold;'>11</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the slope (\\\\(\\\\beta_1\\\\))</strong><br>\\[ \\\\beta_1 = \\\\frac{n \\\\sum (xy) - (\\\\sum x)(\\\\sum y)}{n \\\\sum (x^2) - (\\\\sum x)^2} \\]<br>Substitute the calculated values:<br>\\[ \\\\beta_1 = \\\\frac{4(174) - (15)(44)}{4(65) - (15)^2} \\]<br>Perform multiplication and subtraction:<br>\\[ \\\\beta_1 = \\\\frac{696 - 660}{260 - 225} \\]<br>Simplify:<br>\\[ \\\\beta_1 = \\\\frac{36}{35} \\]<br>The calculated slope is <span style='color:var(--orange);font-weight:bold;'>\\\\( \\\\beta_1 = \\\\frac{36}{35} \\\\approx 1.0286 \\\\)</span></p><p style='margin:8px 0;'><strong>Step 4: Calculate the y-intercept (\\\\(\\\\beta_0\\\\))</strong><br>\\[ \\\\beta_0 = \\\\bar{y} - \\\\beta_1 \\\\bar{x} \\]<br>Substitute the calculated means and slope:<br>\\[ \\\\beta_0 = 11 - \\\\left(\\\\frac{36}{35}\\\\right)(3.75) \\]<br>Convert 3.75 to a fraction: \\\\( 3.75 = \\\\frac{15}{4} \\\\)<br>\\[ \\\\beta_0 = 11 - \\\\left(\\\\frac{36}{35}\\\\right)\\\\left(\\\\frac{15}{4}\\\\right) \\]<br>Multiply the fractions:<br>\\[ \\\\beta_0 = 11 - \\\\frac{36 \\\\times 15}{35 \\\\times 4} \\]<br>\\[ \\\\beta_0 = 11 - \\\\frac{540}{140} \\]<br>Simplify the fraction \\\\( \\\\frac{540}{140} \\\\) by dividing numerator and denominator by 20:<br>\\[ \\\\beta_0 = 11 - \\\\frac{27}{7} \\]<br>Find a common denominator to subtract:<br>\\[ \\\\beta_0 = \\\\frac{11 \\\\times 7}{7} - \\\\frac{27}{7} \\]<br>\\[ \\\\beta_0 = \\\\frac{77 - 27}{7} \\]<br>Simplify:<br>\\[ \\\\beta_0 = \\\\frac{50}{7} \\]<br>The calculated y-intercept is <span style='color:var(--orange);font-weight:bold;'>\\\\( \\\\beta_0 = \\\\frac{50}{7} \\\\approx 7.1429 \\\\)</span></p><p style='margin:8px 0;'><strong>Step 5: Address discrepancy with options and determine the best fit</strong><br>The mathematically correct least squares coefficients are \\\\( \\\\beta_0 = \\\\frac{50}{7} \\\\) and \\\\( \\\\beta_1 = \\\\frac{36}{35} \\\\). These values are not present as exact options. Since this is an objective question requiring a choice from the given options, we must assume the question is asking for the pair of coefficients that provides the 'best fit' among the choices, which means minimizing the Sum of Squared Errors (SSE). We will calculate the SSE for each option.</p><p style='margin:8px 0;'><strong>Step 6: Calculate Sum of Squared Errors (SSE) for each option</strong><br>The SSE is calculated as \\\\( \\\\sum (y_i - \\\\hat{y}_i)^2 \\\\), where \\\\( \\\\hat{y}_i = \\\\beta_0 + \\\\beta_1 x_i \\\\).<br><br><strong>Option 1: \\\\( \\\\beta_0 = -2, \\\\beta_1 = 4 \\\\)</strong><br>Model: \\\\( \\\\hat{y} = -2 + 4x \\\\)<br>- For (3, 8): \\\\( \\\\hat{y} = -2 + 4(3) = 10 \\\\). Error: \\\\( (8-10)^2 = (-2)^2 = 4 \\\\)<br>- For (4, 5): \\\\( \\\\hat{y} = -2 + 4(4) = 14 \\\\). Error: \\\\( (5-14)^2 = (-9)^2 = 81 \\\\)<br>- For (2, 14): \\\\( \\\\hat{y} = -2 + 4(2) = 6 \\\\). Error: \\\\( (14-6)^2 = (8)^2 = 64 \\\\)<br>- For (6, 17): \\\\( \\\\hat{y} = -2 + 4(6) = 22 \\\\). Error: \\\\( (17-22)^2 = (-5)^2 = 25 \\\\)<br>SSE for Option 1 = \\\\( 4 + 81 + 64 + 25 = \\\\)<span style='color:var(--orange);font-weight:bold;'>174</span><br><br><strong>Option 2: \\\\( \\\\beta_0 = -3, \\\\beta_1 = 4 \\\\)</strong><br>Model: \\\\( \\\\hat{y} = -3 + 4x \\\\)<br>- For (3, 8): \\\\( \\\\hat{y} = -3 + 4(3) = 9 \\\\). Error: \\\\( (8-9)^2 = (-1)^2 = 1 \\\\)<br>- For (4, 5): \\\\( \\\\hat{y} = -3 + 4(4) = 13 \\\\). Error: \\\\( (5-13)^2 = (-8)^2 = 64 \\\\)<br>- For (2, 14): \\\\( \\\\hat{y} = -3 + 4(2) = 5 \\\\). Error: \\\\( (14-5)^2 = (9)^2 = 81 \\\\)<br>- For (6, 17): \\\\( \\\\hat{y} = -3 + 4(6) = 21 \\\\). Error: \\\\( (17-21)^2 = (-4)^2 = 16 \\\\)<br>SSE for Option 2 = \\\\( 1 + 64 + 81 + 16 = \\\\)<span style='color:var(--orange);font-weight:bold;'>162</span><br><br><strong>Option 3/4: \\\\( \\\\beta_0 = -4, \\\\beta_1 = 2 \\\\)</strong><br>Model: \\\\( \\\\hat{y} = -4 + 2x \\\\)<br>- For (3, 8): \\\\( \\\\hat{y} = -4 + 2(3) = 2 \\\\). Error: \\\\( (8-2)^2 = (6)^2 = 36 \\\\)<br>- For (4, 5): \\\\( \\\\hat{y} = -4 + 2(4) = 4 \\\\). Error: \\\\( (5-4)^2 = (1)^2 = 1 \\\\)<br>- For (2, 14): \\\\( \\\\hat{y} = -4 + 2(2) = 0 \\\\). Error: \\\\( (14-0)^2 = (14)^2 = 196 \\\\)<br>- For (6, 17): \\\\( \\\\hat{y} = -4 + 2(6) = 8 \\\\). Error: \\\\( (17-8)^2 = (9)^2 = 81 \\\\)<br>SSE for Option 3/4 = \\\\( 36 + 1 + 196 + 81 = \\\\)<span style='color:var(--orange);font-weight:bold;'>314</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The calculations for \\\\( \\\\beta_0 = \\\\frac{50}{7} \\\\) and \\\\( \\\\beta_1 = \\\\frac{36}{35} \\\\) are confirmed to be the exact least squares coefficients. The SSE for these exact coefficients would be lower than any of the options. However, since the question requires selecting from the given options, we verified that Option 2 yields the lowest SSE among the choices, making it the 'best fit' from the provided list.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The pair of coefficients that best fits the data among the given options is -3 and 4.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-3 and 4"
+    }
+  }
+]
