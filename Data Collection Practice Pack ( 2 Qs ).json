@@ -1,0 +1,179 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "STATISTICS FOR BIOLOGICAL SCIENCES",
+    "code": "STA_264.2",
+    "session": "Data Collection",
+    "time": 90,
+    "topics": [
+      "Analysis of Variance (ANOVA)",
+      "Analysis of Variance (ANOVA) for Biological Experiments",
+      "ANOVA",
+      "Basic Probability",
+      "Bayes' Theorem",
+      "Binomial Distribution",
+      "Bioinformatics Statistics Fundamentals",
+      "Biostatistics",
+      "Biostatistics Applications",
+      "Categorical Data Analysis",
+      "Categorical Data Analysis in Biology",
+      "Chi-square statistics",
+      "Chi-square Test",
+      "Chi-squared Statistics",
+      "Compound Probability",
+      "Correlation",
+      "Correlation Analysis",
+      "Correlation and Regression Analysis",
+      "Data Collection",
+      "Data Visualization",
+      "Decision Rule",
+      "Dependent Events",
+      "Dependent Variable",
+      "Descriptive Statistics",
+      "Descriptive Statistics for Biological Data",
+      "Discrete and Continuous Distributions",
+      "Empirical Probability",
+      "Expected Frequencies",
+      "Experimental Design",
+      "Experimental Design Principles",
+      "Frequency Distribution",
+      "Hypothesis Testing",
+      "Hypothesis Testing in Life Sciences",
+      "Hypothesis Testing Principles",
+      "Impossible Events",
+      "Independent Events",
+      "Inferential Statistics",
+      "Inferential Statistics and Estimation",
+      "Interpretation of Biological Data",
+      "Introduction to Survival Analysis",
+      "Linear Models",
+      "Linear Regression",
+      "Measures of Central Tendency",
+      "Measures of Position",
+      "Measures of Variability",
+      "Mutually Exclusive Events",
+      "Non-Parametric Hypothesis Tests",
+      "Non-parametric Statistical Methods",
+      "Non-parametric Statistical Tests",
+      "Non-parametric Statistics",
+      "Normal Distribution",
+      "Observed Frequencies",
+      "Parametric Hypothesis Tests",
+      "Parametric Statistical Tests",
+      "Poisson Distribution",
+      "Poisson Experiment",
+      "Prediction",
+      "Principles of Experimental Design",
+      "PROBABILITY AND STATISTICS FOR BIOLOGICAL SCIENCES",
+      "Probability Distributions",
+      "Probability Theory",
+      "Probability Theory Fundamentals",
+      "Probability Theory in Biology",
+      "Random Variables",
+      "Ratios",
+      "Regression Analysis",
+      "Regression and Correlation for Biological Relationships",
+      "Regression Coefficients",
+      "Sample Space",
+      "Sampling and Estimation",
+      "Sampling Methods",
+      "Significance Level",
+      "Statistical Calculations",
+      "Statistical Power and Sample Size",
+      "Statistical Software (R/Python)",
+      "Statistical Software Applications",
+      "Statistics",
+      "Statistics for Biological Sciences",
+      "Test Statistics",
+      "Two-sample Z-test",
+      "Variables",
+      "Variance Analysis",
+      "Z-score Calculation"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2017/2018",
+    "topic": [
+      "Data Collection",
+      "Sampling and Estimation"
+    ],
+    "Question": {
+      "content": "Sources of statistical data are:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "tertiary and secondary"
+        },
+        {
+          "type": "String",
+          "content": "secondary and primary"
+        },
+        {
+          "type": "String",
+          "content": "primary"
+        },
+        {
+          "type": "String",
+          "content": "all of the above"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Sources of Statistical Data</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Statistical Data:</strong> Information that has been collected, analyzed, interpreted, and presented.<br><strong>Primary Data:</strong> Data collected directly by the researcher for the specific purpose of their study.<br><strong>Secondary Data:</strong> Data that has already been collected by someone else for a different purpose and is now being used by the current researcher.<br><strong>Tertiary Data:</strong> Information that is a compilation or summary of primary and secondary sources, often used to locate original sources.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks to identify the main sources of statistical data.</div><p style='margin:8px 0;'><strong>Step 1: Understand Primary Data as a Source</strong><br>Primary data is original data collected by the researcher specifically for the current research project. This method ensures the data is tailored to the research question and is current.<br>Examples include surveys, interviews, experiments, and direct observations conducted by the researcher.<br>Collecting primary data can be time-consuming and expensive but offers high relevance and control over data quality.</p><p style='margin:8px 0;'><strong>Step 2: Understand Secondary Data as a Source</strong><br>Secondary data refers to data that has already been collected by someone else and is available for use by the current researcher. This data was initially gathered for a different purpose.<br>Examples include government census data, company financial reports, academic research papers, public databases, and historical records.<br>Secondary data is often more readily available and less costly to obtain than primary data, but it may not perfectly fit the current research objectives or might have been collected with different methodologies.</p><p style='margin:8px 0;'><strong>Step 3: Differentiate from Tertiary Data</strong><br>Tertiary data, such as bibliographies, indexes, abstracts, and literature reviews, are compilations or summaries of primary and secondary sources. While extremely useful for finding information and guiding research, tertiary sources do not contain raw statistical data themselves.<br>They serve as a guide to locate the original primary or secondary data sources, rather than being a direct source of statistical data.</p><p style='margin:8px 0;'><strong>Step 4: Conclude the Main Sources of Statistical Data</strong><br>Based on the definitions and distinctions, the fundamental sources from which statistical data is directly obtained or compiled for analysis are primary data (original collection) and secondary data (pre-existing collection). Tertiary sources help in finding these, but are not direct data sources themselves.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>When a statistician or researcher needs data, they either collect it themselves (primary) or use data that has already been collected by others (secondary). These two categories encompass all direct origins of statistical information used for analysis. Tertiary sources are tools for discovery, not direct data repositories. Therefore, primary and secondary data are the core sources.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The sources of statistical data are secondary and primary.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "secondary and primary"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2017/2018",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Primary data are:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "not time consuming"
+        },
+        {
+          "type": "String",
+          "content": "inexpensive"
+        },
+        {
+          "type": "String",
+          "content": "unreliable"
+        },
+        {
+          "type": "String",
+          "content": "expensive"
+        }
+      ]
+    },
+    "topic": [
+      "Data Collection",
+      "Sampling and Estimation"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Characteristics of Primary Data</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Primary Data:</strong> Data collected directly by the researcher or organization for a specific purpose or research question. It is original and gathered firsthand.<br><strong>Secondary Data:</strong> Data that has already been collected by someone else and is available for use by others. It is not original to the current research.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks to identify a characteristic of primary data from the following options:<br><ul><li>not time consuming</li><li>inexpensive</li><li>unreliable</li><li>expensive</li></ul></div><p style='margin:8px 0;'><strong>Step 1: Define Primary Data Collection</strong><br>Primary data collection involves gathering information directly from the source. This process often includes methods such as surveys, interviews, observations, experiments, and focus groups. The data is collected specifically for the current research objective.</p><p style='margin:8px 0;'><strong>Step 2: Analyze the Nature of Primary Data Collection</strong><br>Because primary data is collected firsthand for a unique purpose, it typically requires significant resources. These resources include:<br><ul><li><strong>Time:</strong> Designing research instruments, recruiting participants, conducting data collection, and processing raw data can be a lengthy process.</li><li><strong>Effort:</strong> It demands considerable human effort for planning, execution, and supervision.</li><li><strong>Financial Cost:</strong> Expenses are incurred for personnel (interviewers, researchers), materials (questionnaires, equipment), travel, incentives for participants, and data processing software.</li><li><strong>Specificity and Relevance:</strong> The data collected is highly relevant to the specific research question, making it generally more accurate and reliable for that particular study.</li></ul></p><p style='margin:8px 0;'><strong>Step 3: Evaluate Each Option Against Primary Data Characteristics</strong><br>Let's examine each given option:<br><br><strong>A. \"not time consuming\"</strong><br>This statement is generally <span style='color:var(--orange);font-weight:bold;'>false</span>. Collecting primary data, especially through comprehensive surveys or experiments, is often a very time-consuming process. It involves planning, execution, and analysis phases that require significant time investment.<br><br><strong>B. \"inexpensive\"</strong><br>This statement is generally <span style='color:var(--orange);font-weight:bold;'>false</span>. As discussed in Step 2, primary data collection requires significant financial resources for various aspects like labor, materials, and logistics. Therefore, it tends to be expensive.<br><br><strong>C. \"unreliable\"</strong><br>This statement is generally <span style='color:var(--orange);font-weight:bold;'>false</span>. Primary data, when collected systematically and ethically, is often considered highly reliable and accurate because it is gathered directly from the source for a specific purpose, allowing the researcher to control the data collection process and ensure its quality and relevance. Any unreliability would stem from poor research design or execution, not an inherent characteristic of primary data itself.<br><br><strong>D. \"expensive\"</strong><br>This statement is <span style='color:var(--orange);font-weight:bold;'>true</span>. Due to the direct, custom nature of its collection, primary data typically involves higher costs compared to using existing secondary data. These costs cover personnel, equipment, travel, and other operational expenses.</p><p style='margin:8px 0;'><strong>Step 4: Conclude the Correct Characteristic</strong><br>Based on the analysis of the characteristics of primary data and the evaluation of the given options, the most accurate characteristic among the choices is that primary data collection is <span style='color:var(--orange);font-weight:bold;'>expensive</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, consider the alternative: secondary data. Secondary data is typically less expensive and less time-consuming to acquire because it has already been collected and processed by someone else. This contrast further highlights that primary data, by its nature of being original and purpose-specific, demands more resources, making it inherently more expensive and time-consuming. The reliability of primary data is generally high because the researcher controls the collection process, unlike secondary data which might have been collected for a different purpose or with different methodologies. Therefore, \"expensive\" is a defining characteristic.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; Primary data are expensive.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "expensive"
+    }
+  }
+]
